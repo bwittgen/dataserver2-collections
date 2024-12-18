@@ -1,0 +1,24 @@
+collections:
+  Scrubs Halloween Episodes:
+    show: Scrubs
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 1, episode: 6 }  # My Bad
+      - { season: 2, episode: 6 }  # My Big Brother
+
+  Scrubs Thanksgiving Episodes:
+    show: Scrubs
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 1, episode: 9 }  # My Day Off
+      - { season: 4, episode: 9 }  # My Malpractice Decision
+
+  Scrubs Christmas Episodes:
+    show: Scrubs
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 1, episode: 11 }  # My Own Personal Jesus
+      - { season: 7, episode: 7 }   # My Bad Too

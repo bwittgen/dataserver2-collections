@@ -1,0 +1,15 @@
+collections:
+  Friends Thanksgiving Episodes:
+    show: Friends
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 1, episode: 9 }  # The One Where Underdog Gets Away
+      - { season: 3, episode: 9 }  # The One with the Football
+      - { season: 4, episode: 8 }  # The One with Chandler in a Box
+      - { season: 5, episode: 8 }  # The One with All the Thanksgivings
+      - { season: 6, episode: 9 }  # The One Where Ross Got High
+      - { season: 7, episode: 8 }  # The One Where Chandler Doesn’t Like Dogs
+      - { season: 8, episode: 9 }  # The One with the Rumor
+      - { season: 9, episode: 8 }  # The One with Rachel’s Other Sister
+      - { season: 10, episode: 8 } # The One with the Late Thanksgiving

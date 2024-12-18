@@ -1,0 +1,28 @@
+#####################################
+#        Shark Week Templates       #
+#####################################
+
+templates:
+  Movies:
+    optional:
+      - collection
+      - tmdb_movie
+      - trakt_list
+      - tmdb_list
+    trakt_list_details: <<trakt_list>>
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<tmdb_movie>>
+    tmdb_list: <<tmdb_list>>
+    sort_title: <<collection_name>>
+    collection_order: audience_rating.desc
+    collection_mode: show_items
+
+collections:
+#####################################
+#       Shark Week Collections      #
+#####################################
+  Shark Week:
+    template: {name: Movies}
+    imdb_list: https://www.imdb.com/list/ls022606419/
+    trakt_list: https://trakt.tv/users/bwittgen/lists/shark-movies
+    summary: "Sharky movies to round out your Shark Week experience."

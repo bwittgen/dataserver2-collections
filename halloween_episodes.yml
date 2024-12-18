@@ -1,0 +1,29 @@
+collections:
+  Halloween Episodes:
+    type: episodes
+    template: episode
+    episodes:
+      # The Office
+      - { show: The Office, season: 2, episode: 5 }  # Halloween
+      - { show: The Office, season: 5, episode: 6 }  # Employee Transfer
+      - { show: The Office, season: 7, episode: 6 }  # Costume Contest
+      - { show: The Office, season: 8, episode: 5 }  # Spooked
+      - { show: The Office, season: 9, episode: 5 }  # Here Comes Treble
+      
+      # Friends
+      - { show: Friends, season: 8, episode: 6 }  # The One with the Halloween Party
+      
+      # Modern Family
+      - { show: Modern Family, season: 2, episode: 6 }  # Halloween
+      - { show: Modern Family, season: 4, episode: 5 }  # Open House of Horrors
+      - { show: Modern Family, season: 6, episode: 6 }  # Halloween 3: Awesomeland
+      - { show: Modern Family, season: 8, episode: 5 }  # Halloween 4: The Revenge of Rod Skyhook
+      - { show: Modern Family, season: 9, episode: 5 }  # It's the Great Pumpkin, Phil Dunphy
+      
+      # Parks and Recreation
+      - { show: Parks and Recreation, season: 2, episode: 7 }  # Greg Pikitis
+      - { show: Parks and Recreation, season: 5, episode: 5 }  # Halloween Surprise
+      
+      # Scrubs
+      - { show: Scrubs, season: 1, episode: 6 }  # My Bad
+      - { show: Scrubs, season: 2, episode: 6 }  # My Big Brother

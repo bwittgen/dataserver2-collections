@@ -1,0 +1,11 @@
+collections:
+  Superstore Halloween Episodes:
+    show: Superstore
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 2, episode: 7 }  # Halloween Theft
+      - { season: 3, episode: 6 }  # Sal's Dead
+      - { season: 4, episode: 4 }  # Costume Competition
+      - { season: 5, episode: 6 }  # Trick-or-Treat
+      - { season: 6, episode: 6 }  # Halloween Theft II

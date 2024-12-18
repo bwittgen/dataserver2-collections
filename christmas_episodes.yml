@@ -1,0 +1,39 @@
+collections:
+  Christmas Episodes:
+    type: episodes
+    template: episode
+    episodes:
+      # The Office
+      - { show: The Office, season: 2, episode: 10 }  # Christmas Party
+      - { show: The Office, season: 3, episode: 10 }  # A Benihana Christmas
+      - { show: The Office, season: 5, episode: 11 }  # Moroccan Christmas
+      - { show: The Office, season: 6, episode: 13 }  # Secret Santa
+      - { show: The Office, season: 7, episode: 11 }  # Classy Christmas
+      - { show: The Office, season: 8, episode: 10 }  # Christmas Wishes
+      - { show: The Office, season: 9, episode: 9 }  # Dwight Christmas
+      
+      # Friends
+      - { show: Friends, season: 1, episode: 10 }  # The One with the Monkey
+      - { show: Friends, season: 2, episode: 9 }  # The One with Phoebe's Dad
+      - { show: Friends, season: 3, episode: 10 }  # The One Where Rachel Quits
+      - { show: Friends, season: 4, episode: 10 }  # The One with the Girl from Poughkeepsie
+      - { show: Friends, season: 5, episode: 10 }  # The One with the Inappropriate Sister
+      - { show: Friends, season: 6, episode: 10 }  # The One with the Routine
+      - { show: Friends, season: 7, episode: 10 }  # The One with the Holiday Armadillo
+      - { show: Friends, season: 8, episode: 11 }  # The One with Ross's Step Forward
+      - { show: Friends, season: 9, episode: 10 }  # The One with Christmas in Tulsa
+      
+      # Modern Family
+      - { show: Modern Family, season: 1, episode: 10 }  # Undeck the Halls
+      - { show: Modern Family, season: 3, episode: 10 }  # Express Christmas
+      - { show: Modern Family, season: 7, episode: 9 }  # White Christmas
+      - { show: Modern Family, season: 11, episode: 9 }  # The Last Christmas
+      
+      # Scrubs
+      - { show: Scrubs, season: 1, episode: 11 }  # My Own Personal Jesus
+      - { show: Scrubs, season: 7, episode: 7 }  # My Bad Too
+      
+      # Parks and Recreation
+      - { show: Parks and Recreation, season: 2, episode: 12 }  # Christmas Scandal
+      - { show: Parks and Recreation, season: 4, episode: 10 }  # Citizen Knope
+      - { show: Parks and Recreation, season: 5, episode: 9 }  # Ron and Diane

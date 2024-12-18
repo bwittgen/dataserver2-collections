@@ -1,0 +1,13 @@
+collections:
+  The Office Christmas Episodes:
+    show: The Office
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 2, episode: 10 }  # Christmas Party
+      - { season: 3, episode: 10 }  # A Benihana Christmas
+      - { season: 5, episode: 11 }  # Moroccan Christmas
+      - { season: 6, episode: 13 }  # Secret Santa
+      - { season: 7, episode: 11 }  # Classy Christmas
+      - { season: 8, episode: 10 }  # Christmas Wishes
+      - { season: 9, episode: 9 }   # Dwight Christmas

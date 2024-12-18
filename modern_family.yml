@@ -1,0 +1,30 @@
+collections:
+  Modern Family Halloween Episodes:
+    show: Modern Family
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 2, episode: 6 }
+      - { season: 4, episode: 5 }
+      - { season: 6, episode: 6 }
+      - { season: 8, episode: 5 }
+      - { season: 9, episode: 5 }
+  
+  Modern Family Thanksgiving Episodes:
+    show: Modern Family
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 6, episode: 8 }
+      - { season: 8, episode: 7 }
+      - { season: 9, episode: 7 }
+
+  Modern Family Christmas Episodes:
+    show: Modern Family
+    type: episodes
+    template: episode
+    episodes:
+      - { season: 1, episode: 10 }
+      - { season: 3, episode: 10 }
+      - { season: 7, episode: 9 }
+      - { season: 11, episode: 9 }
