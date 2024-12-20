@@ -1,8 +1,6 @@
 collections:
   Thanksgiving Episodes:
     type: episodes
-    template:
-      name: episode
     collection_order: release
     episodes:
       # Friends
@@ -36,7 +34,7 @@ collections:
       - show: Friends
         season: 10
         episode: 8   # The One with the Late Thanksgiving
-      
+
       # Modern Family
       - show: Modern Family
         season: 6
@@ -47,7 +45,7 @@ collections:
       - show: Modern Family
         season: 9
         episode: 7   # Winner Winner Turkey Dinner
-      
+
       # Scrubs
       - show: Scrubs
         season: 1
@@ -55,7 +53,7 @@ collections:
       - show: Scrubs
         season: 4
         episode: 9   # My Malpractice Decision
-      
+
       # Parks and Recreation
       - show: Parks and Recreation
         season: 5
