@@ -113,10 +113,6 @@ collections:
     template: {name: Special Genre}
     trakt_list: https://trakt.tv/users/stephenegriffin/lists/sgriffin-s-watch-list?sort=rank,asc
     summary: "A collection of TV shows recommend by Sgriffin"
-  Friends' Thanksgiving:
-    template: {name: Special Genre}
-    trakt_list: https://trakt.tv/users/bwittgen/lists/friends-thanksgiving?sort=released,asc
-    summary: "A collection of Friends' Thanksgiving episodes"
 ######################################################
 #                Chart Collections                   #
 ######################################################
