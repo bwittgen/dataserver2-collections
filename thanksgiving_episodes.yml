@@ -1,7 +1,9 @@
 collections:
   Thanksgiving Episodes:
     type: episodes
-    template: episode
+    template:
+      name: episode
+      collection_order: release
     episodes:
       # Friends
       - { show: Friends, season: 1, episode: 9 }  # The One Where Underdog Gets Away
