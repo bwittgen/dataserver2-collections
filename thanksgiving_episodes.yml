@@ -1,59 +1,61 @@
 collections:
   Thanksgiving Episodes:
+    builder_level: episode
     collection_order: release
-    episodes:
-      # Friends
-      - show: Friends
-        season: 1
-        episode: 9   # The One Where Underdog Gets Away
-      - show: Friends
-        season: 2
-        episode: 8   # The One with the List
-      - show: Friends
-        season: 3
-        episode: 9   # The One with the Football
-      - show: Friends
-        season: 4
-        episode: 8   # The One with Chandler in a Box
-      - show: Friends
-        season: 5
-        episode: 8   # The One with All the Thanksgivings
-      - show: Friends
-        season: 6
-        episode: 9   # The One Where Ross Got High
-      - show: Friends
-        season: 7
-        episode: 8   # The One Where Chandler Doesn't Like Dogs
-      - show: Friends
-        season: 8
-        episode: 9   # The One with the Rumor
-      - show: Friends
-        season: 9
-        episode: 8   # The One with Rachel's Other Sister
-      - show: Friends
-        season: 10
-        episode: 8   # The One with the Late Thanksgiving
+    plex_search:
+      episode_list:
+        # Friends
+        - show: "Friends"
+          season: 1
+          episode: 9   # The One Where Underdog Gets Away
+        - show: "Friends"
+          season: 2
+          episode: 8   # The One with the List
+        - show: "Friends"
+          season: 3
+          episode: 9   # The One with the Football
+        - show: "Friends"
+          season: 4
+          episode: 8   # The One with Chandler in a Box
+        - show: "Friends"
+          season: 5
+          episode: 8   # The One with All the Thanksgivings
+        - show: "Friends"
+          season: 6
+          episode: 9   # The One Where Ross Got High
+        - show: "Friends"
+          season: 7
+          episode: 8   # The One Where Chandler Doesn't Like Dogs
+        - show: "Friends"
+          season: 8
+          episode: 9   # The One with the Rumor
+        - show: "Friends"
+          season: 9
+          episode: 8   # The One with Rachel's Other Sister
+        - show: "Friends"
+          season: 10
+          episode: 8   # The One with the Late Thanksgiving
 
-      # Modern Family
-      - show: Modern Family
-        season: 6
-        episode: 8   # Three Turkeys
-      - show: Modern Family
-        season: 8
-        episode: 7   # Thanksgiving Jamboree
-      - show: Modern Family
-        season: 9
-        episode: 7   # Winner Winner Turkey Dinner
+        # Modern Family
+        - show: "Modern Family"
+          season: 6
+          episode: 8   # Three Turkeys
+        - show: "Modern Family"
+          season: 8
+          episode: 7   # Thanksgiving Jamboree
+        - show: "Modern Family"
+          season: 9
+          episode: 7   # Winner Winner Turkey Dinner
 
-      # Scrubs
-      - show: Scrubs
-        season: 1
-        episode: 9   # My Day Off
-      - show: Scrubs
-        season: 4
-        episode: 9   # My Malpractice Decision
+        # Scrubs
+        - show: "Scrubs"
+          season: 1
+          episode: 9   # My Day Off
+        - show: "Scrubs"
+          season: 4
+          episode: 9   # My Malpractice Decision
 
-      # Parks and Recreation
-      - show: Parks and Recreation
-        season: 5
-        episode: 8   # Pawnee Commons
+        # Parks and Recreation
+        - show: "Parks and Recreation"
+          season: 5
+          episode: 8   # Pawnee Commons
