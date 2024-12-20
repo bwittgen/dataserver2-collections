@@ -1,6 +1,5 @@
 collections:
   Thanksgiving Episodes:
-    type: episodes
     collection_order: release
     episodes:
       # Friends
