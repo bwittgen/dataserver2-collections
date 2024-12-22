@@ -6,4 +6,5 @@
 collections:
   - repo: tv_networks
   - repo: tv_charts
-  - repo: tv_special_genre
+  - repo: friends_christmas_episodes
+  - repo: the_office_christmas_episodes
