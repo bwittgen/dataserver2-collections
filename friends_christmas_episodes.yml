@@ -1,0 +1,5 @@
+collections:
+  The Office Christmas:
+    builder_level: episode
+    collection_order: release
+    trakt_list: https://trakt.tv/users/bwittgen/lists/friends-christmas?sort=released,desc
