@@ -1,0 +1,7 @@
+collections:
+  For Aunt Juli:
+    trakt_list:
+      - https://trakt.tv/users/bwittgen/lists/for-aunt-juli?sort=rank,asc
+    summary: "For anyone who has lost someone too soon."
+    sync_mode: sync
+    collection_order: custom
