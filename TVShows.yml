@@ -3,8 +3,15 @@
 #      Loads other Kometa config files      #
 ##############################################
 
+# TVShows.yml
+
 collections:
-  - repo: tv_networks
-  - repo: tv_charts
-  - repo: friends_christmas_episodes
-  - repo: the_office_christmas_episodes
+  tv_networks:
+    file: repo:tv_networks
+  tv_charts:
+    file: repo:tv_charts
+  friends_christmas_episodes:
+    file: repo:friends_christmas_episodes
+  the_office_christmas_episodes:
+    file: repo:the_office_christmas_episodes
+
