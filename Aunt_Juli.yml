@@ -3,9 +3,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/bwittgen/lists/for-aunt-juli?sort=rank,asc
     visible_library:
-      schedule:
-        - start: "06/17"
-          end: "07/26"
+      schedule: range(06/17-07/26)
     summary: "For anyone who has lost someone too soon. RIP 07/26/1975 - 06/17/2025"
     sync_mode: sync
     collection_order: custom
