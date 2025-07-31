@@ -3,7 +3,7 @@
 #      Loads other Kometa config files      #
 ##############################################
 
-collections:
+external templates:
   - repo: tv_networks
   - repo: tv_charts
   - repo: friends_christmas_episodes
