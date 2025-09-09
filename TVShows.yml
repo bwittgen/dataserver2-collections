@@ -30,10 +30,12 @@ collections:
       list_days: 60
       list_size: 20
       list_buffer: 20
+      list_minimum: 0
     tautulli_watched:
       list_days: 60
       list_size: 20
       list_buffer: 20
+      list_minimum: 0
     summary: Movies Popular on Plex
   Popular:
     template:
@@ -44,7 +46,7 @@ collections:
     sonarr_monitor: all
     tmdb_popular: 40
     imdb_search:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
+      type: tv_series,tv_miniseries
       limit: 40
     summary: Popular Shows across the internet
   Top Rated:
@@ -55,7 +57,8 @@ collections:
     sonarr_monitor: all
     sonarr_search: false
     imdb_search:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
+      type: tv_series,tv_miniseries
+      sort_by: rating.desc
       limit: 100
     tmdb_top_rated: 100
     summary: Top Rated TV Shows across the internet
@@ -67,7 +70,10 @@ collections:
     sonarr_monitor: all
     sonarr_search: false
     url_poster: https://th.bing.com/th/id/OIP.Vwud9kGu3-03dLG71KntaAHaLH?pid=ImgDet&rs=1
-    imdb_search: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+    imdb_search:
+      type: tv_series,tv_miniseries
+      groups: emmy_winner
+      limit: 0
     summary: Emmy Winning Shows
   Friends Thanksgiving Episodes:
     show: Friends
