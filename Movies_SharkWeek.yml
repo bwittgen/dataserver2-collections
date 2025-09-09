@@ -23,6 +23,6 @@ collections:
 #####################################
   Shark Week:
     template: {name: Movies}
-    imdb_list: https://www.imdb.com/list/ls022606419/
+    imdb_search: https://www.imdb.com/list/ls022606419/
     trakt_list: https://trakt.tv/users/bwittgen/lists/shark-movies
     summary: "Sharky movies to round out your Shark Week experience."
