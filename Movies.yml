@@ -35,6 +35,15 @@ templates:
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
+  Writer:
+    sort_title: +Writers_<<name_last_first>>
+    sync_mode: sync
+    collection_order: alpha
+    smart_label: audience_rating.desc
+    summary: Films written by <<name>>
+    plex_search:
+      any:
+        writer: <<name>>
 collections:
   Fun Times Not Long Times:
     template:
@@ -593,3 +602,7 @@ collections:
     template:
       name: Best of
       year: 2025
+  Aaron Sorkin (Writer):
+    template:
+      name: Aaron Sorkin
+      name_last_first: Sorkin, Aaron
