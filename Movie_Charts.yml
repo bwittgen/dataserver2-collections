@@ -33,22 +33,22 @@ collections:
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
     summary: Popular Movies across the internet
   Top Rated:
     template: { name: Chart, num: 4 }
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+    imdb_search: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
   Oscars:
     template: { name: Chart, num: 5 }
-    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    imdb_search: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
   Oscar Nominated:
     template: { name: Chart, num: 6 }
-    imdb_list: https://www.imdb.com/search/title/?sort=year,desc&groups=oscar_nominee
+    imdb_search: https://www.imdb.com/search/title/?sort=year,desc&groups=oscar_nominee
     summary: Oscar Nominated Films
   Best of 2014:
     template: { name: Best of, year: 2014 }
