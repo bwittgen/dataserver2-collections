@@ -25,7 +25,7 @@ collections:
     smart_label: originally_available.desc
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
-    imdb_list:
+    imdb_search:
       url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168
     summary: All Apple TV Originals From 2021-2025
     url_poster: https://i.imgur.com/O9iWork.png
@@ -38,7 +38,7 @@ collections:
     smart_label: originally_available.desc
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
-    imdb_list:
+    imdb_search:
       url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272
     summary: All Amazon Originals From 2021-2025
     url_poster: https://i.imgur.com/nU3gqqB.png
@@ -51,7 +51,7 @@ collections:
     smart_label: originally_available.desc
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1Netflix
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0144901
     summary: All Netflix Originals From 2021-2025
     url_poster: https://i.imgur.com/7kiE1MU.png
@@ -64,7 +64,7 @@ collections:
     smart_label: originally_available.desc
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HBOMAX
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095
     summary: All HBO Max Originals From 2021-2025
     url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
@@ -77,7 +77,7 @@ collections:
     smart_label: originally_available.desc
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HULU
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0218858
     summary: All HULU Originals From 2021-2025
     url_poster: https://plexcollectionposters.com/images/2019/05/26/Hulu6ddad752a5ce9bac.jpg
