@@ -51,7 +51,7 @@ collections:
     sonarr_search: true
     sonarr_monitor: all
     tmdb_popular: 40
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
       limit: 40
     summary: Popular Shows across the internet
@@ -61,7 +61,7 @@ collections:
     sonarr_add_missing: true
     sonarr_monitor: all
     sonarr_search: false
-    imdb_list:
+    imdb_search:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
       limit: 100
     tmdb_top_rated: 100
@@ -73,5 +73,5 @@ collections:
     sonarr_monitor: all
     sonarr_search: false
     url_poster: https://th.bing.com/th/id/OIP.Vwud9kGu3-03dLG71KntaAHaLH?pid=ImgDet&rs=1
-    imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+    imdb_search: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
