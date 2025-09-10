@@ -1,7 +1,4 @@
 templates:
-  Special Genre:
-    sort_title: '!C <<collection_name>>'
-    collection_order: alpha
   Director:
     sort_title: '!A <<collection_name>>'
     tmdb_director_details: <<tmdb>>
@@ -12,6 +9,10 @@ templates:
     sort_title: '!B <<collection_name>>'
     collection_mode: hide
     schedule: daily
+  Special Genre:
+    sort_title: '!C <<collection_name>>'
+    collection_order: alpha
+    collection_mode: hide
   Movies:
     optional:
     - collection
@@ -36,203 +37,14 @@ templates:
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
   Writer:
-    sort_title: +Writers_<<person_last_first>>
+    sort_title: '!A <<collection_name>>'
     sync_mode: sync
-    smart_label: audience_rating.desc
-    summary: Films written by <<person>>
-    plex_search:
-      any:
-        writer: <<person>>
+    tmdb_writer_details: <<tmdb>>
+    summary: Films written by <<name>>
+    collection_order: release
+    collection_mode: hide
+    schedule: weekly(sunday)
 collections:
-  Fun Times Not Long Times:
-    template:
-      name: Special Genre
-    trakt_list:
-    - https://trakt.tv/users/bwittgen/lists/trippy-movies
-    - https://trakt.tv/users/bwittgen/lists/great-comedies
-    summary: A collection of movies that will make you fall over or laugh!
-  Apple Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APPLE
-    imdb_search:
-      type: movie,tv_movie,video
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      country.any: US
-      language: en
-      company: co0546168
-      sort_by: release.desc
-      limit: '250'
-    summary: All Apple TV Originals From 2021-2025
-    url_poster: https://i.imgur.com/O9iWork.png
-    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  Amazon Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APPLE
-    imdb_search:
-      type: movie,tv_movie,video
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      country.any: US
-      language: en
-      company: co0319272
-      sort_by: release.desc
-      limit: '250'
-    summary: All Amazon Originals From 2021-2025
-    url_poster: https://i.imgur.com/nU3gqqB.png
-    url_background: https://i.imgur.com/2jfs7oS.png
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  Netflix Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1Netflix
-    imdb_search:
-      type: movie,tv_movie,video
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      country.any: US
-      language: en
-      company: co0144901
-      sort_by: release.desc
-      limit: '250'
-    summary: All Netflix Originals From 2021-2025
-    url_poster: https://i.imgur.com/7kiE1MU.png
-    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  HBO Max Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1HBOMAX
-    imdb_search:
-      type: movie,tv_movie,video
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      country.any: US
-      language: en
-      company: co0754095
-      sort_by: release.desc
-      limit: '250'
-    summary: All HBO Max Originals From 2021-2025
-    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
-    url_background: https://wallpapercave.com/wp/wp6402755.png
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  HULU Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1HULU
-    imdb_search:
-      type: movie,tv_movie,video
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      country.any: US
-      language: en
-      company: co0218858
-      sort_by: release.desc
-      limit: '250'
-    summary: All HULU Originals From 2021-2025
-    url_poster: https://plexcollectionposters.com/images/2019/05/26/Hulu6ddad752a5ce9bac.jpg
-    url_background: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  Top Ten Pirated Weekly:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    smart_label: year.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APirated Weekly
-    summary: Most Pirated Movies of The Week
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-    url_background: https://i.imgur.com/SOVfrIq.png
-    url_poster: https://i.imgur.com/dYdjSOu.png
-  80s Movies:
-    trakt_list:
-    - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
-    - https://trakt.tv/users/zyrus/lists/80s-classics
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    sort_title: ++++++++++++++++++_80s Movies
-    summary: The Best Movies From The 80s
-    url_poster: https://i.imgur.com/k9c4ieG.png
-    url_background: https://i.imgur.com/ITnaga1.jpg
-  90s Movies:
-    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_90s Movies
-    summary: The Best Movies From The 90s
-    url_poster: https://i.imgur.com/Nq8fxp8.png
-    url_background: https://i.imgur.com/g2yfzfx.jpg
-  Nostalgia Collection (Classics From The 80s & 90s):
-    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Nostalgia Collection
-    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection
-    url_poster: https://i.imgur.com/vE8dsdd.jpg
-    url_background: https://i.imgur.com/frz0kly.jpg
-  Documentary Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Documentary Collection
-    summary: Top Rated Documentaries from 1980 onward
-    url_poster: https://i.imgur.com/2AtAgce.jpg
-    url_background: https://i.imgur.com/lJQwoDH.jpg
-  Parody Movie Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Parody Movie Collection
-    summary: Top 50 Parody Movies of All Time
-    url_poster: https://i.imgur.com/yFtJ5eV.png
-    url_background: https://i.imgur.com/eELv4eB.jpg
-  Sundance Film Festival 2021:
-    trakt_list: https://trakt.tv/users/hdlists/lists/sundance-2021-movie-guide
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Sundance 2021 Collection
-    summary: Sundance Film Festival 2021 Movie Guide
-    url_poster: https://i.imgur.com/6CqlOaq.png
-    url_background: https://i.imgur.com/goapGVl.jpg
-  True Crime Documentaries:
-    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
-    sync_mode: sync
-    smart_label: year.desc
-    sort_title: ++++++++++++++++++_True Crime Documentaries Movies
-    summary: True Crime Documentaries
-    url_poster: https://i.imgur.com/PPbzaKa.png
-    url_background: https://i.imgur.com/SOVfrIq.png
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-  Best Superhero Movies:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-superhero-movies
-    sort_title: +++++++++++++++++++++_Superhero Movies
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    summary: Best Superhero Movies of All Time
-    radarr_add_missing: true
-    radarr_search: true
-    radarr_monitor: true
-    url_poster: https://i.imgur.com/lqXRQdd.png
   Christopher Nolan:
     template:
       name: Director
@@ -283,8 +95,8 @@ collections:
     template:
       name: Studio
     imdb_search:
+      limit: 250
       company: co0074039
-      limit: '250'
     summary: A collection of Disney Animation movies.
     content_rating: G
     collection_order: alpha
@@ -546,6 +358,195 @@ collections:
     template:
       name: Movies
       collection: 748,453993
+  Apple Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APPLE
+    imdb_search:
+      limit: 250
+      sort_by: release.desc
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      genre: documentary
+      country.any: US
+      genre.not: animation
+      company: co0546168
+    summary: All Apple TV Originals From 2021-2025
+    url_poster: https://i.imgur.com/O9iWork.png
+    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Amazon Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APPLE
+    imdb_search:
+      limit: 250
+      sort_by: release.desc
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      genre: documentary
+      country.any: US
+      genre.not: animation
+      company: co0319272
+    summary: All Amazon Originals From 2021-2025
+    url_poster: https://i.imgur.com/nU3gqqB.png
+    url_background: https://i.imgur.com/2jfs7oS.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Netflix Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1Netflix
+    imdb_search:
+      limit: 250
+      sort_by: release.desc
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      genre: documentary
+      country.any: US
+      genre.not: animation
+      company: co0144901
+    summary: All Netflix Originals From 2021-2025
+    url_poster: https://i.imgur.com/7kiE1MU.png
+    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HBO Max Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1HBOMAX
+    imdb_search:
+      limit: 250
+      sort_by: release.desc
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      genre: documentary
+      country.any: US
+      genre.not: animation
+      company: co0754095
+    summary: All HBO Max Originals From 2021-2025
+    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
+    url_background: https://wallpapercave.com/wp/wp6402755.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HULU Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1HULU
+    imdb_search:
+      limit: 250
+      sort_by: release.desc
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      genre: documentary
+      country.any: US
+      genre.not: animation
+      company: co0218858
+    summary: All HULU Originals From 2021-2025
+    url_poster: https://plexcollectionposters.com/images/2019/05/26/Hulu6ddad752a5ce9bac.jpg
+    url_background: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Top Ten Pirated Weekly:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    smart_label: year.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APirated Weekly
+    summary: Most Pirated Movies of The Week
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_background: https://i.imgur.com/SOVfrIq.png
+    url_poster: https://i.imgur.com/dYdjSOu.png
+  80s Movies:
+    trakt_list:
+    - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
+    - https://trakt.tv/users/zyrus/lists/80s-classics
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: ++++++++++++++++++_80s Movies
+    summary: The Best Movies From The 80s
+    url_poster: https://i.imgur.com/k9c4ieG.png
+    url_background: https://i.imgur.com/ITnaga1.jpg
+  90s Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_90s Movies
+    summary: The Best Movies From The 90s
+    url_poster: https://i.imgur.com/Nq8fxp8.png
+    url_background: https://i.imgur.com/g2yfzfx.jpg
+  Nostalgia Collection (Classics From The 80s & 90s):
+    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Nostalgia Collection
+    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection
+    url_poster: https://i.imgur.com/vE8dsdd.jpg
+    url_background: https://i.imgur.com/frz0kly.jpg
+  Documentary Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Documentary Collection
+    summary: Top Rated Documentaries from 1980 onward
+    url_poster: https://i.imgur.com/2AtAgce.jpg
+    url_background: https://i.imgur.com/lJQwoDH.jpg
+  Parody Movie Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Parody Movie Collection
+    summary: Top 50 Parody Movies of All Time
+    url_poster: https://i.imgur.com/yFtJ5eV.png
+    url_background: https://i.imgur.com/eELv4eB.jpg
+  Sundance Film Festival 2021:
+    trakt_list: https://trakt.tv/users/hdlists/lists/sundance-2021-movie-guide
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Sundance 2021 Collection
+    summary: Sundance Film Festival 2021 Movie Guide
+    url_poster: https://i.imgur.com/6CqlOaq.png
+    url_background: https://i.imgur.com/goapGVl.jpg
+  True Crime Documentaries:
+    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
+    sync_mode: sync
+    smart_label: year.desc
+    sort_title: ++++++++++++++++++_True Crime Documentaries Movies
+    summary: True Crime Documentaries
+    url_poster: https://i.imgur.com/PPbzaKa.png
+    url_background: https://i.imgur.com/SOVfrIq.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Best Superhero Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-superhero-movies
+    sort_title: +++++++++++++++++++++_Superhero Movies
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    summary: Best Superhero Movies of All Time
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://i.imgur.com/lqXRQdd.png
+  Fun Times Not Long Times:
+    template:
+      name: Special Genre
+    trakt_list:
+    - https://trakt.tv/users/bwittgen/lists/trippy-movies
+    - https://trakt.tv/users/bwittgen/lists/great-comedies
+    summary: A collection of movies that will make you fall over or laugh!
   Plex Popular:
     template:
       name: Chart
@@ -554,20 +555,18 @@ collections:
       list_days: 30
       list_size: 20
       list_buffer: 20
-      list_minimum: 0
+      list_minimum: 1
     tautulli_watched:
       list_days: 30
       list_size: 20
       list_buffer: 20
-      list_minimum: 0
+      list_minimum: 1
     summary: Movies Popular on Plex
   Trending:
     template:
       name: Chart
       num: 2
-    trakt_chart:
-      chart: trending
-      limit: 10
+    trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
@@ -577,16 +576,16 @@ collections:
       num: 3
     tmdb_popular: 40
     imdb_search:
+      limit: 40
       type: movie,tv_movie,short
-      limit: 0
+      genre: documentary
     summary: Popular Movies across the internet
   Top Rated:
     template:
       name: Chart
       num: 4
     imdb_search:
-      groups: top_250
-      limit: 250/
+      limit: 100
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
   Oscars:
@@ -594,18 +593,17 @@ collections:
       name: Chart
       num: 5
     imdb_search:
+      limit: 100
       type: movie
-      groups: oscar_winner
-      limit: 0
+      genre: documentary
     summary: Oscar Winning Movies
   Oscar Nominated:
     template:
       name: Chart
       num: 6
     imdb_search:
-      groups: oscar_nominee
       sort_by: year.desc
-      limit: 0
+      limit: 100
     summary: Oscar Nominated Films
   Best of 2014:
     template:
@@ -657,6 +655,5 @@ collections:
       year: 2025
   Aaron Sorkin (Writer):
     template:
-      name: Writer
-      person: Aaron Sorkin
-      person_last_first: Sorkin, Aaron
+      name: Aaron Sorkin
+      tmdb: 59433
