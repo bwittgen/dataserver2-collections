@@ -14,7 +14,9 @@ collections:
   Trending:
     smart_label: originally_available.desc
     sync_mode: sync
-    trakt_trending: 50
+    trakt_chart:
+      chart: trending
+      limit: 50
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     sonarr_add_missing: true
@@ -47,7 +49,7 @@ collections:
     tmdb_popular: 40
     imdb_search:
       type: tv_series,tv_miniseries
-      limit: 40
+      limit: 0
     summary: Popular Shows across the internet
   Top Rated:
     template:
@@ -59,7 +61,7 @@ collections:
     imdb_search:
       type: tv_series,tv_miniseries
       sort_by: rating.desc
-      limit: 100
+      limit: 0
     tmdb_top_rated: 100
     summary: Top Rated TV Shows across the internet
   Emmy Winners:
