@@ -367,7 +367,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
@@ -386,7 +386,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
@@ -405,7 +405,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1Netflix
     imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
@@ -424,7 +424,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HBOMAX
     imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
@@ -443,7 +443,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HULU
     imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
@@ -577,7 +577,7 @@ collections:
       num: 3
     tmdb_popular: 40
     imdb_search:
-      type: movie,tv_movie,documentary,short
+      type: movie,tv_movie,short
       limit: 100
     summary: Popular Movies across the internet
   Top Rated:
@@ -593,7 +593,7 @@ collections:
       name: Chart
       num: 5
     imdb_search:
-      type: movie,documentary
+      type: movie
       limit: 100
     summary: Oscar Winning Movies
   Oscar Nominated:
