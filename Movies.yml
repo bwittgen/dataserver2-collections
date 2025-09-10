@@ -104,8 +104,9 @@ collections:
   Pixar Animation:
     template:
       name: Studio
-    imdb_search:
-      limit: 100
+    imdb_list:
+      - list_id: ls087911008
+        limit: 100
     summary: A collection of Pixar Animation movies.
     content_rating: G
     collection_order: alpha
