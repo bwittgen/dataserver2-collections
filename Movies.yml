@@ -37,13 +37,11 @@ templates:
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
   Writer:
-    sort_title: '!A <<collection_name>>'
+    sort_title: +Directors_<<person_sort>>
     sync_mode: sync
-    tmdb_writer_details: <<tmdb>>
-    summary: Films written by <<name>>
-    collection_order: release
-    collection_mode: hide
-    schedule: weekly(sunday)
+    tmdb_writer_details:
+    - <<tmdb_person>>
+    summary: Films written by <<person_name>>
 collections:
   Christopher Nolan:
     template:
@@ -80,14 +78,16 @@ collections:
   DC Extended Universe:
     template:
       name: Studio
-    imdb_list: https://www.imdb.com/list/ls077827588/
+    imdb_search:
+      limit: 100
     summary: The DC Extended Universe (DCEU) is a media franchise and shared universe
       centered on superheros from DC Comics.
     collection_order: release
   Marvel Studios:
     template:
       name: Studio
-    imdb_list: https://www.imdb.com/list/ls009410711/
+    imdb_search:
+      limit: 100
     summary: A collection of movies and shows created by Marvel Studios, comprising
       of the Marvel Cinematic Universe.
     collection_order: release
@@ -103,7 +103,8 @@ collections:
   Pixar Animation:
     template:
       name: Studio
-    imdb_list: https://www.imdb.com/list/ls087911008/
+    imdb_search:
+      limit: 100
     summary: A collection of Pixar Animation movies.
     content_rating: G
     collection_order: alpha
@@ -129,13 +130,12 @@ collections:
     - https://trakt.tv/lists/3940186
     - https://trakt.tv/lists/20709447
     - https://trakt.tv/lists/2729898
-    - https://trakt.tv/lists/2729898
     - https://trakt.tv/lists/4297290
     - https://trakt.tv/lists/2652307
-    imdb_search:
-    - https://www.imdb.com/list/ls068617191/
-    - https://www.imdb.com/list/ls004426453/
     summary: A collection of movies that include time travel.
+    imdb_list:
+    - list_id: ls068617191
+    - list_id: ls004426453
   Alien:
     template:
       name: Movies
@@ -250,7 +250,8 @@ collections:
       name: Movies
       collection: 87359
   Monsterverse:
-    imdb_list: https://www.imdb.com/list/ls060980695/
+    imdb_search:
+      limit: 100
     summary: A collection of all the MonsterVerse movies.
     collection_mode: hide
   The Mummy:
@@ -363,15 +364,14 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      limit: 250
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
       sort_by: release.desc
+      limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      genre: documentary
-      country.any: US
       genre.not: animation
       company: co0546168
+      country.any: US
     summary: All Apple TV Originals From 2021-2025
     url_poster: https://i.imgur.com/O9iWork.png
     url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
@@ -383,15 +383,14 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      limit: 250
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
       sort_by: release.desc
+      limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      genre: documentary
-      country.any: US
       genre.not: animation
       company: co0319272
+      country.any: US
     summary: All Amazon Originals From 2021-2025
     url_poster: https://i.imgur.com/nU3gqqB.png
     url_background: https://i.imgur.com/2jfs7oS.png
@@ -403,15 +402,14 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1Netflix
     imdb_search:
-      limit: 250
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
       sort_by: release.desc
+      limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      genre: documentary
-      country.any: US
       genre.not: animation
       company: co0144901
+      country.any: US
     summary: All Netflix Originals From 2021-2025
     url_poster: https://i.imgur.com/7kiE1MU.png
     url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
@@ -423,15 +421,14 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HBOMAX
     imdb_search:
-      limit: 250
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
       sort_by: release.desc
+      limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      genre: documentary
-      country.any: US
       genre.not: animation
       company: co0754095
+      country.any: US
     summary: All HBO Max Originals From 2021-2025
     url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
     url_background: https://wallpapercave.com/wp/wp6402755.png
@@ -443,15 +440,14 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HULU
     imdb_search:
-      limit: 250
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,documentary,video,tv_short
       sort_by: release.desc
+      limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      genre: documentary
-      country.any: US
       genre.not: animation
       company: co0218858
+      country.any: US
     summary: All HULU Originals From 2021-2025
     url_poster: https://plexcollectionposters.com/images/2019/05/26/Hulu6ddad752a5ce9bac.jpg
     url_background: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg
@@ -566,19 +562,20 @@ collections:
     template:
       name: Chart
       num: 2
-    trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
+    trakt_chart:
+      chart: trending
+      limit: 10
   Popular:
     template:
       name: Chart
       num: 3
     tmdb_popular: 40
     imdb_search:
-      limit: 40
-      type: movie,tv_movie,short
-      genre: documentary
+      type: movie,tv_movie,documentary,short
+      limit: 100
     summary: Popular Movies across the internet
   Top Rated:
     template:
@@ -593,9 +590,8 @@ collections:
       name: Chart
       num: 5
     imdb_search:
+      type: movie,documentary
       limit: 100
-      type: movie
-      genre: documentary
     summary: Oscar Winning Movies
   Oscar Nominated:
     template:
@@ -655,5 +651,7 @@ collections:
       year: 2025
   Aaron Sorkin (Writer):
     template:
-      name: Aaron Sorkin
-      tmdb: 59433
+      name: Writer
+      tmdb_person: 59433
+      person_name: Aaron Sorkin
+      person_sort: Sorkin, Aaron
