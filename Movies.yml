@@ -37,11 +37,12 @@ templates:
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
   Writer:
-    sort_title: +Directors_<<person_sort>>
+    sort_title: '!A <<collection_name>>'
     sync_mode: sync
-    tmdb_writer_details:
-    - <<tmdb_person>>
-    summary: Films written by <<person_name>>
+    tmdb_writer_details: <<tmdb>>
+    collection_order: release
+    collection_mode: hide
+    summary: Films written by <<collection_name>>
 collections:
   Christopher Nolan:
     template:
@@ -653,5 +654,3 @@ collections:
     template:
       name: Writer
       tmdb_person: 59433
-      person_name: Aaron Sorkin
-      person_sort: Sorkin, Aaron
