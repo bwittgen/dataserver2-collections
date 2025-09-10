@@ -252,7 +252,8 @@ collections:
       name: Movies
       collection: 87359
   Monsterverse:
-    imdb_search:
+    imdb_list:
+    - list_id: ls060980695
       limit: 100
     summary: A collection of all the MonsterVerse movies.
     collection_mode: hide
