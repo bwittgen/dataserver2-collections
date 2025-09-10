@@ -39,7 +39,7 @@ templates:
   Writer:
     sort_title: '!A <<collection_name>>'
     sync_mode: sync
-    tmdb_writer_details: <<tmdb>>
+    tmdb_writer_details: <<writer>>
     collection_order: release
     collection_mode: hide
     summary: Films written by <<collection_name>>
@@ -655,4 +655,4 @@ collections:
   Aaron Sorkin (Writer):
     template:
       name: Writer
-      tmdb_person: 59433
+      writer: 59433
