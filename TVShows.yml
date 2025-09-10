@@ -11,30 +11,42 @@ templates:
     sort_title: +2_<<collection_name>>
     sync_mode: sync
 collections:
-  Friends Thanksgiving Episodes:
-    show: Friends
-    type: episodes
-    template:
-      name: episode
-    episodes:
-    - season: 1
-      episode: 9
-    - season: 3
-      episode: 9
-    - season: 4
-      episode: 8
-    - season: 5
-      episode: 8
-    - season: 6
-      episode: 9
-    - season: 7
-      episode: 8
-    - season: 8
-      episode: 9
-    - season: 9
-      episode: 8
-    - season: 10
-      episode: 8
+  Thanksgiving Episodes:
+    builder_level: episode
+    collection_order: release
+    plex_search:
+      any:
+        # Friends
+        - show: "Friends"
+          season_number: 1
+          episode_number: 9   # The One Where Underdog Gets Away
+        - show: "Friends"
+          season_number: 2
+          episode_number: 8   # The One with the List
+        - show: "Friends"
+          season_number: 3
+          episode_number: 9   # The One with the Football
+        - show: "Friends"
+          season_number: 4
+          episode_number: 8   # The One with Chandler in a Box
+        - show: "Friends"
+          season_number: 5
+          episode_number: 8   # The One with All the Thanksgivings
+        - show: "Friends"
+          season_number: 6
+          episode_number: 9   # The One Where Ross Got High
+        - show: "Friends"
+          season_number: 7
+          episode_number: 8   # The One Where Chandler Doesn't Like Dogs
+        - show: "Friends"
+          season_number: 8
+          episode_number: 9   # The One with the Rumor
+        - show: "Friends"
+          season_number: 9
+          episode_number: 8   # The One with Rachel's Other Sister
+        - show: "Friends"
+          season_number: 10
+          episode_number: 8   # The One with the Late Thanksgiving
   A&E:
     template:
       name: network
