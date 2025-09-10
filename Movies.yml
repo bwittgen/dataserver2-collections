@@ -585,7 +585,7 @@ collections:
       name: Chart
       num: 4
     imdb_search:
-      limit: 100
+      imdb_top: 250
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
   Oscars:
