@@ -38,7 +38,6 @@ templates:
   Writer:
     sort_title: +Writers_<<person_last_first>>
     sync_mode: sync
-    collection_order: alpha
     smart_label: audience_rating.desc
     summary: Films written by <<person>>
     plex_search:
@@ -57,7 +56,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      type: feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short
+      type: movie,tv_movie,video
       release.after: '2021-01-01'
       release.before: '2025-12-31'
       genre.not: animation
@@ -77,7 +76,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1APPLE
     imdb_search:
-      type: feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short
+      type: movie,tv_movie,video
       release.after: '2021-01-01'
       release.before: '2025-12-31'
       genre.not: animation
@@ -97,7 +96,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1Netflix
     imdb_search:
-      type: feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short
+      type: movie,tv_movie,video
       release.after: '2021-01-01'
       release.before: '2025-12-31'
       genre.not: animation
@@ -117,7 +116,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HBOMAX
     imdb_search:
-      type: feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short
+      type: movie,tv_movie,video
       release.after: '2021-01-01'
       release.before: '2025-12-31'
       genre.not: animation
@@ -137,7 +136,7 @@ collections:
     sync_mode: sync
     sort_title: +++++++++++++++++++++_1HULU
     imdb_search:
-      type: feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short
+      type: movie,tv_movie,video
       release.after: '2021-01-01'
       release.before: '2025-12-31'
       genre.not: animation
@@ -566,7 +565,9 @@ collections:
     template:
       name: Chart
       num: 2
-    trakt_trending: 10
+    trakt_chart:
+      chart: trending
+      limit: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
@@ -576,8 +577,8 @@ collections:
       num: 3
     tmdb_popular: 40
     imdb_search:
-      type: feature,tv_movie,documentary,short
-      limit: 40
+      type: movie,tv_movie,short
+      limit: 0
     summary: Popular Movies across the internet
   Top Rated:
     template:
@@ -593,7 +594,7 @@ collections:
       name: Chart
       num: 5
     imdb_search:
-      type: feature,documentary
+      type: movie
       groups: oscar_winner
       limit: 0
     summary: Oscar Winning Movies
