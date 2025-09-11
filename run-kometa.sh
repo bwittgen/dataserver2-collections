@@ -61,7 +61,44 @@ run_docker_image() {
 
 run_in_container() {
   echo "[INFO] Running Kometa inside container: $CONTAINER_NAME"
-  docker exec "$CONTAINER_NAME" kometa --config "$IN_CONTAINER_CONFIG"
+  # Try common invocation paths inside the container
+  if docker exec "$CONTAINER_NAME" sh -lc "command -v kometa >/dev/null 2>&1"; then
+    docker exec "$CONTAINER_NAME" sh -lc "kometa --config '$IN_CONTAINER_CONFIG'"
+    return $?
+  fi
+
+  if docker exec "$CONTAINER_NAME" sh -lc "python3 - <<'PY' 2>/dev/null || exit 1
+import importlib,sys
+sys.exit(0 if importlib.util.find_spec('kometa') else 1)
+PY
+"; then
+    docker exec "$CONTAINER_NAME" sh -lc "python3 -m kometa --config '$IN_CONTAINER_CONFIG'"
+    return $?
+  fi
+
+  if docker exec "$CONTAINER_NAME" sh -lc "python - <<'PY' 2>/dev/null || exit 1
+import importlib,sys
+sys.exit(0 if importlib.util.find_spec('kometa') else 1)
+PY
+"; then
+    docker exec "$CONTAINER_NAME" sh -lc "python -m kometa --config '$IN_CONTAINER_CONFIG'"
+    return $?
+  fi
+
+  if docker exec "$CONTAINER_NAME" sh -lc "[ -f /app/kometa.py ]"; then
+    # Last resort: invoke the app module directly
+    if docker exec "$CONTAINER_NAME" sh -lc "command -v python3 >/dev/null 2>&1"; then
+      docker exec "$CONTAINER_NAME" sh -lc "python3 /app/kometa.py --config '$IN_CONTAINER_CONFIG'"
+      return $?
+    elif docker exec "$CONTAINER_NAME" sh -lc "command -v python >/dev/null 2>&1"; then
+      docker exec "$CONTAINER_NAME" sh -lc "python /app/kometa.py --config '$IN_CONTAINER_CONFIG'"
+      return $?
+    fi
+  fi
+
+  echo "[ERROR] Could not locate a Kometa executable inside container '$CONTAINER_NAME'." >&2
+  echo "        Try setting CONTAINER_NAME to your Kometa container, or fallback to DOCKER_IMAGE run." >&2
+  return 1
 }
 
 main() {
