@@ -45,6 +45,7 @@ templates:
     collection_mode: hide
     summary: Films written by <<collection_name>>
 collections:
+  # Directors
   Christopher Nolan:
     template:
       name: Director
