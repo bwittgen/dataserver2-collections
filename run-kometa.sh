@@ -10,10 +10,11 @@ set -euo pipefail
 # Configuration
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 : "${TZ:=UTC}"
-# Appdata on Unraid (host path)
-: "${KOMETA_APPDATA:=/mnt/cache/appdata/Kometa}"
-# Default host config path (maps to /config/config.yml in container)
-: "${CONFIG_PATH:=$KOMETA_APPDATA/config.yml}"
+# Appdata on Unraid (host path to Kometa config directory)
+# Example structure: /mnt/cache/appdata/Kometa/config/config.yml
+: "${KOMETA_APPDATA:=/mnt/cache/appdata/Kometa/config}"
+# Default host config path (directory or file). If directory, script uses config.yml inside it.
+: "${CONFIG_PATH:=$KOMETA_APPDATA}"
 # Existing container name (as shown in Unraid Docker tab)
 : "${CONTAINER_NAME:=Kometa}"
 # Path to config inside the container
@@ -21,15 +22,24 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 # Docker image (used only if container is not found)
 : "${DOCKER_IMAGE:=ghcr.io/kometateam/kometa:latest}"
 
-if [[ ! -f "$CONFIG_PATH" ]]; then
+if [[ -d "$CONFIG_PATH" ]]; then
+  if [[ ! -f "$CONFIG_PATH/config.yml" ]]; then
+    echo "[WARN] Kometa config directory found but missing config.yml: $CONFIG_PATH" >&2
+    echo "       Ensure $CONFIG_PATH/config.yml exists or set CONFIG_PATH to a file path." >&2
+  fi
+elif [[ ! -f "$CONFIG_PATH" ]]; then
   echo "[WARN] Kometa config not found at: $CONFIG_PATH" >&2
-  echo "       Set CONFIG_PATH=/path/to/config.yml if your path differs." >&2
+  echo "       Set CONFIG_PATH to a config directory or config.yml file path." >&2
 fi
 
 run_docker_image() {
   echo "[INFO] Running Kometa via Docker image (once)"
   local host_config_dir
-  host_config_dir="$(cd "$(dirname "$CONFIG_PATH")" 2>/dev/null || echo "$KOMETA_APPDATA")"
+  if [[ -d "$CONFIG_PATH" ]]; then
+    host_config_dir="$CONFIG_PATH"
+  else
+    host_config_dir="$(cd "$(dirname "$CONFIG_PATH")" 2>/dev/null || echo "$KOMETA_APPDATA")"
+  fi
   # Pre-pull to surface auth errors early
   if ! docker image inspect "$DOCKER_IMAGE" >/dev/null 2>&1; then
     if ! docker pull "$DOCKER_IMAGE"; then

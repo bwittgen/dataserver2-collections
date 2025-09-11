@@ -14,8 +14,8 @@ chat.openai.com is great for iterating on this and generating lists
 
 - Script: `./run-kometa.sh` runs Kometa one time on demand.
 - Defaults (override via env vars when running):
-  - `KOMETA_APPDATA=/mnt/cache/appdata/Kometa`
-  - `CONFIG_PATH=$KOMETA_APPDATA/config.yml`
+  - `KOMETA_APPDATA=/mnt/cache/appdata/Kometa/config`
+  - `CONFIG_PATH=$KOMETA_APPDATA` (can be a directory with `config.yml` inside, or a direct file path)
   - `CONTAINER_NAME=Kometa`
   - `IN_CONTAINER_CONFIG=/config/config.yml`
   - `DOCKER_IMAGE=ghcr.io/kometateam/kometa:latest` (only used if no container named `CONTAINER_NAME` exists)
@@ -29,7 +29,8 @@ chat.openai.com is great for iterating on this and generating lists
   - `CONTAINER_NAME=my-kometa ./run-kometa.sh`
 
 - Point to a non-default config path:
-  - `CONFIG_PATH=/mnt/user/appdata/Kometa/config.yml ./run-kometa.sh`
+  - Directory: `CONFIG_PATH=/mnt/cache/appdata/Kometa/config ./run-kometa.sh`
+  - File: `CONFIG_PATH=/mnt/user/appdata/Kometa/config/config.yml ./run-kometa.sh`
 
 - Use a mirrored image if GHCR requires login:
   - `DOCKER_IMAGE=myregistry/kometa:latest ./run-kometa.sh`
