@@ -66,6 +66,14 @@ run_docker_image() {
 run_in_container() {
   echo "[INFO] Running Kometa inside container: $CONTAINER_NAME"
 
+  # Special handling for binhex-kometa image/container
+  local image
+  image="$(docker inspect -f '{{.Config.Image}}' "$CONTAINER_NAME" 2>/dev/null || echo '')"
+  if [[ "$CONTAINER_NAME" == "binhex-kometa" ]] || [[ "$image" == *binhex* && "$image" == *kometa* ]]; then
+    docker exec "$CONTAINER_NAME" sh -lc "python3 kometa.py --run"
+    return $?
+  fi
+
   # If user provided explicit command, use it
   if [[ -n "$IN_CONTAINER_CMD" ]]; then
     docker exec "$CONTAINER_NAME" sh -lc "$IN_CONTAINER_CMD --config '$IN_CONTAINER_CONFIG'"
