@@ -1,52 +1,46 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# One-shot Kometa runner
-# - Prefers local `kometa` install if present
-# - Falls back to Docker image `ghcr.io/kometateam/kometa:latest`
+# One-shot Kometa runner (Unraid-friendly)
+# - Prefers executing inside existing Kometa container
+# - Starts the container if stopped
+# - Falls back to running the image with your appdata bound
 # - Configure via env vars or defaults below
 
 # Configuration
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 : "${TZ:=UTC}"
-# Docker image (override if you mirror or pre-pull)
+# Appdata on Unraid (host path)
+: "${KOMETA_APPDATA:=/mnt/cache/appdata/Kometa}"
+# Default host config path (maps to /config/config.yml in container)
+: "${CONFIG_PATH:=$KOMETA_APPDATA/config.yml}"
+# Existing container name (as shown in Unraid Docker tab)
+: "${CONTAINER_NAME:=Kometa}"
+# Path to config inside the container
+: "${IN_CONTAINER_CONFIG:=/config/config.yml}"
+# Docker image (used only if container is not found)
 : "${DOCKER_IMAGE:=ghcr.io/kometateam/kometa:latest}"
 
-# Path to Kometa config on the HOST (override if yours differs)
-# Common locations:
-#  - ~/.config/kometa/config.yml (recommended default)
-#  - $SCRIPT_DIR/config/kometa.yml (project-local)
-HOST_CONFIG_PATH="${CONFIG_PATH:-$HOME/.config/kometa/config.yml}"
-
-if [[ ! -f "$HOST_CONFIG_PATH" ]]; then
-  echo "[WARN] Kometa config not found at: $HOST_CONFIG_PATH" >&2
-  echo "       Set CONFIG_PATH=/path/to/config.yml when invoking this script." >&2
+if [[ ! -f "$CONFIG_PATH" ]]; then
+  echo "[WARN] Kometa config not found at: $CONFIG_PATH" >&2
+  echo "       Set CONFIG_PATH=/path/to/config.yml if your path differs." >&2
 fi
 
-run_local() {
-  echo "[INFO] Running Kometa locally (once) with config: $HOST_CONFIG_PATH"
-  kometa --config "$HOST_CONFIG_PATH"
-}
-
-run_local_python() {
-  echo "[INFO] Running Kometa via python -m (once) with config: $HOST_CONFIG_PATH"
-  python -m kometa --config "$HOST_CONFIG_PATH"
-}
-
-run_docker() {
-  echo "[INFO] Running Kometa via Docker (once)"
-  # Mount host config directory to /config inside the container
-  host_config_dir="$(cd "$(dirname "$HOST_CONFIG_PATH")" 2>/dev/null || echo "$HOME/.config/kometa")"
+run_docker_image() {
+  echo "[INFO] Running Kometa via Docker image (once)"
+  local host_config_dir
+  host_config_dir="$(cd "$(dirname "$CONFIG_PATH")" 2>/dev/null || echo "$KOMETA_APPDATA")"
   # Pre-pull to surface auth errors early
-  if ! docker pull "$DOCKER_IMAGE" >/dev/null 2>&1; then
-    echo "[ERROR] Unable to pull Docker image: $DOCKER_IMAGE" >&2
-    echo "        If using ghcr.io, authenticate with a GitHub Personal Access Token (scope: read:packages):" >&2
-    echo "          export CR_PAT=YOUR_GITHUB_TOKEN" >&2
-    echo "          echo \$CR_PAT | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin" >&2
-    echo "        Then rerun this script, or set DOCKER_IMAGE to an accessible mirror." >&2
-    exit 1
+  if ! docker image inspect "$DOCKER_IMAGE" >/dev/null 2>&1; then
+    if ! docker pull "$DOCKER_IMAGE"; then
+      echo "[ERROR] Unable to pull Docker image: $DOCKER_IMAGE" >&2
+      echo "        If using ghcr.io, authenticate with a GitHub Personal Access Token (scope: read:packages):" >&2
+      echo "          export CR_PAT=YOUR_GITHUB_TOKEN" >&2
+      echo "          echo \$CR_PAT | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin" >&2
+      echo "        Then rerun this script, or set DOCKER_IMAGE to an accessible mirror." >&2
+      exit 1
+    fi
   fi
-
   docker run --rm \
     --name kometa-one-shot \
     -e TZ="$TZ" \
@@ -55,28 +49,33 @@ run_docker() {
     "$DOCKER_IMAGE"
 }
 
+run_in_container() {
+  echo "[INFO] Running Kometa inside container: $CONTAINER_NAME"
+  docker exec "$CONTAINER_NAME" kometa --config "$IN_CONTAINER_CONFIG"
+}
+
 main() {
-  if command -v kometa >/dev/null 2>&1; then
-    run_local
-    exit 0
+  if ! command -v docker >/dev/null 2>&1; then
+    echo "[ERROR] Docker is required to run this script on Unraid." >&2
+    exit 1
   fi
 
-  if command -v python >/dev/null 2>&1; then
-    # Try python -m kometa if the module is installed
-    if python -c "import sys,importlib,importlib.util,pkgutil;\nmod=(getattr(importlib.util,'find_spec',None) and importlib.util.find_spec('kometa')) or pkgutil.find_loader('kometa');\nsys.exit(0 if mod else 1)" >/dev/null 2>&1; then
-      run_local_python
-      exit 0
+  local exists running
+  exists=false; running=false
+  if docker ps -a --format '{{.Names}}' | grep -Fxq "$CONTAINER_NAME"; then exists=true; fi
+  if docker ps --format '{{.Names}}' | grep -Fxq "$CONTAINER_NAME"; then running=true; fi
+
+  if [[ "$exists" == true ]]; then
+    if [[ "$running" != true ]]; then
+      echo "[INFO] Starting container: $CONTAINER_NAME"
+      docker start "$CONTAINER_NAME" >/dev/null
     fi
-  fi
-
-  if command -v docker >/dev/null 2>&1; then
-    run_docker
+    run_in_container
     exit 0
   fi
 
-  echo "[ERROR] Could not find a way to run Kometa." >&2
-  echo "        Install kometa (pip/pipx), or Docker, or set PATH accordingly." >&2
-  exit 1
+  echo "[INFO] Container '$CONTAINER_NAME' not found; running image instead."
+  run_docker_image
 }
 
 main "$@"
