@@ -19,6 +19,9 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 : "${CONTAINER_NAME:=Kometa}"
 # Path to config inside the container
 : "${IN_CONTAINER_CONFIG:=/config/config.yml}"
+# Optional explicit command inside container, e.g. /app/venv/bin/python3 -m kometa
+# If set, script will run: "$IN_CONTAINER_CMD --config $IN_CONTAINER_CONFIG"
+: "${IN_CONTAINER_CMD:=}"
 # Docker image (used only if container is not found)
 : "${DOCKER_IMAGE:=ghcr.io/kometateam/kometa:latest}"
 
@@ -56,48 +59,53 @@ run_docker_image() {
     -e TZ="$TZ" \
     -v "$host_config_dir":/config:rw \
     -v "$SCRIPT_DIR":/collections:ro \
-    "$DOCKER_IMAGE"
+    "$DOCKER_IMAGE" \
+    sh -lc "kometa --config '$IN_CONTAINER_CONFIG' || python3 -m kometa --config '$IN_CONTAINER_CONFIG' || python -m kometa --config '$IN_CONTAINER_CONFIG' || ( [ -f /app/kometa.py ] && (python3 /app/kometa.py --config '$IN_CONTAINER_CONFIG' || python /app/kometa.py --config '$IN_CONTAINER_CONFIG') )"
 }
 
 run_in_container() {
   echo "[INFO] Running Kometa inside container: $CONTAINER_NAME"
+
+  # If user provided explicit command, use it
+  if [[ -n "$IN_CONTAINER_CMD" ]]; then
+    docker exec "$CONTAINER_NAME" sh -lc "$IN_CONTAINER_CMD --config '$IN_CONTAINER_CONFIG'"
+    return $?
+  fi
+
   # Try common invocation paths inside the container
-  if docker exec "$CONTAINER_NAME" sh -lc "command -v kometa >/dev/null 2>&1"; then
-    docker exec "$CONTAINER_NAME" sh -lc "kometa --config '$IN_CONTAINER_CONFIG'"
-    return $?
-  fi
-
-  if docker exec "$CONTAINER_NAME" sh -lc "python3 - <<'PY' 2>/dev/null || exit 1
-import importlib,sys
-sys.exit(0 if importlib.util.find_spec('kometa') else 1)
-PY
-"; then
-    docker exec "$CONTAINER_NAME" sh -lc "python3 -m kometa --config '$IN_CONTAINER_CONFIG'"
-    return $?
-  fi
-
-  if docker exec "$CONTAINER_NAME" sh -lc "python - <<'PY' 2>/dev/null || exit 1
-import importlib,sys
-sys.exit(0 if importlib.util.find_spec('kometa') else 1)
-PY
-"; then
-    docker exec "$CONTAINER_NAME" sh -lc "python -m kometa --config '$IN_CONTAINER_CONFIG'"
-    return $?
-  fi
-
-  if docker exec "$CONTAINER_NAME" sh -lc "[ -f /app/kometa.py ]"; then
-    # Last resort: invoke the app module directly
-    if docker exec "$CONTAINER_NAME" sh -lc "command -v python3 >/dev/null 2>&1"; then
-      docker exec "$CONTAINER_NAME" sh -lc "python3 /app/kometa.py --config '$IN_CONTAINER_CONFIG'"
-      return $?
-    elif docker exec "$CONTAINER_NAME" sh -lc "command -v python >/dev/null 2>&1"; then
-      docker exec "$CONTAINER_NAME" sh -lc "python /app/kometa.py --config '$IN_CONTAINER_CONFIG'"
+  # 1) direct kometa binary in PATH or typical venv/bin locations
+  for bin in \
+    kometa \
+    /app/venv/bin/kometa \
+    /usr/local/bin/kometa \
+    /usr/bin/kometa; do
+    if docker exec "$CONTAINER_NAME" sh -lc "[ -x '$bin' ] || command -v '$bin' >/dev/null 2>&1"; then
+      docker exec "$CONTAINER_NAME" sh -lc "'$bin' --config '$IN_CONTAINER_CONFIG'"
       return $?
     fi
+  done
+
+  # 2) python module execution
+  for py in python3 /usr/local/bin/python3 /usr/bin/python3 /app/venv/bin/python3 python; do
+    if docker exec "$CONTAINER_NAME" sh -lc "command -v $py >/dev/null 2>&1 && $py -c 'import importlib,sys; sys.exit(0 if importlib.util.find_spec(\"kometa\") else 1)'"; then
+      docker exec "$CONTAINER_NAME" sh -lc "$py -m kometa --config '$IN_CONTAINER_CONFIG'"
+      return $?
+    fi
+  done
+
+  # 3) direct app entry
+  if docker exec "$CONTAINER_NAME" sh -lc "[ -f /app/kometa.py ]"; then
+    for py in python3 /usr/local/bin/python3 /usr/bin/python3 /app/venv/bin/python3 python; do
+      if docker exec "$CONTAINER_NAME" sh -lc "command -v $py >/dev/null 2>&1"; then
+        docker exec "$CONTAINER_NAME" sh -lc "$py /app/kometa.py --config '$IN_CONTAINER_CONFIG'"
+        return $?
+      fi
+    done
   fi
 
   echo "[ERROR] Could not locate a Kometa executable inside container '$CONTAINER_NAME'." >&2
-  echo "        Try setting CONTAINER_NAME to your Kometa container, or fallback to DOCKER_IMAGE run." >&2
+  echo "        Set IN_CONTAINER_CMD to the exact command (e.g., '/app/venv/bin/python3 -m kometa')," >&2
+  echo "        or set CONTAINER_NAME correctly, or fallback to DOCKER_IMAGE run." >&2
   return 1
 }
 
