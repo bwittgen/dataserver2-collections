@@ -169,6 +169,11 @@ collections:
     imdb_list:
     - list_id: ls068617191
     - list_id: ls004426453
+  The Addams Family:
+    template:
+      name: Movies
+      collection: 11716
+    sort_title: Addams Family
   Alien:
     template:
       name: Movies
