@@ -169,6 +169,19 @@ collections:
     imdb_list:
     - list_id: ls068617191
     - list_id: ls004426453
+  28 Days/Weeks Later:
+    template:
+      name: Movies
+      collection: 1565
+  100% Wolf:
+    template:
+      name: Movies
+      collection: 1311628
+  The Accountant:
+    template:
+      name: Movies
+      collection: 870339
+    sort_title: Accountant
   The Addams Family:
     template:
       name: Movies
@@ -178,6 +191,10 @@ collections:
     template:
       name: Movies
       collection: 8091
+  Alien vs. Predator:
+    template:
+      name: Movies
+      collection: 115762
   Attack on Titan:
     template:
       name: Movies
@@ -186,6 +203,14 @@ collections:
     template:
       name: Movies
       collection: 264
+  Blade:
+    template:
+      name: Movies
+      collection: 735
+  Braveheart:
+    template:
+      name: Movies
+      collection: 1432360
   Candyman:
     template:
       name: Movies
