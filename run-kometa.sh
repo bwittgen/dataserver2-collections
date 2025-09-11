@@ -51,16 +51,7 @@ main() {
 
   if command -v python >/dev/null 2>&1; then
     # Try python -m kometa if the module is installed
-    if python - <<'PY' 2>/dev/null; then
-import importlib
-import sys
-try:
-    importlib.import_module('kometa')
-    sys.exit(0)
-except Exception:
-    sys.exit(1)
-PY
-    then
+    if python -c "import sys,importlib,importlib.util,pkgutil;\nmod=(getattr(importlib.util,'find_spec',None) and importlib.util.find_spec('kometa')) or pkgutil.find_loader('kometa');\nsys.exit(0 if mod else 1)" >/dev/null 2>&1; then
       run_local_python
       exit 0
     fi
@@ -77,4 +68,3 @@ PY
 }
 
 main "$@"
-
