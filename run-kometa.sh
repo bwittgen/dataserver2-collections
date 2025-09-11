@@ -80,24 +80,26 @@ run_in_container() {
     return $?
   fi
 
-  # Try common invocation paths inside the container
+  # Try common invocation paths inside the container (no fragile pre-probing)
   # 1) direct kometa binary in PATH or typical venv/bin locations
   for bin in \
     kometa \
     /app/venv/bin/kometa \
     /usr/local/bin/kometa \
     /usr/bin/kometa; do
-    if docker exec "$CONTAINER_NAME" sh -lc "[ -x '$bin' ] || command -v '$bin' >/dev/null 2>&1"; then
+    if docker exec "$CONTAINER_NAME" sh -lc "'$bin' --version >/dev/null 2>&1"; then
       docker exec "$CONTAINER_NAME" sh -lc "'$bin' --config '$IN_CONTAINER_CONFIG'"
       return $?
     fi
   done
 
-  # 2) python module execution
+  # 2) python module execution; let it fail fast if module missing
   for py in python3 /usr/local/bin/python3 /usr/bin/python3 /app/venv/bin/python3 python; do
-    if docker exec "$CONTAINER_NAME" sh -lc "command -v $py >/dev/null 2>&1 && $py -c 'import importlib,sys; sys.exit(0 if importlib.util.find_spec(\"kometa\") else 1)'"; then
-      docker exec "$CONTAINER_NAME" sh -lc "$py -m kometa --config '$IN_CONTAINER_CONFIG'"
-      return $?
+    if docker exec "$CONTAINER_NAME" sh -lc "command -v $py >/dev/null 2>&1"; then
+      if docker exec "$CONTAINER_NAME" sh -lc "$py -m kometa --version >/dev/null 2>&1"; then
+        docker exec "$CONTAINER_NAME" sh -lc "$py -m kometa --config '$IN_CONTAINER_CONFIG'"
+        return $?
+      fi
     fi
   done
 
@@ -137,7 +139,25 @@ main() {
     exit 0
   fi
 
-  echo "[INFO] Container '$CONTAINER_NAME' not found; running image instead."
+  # Attempt to auto-detect a Kometa-like container (prefer binhex)
+  auto_name="$(docker ps -a --format '{{.Names}} {{.Image}}' | awk 'tolower($0) ~ /binhex/ && tolower($0) ~ /kometa/ {print $1; exit}')"
+  if [[ -z "$auto_name" ]]; then
+    auto_name="$(docker ps -a --format '{{.Names}} {{.Image}}' | awk 'tolower($0) ~ /kometa/ {print $1; exit}')"
+  fi
+  if [[ -n "$auto_name" ]]; then
+    CONTAINER_NAME="$auto_name"
+    echo "[INFO] Auto-selected container: $CONTAINER_NAME"
+    if docker ps --format '{{.Names}}' | grep -Fxq "$CONTAINER_NAME"; then
+      running=true
+    else
+      echo "[INFO] Starting container: $CONTAINER_NAME"
+      docker start "$CONTAINER_NAME" >/dev/null || true
+    fi
+    run_in_container
+    exit $?
+  fi
+
+  echo "[INFO] No Kometa container found; running image instead."
   run_docker_image
 }
 
