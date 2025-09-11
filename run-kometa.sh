@@ -9,6 +9,8 @@ set -euo pipefail
 # Configuration
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 : "${TZ:=UTC}"
+# Docker image (override if you mirror or pre-pull)
+: "${DOCKER_IMAGE:=ghcr.io/kometateam/kometa:latest}"
 
 # Path to Kometa config on the HOST (override if yours differs)
 # Common locations:
@@ -35,12 +37,22 @@ run_docker() {
   echo "[INFO] Running Kometa via Docker (once)"
   # Mount host config directory to /config inside the container
   host_config_dir="$(cd "$(dirname "$HOST_CONFIG_PATH")" 2>/dev/null || echo "$HOME/.config/kometa")"
+  # Pre-pull to surface auth errors early
+  if ! docker pull "$DOCKER_IMAGE" >/dev/null 2>&1; then
+    echo "[ERROR] Unable to pull Docker image: $DOCKER_IMAGE" >&2
+    echo "        If using ghcr.io, authenticate with a GitHub Personal Access Token (scope: read:packages):" >&2
+    echo "          export CR_PAT=YOUR_GITHUB_TOKEN" >&2
+    echo "          echo \$CR_PAT | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin" >&2
+    echo "        Then rerun this script, or set DOCKER_IMAGE to an accessible mirror." >&2
+    exit 1
+  fi
+
   docker run --rm \
     --name kometa-one-shot \
     -e TZ="$TZ" \
     -v "$host_config_dir":/config:rw \
     -v "$SCRIPT_DIR":/collections:ro \
-    ghcr.io/kometateam/kometa:latest
+    "$DOCKER_IMAGE"
 }
 
 main() {
