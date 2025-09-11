@@ -655,4 +655,28 @@ collections:
   Aaron Sorkin (Writer):
     template:
       name: Writer
-      writer: 59433
+      writer: 13520
+  James Gunn (Writer):
+    template:
+      name: Writer
+      writer: 15218
+  William Goldman (Writer):
+    template:
+      name: Writer
+      writer: 348
+  Eric Roth (Writer):
+    template:
+      name: Writer
+      writer: 27
+  Billy Wilder (Writer):
+    template:
+      name: Writer
+      writer: 3146
+  Neil Simon (Writer):
+    template:
+      name: Writer
+      writer: 584535
+  I.A.L. Diamond (Writer):
+    template:
+      name: Writer
+      writer: 3147
