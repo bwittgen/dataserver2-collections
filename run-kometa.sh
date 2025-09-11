@@ -80,6 +80,16 @@ run_in_container() {
     return $?
   fi
 
+  # Fast path: many images have kometa.py in the working directory
+  if docker exec "$CONTAINER_NAME" sh -lc "[ -f kometa.py ] && command -v python3 >/dev/null 2>&1"; then
+    docker exec "$CONTAINER_NAME" sh -lc "python3 kometa.py --run"
+    return $?
+  fi
+  if docker exec "$CONTAINER_NAME" sh -lc "[ -f kometa.py ] && command -v python >/dev/null 2>&1"; then
+    docker exec "$CONTAINER_NAME" sh -lc "python kometa.py --run"
+    return $?
+  fi
+
   # Try common invocation paths inside the container (no fragile pre-probing)
   # 1) direct kometa binary in PATH or typical venv/bin locations
   for bin in \
