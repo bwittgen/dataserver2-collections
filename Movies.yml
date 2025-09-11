@@ -9,6 +9,7 @@ templates:
     sort_title: '!B <<collection_name>>'
     collection_mode: hide
     schedule: daily
+    sync_mode: sync
   Special Genre:
     sort_title: '!C <<collection_name>>'
     collection_order: alpha
@@ -80,7 +81,7 @@ collections:
     template:
       name: Studio
     imdb_list:
-      - list_id: ls068617191
+      - list_id: ls077827588
         limit: 100
     summary: The DC Extended Universe (DCEU) is a media franchise and shared universe centered on superheroes from DC Comics.
     collection_order: release
@@ -88,7 +89,7 @@ collections:
     template:
       name: Studio
     imdb_list:
-      - list_id: ls068617191
+      - list_id: ls009410711
         limit: 100
     summary: A collection of movies and shows created by Marvel Studios, comprising the Marvel Cinematic Universe.
     collection_order: release
