@@ -77,7 +77,7 @@ collections:
     template:
       name: network
       network: 1267
-      poster: 'https://th.bing.com/th/id/R.4a1785a758a2556ee29c7f104d4253d7?rik=TWtfKN6x0m%2bT6w&pid=ImgRaw&r=0 '
+      poster: 'https://th.bing.com/th/id/R.4a1785a758a2556ee29c7f104d4253d7?rik=TWtfKN6x0m%2bT6w&pid=ImgRaw&r=0'
   FX:
     template:
       name: network
@@ -87,7 +87,7 @@ collections:
     template:
       name: network
       network: 1035
-      poster: 'https://cordcutting.com/wp-content/uploads/2018/01/fxx-logo.png '
+      poster: 'https://cordcutting.com/wp-content/uploads/2018/01/fxx-logo.png'
   HBO:
     template:
       name: network
