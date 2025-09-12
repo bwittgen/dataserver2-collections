@@ -21,7 +21,7 @@ collections:
 #####################################
 #       Shark Week Collections      #
 #####################################
-  Shark Week:
+  Shark Week Collection:
     template: {name: Movies}
     imdb_search: https://www.imdb.com/list/ls022606419/
     trakt_list: https://trakt.tv/users/bwittgen/lists/shark-movies
