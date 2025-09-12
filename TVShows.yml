@@ -11,42 +11,7 @@ templates:
     sort_title: +2_<<collection_name>>
     sync_mode: sync
 collections:
-  Thanksgiving Episodes:
-    builder_level: episode
-    collection_order: release
-    plex_search:
-      any:
-        # Friends
-        - show: "Friends"
-          season_number: 1
-          episode_number: 9   # The One Where Underdog Gets Away
-        - show: "Friends"
-          season_number: 2
-          episode_number: 8   # The One with the List
-        - show: "Friends"
-          season_number: 3
-          episode_number: 9   # The One with the Football
-        - show: "Friends"
-          season_number: 4
-          episode_number: 8   # The One with Chandler in a Box
-        - show: "Friends"
-          season_number: 5
-          episode_number: 8   # The One with All the Thanksgivings
-        - show: "Friends"
-          season_number: 6
-          episode_number: 9   # The One Where Ross Got High
-        - show: "Friends"
-          season_number: 7
-          episode_number: 8   # The One Where Chandler Doesn't Like Dogs
-        - show: "Friends"
-          season_number: 8
-          episode_number: 9   # The One with the Rumor
-        - show: "Friends"
-          season_number: 9
-          episode_number: 8   # The One with Rachel's Other Sister
-        - show: "Friends"
-          season_number: 10
-          episode_number: 8   # The One with the Late Thanksgiving
+  # Networks
   A&E:
     template:
       name: network
@@ -62,11 +27,6 @@ collections:
       name: network
       network: 80
       poster: 'https://theposterdb.com/api/assets/98825'
-  Apple+:
-    template:
-      name: network
-      network: 2552
-      poster: 'https://theposterdb.com/api/assets/168823'
   Amazon:
     template:
       name: network
@@ -77,6 +37,11 @@ collections:
       name: network
       network: 174, 4661
       poster: 'https://theposterdb.com/api/assets/104445'
+  Apple+:
+    template:
+      name: network
+      network: 2552
+      poster: 'https://theposterdb.com/api/assets/168823'
   Cartoon Network:
     template:
       name: network
@@ -178,17 +143,16 @@ collections:
       name: network
       network: 247, 1436, 4869
       poster: 'https://theposterdb.com/api/assets/193485'
-  Trending:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    trakt_trending: 50
-    tmdb_trending_daily: 10
-    tmdb_trending_weekly: 10
+  # Charts
+  Emmy Winners:
+    template:
+      name: Chart
+      num: 5
     sonarr_add_missing: true
     sonarr_monitor: all
     sonarr_search: false
-    summary: Shows Trending across the internet
-    sort_title: +++++_
+    summary: Emmy Winning Shows
+    trakt_list: https://trakt.tv/users/tim000x3/lists/emmy-winners-television
   Plex Popular:
     template:
       name: Chart
@@ -229,12 +193,14 @@ collections:
       limit: 100
     tmdb_top_rated: 100
     summary: Top Rated TV Shows across the internet
-  Emmy Winners:
-    template:
-      name: Chart
-      num: 5
+  Trending:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    trakt_trending: 50
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
     sonarr_add_missing: true
     sonarr_monitor: all
     sonarr_search: false
-    summary: Emmy Winning Shows
-    trakt_list: https://trakt.tv/users/tim000x3/lists/emmy-winners-television
+    summary: Shows Trending across the internet
+    sort_title: +++++_
