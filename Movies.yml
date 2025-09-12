@@ -423,6 +423,212 @@ collections:
     template:
       name: Movies
       collection: 748,453993
+
+  # Franchise Collections (new)
+  Aladdin Collection:
+    template:
+      name: Movies
+      collection: 86027
+  Alvin and the Chipmunks Collection:
+    template:
+      name: Movies
+      collection: 167613
+  American Pie Collection:
+    template:
+      name: Movies
+      collection: 2806
+  Ant-Man Collection:
+    template:
+      name: Movies
+      collection: 422834
+  Aquaman Collection:
+    template:
+      name: Movies
+      collection: 573693
+  Avatar Collection:
+    template:
+      name: Movies
+      collection: 87096
+  Avengers Collection:
+    template:
+      name: Movies
+      collection: 86311
+  Bad Boys Collection:
+    template:
+      name: Movies
+      collection: 14890
+  Beverly Hills Cop Collection:
+    template:
+      name: Movies
+      collection: 85861
+  Cars Collection:
+    template:
+      name: Movies
+      collection: 87118
+  Chicken Run Collection:
+    template:
+      name: Movies
+      collection: 718551
+  Cloudy with a Chance of Meatballs Collection:
+    template:
+      name: Movies
+      collection: 177467
+  Despicable Me Collection:
+    template:
+      name: Movies
+      collection: 86066
+  Doctor Strange Collection:
+    template:
+      name: Movies
+      collection: 618529
+  Dune Collection:
+    template:
+      name: Movies
+      collection: 726871
+  Fantastic Four Collection:
+    template:
+      name: Movies
+      collection: 9744
+  Finding Nemo Collection:
+    template:
+      name: Movies
+      collection: 137697
+  Frozen Collection:
+    template:
+      name: Movies
+      collection: 386382
+  Ghostbusters Collection:
+    template:
+      name: Movies
+      collection: 2980
+  Guardians of the Galaxy Collection:
+    template:
+      name: Movies
+      collection: 284433
+  Hotel Transylvania Collection:
+    template:
+      name: Movies
+      collection: 185103
+  How to Train Your Dragon Collection:
+    template:
+      name: Movies
+      collection: 89137
+  Incredibles Collection:
+    template:
+      name: Movies
+      collection: 468222
+  Inside Out Collection:
+    template:
+      name: Movies
+      collection: 1022790
+  Iron Man Collection:
+    template:
+      name: Movies
+      collection: 131292
+  Kung Fu Panda Collection:
+    template:
+      name: Movies
+      collection: 77816
+  Lego Movie Collection:
+    template:
+      name: Movies
+      collection: 325470
+  Madagascar Collection:
+    template:
+      name: Movies
+      collection: 14740
+  Maleficent Collection:
+    template:
+      name: Movies
+      collection: 531331
+  Matrix Collection:
+    template:
+      name: Movies
+      collection: 2344
+  Minions Collection:
+    template:
+      name: Movies
+      collection: 544669
+  Moana Collection:
+    template:
+      name: Movies
+      collection: 1241984
+  Monsters Inc Collection:
+    template:
+      name: Movies
+      collection: 137696
+  Mulan Collection:
+    template:
+      name: Movies
+      collection: 87236
+  Narnia Collection:
+    template:
+      name: Movies
+      collection: 420
+  Paddington Collection:
+    template:
+      name: Movies
+      collection: 488924
+  Peter Pan Collection:
+    template:
+      name: Movies
+      collection: 55422
+  Puss in Boots Collection:
+    template:
+      name: Movies
+      collection: 94602
+  Scooby-Doo Collection:
+    template:
+      name: Movies
+      collection: 86860
+  Shazam Collection:
+    template:
+      name: Movies
+      collection: 724848
+  Sonic the Hedgehog Collection:
+    template:
+      name: Movies
+      collection: 720879
+  SpongeBob Collection:
+    template:
+      name: Movies
+      collection: 275402
+  Suicide Squad Collection:
+    template:
+      name: Movies
+      collection: 531242
+  Tangled Collection:
+    template:
+      name: Movies
+      collection: 1268789
+  Teenage Mutant Ninja Turtles Collection:
+    template:
+      name: Movies
+      collection: 1582
+  Thor Collection:
+    template:
+      name: Movies
+      collection: 131296
+  Toy Story Collection:
+    template:
+      name: Movies
+      collection: 10194
+  Trolls Collection:
+    template:
+      name: Movies
+      collection: 489724
+  Venom Collection:
+    template:
+      name: Movies
+      collection: 558216
+  Wreck-It Ralph Collection:
+    template:
+      name: Movies
+      collection: 404825
+  Wonder Woman Collection:
+    template:
+      name: Movies
+      collection: 468552
   Apple Originals 2021-2025:
     smart_label: originally_available.desc
     sync_mode: sync
@@ -712,209 +918,3 @@ collections:
     template:
       name: Best of
       year: 2025
-  
-  # Franchise Collections (new)
-  Aladdin Collection:
-    template:
-      name: Movies
-      collection: 86027
-  Alvin and the Chipmunks Collection:
-    template:
-      name: Movies
-      collection: 167613
-  American Pie Collection:
-    template:
-      name: Movies
-      collection: 2806
-  Ant-Man Collection:
-    template:
-      name: Movies
-      collection: 422834
-  Aquaman Collection:
-    template:
-      name: Movies
-      collection: 573693
-  Avatar Collection:
-    template:
-      name: Movies
-      collection: 87096
-  Avengers Collection:
-    template:
-      name: Movies
-      collection: 86311
-  Bad Boys Collection:
-    template:
-      name: Movies
-      collection: 14890
-  Beverly Hills Cop Collection:
-    template:
-      name: Movies
-      collection: 85861
-  Cars Collection:
-    template:
-      name: Movies
-      collection: 87118
-  Chicken Run Collection:
-    template:
-      name: Movies
-      collection: 718551
-  Cloudy with a Chance of Meatballs Collection:
-    template:
-      name: Movies
-      collection: 177467
-  Despicable Me Collection:
-    template:
-      name: Movies
-      collection: 86066
-  Doctor Strange Collection:
-    template:
-      name: Movies
-      collection: 618529
-  Dune Collection:
-    template:
-      name: Movies
-      collection: 726871
-  Fantastic Four Collection:
-    template:
-      name: Movies
-      collection: 9744
-  Finding Nemo Collection:
-    template:
-      name: Movies
-      collection: 137697
-  Frozen Collection:
-    template:
-      name: Movies
-      collection: 386382
-  Ghostbusters Collection:
-    template:
-      name: Movies
-      collection: 2980
-  Guardians of the Galaxy Collection:
-    template:
-      name: Movies
-      collection: 284433
-  Hotel Transylvania Collection:
-    template:
-      name: Movies
-      collection: 185103
-  How to Train Your Dragon Collection:
-    template:
-      name: Movies
-      collection: 89137
-  Incredibles Collection:
-    template:
-      name: Movies
-      collection: 468222
-  Inside Out Collection:
-    template:
-      name: Movies
-      collection: 1022790
-  Iron Man Collection:
-    template:
-      name: Movies
-      collection: 131292
-  Kung Fu Panda Collection:
-    template:
-      name: Movies
-      collection: 77816
-  Lego Movie Collection:
-    template:
-      name: Movies
-      collection: 325470
-  Madagascar Collection:
-    template:
-      name: Movies
-      collection: 14740
-  Maleficent Collection:
-    template:
-      name: Movies
-      collection: 531331
-  Matrix Collection:
-    template:
-      name: Movies
-      collection: 2344
-  Minions Collection:
-    template:
-      name: Movies
-      collection: 544669
-  Moana Collection:
-    template:
-      name: Movies
-      collection: 1241984
-  Monsters Inc Collection:
-    template:
-      name: Movies
-      collection: 137696
-  Mulan Collection:
-    template:
-      name: Movies
-      collection: 87236
-  Narnia Collection:
-    template:
-      name: Movies
-      collection: 420
-  Paddington Collection:
-    template:
-      name: Movies
-      collection: 488924
-  Peter Pan Collection:
-    template:
-      name: Movies
-      collection: 55422
-  Puss in Boots Collection:
-    template:
-      name: Movies
-      collection: 94602
-  Scooby-Doo Collection:
-    template:
-      name: Movies
-      collection: 86860
-  Shazam Collection:
-    template:
-      name: Movies
-      collection: 724848
-  Sonic the Hedgehog Collection:
-    template:
-      name: Movies
-      collection: 720879
-  SpongeBob Collection:
-    template:
-      name: Movies
-      collection: 275402
-  Suicide Squad Collection:
-    template:
-      name: Movies
-      collection: 531242
-  Tangled Collection:
-    template:
-      name: Movies
-      collection: 1268789
-  Teenage Mutant Ninja Turtles Collection:
-    template:
-      name: Movies
-      collection: 1582
-  Thor Collection:
-    template:
-      name: Movies
-      collection: 131296
-  Toy Story Collection:
-    template:
-      name: Movies
-      collection: 10194
-  Trolls Collection:
-    template:
-      name: Movies
-      collection: 489724
-  Venom Collection:
-    template:
-      name: Movies
-      collection: 558216
-  Wreck-It Ralph Collection:
-    template:
-      name: Movies
-      collection: 404825
-  Wonder Woman Collection:
-    template:
-      name: Movies
-      collection: 468552
