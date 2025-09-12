@@ -500,9 +500,23 @@ collections:
     radarr_search: true
     radarr_monitor: true
   HULU Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
     sort_title: +++++++++++++++++++++_1HULU
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0218858
+      country.any: US
     summary: All HULU Originals From 2021-2025
     url_poster: 'https://theposterdb.com/api/assets/168826'
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
   Top Ten Pirated Weekly:
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
     smart_label: year.desc
