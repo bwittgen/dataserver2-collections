@@ -46,132 +46,69 @@ templates:
     summary: Films written by <<collection_name>>
 collections:
   # Directors
-  80s Movies:
-    trakt_list:
-    - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
-    - https://trakt.tv/users/zyrus/lists/80s-classics
-    smart_label: critic_rating.desc
-    sync_mode: sync
-    sort_title: ++++++++++++++++++_80s Movies
-    summary: The Best Movies From The 80s
-    url_poster: https://i.imgur.com/k9c4ieG.png
-    url_background: https://i.imgur.com/ITnaga1.jpg
-  90s Movies:
-    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_90s Movies
-    summary: The Best Movies From The 90s
-    url_poster: https://i.imgur.com/Nq8fxp8.png
-    url_background: https://i.imgur.com/g2yfzfx.jpg
-  Aaron Sorkin (Writer):
-    template:
-      name: Writer
-      writer: 13520
-  Amazon Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APPLE
-    imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      sort_by: release.desc
-      limit: 250
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      company: co0319272
-      country.any: US
-    summary: All Amazon Originals From 2021-2025
-    url_poster: https://i.imgur.com/nU3gqqB.png
-    url_background: https://i.imgur.com/2jfs7oS.png
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  Apple Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APPLE
-    imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      sort_by: release.desc
-      limit: 250
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      company: co0546168
-      country.any: US
-    summary: All Apple TV Originals From 2021-2025
-    url_poster: https://i.imgur.com/O9iWork.png
-    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  Best of 2014:
-    template:
-      name: Best of
-      year: 2014
-  Best of 2015:
-    template:
-      name: Best of
-      year: 2015
-  Best of 2016:
-    template:
-      name: Best of
-      year: 2016
-  Best of 2017:
-    template:
-      name: Best of
-      year: 2017
-  Best of 2018:
-    template:
-      name: Best of
-      year: 2018
-  Best of 2019:
-    template:
-      name: Best of
-      year: 2019
-  Best of 2020:
-    template:
-      name: Best of
-      year: 2020
-  Best of 2021:
-    template:
-      name: Best of
-      year: 2021
-  Best of 2022:
-    template:
-      name: Best of
-      year: 2022
-  Best of 2023:
-    template:
-      name: Best of
-      year: 2023
-  Best of 2024:
-    template:
-      name: Best of
-      year: 2024
-  Best of 2025:
-    template:
-      name: Best of
-      year: 2025
-  Best Superhero Movies:
-    trakt_list: https://trakt.tv/users/hdlists/lists/best-superhero-movies
-    sort_title: +++++++++++++++++++++_Superhero Movies
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    summary: Best Superhero Movies of All Time
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-    url_poster: https://i.imgur.com/lqXRQdd.png
-  Billy Wilder (Writer):
-    template:
-      name: Writer
-      writer: 3146
   Christopher Nolan:
     template:
       name: Director
       tmdb: 525
+  Edgar Wright:
+    template:
+      name: Director
+      tmdb: 11090
+  James Cameron:
+    template:
+      name: Director
+      tmdb: 2710
+  M. Night Shyamalan:
+    template:
+      name: Director
+      tmdb: 11614
+  Martin Scorsese:
+    template:
+      name: Director
+      tmdb: 1032
+  Quentin Tarantino:
+    template:
+      name: Director
+      tmdb: 138
+  Steven Spielberg:
+    template:
+      name: Director
+      tmdb: 488
+  Wes Anderson:
+    template:
+      name: Director
+      tmdb: 5655
+  # Writers
+  # Writers
+  Aaron Sorkin (Writer):
+    template:
+      name: Writer
+      writer: 13520
+  Billy Wilder (Writer):
+    template:
+      name: Writer
+      writer: 3146
+  Eric Roth (Writer):
+    template:
+      name: Writer
+      writer: 27
+  I.A.L. Diamond (Writer):
+    template:
+      name: Writer
+      writer: 3147
+  James Gunn (Writer):
+    template:
+      name: Writer
+      writer: 15218
+  Neil Simon (Writer):
+    template:
+      name: Writer
+      writer: 584535
+  William Goldman (Writer):
+    template:
+      name: Writer
+      writer: 348
+  # Studios
   DC Extended Universe:
     template:
       name: Studio
@@ -189,86 +126,6 @@ collections:
     summary: A collection of Disney Animation movies.
     content_rating: G
     collection_order: alpha
-  Documentary Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Documentary Collection
-    summary: Top Rated Documentaries from 1980 onward
-    url_poster: https://i.imgur.com/2AtAgce.jpg
-    url_background: https://i.imgur.com/lJQwoDH.jpg
-  Edgar Wright:
-    template:
-      name: Director
-      tmdb: 11090
-  Eric Roth (Writer):
-    template:
-      name: Writer
-      writer: 27
-  Fun Times Not Long Times:
-    template:
-      name: Special Genre
-    trakt_list:
-    - https://trakt.tv/users/bwittgen/lists/trippy-movies
-    - https://trakt.tv/users/bwittgen/lists/great-comedies
-    summary: A collection of movies that will make you fall over or laugh!
-  HBO Max Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1HBOMAX
-    imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      sort_by: release.desc
-      limit: 250
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      company: co0754095
-      country.any: US
-    summary: All HBO Max Originals From 2021-2025
-    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
-    url_background: https://wallpapercave.com/wp/wp6402755.png
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  HULU Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1HULU
-    imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      sort_by: release.desc
-      limit: 250
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      company: co0218858
-      country.any: US
-    summary: All HULU Originals From 2021-2025
-    url_poster: 'https://theposterdb.com/api/assets/168826'
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  I.A.L. Diamond (Writer):
-    template:
-      name: Writer
-      writer: 3147
-  James Cameron:
-    template:
-      name: Director
-      tmdb: 2710
-  James Gunn (Writer):
-    template:
-      name: Writer
-      writer: 15218
-  M. Night Shyamalan:
-    template:
-      name: Director
-      tmdb: 11614
-  Martin Scorsese:
-    template:
-      name: Director
-      tmdb: 1032
   Marvel Studios:
     template:
       name: Studio
@@ -277,77 +134,6 @@ collections:
         limit: 100
     summary: A collection of movies and shows created by Marvel Studios, comprising the Marvel Cinematic Universe.
     collection_order: release
-  Mindbending Movies:
-    template:
-      name: Special Genre
-    trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies
-    summary: A collection of movies that will mess with your mind!
-  Monsterverse:
-    imdb_list:
-    - list_id: ls060980695
-      limit: 100
-    summary: A collection of all the MonsterVerse movies.
-    collection_mode: hide
-  Neil Simon (Writer):
-    template:
-      name: Writer
-      writer: 584535
-  Netflix Originals 2021-2025:
-    smart_label: originally_available.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1Netflix
-    imdb_search:
-      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
-      sort_by: release.desc
-      limit: 250
-      release.after: '2021-01-01'
-      release.before: '2025-12-31'
-      genre.not: animation
-      company: co0144901
-      country.any: US
-    summary: All Netflix Originals From 2021-2025
-    url_poster: https://i.imgur.com/7kiE1MU.png
-    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  Nostalgia Collection (Classics From The 80s & 90s):
-    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Nostalgia Collection
-    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection
-    url_poster: https://i.imgur.com/vE8dsdd.jpg
-    url_background: https://i.imgur.com/frz0kly.jpg
-  Oscar Nominated:
-    template:
-      name: Chart
-      num: 6
-    imdb_search:
-      sort_by: year.desc
-      limit: 100
-    summary: Oscar Nominated Films
-  Oscars:
-    template:
-      name: Chart
-      num: 5
-    imdb_search:
-      type: movie
-      limit: 100
-    summary: Oscar Winning Movies
-  Outer Space & Exploration Movies:
-    template:
-      name: Special Genre
-    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
-    summary: A collection of movies that feature outer space and exploration.
-  Parody Movie Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Parody Movie Collection
-    summary: Top 50 Parody Movies of All Time
-    url_poster: https://i.imgur.com/yFtJ5eV.png
-    url_background: https://i.imgur.com/eELv4eB.jpg
   Pixar Animation:
     template:
       name: Studio
@@ -357,46 +143,24 @@ collections:
     summary: A collection of Pixar Animation movies.
     content_rating: G
     collection_order: alpha
-  Plex Popular:
+  # Special Genres
+  Fun Times Not Long Times:
     template:
-      name: Chart
-      num: 1
-    tautulli_popular:
-      list_days: 30
-      list_size: 20
-      list_buffer: 20
-      list_minimum: 1
-    tautulli_watched:
-      list_days: 30
-      list_size: 20
-      list_buffer: 20
-      list_minimum: 1
-    summary: Movies Popular on Plex
-  Popular:
+      name: Special Genre
+    trakt_list:
+    - https://trakt.tv/users/bwittgen/lists/trippy-movies
+    - https://trakt.tv/users/bwittgen/lists/great-comedies
+    summary: A collection of movies that will make you fall over or laugh!
+  Mindbending Movies:
     template:
-      name: Chart
-      num: 3
-    tmdb_popular: 40
-    imdb_search:
-      type: movie,tv_movie,short
-      limit: 100
-    summary: Popular Movies across the internet
-  Quentin Tarantino:
+      name: Special Genre
+    trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies
+    summary: A collection of movies that will mess with your mind!
+  Outer Space & Exploration Movies:
     template:
-      name: Director
-      tmdb: 138
-  Steven Spielberg:
-    template:
-      name: Director
-      tmdb: 488
-  Sundance Film Festival 2021:
-    trakt_list: https://trakt.tv/users/hdlists/lists/sundance-2021-movie-guide
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Sundance 2021 Collection
-    summary: Sundance Film Festival 2021 Movie Guide
-    url_poster: https://i.imgur.com/6CqlOaq.png
-    url_background: https://i.imgur.com/goapGVl.jpg
+      name: Special Genre
+    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
+    summary: A collection of movies that feature outer space and exploration.
   Superhero Movies:
     template:
       name: Special Genre
@@ -416,55 +180,7 @@ collections:
     - list_id: ls068617191
     - list_id: ls004426453
   # Franchise Collections
-  Top Rated:
-    template:
-      name: Chart
-      num: 4
-    imdb_search:
-      imdb_top: 250
-    tmdb_top_rated: 250
-    summary: Top Rated Movies across the internet
-  Top Ten Pirated Weekly:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    smart_label: year.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APirated Weekly
-    summary: Most Pirated Movies of The Week
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-    url_background: https://i.imgur.com/SOVfrIq.png
-    url_poster: https://i.imgur.com/dYdjSOu.png
-  Trending:
-    template:
-      name: Chart
-      num: 2
-    tmdb_trending_daily: 10
-    tmdb_trending_weekly: 10
-    summary: Movies Trending across the internet
-    trakt_chart:
-      chart: trending
-      limit: 10
-  True Crime Documentaries:
-    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
-    sync_mode: sync
-    smart_label: year.desc
-    sort_title: ++++++++++++++++++_True Crime Documentaries Movies
-    summary: True Crime Documentaries
-    url_poster: https://i.imgur.com/PPbzaKa.png
-    url_background: https://i.imgur.com/SOVfrIq.png
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-  Wes Anderson:
-    template:
-      name: Director
-      tmdb: 5655
-  # Writers
-  William Goldman (Writer):
-    template:
-      name: Writer
-      writer: 348
+  # Franchise Collections
   100% Wolf Collection:
     template:
       name: Movies
@@ -919,3 +635,296 @@ collections:
       collection: 748,453993
 
   # Franchise Collections (new)
+  # Originals
+  Amazon Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APPLE
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0319272
+      country.any: US
+    summary: All Amazon Originals From 2021-2025
+    url_poster: https://i.imgur.com/nU3gqqB.png
+    url_background: https://i.imgur.com/2jfs7oS.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Apple Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APPLE
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0546168
+      country.any: US
+    summary: All Apple TV Originals From 2021-2025
+    url_poster: https://i.imgur.com/O9iWork.png
+    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HBO Max Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1HBOMAX
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0754095
+      country.any: US
+    summary: All HBO Max Originals From 2021-2025
+    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
+    url_background: https://wallpapercave.com/wp/wp6402755.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HULU Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1HULU
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0218858
+      country.any: US
+    summary: All HULU Originals From 2021-2025
+    url_poster: 'https://theposterdb.com/api/assets/168826'
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Netflix Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1Netflix
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0144901
+      country.any: US
+    summary: All Netflix Originals From 2021-2025
+    url_poster: https://i.imgur.com/7kiE1MU.png
+    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  # Charts
+  Oscar Nominated:
+    template:
+      name: Chart
+      num: 6
+    imdb_search:
+      sort_by: year.desc
+      limit: 100
+    summary: Oscar Nominated Films
+  Oscars:
+    template:
+      name: Chart
+      num: 5
+    imdb_search:
+      type: movie
+      limit: 100
+    summary: Oscar Winning Movies
+  Plex Popular:
+    template:
+      name: Chart
+      num: 1
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+      list_minimum: 1
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+      list_minimum: 1
+    summary: Movies Popular on Plex
+  Popular:
+    template:
+      name: Chart
+      num: 3
+    tmdb_popular: 40
+    imdb_search:
+      type: movie,tv_movie,short
+      limit: 100
+    summary: Popular Movies across the internet
+  Top Rated:
+    template:
+      name: Chart
+      num: 4
+    imdb_search:
+      imdb_top: 250
+    tmdb_top_rated: 250
+    summary: Top Rated Movies across the internet
+  Trending:
+    template:
+      name: Chart
+      num: 2
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
+    summary: Movies Trending across the internet
+    trakt_chart:
+      chart: trending
+      limit: 10
+  # Best Of
+  Best of 2014:
+    template:
+      name: Best of
+      year: 2014
+  Best of 2015:
+    template:
+      name: Best of
+      year: 2015
+  Best of 2016:
+    template:
+      name: Best of
+      year: 2016
+  Best of 2017:
+    template:
+      name: Best of
+      year: 2017
+  Best of 2018:
+    template:
+      name: Best of
+      year: 2018
+  Best of 2019:
+    template:
+      name: Best of
+      year: 2019
+  Best of 2020:
+    template:
+      name: Best of
+      year: 2020
+  Best of 2021:
+    template:
+      name: Best of
+      year: 2021
+  Best of 2022:
+    template:
+      name: Best of
+      year: 2022
+  Best of 2023:
+    template:
+      name: Best of
+      year: 2023
+  Best of 2024:
+    template:
+      name: Best of
+      year: 2024
+  Best of 2025:
+    template:
+      name: Best of
+      year: 2025
+  # Other Collections
+  80s Movies:
+    trakt_list:
+    - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
+    - https://trakt.tv/users/zyrus/lists/80s-classics
+    smart_label: critic_rating.desc
+    sync_mode: sync
+    sort_title: ++++++++++++++++++_80s Movies
+    summary: The Best Movies From The 80s
+    url_poster: https://i.imgur.com/k9c4ieG.png
+    url_background: https://i.imgur.com/ITnaga1.jpg
+  90s Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-90s
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_90s Movies
+    summary: The Best Movies From The 90s
+    url_poster: https://i.imgur.com/Nq8fxp8.png
+    url_background: https://i.imgur.com/g2yfzfx.jpg
+  Best Superhero Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/best-superhero-movies
+    sort_title: +++++++++++++++++++++_Superhero Movies
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    summary: Best Superhero Movies of All Time
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_poster: https://i.imgur.com/lqXRQdd.png
+  Documentary Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/documentary-movies-top-rated-from-1980-to-today
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Documentary Collection
+    summary: Top Rated Documentaries from 1980 onward
+    url_poster: https://i.imgur.com/2AtAgce.jpg
+    url_background: https://i.imgur.com/lJQwoDH.jpg
+  Monsterverse:
+    imdb_list:
+    - list_id: ls060980695
+      limit: 100
+    summary: A collection of all the MonsterVerse movies.
+    collection_mode: hide
+  Nostalgia Collection (Classics From The 80s & 90s):
+    trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Nostalgia Collection
+    summary: All The Nostalgiac Movies From The 80s & 90s in One Collection
+    url_poster: https://i.imgur.com/vE8dsdd.jpg
+    url_background: https://i.imgur.com/frz0kly.jpg
+  Parody Movie Collection:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Parody Movie Collection
+    summary: Top 50 Parody Movies of All Time
+    url_poster: https://i.imgur.com/yFtJ5eV.png
+    url_background: https://i.imgur.com/eELv4eB.jpg
+  Sundance Film Festival 2021:
+    trakt_list: https://trakt.tv/users/hdlists/lists/sundance-2021-movie-guide
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: ++++++++++++++++++_Sundance 2021 Collection
+    summary: Sundance Film Festival 2021 Movie Guide
+    url_poster: https://i.imgur.com/6CqlOaq.png
+    url_background: https://i.imgur.com/goapGVl.jpg
+  Top Ten Pirated Weekly:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    smart_label: year.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APirated Weekly
+    summary: Most Pirated Movies of The Week
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_background: https://i.imgur.com/SOVfrIq.png
+    url_poster: https://i.imgur.com/dYdjSOu.png
+  True Crime Documentaries:
+    trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
+    sync_mode: sync
+    smart_label: year.desc
+    sort_title: ++++++++++++++++++_True Crime Documentaries Movies
+    summary: True Crime Documentaries
+    url_poster: https://i.imgur.com/PPbzaKa.png
+    url_background: https://i.imgur.com/SOVfrIq.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  # Directors
