@@ -51,37 +51,37 @@ collections:
     template:
       name: network
       network: 129, 2639, 3688
-      poster: 'https://theposterdb.com/api/assets/160188 '
+      poster: 'https://theposterdb.com/api/assets/160188'
   ABC:
     template:
       name: network
       network: 2, 75, 2791
-      poster: 'https://theposterdb.com/api/assets/193495 '
+      poster: 'https://theposterdb.com/api/assets/193495'
   Adult Swim:
     template:
       name: network
       network: 80
-      poster: 'https://theposterdb.com/api/assets/98825 '
+      poster: 'https://theposterdb.com/api/assets/98825'
   Apple+:
     template:
       name: network
       network: 2552
-      poster: 'https://theposterdb.com/api/assets/168823 '
+      poster: 'https://theposterdb.com/api/assets/168823'
   Amazon:
     template:
       name: network
       network: 1024
-      poster: 'https://theposterdb.com/api/assets/90886 '
+      poster: 'https://theposterdb.com/api/assets/90886'
   AMC:
     template:
       name: network
       network: 174, 4661
-      poster: 'https://theposterdb.com/api/assets/104445 '
+      poster: 'https://theposterdb.com/api/assets/104445'
   Cartoon Network:
     template:
       name: network
       network: 56, 217, 1232, 1483, 2193, 3917, 4771
-      poster: 'https://theposterdb.com/api/assets/172187 '
+      poster: 'https://theposterdb.com/api/assets/172187'
   CBS:
     template:
       name: network
@@ -91,7 +91,7 @@ collections:
     template:
       name: network
       network: 359
-      poster: 'https://theposterdb.com/api/assets/193488 '
+      poster: 'https://theposterdb.com/api/assets/193488'
   Discovery:
     template:
       name: network
@@ -102,12 +102,12 @@ collections:
     template:
       name: network
       network: 2739, 2919
-      poster: 'https://theposterdb.com/api/assets/120939 '
+      poster: 'https://theposterdb.com/api/assets/120939'
   Fox:
     template:
       name: network
       network: 19
-      poster: 'https://theposterdb.com/api/assets/48747 '
+      poster: 'https://theposterdb.com/api/assets/48747'
   Freeform:
     template:
       name: network
@@ -117,7 +117,7 @@ collections:
     template:
       name: network
       network: 88
-      poster: 'https://theposterdb.com/api/assets/193493 '
+      poster: 'https://theposterdb.com/api/assets/193493'
   FXX:
     template:
       name: network
@@ -127,17 +127,17 @@ collections:
     template:
       name: network
       network: 49, 2593, 3186, 3308
-      poster: 'https://theposterdb.com/api/assets/168825 '
+      poster: 'https://theposterdb.com/api/assets/168825'
   HGTV:
     template:
       name: network
       network: 210
-      poster: 'https://theposterdb.com/api/assets/98967 '
+      poster: 'https://theposterdb.com/api/assets/98967'
   Hulu:
     template:
       name: network
       network: 453
-      poster: 'https://theposterdb.com/api/assets/168826 '
+      poster: 'https://theposterdb.com/api/assets/168826'
   National Geographic:
     template:
       name: network
@@ -147,37 +147,37 @@ collections:
     template:
       name: network
       network: 213
-      poster: 'https://theposterdb.com/api/assets/168827 '
+      poster: 'https://theposterdb.com/api/assets/168827'
   Prime Video:
     template:
       name: network
       network: 1024
-      poster: 'https://theposterdb.com/api/assets/168830 '
+      poster: 'https://theposterdb.com/api/assets/168830'
   Showtime:
     template:
       name: network
       network: 67
-      poster: 'https://theposterdb.com/api/assets/138092 '
+      poster: 'https://theposterdb.com/api/assets/138092'
   Starz:
     template:
       name: network
       network: 318, 758, 4906
-      poster: 'https://theposterdb.com/api/assets/81775 '
+      poster: 'https://theposterdb.com/api/assets/81775'
   Syfy:
     template:
       name: network
       network: 77, 3701
-      poster: 'https://theposterdb.com/api/assets/193549 '
+      poster: 'https://theposterdb.com/api/assets/193549'
   TBS:
     template:
       name: network
       network: 68, 160, 4888
-      poster: 'https://theposterdb.com/api/assets/193552 '
+      poster: 'https://theposterdb.com/api/assets/193552'
   YouTube:
     template:
       name: network
       network: 247, 1436, 4869
-      poster: 'https://theposterdb.com/api/assets/193485 '
+      poster: 'https://theposterdb.com/api/assets/193485'
   Trending:
     smart_label: originally_available.desc
     sync_mode: sync
