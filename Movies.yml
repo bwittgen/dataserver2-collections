@@ -79,7 +79,6 @@ collections:
       name: Director
       tmdb: 5655
   # Writers
-  # Writers
   Aaron Sorkin (Writer):
     template:
       name: Writer
@@ -180,7 +179,6 @@ collections:
     - list_id: ls068617191
     - list_id: ls004426453
   # Franchise Collections
-  # Franchise Collections
   100% Wolf Collection:
     template:
       name: Movies
@@ -203,10 +201,6 @@ collections:
     template:
       name: Movies
       collection: 8091
-  Alien vs. Predator Collection:
-    template:
-      name: Movies
-      collection: 115762
   Alvin and the Chipmunks Collection:
     template:
       name: Movies
@@ -235,6 +229,10 @@ collections:
     template:
       name: Movies
       collection: 86311
+  AVP Collection:
+    template:
+      name: Movies
+      collection: 115762
   Back to the Future Collection:
     template:
       name: Movies
@@ -634,7 +632,6 @@ collections:
       name: Movies
       collection: 748,453993
 
-  # Franchise Collections (new)
   # Originals
   Amazon Originals 2021-2025:
     smart_label: originally_available.desc
@@ -779,6 +776,17 @@ collections:
       imdb_top: 250
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
+  Top Ten Pirated Weekly:
+    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
+    smart_label: year.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1APirated Weekly
+    summary: Most Pirated Movies of The Week
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+    url_background: https://i.imgur.com/SOVfrIq.png
+    url_poster: https://i.imgur.com/dYdjSOu.png
   Trending:
     template:
       name: Chart
@@ -905,17 +913,6 @@ collections:
     summary: Sundance Film Festival 2021 Movie Guide
     url_poster: https://i.imgur.com/6CqlOaq.png
     url_background: https://i.imgur.com/goapGVl.jpg
-  Top Ten Pirated Weekly:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
-    smart_label: year.desc
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1APirated Weekly
-    summary: Most Pirated Movies of The Week
-    radarr_add: true
-    radarr_search: true
-    radarr_monitor: true
-    url_background: https://i.imgur.com/SOVfrIq.png
-    url_poster: https://i.imgur.com/dYdjSOu.png
   True Crime Documentaries:
     trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
     sync_mode: sync
@@ -927,4 +924,3 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
-  # Directors
