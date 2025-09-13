@@ -686,6 +686,10 @@ collections:
     template:
       name: Movies
       collection: 52985
+  You vs. Wild (Collection):
+    template:
+      name: Movies
+      collection: 881669
   # Originals
   Amazon Originals 2021-2025:
     smart_label: originally_available.desc
@@ -774,7 +778,6 @@ collections:
       country.any: US
     summary: All HULU Originals From 2021-2025
   
-  # Charts
   # Charts
   Oscar Nominated:
     template:
