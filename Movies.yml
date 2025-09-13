@@ -207,6 +207,16 @@ collections:
     template:
       name: Movies
       collection: 2806
+  American Pie Spin-Off Collection:
+    template:
+      name: Movies
+      collection: 298820
+  American Pie Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 2806
+      - 298820
   Ant-Man Collection:
     template:
       name: Movies
