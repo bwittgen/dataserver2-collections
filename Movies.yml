@@ -775,6 +775,7 @@ collections:
     summary: All HULU Originals From 2021-2025
   
   # Charts
+  # Charts
   Oscar Nominated:
     template:
       name: Chart
@@ -791,23 +792,6 @@ collections:
       type: movie
       limit: 100
     summary: Oscar Winning Movies
-  Plex Popular:
-    template:
-  Wrong Turn Collection:
-    template:
-      name: Movies
-      collection: 52985
-      list_minimum: 1
-    tautulli_watched:
-      list_days: 30
-      list_size: 20
-      list_buffer: 20
-      list_minimum: 1
-    summary: Movies Popular on Plex
-  You vs. Wild (Collection):
-    template:
-      name: Movies
-      collection: 881669
   # Originals
       limit: 100
     summary: Popular Movies across the internet
