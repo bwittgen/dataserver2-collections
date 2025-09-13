@@ -384,12 +384,12 @@ collections:
       collection: 91361
   Happy Gilmore Collection:
     template:
+      name: Movies
+      collection: 1263259
   God's Not Dead Collection:
     template:
       name: Movies
       collection: 409343
-      name: Movies
-      collection: 89137
   Godzilla (Heisei) Collection:
     template:
       name: Movies
@@ -405,12 +405,8 @@ collections:
       name: Movies
   In the Name of the King Collection:
     template:
-  Happy Gilmore Collection:
-    template:
       name: Movies
-      collection: 1263259
-      name: Movies
-      collection: 468222
+      collection: 122922
   Indiana Jones Collection:
     template:
       name: Movies
@@ -418,6 +414,7 @@ collections:
   Inside Man Collection:
     template:
       name: Movies
+      collection: 631194
   Inside Out Collection:
     template:
   I Know What You Did Last Summer Collection:
