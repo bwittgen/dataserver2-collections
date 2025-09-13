@@ -362,6 +362,10 @@ collections:
     template:
       name: Movies
       collection: 91361
+  The Hangover Collection:
+    template:
+      name: Movies
+      collection: 86119
   Happy Gilmore Collection:
     template:
       name: Movies
