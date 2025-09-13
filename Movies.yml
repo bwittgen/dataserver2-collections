@@ -497,6 +497,10 @@ collections:
     template:
       name: Movies
       collection: 656
+  Scary Movies Collection:
+    template:
+      name: Movies
+      collection: 4246
   
   Scooby-Doo Collection:
     template:
