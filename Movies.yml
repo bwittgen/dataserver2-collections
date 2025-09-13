@@ -784,6 +784,8 @@ collections:
       name: Chart
       num: 6
     imdb_search:
+      type: movie,documentary
+      groups: oscar_nominee
       sort_by: year.desc
       limit: 100
     summary: Oscar Nominated Films
@@ -792,7 +794,8 @@ collections:
       name: Chart
       num: 5
     imdb_search:
-      type: movie
+      type: movie,documentary
+      groups: oscar_winner
       limit: 100
     summary: Oscar Winning Movies
   Popular:
@@ -801,8 +804,8 @@ collections:
       num: 3
     tmdb_popular: 40
     imdb_search:
-      type: movie,tv_movie,short
-      limit: 100
+      type: movie,tv_movie,documentary,short
+      limit: 40
     summary: Popular Movies across the internet
   Top Rated:
     template:
