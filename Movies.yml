@@ -690,7 +690,7 @@ collections:
     template:
       name: Movies
       collection: 881669
-  # Originals
+  
   Amazon Originals 2021-2025:
     smart_label: originally_available.desc
     sync_mode: sync
@@ -795,7 +795,13 @@ collections:
       type: movie
       limit: 100
     summary: Oscar Winning Movies
-  # Originals
+  Popular:
+    template:
+      name: Chart
+      num: 3
+    tmdb_popular: 40
+    imdb_search:
+      type: movie,tv_movie,short
       limit: 100
     summary: Popular Movies across the internet
   Top Rated:
