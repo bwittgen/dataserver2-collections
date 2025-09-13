@@ -179,20 +179,29 @@ collections:
     - list_id: ls068617191
     - list_id: ls004426453
   # Franchise Collections
-  100% Wolf Collection:
-    template:
-      name: Movies
-      collection: 1311628
+  # Franchise Collections
   28 Days/Weeks/Years Later Collection:
     template:
       name: Movies
       collection: 1565
+  A National Park Romance Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: A National Park Romance Collection
   A Nightmare on Elm Street Collection:
     template:
       name: Movies
       collection: 8581
       tmdb_movie: 23437
     sort_title: Nightmare on Elm Street
+  A Simple Favor Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: A Simple Favor Collection
   Aladdin Collection:
     template:
       name: Movies
@@ -241,6 +250,24 @@ collections:
     template:
       name: Movies
       collection: 14890
+  Bank of Dave Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Bank of Dave Collection
+  Batman (Adam West) Animation Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Batman (Adam West) Animation Collection
+  Batman Unlimited Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Batman Unlimited Collection
   Beverly Hills Cop Collection:
     template:
       name: Movies
@@ -253,10 +280,34 @@ collections:
     template:
       name: Movies
       collection: 1432360
+  Bridget Jones Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Bridget Jones Collection
+  Buddies Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Buddies Collection
+  Bullets, Bombs, and Babes Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Bullets, Bombs, and Babes Collection
   Candyman Collection:
     template:
       name: Movies
       collection: 98580
+  Captain America Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Captain America Collection
   Cars Collection:
     template:
       name: Movies
@@ -265,6 +316,12 @@ collections:
     template:
       name: Movies
       collection: 718551
+  Children of the Corn Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Children of the Corn Collection
   Cloudy with a Chance of Meatballs Collection:
     template:
       name: Movies
@@ -273,6 +330,12 @@ collections:
     template:
       name: Movies
       collection: 448150
+  Den of Thieves Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Den of Thieves Collection
   Despicable Me Collection:
     template:
       name: Movies
@@ -285,10 +348,34 @@ collections:
     template:
       name: Movies
       collection: 618529
+  Documentary Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Documentary Collection
+  Dolemite Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Dolemite Collection
   Dune Collection:
     template:
       name: Movies
       collection: 726871
+  Emmanuelle Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Emmanuelle Collection
+  Escape Room Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Escape Room Collection
   Fantastic Beasts Collection:
     template:
       name: Movies
@@ -297,6 +384,12 @@ collections:
     template:
       name: Movies
       collection: 9744
+  Fault Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Fault Collection
   Final Destination Collection:
     template:
       name: Movies
@@ -305,14 +398,50 @@ collections:
     template:
       name: Movies
       collection: 137697
+  Food, Inc. Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Food, Inc. Collection
   Frozen Collection:
     template:
       name: Movies
       collection: 386382
+  Garfield TV Specials Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Garfield TV Specials Collection
   Ghostbusters Collection:
     template:
       name: Movies
       collection: 2980
+  Gladiator Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Gladiator Collection
+  God's Not Dead Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: God's Not Dead Collection
+  Godzilla (Heisei) Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Godzilla (Heisei) Collection
+  Goes Wrong Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Goes Wrong Collection
   Guardians of the Galaxy Collection:
     template:
       name: Movies
@@ -321,6 +450,12 @@ collections:
     template:
       name: Movies
       collection: 91361
+  Happy Gilmore Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Happy Gilmore Collection
   Harry Potter Collection:
     template:
       name: Movies
@@ -333,10 +468,34 @@ collections:
     template:
       name: Movies
       collection: 89137
+  I Know What You Did Last Summer Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: I Know What You Did Last Summer Collection
   Ice Age Collection:
     template:
       name: Movies
       collection: 8354
+  Ice Road Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Ice Road Collection
+  In the Mood for Love Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: In the Mood for Love Collection
+  In the Name of the King Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: In the Name of the King Collection
   Incredibles Collection:
     template:
       name: Movies
@@ -345,6 +504,12 @@ collections:
     template:
       name: Movies
       collection: 84
+  Inside Man Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Inside Man Collection
   Inside Out Collection:
     template:
       name: Movies
@@ -361,6 +526,12 @@ collections:
     template:
       name: Movies
       collection: 404609
+  Johnny English Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Johnny English Collection
   Jurassic Park Collection:
     template:
       name: Movies
@@ -369,14 +540,68 @@ collections:
     template:
       name: Movies
       collection: 77816
+  LEGO DC Comics Super Heroes Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: LEGO DC Comics Super Heroes Collection
+  LEGO Marvel Super Heroes Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: LEGO Marvel Super Heroes Collection
   Lego Movie Collection:
     template:
       name: Movies
       collection: 325470
+  LEGO Scooby-Doo Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: LEGO Scooby-Doo Collection
+  Lethal Weapon Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Lethal Weapon Collection
+  Lew Harper Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Lew Harper Collection
+  Lilo & Stitch Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Lilo & Stitch Collection
+  Lost Bullet Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Lost Bullet Collection
+  M3GAN Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: M3GAN Collection
   Madagascar Collection:
     template:
       name: Movies
       collection: 14740
+  Madea Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Madea Collection
   Maleficent Collection:
     template:
       name: Movies
@@ -389,6 +614,12 @@ collections:
     template:
       name: Movies
       collection: 86055
+  MGM's Lassie Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: MGM's Lassie Collection
   Middle Earth Collection:
     template:
       name: Movies
@@ -418,14 +649,44 @@ collections:
     template:
       name: Movies
       collection: 420
+  Nobody Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Nobody Collection
+  Nostalgia Collection (Classics From The 80s & 90s):
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Nostalgia Collection (Classics From The 80s & 90s)
   Paddington Collection:
     template:
       name: Movies
       collection: 488924
+  Parody Movie Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Parody Movie Collection
   Peter Pan Collection:
     template:
       name: Movies
       collection: 55422
+  Philo Vance Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Philo Vance Collection
+  Phineas and Ferb Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Phineas and Ferb Collection
   Pirates of the Caribbean Collection:
     template:
       name: Movies
@@ -434,6 +695,12 @@ collections:
     template:
       name: Movies
       collection: 399
+  Pumpkinhead Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Pumpkinhead Collection
   Puss in Boots Collection:
     template:
       name: Movies
@@ -474,6 +741,18 @@ collections:
     template:
       name: Movies
       collection: 2150
+  Slap Shot Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Slap Shot Collection
+  Sniper Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Sniper Collection
   Sonic the Hedgehog Collection:
     template:
       name: Movies
@@ -497,6 +776,12 @@ collections:
     template:
       name: Movies
       collection: 10
+  Strawberry Shortcake: Berry in the Big City Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Strawberry Shortcake: Berry in the Big City Collection
   Suicide Squad Collection:
     template:
       name: Movies
@@ -513,10 +798,34 @@ collections:
     template:
       name: Movies
       collection: 1268789
+  Tarzan (Gordon Scott) Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Tarzan (Gordon Scott) Collection
+  Tarzan (Jack Mahoney) Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Tarzan (Jack Mahoney) Collection
+  Tarzan (Mike Henry) Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Tarzan (Mike Henry) Collection
   Taxi Collection:
     template:
       name: Movies
       collection: 211721
+  Team Thor Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Team Thor Collection
   Teenage Mutant Ninja Turtles Collection:
     template:
       name: Movies
@@ -535,6 +844,24 @@ collections:
       name: Movies
       collection: 11716
     sort_title: Addams Family
+  The Bad Guys Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Bad Guys Collection
+  The Benchwarmers Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Benchwarmers Collection
+  The Benji Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Benji Collection
   The Dark Knight Collection:
     template:
       name: Movies
@@ -545,6 +872,12 @@ collections:
       name: Movies
       collection: 9485
     sort_title: Fast and the Furious
+  The FP Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The FP Collection
   The Godfather Collection:
     template:
       name: Movies
@@ -560,6 +893,12 @@ collections:
       name: Movies
       collection: 131635
     sort_title: Hunger Games
+  The Incredible Hulk Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Incredible Hulk Collection
   The Karate Kid Collection:
     template:
       name: Movies
@@ -570,6 +909,12 @@ collections:
       name: Movies
       collection: 19163
     sort_title: Land Before Time
+  The Lion King (Reboot) Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Lion King (Reboot) Collection
   The Lord of the Rings Collection:
     template:
       name: Movies
@@ -579,6 +924,24 @@ collections:
     template:
       name: Movies
       collection: 1733
+  The Old Guard Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Old Guard Collection
+  The Reef Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Reef Collection
+  The Roundup Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: The Roundup Collection
   The Transporter Collection:
     template:
       name: Movies
@@ -589,10 +952,34 @@ collections:
       name: Movies
       collection: 33514
     sort_title: Twilight Saga
+  Thief Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Thief Collection
+  This Is Spinal Tap Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: This Is Spinal Tap Collection
   Thor Collection:
     template:
       name: Movies
       collection: 131296
+  Through My Window Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Through My Window Collection
+  TMZ Presents: The Downfall of Diddy Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: TMZ Presents: The Downfall of Diddy Collection
   Toy Story Collection:
     template:
       name: Movies
@@ -609,6 +996,24 @@ collections:
     template:
       name: Movies
       collection: 489724
+  True-Life Adventures Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: True-Life Adventures Collection
+  Umjolo Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Umjolo Collection
+  Undercover Brother Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Undercover Brother Collection
   Venom Collection:
     template:
       name: Movies
@@ -627,11 +1032,23 @@ collections:
     template:
       name: Movies
       collection: 404825
+  Wrong Turn Collection:
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: Wrong Turn Collection
   X-Men Collection:
     template:
       name: Movies
       collection: 748,453993
 
+  You vs. Wild (Collection):
+    template:
+      name: Movies
+    plex_search:
+      any:
+        collection: You vs. Wild (Collection)
   # Originals
   Amazon Originals 2021-2025:
     smart_label: originally_available.desc
