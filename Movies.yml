@@ -270,7 +270,6 @@ collections:
   Bridget Jones Collection:
     template:
       name: Movies
-        collection: Bridget Jones Collection
   Buddies Collection:
     template:
       name: Movies
@@ -330,7 +329,6 @@ collections:
   Emmanuelle Collection:
     template:
       name: Movies
-        collection: Emmanuelle Collection
   
   Dolemite Collection:
     template:
@@ -365,7 +363,7 @@ collections:
   Gladiator Collection:
     template:
       name: Movies
-        collection: Gladiator Collection
+      collection: 1069584
   God's Not Dead Collection:
     template:
       name: Movies
@@ -386,12 +384,6 @@ collections:
       collection: 91361
   Happy Gilmore Collection:
     template:
-  Gladiator Collection:
-    template:
-      name: Movies
-      collection: 1089870
-      name: Movies
-      collection: 1241
   God's Not Dead Collection:
     template:
       name: Movies
@@ -411,7 +403,6 @@ collections:
   In the Mood for Love Collection:
     template:
       name: Movies
-        collection: In the Mood for Love Collection
   In the Name of the King Collection:
     template:
   Happy Gilmore Collection:
@@ -427,7 +418,6 @@ collections:
   Inside Man Collection:
     template:
       name: Movies
-        collection: Inside Man Collection
   Inside Out Collection:
     template:
   I Know What You Did Last Summer Collection:
@@ -459,7 +449,6 @@ collections:
   LEGO DC Comics Super Heroes Collection:
     template:
       name: Movies
-        collection: LEGO DC Comics Super Heroes Collection
   LEGO Marvel Super Heroes Collection:
     template:
       name: Movies
@@ -470,19 +459,15 @@ collections:
   LEGO Scooby-Doo Collection:
     template:
       name: Movies
-        collection: LEGO Scooby-Doo Collection
   Lethal Weapon Collection:
     template:
       name: Movies
-        collection: Lethal Weapon Collection
   Lew Harper Collection:
     template:
       name: Movies
-        collection: Lew Harper Collection
   Lilo & Stitch Collection:
     template:
       name: Movies
-        collection: Lilo & Stitch Collection
   Johnny English Collection:
     template:
       name: Movies
@@ -490,7 +475,6 @@ collections:
   M3GAN Collection:
     template:
       name: Movies
-        collection: M3GAN Collection
   Madagascar Collection:
     template:
       name: Movies
@@ -539,7 +523,6 @@ collections:
     template:
       name: Movies
       collection: 1002775
-        collection: Nobody Collection
   
   M3GAN Collection:
     template:
@@ -555,7 +538,6 @@ collections:
     template:
       name: Movies
       collection: 501909
-        collection: Phineas and Ferb Collection
   Pirates of the Caribbean Collection:
     template:
       name: Movies
@@ -608,11 +590,9 @@ collections:
       collection: 604255
     template:
       name: Movies
-        collection: Slap Shot Collection
   Sniper Collection:
     template:
       name: Movies
-        collection: Sniper Collection
   Sonic the Hedgehog Collection:
   Philo Vance Collection:
     template:
@@ -655,15 +635,12 @@ collections:
   Tarzan (Gordon Scott) Collection:
     template:
       name: Movies
-        collection: Tarzan (Gordon Scott) Collection
   Tarzan (Jack Mahoney) Collection:
     template:
       name: Movies
-        collection: Tarzan (Jack Mahoney) Collection
   Tarzan (Mike Henry) Collection:
     template:
       name: Movies
-        collection: Tarzan (Mike Henry) Collection
   Taxi Collection:
     template:
       name: Movies
@@ -671,7 +648,6 @@ collections:
   Team Thor Collection:
     template:
       name: Movies
-        collection: Team Thor Collection
   Slap Shot Collection:
     template:
       name: Movies
@@ -689,15 +665,12 @@ collections:
   The Bad Guys Collection:
     template:
       name: Movies
-        collection: The Bad Guys Collection
   The Benchwarmers Collection:
     template:
       name: Movies
-        collection: The Benchwarmers Collection
   The Benji Collection:
     template:
       name: Movies
-        collection: The Benji Collection
   The Dark Knight Collection:
     template:
       name: Movies
@@ -709,7 +682,6 @@ collections:
   The FP Collection:
     template:
       name: Movies
-        collection: The FP Collection
   The Godfather Collection:
     template:
       name: Movies
@@ -737,7 +709,6 @@ collections:
       name: Movies
       collection: 360346
       name: Movies
-        collection: The Lion King (Reboot) Collection
   The Lord of the Rings Collection:
     template:
   Team Thor Collection:
@@ -748,15 +719,12 @@ collections:
   The Old Guard Collection:
     template:
       name: Movies
-        collection: The Old Guard Collection
   The Reef Collection:
     template:
       name: Movies
-        collection: The Reef Collection
   The Roundup Collection:
     template:
       name: Movies
-        collection: The Roundup Collection
   The Transporter Collection:
   The Bad Guys Collection:
     template:
@@ -768,7 +736,6 @@ collections:
     template:
       name: Movies
       collection: 632730
-        collection: Thief Collection
   This Is Spinal Tap Collection:
   The Benji Collection:
     template:
@@ -780,7 +747,6 @@ collections:
   Through My Window Collection:
     template:
       name: Movies
-        collection: Through My Window Collection
   'TMZ Presents: The Downfall of Diddy Collection':
     template:
       name: Movies
@@ -811,7 +777,6 @@ collections:
   Undercover Brother Collection:
     template:
       name: Movies
-        collection: Undercover Brother Collection
   Venom Collection:
     template:
       name: Movies
