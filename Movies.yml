@@ -640,7 +640,7 @@ collections:
     template:
       name: Movies
       collection: 1130226
-  '''TMZ Presents: The Downfall of Diddy Collection''':
+  'TMZ Presents: The Downfall of Diddy Collection':
     template:
       name: Movies
       collection: 1368978
