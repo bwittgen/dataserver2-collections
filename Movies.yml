@@ -355,6 +355,10 @@ collections:
     template:
       name: Movies
       collection: 1263259
+  Hotel Transylvania Collection:
+    template:
+      name: Movies
+      collection: 185103
   I Know What You Did Last Summer Collection:
     template:
       name: Movies
@@ -931,6 +935,7 @@ collections:
     - list_id: ls060980695
       limit: 100
     summary: A collection of all the MonsterVerse movies.
+    file_poster: /config/monsterverse/poster.png
     tmdb_collection_details: 1539140
     collection_mode: hide
   Nostalgia Collection (Classics From The 80s & 90s):
@@ -968,3 +973,4 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
+
