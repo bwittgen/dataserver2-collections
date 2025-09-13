@@ -776,12 +776,12 @@ collections:
     template:
       name: Movies
       collection: 10
-  Strawberry Shortcake: Berry in the Big City Collection:
+  'Strawberry Shortcake: Berry in the Big City Collection':
     template:
       name: Movies
     plex_search:
       any:
-        collection: Strawberry Shortcake: Berry in the Big City Collection
+        collection: 'Strawberry Shortcake: Berry in the Big City Collection'
   Suicide Squad Collection:
     template:
       name: Movies
@@ -974,12 +974,12 @@ collections:
     plex_search:
       any:
         collection: Through My Window Collection
-  TMZ Presents: The Downfall of Diddy Collection:
+  'TMZ Presents: The Downfall of Diddy Collection':
     template:
       name: Movies
     plex_search:
       any:
-        collection: TMZ Presents: The Downfall of Diddy Collection
+        collection: 'TMZ Presents: The Downfall of Diddy Collection'
   Toy Story Collection:
     template:
       name: Movies
