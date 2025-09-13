@@ -682,10 +682,11 @@ collections:
       collection: 52985
   # Originals
   Amazon Originals 2021-2025:
-  The Roundup Collection:
-    template:
-      name: Movies
-      collection: 619802
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
       release.before: '2025-12-31'
@@ -698,32 +699,56 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
-  Thief Collection:
-    template:
-      name: Movies
-      collection: 308644
+  Apple Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
       sort_by: release.desc
       limit: 250
-  This Is Spinal Tap Collection:
-    template:
-      name: Movies
-      collection: 975227
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0546168
+      country.any: US
+    summary: All Apple TV Originals From 2021-2025
     url_poster: https://i.imgur.com/O9iWork.png
     url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
-  HBO Max Originals 2021-2025:
-  Through My Window Collection:
-    template:
-      name: Movies
-      collection: 1130226
+  Netflix Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
       limit: 250
       release.after: '2021-01-01'
-  'TMZ Presents: The Downfall of Diddy Collection':
-    template:
-      name: Movies
-      collection: 1368978
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0144901
+      country.any: US
+    summary: All Netflix Originals From 2021-2025
+    url_poster: https://i.imgur.com/7kiE1MU.png
+    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HBO Max Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0754095
+      country.any: US
+    summary: All HBO Max Originals From 2021-2025
+    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
     url_background: https://wallpapercave.com/wp/wp6402755.png
     radarr_add: true
     radarr_search: true
@@ -742,23 +767,7 @@ collections:
       company: co0218858
       country.any: US
     summary: All HULU Originals From 2021-2025
-  True-Life Adventures Collection:
-    template:
-      name: Movies
-      collection: 505998
-    sync_mode: sync
-    sort_title: +++++++++++++++++++++_1Netflix
-  Umjolo Collection:
-    template:
-      name: Movies
-      collection: 1412019
-      genre.not: animation
-      company: co0144901
-  Undercover Brother Collection:
-    template:
-      name: Movies
-      collection: 645393
-    radarr_monitor: true
+  
   # Charts
   Oscar Nominated:
     template:
