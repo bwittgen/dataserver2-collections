@@ -398,7 +398,7 @@ collections:
   John Wick Universe Collection:
     template:
       name: Movies
-    collection: 404609
+      collection: 404609
     tmdb_movie: 455476
     file_poster: /config/assets/john_wick_universe/poster.png
   Johnny English Collection:
@@ -497,9 +497,7 @@ collections:
     template:
       name: Movies
       collection: 656
-  Scary Movies Collection:
-    template:
-      name: Movies
+  
   Scooby-Doo Collection:
     template:
       name: Movies
