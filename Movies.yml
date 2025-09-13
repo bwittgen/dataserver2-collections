@@ -348,12 +348,7 @@ collections:
     template:
       name: Movies
       collection: 618529
-  Documentary Collection:
-    template:
-      name: Movies
-    plex_search:
-      any:
-        collection: Documentary Collection
+  
   Dolemite Collection:
     template:
       name: Movies
@@ -661,22 +656,12 @@ collections:
     plex_search:
       any:
         collection: Nobody Collection
-  Nostalgia Collection (Classics From The 80s & 90s):
-    template:
-      name: Movies
-    plex_search:
-      any:
-        collection: Nostalgia Collection (Classics From The 80s & 90s)
+  
   Paddington Collection:
     template:
       name: Movies
       collection: 488924
-  Parody Movie Collection:
-    template:
-      name: Movies
-    plex_search:
-      any:
-        collection: Parody Movie Collection
+  
   Peter Pan Collection:
     template:
       name: Movies
