@@ -193,15 +193,10 @@ collections:
       name: Movies
       collection: 8581
       tmdb_movie: 23437
-    sort_title: Nightmare on Elm Street
-  A Simple Favor Collection:
-    template:
   A Simple Favor Collection:
     template:
       name: Movies
       collection: 975201
-      name: Movies
-      collection: 86027
   Alien Collection:
     template:
       name: Movies
@@ -550,7 +545,7 @@ collections:
     template:
       name: Movies
       collection: 943645
-      collection: 94602
+      
   Rambo Collection:
     template:
       name: Movies
@@ -595,8 +590,7 @@ collections:
     template:
       name: Movies
       collection: 281097
-      collection: 556,125574,531241,573436
-    summary: A collection of all the mainstream Spider-Man movies.
+      
   Phineas and Ferb Collection:
     template:
       name: Movies
@@ -712,7 +706,7 @@ collections:
     template:
       name: Movies
       collection: 729425
-      collection: 1733
+      
   The Old Guard Collection:
     template:
       name: Movies
@@ -751,7 +745,7 @@ collections:
     template:
       name: Movies
       collection: 858112
-      collection: 10194
+      
   Transformers Collection:
     template:
       name: Movies
@@ -797,7 +791,7 @@ collections:
     template:
       name: Movies
       collection: 847029
-      collection: 748,453993
+      
 
   The Reef Collection:
     template:
