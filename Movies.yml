@@ -331,10 +331,7 @@ collections:
     template:
       name: Movies
         collection: Emmanuelle Collection
-  Escape Room Collection:
-    template:
-      name: Movies
-        collection: Escape Room Collection
+  
   Dolemite Collection:
     template:
       name: Movies
