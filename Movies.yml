@@ -562,6 +562,10 @@ collections:
     template:
       name: Movies
       collection: 360346
+  Tarzan (Animation) Collection:
+    template:
+      name: Movies
+      collection: 106768
   Taxi Collection:
     template:
       name: Movies
@@ -927,6 +931,7 @@ collections:
     - list_id: ls060980695
       limit: 100
     summary: A collection of all the MonsterVerse movies.
+    tmdb_collection_details: 1539140
     collection_mode: hide
   Nostalgia Collection (Classics From The 80s & 90s):
     trakt_list: https://trakt.tv/users/hdlists/lists/nostalgiac-movies-from-the-80s-90s
