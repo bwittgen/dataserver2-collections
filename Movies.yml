@@ -249,13 +249,10 @@ collections:
   Bank of Dave Collection:
     template:
       name: Movies
-    plex_search:
   Bank of Dave Collection:
     template:
       name: Movies
       collection: 1250633
-      any:
-        collection: Batman (Adam West) Animation Collection
   Batman (Adam West) Animation Collection:
     template:
       name: Movies
@@ -273,25 +270,19 @@ collections:
   Bridget Jones Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Bridget Jones Collection
   Buddies Collection:
     template:
       name: Movies
-    plex_search:
   Bridget Jones Collection:
     template:
       name: Movies
       collection: 8936
-      any:
-        collection: Bullets, Bombs, and Babes Collection
   Buddies Collection:
     template:
       name: Movies
       collection: 91657
       name: Movies
-    plex_search:
   Bullets, Bombs, and Babes Collection:
     template:
       name: Movies
@@ -315,7 +306,6 @@ collections:
   Den of Thieves Collection:
     template:
       name: Movies
-    plex_search:
   Children of the Corn Collection:
     template:
       name: Movies
@@ -340,14 +330,10 @@ collections:
   Emmanuelle Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Emmanuelle Collection
   Escape Room Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Escape Room Collection
   Dolemite Collection:
     template:
@@ -358,7 +344,6 @@ collections:
   Fault Collection:
     template:
       name: Movies
-    plex_search:
   Emmanuelle Collection:
     template:
       name: Movies
@@ -369,8 +354,6 @@ collections:
     template:
       name: Movies
       collection: 769423
-      any:
-        collection: Food, Inc. Collection
   Frozen Collection:
     template:
       name: Movies
@@ -378,7 +361,6 @@ collections:
   Garfield TV Specials Collection:
     template:
       name: Movies
-    plex_search:
   Fault Collection:
     template:
       name: Movies
@@ -386,23 +368,17 @@ collections:
   Gladiator Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Gladiator Collection
   God's Not Dead Collection:
     template:
       name: Movies
-    plex_search:
   Food, Inc. Collection:
     template:
       name: Movies
       collection: 1318195
-      any:
-        collection: Godzilla (Heisei) Collection
   Goes Wrong Collection:
     template:
       name: Movies
-    plex_search:
   Garfield TV Specials Collection:
     template:
       name: Movies
@@ -435,13 +411,9 @@ collections:
     template:
       name: Movies
       collection: 1293376
-      any:
-        collection: Ice Road Collection
   In the Mood for Love Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: In the Mood for Love Collection
   In the Name of the King Collection:
     template:
@@ -458,8 +430,6 @@ collections:
   Inside Man Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Inside Man Collection
   Inside Out Collection:
     template:
@@ -492,13 +462,10 @@ collections:
   LEGO DC Comics Super Heroes Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: LEGO DC Comics Super Heroes Collection
   LEGO Marvel Super Heroes Collection:
     template:
       name: Movies
-    plex_search:
   Inside Man Collection:
     template:
       name: Movies
@@ -506,26 +473,18 @@ collections:
   LEGO Scooby-Doo Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: LEGO Scooby-Doo Collection
   Lethal Weapon Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Lethal Weapon Collection
   Lew Harper Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Lew Harper Collection
   Lilo & Stitch Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Lilo & Stitch Collection
   Johnny English Collection:
     template:
@@ -534,8 +493,6 @@ collections:
   M3GAN Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: M3GAN Collection
   Madagascar Collection:
     template:
@@ -601,8 +558,6 @@ collections:
     template:
       name: Movies
       collection: 501909
-    plex_search:
-      any:
         collection: Phineas and Ferb Collection
   Pirates of the Caribbean Collection:
     template:
@@ -656,14 +611,10 @@ collections:
       collection: 604255
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Slap Shot Collection
   Sniper Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Sniper Collection
   Sonic the Hedgehog Collection:
   Philo Vance Collection:
@@ -707,20 +658,14 @@ collections:
   Tarzan (Gordon Scott) Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Tarzan (Gordon Scott) Collection
   Tarzan (Jack Mahoney) Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Tarzan (Jack Mahoney) Collection
   Tarzan (Mike Henry) Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Tarzan (Mike Henry) Collection
   Taxi Collection:
     template:
@@ -729,8 +674,6 @@ collections:
   Team Thor Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Team Thor Collection
   Slap Shot Collection:
     template:
@@ -749,20 +692,14 @@ collections:
   The Bad Guys Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Bad Guys Collection
   The Benchwarmers Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Benchwarmers Collection
   The Benji Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Benji Collection
   The Dark Knight Collection:
     template:
@@ -775,8 +712,6 @@ collections:
   The FP Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The FP Collection
   The Godfather Collection:
     template:
@@ -794,7 +729,6 @@ collections:
       name: Movies
       collection: 360344
       name: Movies
-    plex_search:
   Tarzan (Jack Mahoney) Collection:
     template:
       name: Movies
@@ -806,8 +740,6 @@ collections:
       name: Movies
       collection: 360346
       name: Movies
-    plex_search:
-      any:
         collection: The Lion King (Reboot) Collection
   The Lord of the Rings Collection:
     template:
@@ -819,20 +751,14 @@ collections:
   The Old Guard Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Old Guard Collection
   The Reef Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Reef Collection
   The Roundup Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: The Roundup Collection
   The Transporter Collection:
   The Bad Guys Collection:
@@ -857,8 +783,6 @@ collections:
   Through My Window Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Through My Window Collection
   'TMZ Presents: The Downfall of Diddy Collection':
     template:
@@ -883,18 +807,13 @@ collections:
   True-Life Adventures Collection:
     template:
       name: Movies
-    plex_search:
   The Incredible Hulk Collection:
     template:
       name: Movies
       collection: 114431
-      any:
-        collection: Umjolo Collection
   Undercover Brother Collection:
     template:
       name: Movies
-    plex_search:
-      any:
         collection: Undercover Brother Collection
   Venom Collection:
     template:
