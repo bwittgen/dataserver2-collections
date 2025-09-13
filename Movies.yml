@@ -969,14 +969,20 @@ collections:
     summary: Top 50 Parody Movies of All Time
     url_poster: https://i.imgur.com/yFtJ5eV.png
     url_background: https://i.imgur.com/eELv4eB.jpg
-  Sundance Film Festival 2021:
-    trakt_list: https://trakt.tv/users/hdlists/lists/sundance-2021-movie-guide
+  Sundance (All Films):
+    imdb_search:
+      event: sundance
+      type: movie
+      limit: 0
     sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Sundance 2021 Collection
-    summary: Sundance Film Festival 2021 Movie Guide
-    url_poster: https://i.imgur.com/6CqlOaq.png
-    url_background: https://i.imgur.com/goapGVl.jpg
+    collection_order: release
+  Sundance Winners (All Years):
+    imdb_search:
+      event.winning: sundance
+      type: movie
+      limit: 0
+    sync_mode: sync
+    collection_order: release
   True Crime Documentaries:
     trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
     sync_mode: sync
