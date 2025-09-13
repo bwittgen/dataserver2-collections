@@ -217,6 +217,7 @@ collections:
       collection:
       - 2806
       - 298820
+    file_poster: /config/assets/american_pie_universe/poster.png
   Ant-Man Collection:
     template:
       name: Movies
@@ -945,7 +946,7 @@ collections:
     - list_id: ls060980695
       limit: 100
     summary: A collection of all the MonsterVerse movies.
-    file_poster: /config/monsterverse/poster.png
+    file_poster: /config/assets/monsterverse/poster.png
     tmdb_collection_details: 1539140
     collection_mode: hide
   Nostalgia Collection (Classics From The 80s & 90s):
