@@ -632,6 +632,10 @@ collections:
     template:
       name: Movies
       collection: 9518
+  Thief Collection:
+    template:
+      name: Movies
+      collection: 308644
   This Is Spinal Tap Collection:
     template:
       name: Movies
