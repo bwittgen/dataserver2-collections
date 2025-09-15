@@ -207,7 +207,7 @@ collections:
     template:
       name: Actor
       tmdb: 2231
-  Timothée Chalamet (Actor):
+  TimothÃ©e Chalamet (Actor):
     template:
       name: Actor
       tmdb: 1190668
@@ -951,7 +951,7 @@ collections:
       name: Chart
       num: 6
     imdb_search:
-      type: movie,documentary
+      type: movie
       groups: oscar_nominee
       sort_by: year.desc
       limit: 100
@@ -961,7 +961,7 @@ collections:
       name: Chart
       num: 5
     imdb_search:
-      type: movie,documentary
+      type: movie
       groups: oscar_winner
       limit: 100
     summary: Oscar Winning Movies
@@ -971,7 +971,7 @@ collections:
       num: 3
     tmdb_popular: 40
     imdb_search:
-      type: movie,tv_movie,documentary,short
+      type: movie,tv_movie,short
       limit: 40
     summary: Popular Movies across the internet
   Top Rated:
