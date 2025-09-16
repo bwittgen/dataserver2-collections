@@ -15,1841 +15,4598 @@ templates:
     collection_mode: hide
 collections:
 10 Days of a Man Collection
-  10 Days of a Man Collection:     template:       name: Movies       collection: 1169365 
+  10 Days of a Man Collection:
+    template:
+      name: Movies
+      collection: 1169365
 100 Candles Game Collection
-  100 Candles Game Collection:     template:       name: Movies       collection: 1211731 
+  100 Candles Game Collection:
+    template:
+      name: Movies
+      collection: 1211731
 100% Wolf Collection
-  100% Wolf Collection:     template:       name: Movies       collection: 1311628 
+  100% Wolf Collection:
+    template:
+      name: Movies
+      collection: 1311628
 101 Dalmatians (Live-Action) Collection
-  101 Dalmatians (Live-Action) Collection:     template:       name: Movies       collection: 124916 
+  101 Dalmatians (Live-Action) Collection:
+    template:
+      name: Movies
+      collection: 124916
 2 Days In... Collection
-  2 Days In... Collection:     template:       name: Movies       collection: 138908 
+  2 Days In... Collection:
+    template:
+      name: Movies
+      collection: 138908
 A National Park Romance Collection
-  A National Park Romance Collection:     template:       name: Movies       collection: 1154507
+  A National Park Romance Collection:
+    template:
+      name: Movies
+      collection: 1154507
 3 Men Collection
-  3 Men Collection:     template:       name: Movies       collection: 107688 
+  3 Men Collection:
+    template:
+      name: Movies
+      collection: 107688
 30 Days of Night Collection
-  30 Days of Night Collection:     template:       name: Movies       collection: 91660 
+  30 Days of Night Collection:
+    template:
+      name: Movies
+      collection: 91660
 47 Meters Down Collection
-  47 Meters Down Collection:     template:       name: Movies       collection: 635922 
+  47 Meters Down Collection:
+    template:
+      name: Movies
+      collection: 635922
 48 Hrs. Collection
-  48 Hrs. Collection:     template:       name: Movies       collection: 93295 
+  48 Hrs. Collection:
+    template:
+      name: Movies
+      collection: 93295
 9½ Weeks Collection
-  9½ Weeks Collection:     template:       name: Movies       collection: 121195 
+  9½ Weeks Collection:
+    template:
+      name: Movies
+      collection: 121195
 A California Christmas Collection
-  A California Christmas Collection:     template:       name: Movies       collection: 916669 
+  A California Christmas Collection:
+    template:
+      name: Movies
+      collection: 916669
 A Christmas Prince Collection
-  A Christmas Prince Collection:     template:       name: Movies       collection: 526203 
+  A Christmas Prince Collection:
+    template:
+      name: Movies
+      collection: 526203
 A Dog's Purpose Collection
-  A Dog's Purpose Collection:     template:       name: Movies       collection: 591028 
+  A Dog's Purpose Collection:
+    template:
+      name: Movies
+      collection: 591028
 A Frozen Christmas Collection
-  A Frozen Christmas Collection:     template:       name: Movies       collection: 637846 
+  A Frozen Christmas Collection:
+    template:
+      name: Movies
+      collection: 637846
 A Goofy Movie Collection
-  A Goofy Movie Collection:     template:       name: Movies       collection: 410261 
+  A Goofy Movie Collection:
+    template:
+      name: Movies
+      collection: 410261
 A Kid in... Collection
-  A Kid in... Collection:     template:       name: Movies       collection: 1007218 
+  A Kid in... Collection:
+    template:
+      name: Movies
+      collection: 1007218
 A Martha's Vineyard Mystery Collection
-  A Martha's Vineyard Mystery Collection:     template:       name: Movies       collection: 679080 
+  A Martha's Vineyard Mystery Collection:
+    template:
+      name: Movies
+      collection: 679080
 A Quiet Place Collection
-  A Quiet Place Collection:     template:       name: Movies       collection: 521226 
+  A Quiet Place Collection:
+    template:
+      name: Movies
+      collection: 521226
 A Simple Favor Collection
-  A Simple Favor Collection:     template:       name: Movies       collection: 975201
+  A Simple Favor Collection:
+    template:
+      name: Movies
+      collection: 975201
 A tutti i costi - Collezione
-  A tutti i costi - Collezione:     template:       name: Movies       collection: 1287601 
+  A tutti i costi - Collezione:
+    template:
+      name: Movies
+      collection: 1287601
 ABCD Collection
-  ABCD Collection:     template:       name: Movies       collection: 337957 
+  ABCD Collection:
+    template:
+      name: Movies
+      collection: 337957
 Ace Ventura Collection
-  Ace Ventura Collection:     template:       name: Movies       collection: 3167 
+  Ace Ventura Collection:
+    template:
+      name: Movies
+      collection: 3167
 Addams Family Collection
-  Addams Family Collection:     template:       name: Movies       collection: 11716 
+  Addams Family Collection:
+    template:
+      name: Movies
+      collection: 11716
 Adult Swim Yule Log Collection
-  Adult Swim Yule Log Collection:     template:       name: Movies       collection: 1400010 
+  Adult Swim Yule Log Collection:
+    template:
+      name: Movies
+      collection: 1400010
 After Collection
-  After Collection:     template:       name: Movies       collection: 702624 
+  After Collection:
+    template:
+      name: Movies
+      collection: 702624
 "Aileen Wuornos: Broomfield Collection"
-  "Aileen Wuornos: Broomfield Collection":     template:       name: Movies       collection: 489564 
+  "Aileen Wuornos: Broomfield Collection":
+    template:
+      name: Movies
+      collection: 489564
 Airplane Collection
-  Airplane Collection:     template:       name: Movies       collection: 91663 
+  Airplane Collection:
+    template:
+      name: Movies
+      collection: 91663
 Aki Kaurismäki's Proletariat Trilogy
-  Aki Kaurismäki's Proletariat Trilogy:     template:       name: Movies       collection: 1382526 
+  Aki Kaurismäki's Proletariat Trilogy:
+    template:
+      name: Movies
+      collection: 1382526
 Alex Cross Collection
-  Alex Cross Collection:     template:       name: Movies       collection: 142680 
+  Alex Cross Collection:
+    template:
+      name: Movies
+      collection: 142680
 Alice in Wonderland Collection
-  Alice in Wonderland Collection:     template:       name: Movies       collection: 261307 
+  Alice in Wonderland Collection:
+    template:
+      name: Movies
+      collection: 261307
 Alien Collection
-  Alien Collection:     template:       name: Movies       collection: 8091 
+  Alien Collection:
+    template:
+      name: Movies
+      collection: 8091
 Alvin and the Chipmunks Collection
-  Alvin and the Chipmunks Collection:     template:       name: Movies       collection: 167613
+  Alvin and the Chipmunks Collection:
+    template:
+      name: Movies
+      collection: 167613
 Alienoid Collection
-  Alienoid Collection:     template:       name: Movies       collection: 1000386 
+  Alienoid Collection:
+    template:
+      name: Movies
+      collection: 1000386
 All Dogs Go to Heaven Collection
-  All Dogs Go to Heaven Collection:     template:       name: Movies       collection: 140910 
+  All Dogs Go to Heaven Collection:
+    template:
+      name: Movies
+      collection: 140910
 All Quiet On The Western Front Collection
-  All Quiet On The Western Front Collection:     template:       name: Movies       collection: 1070848 
+  All Quiet On The Western Front Collection:
+    template:
+      name: Movies
+      collection: 1070848
 Allan Quatermain Collection
-  Allan Quatermain Collection:     template:       name: Movies       collection: 135502 
+  Allan Quatermain Collection:
+    template:
+      name: Movies
+      collection: 135502
 Alone in the Dark Collection
-  Alone in the Dark Collection:     template:       name: Movies       collection: 149704 
+  Alone in the Dark Collection:
+    template:
+      name: Movies
+      collection: 149704
 Along with the Gods Collection
-  Along with the Gods Collection:     template:       name: Movies       collection: 531566 
+  Along with the Gods Collection:
+    template:
+      name: Movies
+      collection: 531566
 American Gospel Collection
-  American Gospel Collection:     template:       name: Movies       collection: 891746 
+  American Gospel Collection:
+    template:
+      name: Movies
+      collection: 891746
 American Poltergeist
-  American Poltergeist:     template:       name: Movies       collection: 725456 
+  American Poltergeist:
+    template:
+      name: Movies
+      collection: 725456
 American Pie Spin-Off Collection
-  American Pie Spin-Off Collection:     template:       name: Movies       collection: 298820
+  American Pie Spin-Off Collection:
+    template:
+      name: Movies
+      collection: 298820
 American Yakuza Collection
-  American Yakuza Collection:     template:       name: Movies       collection: 628075 
+  American Yakuza Collection:
+    template:
+      name: Movies
+      collection: 628075
 An American Girl Collection
-  An American Girl Collection:     template:       name: Movies       collection: 25542 
+  An American Girl Collection:
+    template:
+      name: Movies
+      collection: 25542
 An American Werewolf Collection
-  An American Werewolf Collection:     template:       name: Movies       collection: 9380 
+  An American Werewolf Collection:
+    template:
+      name: Movies
+      collection: 9380
 An Inconvenient Collection
-  An Inconvenient Collection:     template:       name: Movies       collection: 539554 
+  An Inconvenient Collection:
+    template:
+      name: Movies
+      collection: 539554
 Analyze Collection
-  Analyze Collection:     template:       name: Movies       collection: 110127 
+  Analyze Collection:
+    template:
+      name: Movies
+      collection: 110127
 Anchorman Collection
-  Anchorman Collection:     template:       name: Movies       collection: 93791 
+  Anchorman Collection:
+    template:
+      name: Movies
+      collection: 93791
 Angela's Christmas Collection
-  Angela's Christmas Collection:     template:       name: Movies       collection: 766198 
+  Angela's Christmas Collection:
+    template:
+      name: Movies
+      collection: 766198
 Angels in the ... Collection
-  Angels in the ... Collection:     template:       name: Movies       collection: 508334 
+  Angels in the ... Collection:
+    template:
+      name: Movies
+      collection: 508334
 Ant-Man Collection
-  Ant-Man Collection:     template:       name: Movies       collection: 422834
+  Ant-Man Collection:
+    template:
+      name: Movies
+      collection: 422834
 Annie Collection
-  Annie Collection:     template:       name: Movies       collection: 312735 
+  Annie Collection:
+    template:
+      name: Movies
+      collection: 312735
 Ape vs. Collection
-  Ape vs. Collection:     template:       name: Movies       collection: 1102610 
+  Ape vs. Collection:
+    template:
+      name: Movies
+      collection: 1102610
 Aqua Teen Hunger Force Collection
-  Aqua Teen Hunger Force Collection:     template:       name: Movies       collection: 823573 
+  Aqua Teen Hunger Force Collection:
+    template:
+      name: Movies
+      collection: 823573
 Attack on Titan Collection
-  Attack on Titan Collection:     template:       name: Movies       collection: 370411
+  Attack on Titan Collection:
+    template:
+      name: Movies
+      collection: 370411
 Arkham Horror Collection
-  Arkham Horror Collection:     template:       name: Movies       collection: 1375345 
+  Arkham Horror Collection:
+    template:
+      name: Movies
+      collection: 1375345
 Army of the Dead Collection
-  Army of the Dead Collection:     template:       name: Movies       collection: 809185 
+  Army of the Dead Collection:
+    template:
+      name: Movies
+      collection: 809185
 Arthur Collection
-  Arthur Collection:     template:       name: Movies       collection: 170754 
+  Arthur Collection:
+    template:
+      name: Movies
+      collection: 170754
 Asih Collection
-  Asih Collection:     template:       name: Movies       collection: 879199 
+  Asih Collection:
+    template:
+      name: Movies
+      collection: 879199
 Asylum R.E.A.C.T. Collection
-  Asylum R.E.A.C.T. Collection:     template:       name: Movies       collection: 1089358 
+  Asylum R.E.A.C.T. Collection:
+    template:
+      name: Movies
+      collection: 1089358
 Atlantis Collection
-  Atlantis Collection:     template:       name: Movies       collection: 100965 
+  Atlantis Collection:
+    template:
+      name: Movies
+      collection: 100965
 Ator Collection
-  Ator Collection:     template:       name: Movies       collection: 48194 
+  Ator Collection:
+    template:
+      name: Movies
+      collection: 48194
 Attack the Block Collection
-  Attack the Block Collection:     template:       name: Movies       collection: 831108 
+  Attack the Block Collection:
+    template:
+      name: Movies
+      collection: 831108
 Augustin
-  Augustin:     template:       name: Movies       collection: 846226 
+  Augustin:
+    template:
+      name: Movies
+      collection: 846226
 Austin Powers Collection
-  Austin Powers Collection:     template:       name: Movies       collection: 1006 
+  Austin Powers Collection:
+    template:
+      name: Movies
+      collection: 1006
 Avengers Collection
-  Avengers Collection:     template:       name: Movies       collection: 522577
+  Avengers Collection:
+    template:
+      name: Movies
+      collection: 522577
 Back to the Future Collection
-  Back to the Future Collection:     template:       name: Movies       collection: 264
+  Back to the Future Collection:
+    template:
+      name: Movies
+      collection: 264
 Baaghi Collection
-  Baaghi Collection:     template:       name: Movies       collection: 506940 
+  Baaghi Collection:
+    template:
+      name: Movies
+      collection: 506940
 Baby Driver Collection
-  Baby Driver Collection:     template:       name: Movies       collection: 726865 
+  Baby Driver Collection:
+    template:
+      name: Movies
+      collection: 726865
 Babylon 5 Collection
-  Babylon 5 Collection:     template:       name: Movies       collection: 10441 
+  Babylon 5 Collection:
+    template:
+      name: Movies
+      collection: 10441
 Backdraft Collection
-  Backdraft Collection:     template:       name: Movies       collection: 597142 
+  Backdraft Collection:
+    template:
+      name: Movies
+      collection: 597142
 Bank of Dave Collection
-  Bank of Dave Collection:     template:       name: Movies       collection: 1250633
+  Bank of Dave Collection:
+    template:
+      name: Movies
+      collection: 1250633
 Bad Santa Collection
-  Bad Santa Collection:     template:       name: Movies       collection: 423173 
+  Bad Santa Collection:
+    template:
+      name: Movies
+      collection: 423173
 Balto Collection
-  Balto Collection:     template:       name: Movies       collection: 117693 
+  Balto Collection:
+    template:
+      name: Movies
+      collection: 117693
 Bananas!* Collection
-  Bananas!* Collection:     template:       name: Movies       collection: 142182 
+  Bananas!* Collection:
+    template:
+      name: Movies
+      collection: 142182
 Barbie A Mermaid Tale Collection
-  Barbie A Mermaid Tale Collection:     template:       name: Movies       collection: 422361 
+  Barbie A Mermaid Tale Collection:
+    template:
+      name: Movies
+      collection: 422361
 Barbie Dreamtopia Collection
-  Barbie Dreamtopia Collection:     template:       name: Movies       collection: 530783 
+  Barbie Dreamtopia Collection:
+    template:
+      name: Movies
+      collection: 530783
 Barbie Mariposa Collection
-  Barbie Mariposa Collection:     template:       name: Movies       collection: 447622 
+  Barbie Mariposa Collection:
+    template:
+      name: Movies
+      collection: 447622
 Batman (DC Universe Animated) Collection
-  Batman (DC Universe Animated) Collection:     template:       name: Movies       collection: 421904 
+  Batman (DC Universe Animated) Collection:
+    template:
+      name: Movies
+      collection: 421904
 Batman Unlimited Collection
-  Batman Unlimited Collection:     template:       name: Movies       collection: 356688
+  Batman Unlimited Collection:
+    template:
+      name: Movies
+      collection: 356688
 Batman Collection
-  Batman Collection:     template:       name: Movies       collection: 120794 
+  Batman Collection:
+    template:
+      name: Movies
+      collection: 120794
 "Batman: The Dark Knight Returns Collection"
-  "Batman: The Dark Knight Returns Collection":     template:       name: Movies       collection: 248534 
+  "Batman: The Dark Knight Returns Collection":
+    template:
+      name: Movies
+      collection: 248534
 Bats Collection
-  Bats Collection:     template:       name: Movies       collection: 381396 
+  Bats Collection:
+    template:
+      name: Movies
+      collection: 381396
 Battlestar Galactica (Original) Collection
-  Battlestar Galactica (Original) Collection:     template:       name: Movies       collection: 284151 
+  Battlestar Galactica (Original) Collection:
+    template:
+      name: Movies
+      collection: 284151
 Beach Party Collection
-  Beach Party Collection:     template:       name: Movies       collection: 338327 
+  Beach Party Collection:
+    template:
+      name: Movies
+      collection: 338327
 Beauty and the Beast Collection
-  Beauty and the Beast Collection:     template:       name: Movies       collection: 153010 
+  Beauty and the Beast Collection:
+    template:
+      name: Movies
+      collection: 153010
 Beaver Wars
-  Beaver Wars:     template:       name: Movies       collection: 1164644 
+  Beaver Wars:
+    template:
+      name: Movies
+      collection: 1164644
 Becky Collection
-  Becky Collection:     template:       name: Movies       collection: 986072 
+  Becky Collection:
+    template:
+      name: Movies
+      collection: 986072
 Beetlejuice Collection
-  Beetlejuice Collection:     template:       name: Movies       collection: 945475 
+  Beetlejuice Collection:
+    template:
+      name: Movies
+      collection: 945475
 Behind Enemy Lines Collection
-  Behind Enemy Lines Collection:     template:       name: Movies       collection: 98513 
+  Behind Enemy Lines Collection:
+    template:
+      name: Movies
+      collection: 98513
 Ben 10 Collection
-  Ben 10 Collection:     template:       name: Movies       collection: 781195 
+  Ben 10 Collection:
+    template:
+      name: Movies
+      collection: 781195
 "Berserk: The Golden Age Arc - Collection"
-  "Berserk: The Golden Age Arc - Collection":     template:       name: Movies       collection: 118415 
+  "Berserk: The Golden Age Arc - Collection":
+    template:
+      name: Movies
+      collection: 118415
 Best Exotic Marigold Hotel Collection
-  Best Exotic Marigold Hotel Collection:     template:       name: Movies       collection: 306937 
+  Best Exotic Marigold Hotel Collection:
+    template:
+      name: Movies
+      collection: 306937
 Beverly Hills Chihuahua Collection
-  Beverly Hills Chihuahua Collection:     template:       name: Movies       collection: 87256 
+  Beverly Hills Chihuahua Collection:
+    template:
+      name: Movies
+      collection: 87256
 Braveheart Collection
-  Braveheart Collection:     template:       name: Movies       collection: 1432360
+  Braveheart Collection:
+    template:
+      name: Movies
+      collection: 1432360
 Big Broadcast Collection
-  Big Broadcast Collection:     template:       name: Movies       collection: 1157137 
+  Big Broadcast Collection:
+    template:
+      name: Movies
+      collection: 1157137
 Big Momma's House Collection
-  Big Momma's House Collection:     template:       name: Movies       collection: 44979 
+  Big Momma's House Collection:
+    template:
+      name: Movies
+      collection: 44979
 Bigfoot Collection
-  Bigfoot Collection:     template:       name: Movies       collection: 761648 
+  Bigfoot Collection:
+    template:
+      name: Movies
+      collection: 761648
 Billy Jack Collection
-  Billy Jack Collection:     template:       name: Movies       collection: 240690 
+  Billy Jack Collection:
+    template:
+      name: Movies
+      collection: 240690
 Binge Collection
-  Binge Collection:     template:       name: Movies       collection: 1050245 
+  Binge Collection:
+    template:
+      name: Movies
+      collection: 1050245
 Birdemic Collection
-  Birdemic Collection:     template:       name: Movies       collection: 225961 
+  Birdemic Collection:
+    template:
+      name: Movies
+      collection: 225961
 Black Emanuelle Collection
-  Black Emanuelle Collection:     template:       name: Movies       collection: 227140 
+  Black Emanuelle Collection:
+    template:
+      name: Movies
+      collection: 227140
 Black Scorpion Collection
-  Black Scorpion Collection:     template:       name: Movies       collection: 319644 
+  Black Scorpion Collection:
+    template:
+      name: Movies
+      collection: 319644
 Black Water Collection
-  Black Water Collection:     template:       name: Movies       collection: 730166 
+  Black Water Collection:
+    template:
+      name: Movies
+      collection: 730166
 Blacula Collection
-  Blacula Collection:     template:       name: Movies       collection: 201930 
+  Blacula Collection:
+    template:
+      name: Movies
+      collection: 201930
 Blade Runner Collection
-  Blade Runner Collection:     template:       name: Movies       collection: 422837 
+  Blade Runner Collection:
+    template:
+      name: Movies
+      collection: 422837
 BloodRayne Collection
-  BloodRayne Collection:     template:       name: Movies       collection: 97307 
+  BloodRayne Collection:
+    template:
+      name: Movies
+      collection: 97307
 Bob The Cat Collection
-  Bob The Cat Collection:     template:       name: Movies       collection: 761842 
+  Bob The Cat Collection:
+    template:
+      name: Movies
+      collection: 761842
 Bonded by Blood Collection
-  Bonded by Blood Collection:     template:       name: Movies       collection: 428672 
+  Bonded by Blood Collection:
+    template:
+      name: Movies
+      collection: 428672
 Book Club Collection
-  Book Club Collection:     template:       name: Movies       collection: 986760 
+  Book Club Collection:
+    template:
+      name: Movies
+      collection: 986760
 Boonie Bears Collection
-  Boonie Bears Collection:     template:       name: Movies       collection: 814181 
+  Boonie Bears Collection:
+    template:
+      name: Movies
+      collection: 814181
 Born Free Collection
-  Born Free Collection:     template:       name: Movies       collection: 354210 
+  Born Free Collection:
+    template:
+      name: Movies
+      collection: 354210
 Boys / Girls State Collection
-  Boys / Girls State Collection:     template:       name: Movies       collection: 1231266 
+  Boys / Girls State Collection:
+    template:
+      name: Movies
+      collection: 1231266
 Brahmāstra Collection
-  Brahmāstra Collection:     template:       name: Movies       collection: 988126 
+  Brahmāstra Collection:
+    template:
+      name: Movies
+      collection: 988126
 Breakin' Collection
-  Breakin' Collection:     template:       name: Movies       collection: 92222 
+  Breakin' Collection:
+    template:
+      name: Movies
+      collection: 92222
 Buddies Collection
-  Buddies Collection:     template:       name: Movies       collection: 91657
+  Buddies Collection:
+    template:
+      name: Movies
+      collection: 91657
 Brother Bear Collection
-  Brother Bear Collection:     template:       name: Movies       collection: 96472 
+  Brother Bear Collection:
+    template:
+      name: Movies
+      collection: 96472
 Bull Shark Collection
-  Bull Shark Collection:     template:       name: Movies       collection: 1267015 
+  Bull Shark Collection:
+    template:
+      name: Movies
+      collection: 1267015
 Bulletproof Collection
-  Bulletproof Collection:     template:       name: Movies       collection: 814228 
+  Bulletproof Collection:
+    template:
+      name: Movies
+      collection: 814228
 Captain America Collection
-  Captain America Collection:     template:       name: Movies       collection: 131295
+  Captain America Collection:
+    template:
+      name: Movies
+      collection: 131295
 Burnt by the Sun Trilogy
-  Burnt by the Sun Trilogy:     template:       name: Movies       collection: 23170 
+  Burnt by the Sun Trilogy:
+    template:
+      name: Movies
+      collection: 23170
 C.A.T. Squad Collection
-  C.A.T. Squad Collection:     template:       name: Movies       collection: 840114 
+  C.A.T. Squad Collection:
+    template:
+      name: Movies
+      collection: 840114
 Caballeros Collection
-  Caballeros Collection:     template:       name: Movies       collection: 271668 
+  Caballeros Collection:
+    template:
+      name: Movies
+      collection: 271668
 Caddyshack Collection
-  Caddyshack Collection:     template:       name: Movies       collection: 104847 
+  Caddyshack Collection:
+    template:
+      name: Movies
+      collection: 104847
 Call Me by Your Name Collection
-  Call Me by Your Name Collection:     template:       name: Movies       collection: 1401402 
+  Call Me by Your Name Collection:
+    template:
+      name: Movies
+      collection: 1401402
 Cannonball Run Collection
-  Cannonball Run Collection:     template:       name: Movies       collection: 101688 
+  Cannonball Run Collection:
+    template:
+      name: Movies
+      collection: 101688
 Captain America (Reb Brown) Collection
-  Captain America (Reb Brown) Collection:     template:       name: Movies       collection: 197476 
+  Captain America (Reb Brown) Collection:
+    template:
+      name: Movies
+      collection: 197476
 Captain Underpants Collection
-  Captain Underpants Collection:     template:       name: Movies       collection: 732397 
+  Captain Underpants Collection:
+    template:
+      name: Movies
+      collection: 732397
 CarousHELL Collection
-  CarousHELL Collection:     template:       name: Movies       collection: 872991 
+  CarousHELL Collection:
+    template:
+      name: Movies
+      collection: 872991
 Cars Collection
-  Cars Collection:     template:       name: Movies       collection: 87118 
+  Cars Collection:
+    template:
+      name: Movies
+      collection: 87118
 Casper and Emma Collection
-  Casper and Emma Collection:     template:       name: Movies       collection: 388746 
+  Casper and Emma Collection:
+    template:
+      name: Movies
+      collection: 388746
 Casteel Collection
-  Casteel Collection:     template:       name: Movies       collection: 625337 
+  Casteel Collection:
+    template:
+      name: Movies
+      collection: 625337
 Cats & Dogs Collection
-  Cats & Dogs Collection:     template:       name: Movies       collection: 87014 
+  Cats & Dogs Collection:
+    template:
+      name: Movies
+      collection: 87014
 Center Stage Collection
-  Center Stage Collection:     template:       name: Movies       collection: 246839 
+  Center Stage Collection:
+    template:
+      name: Movies
+      collection: 246839
 Chandan Trilogy Collection
-  Chandan Trilogy Collection:     template:       name: Movies       collection: 1478044 
+  Chandan Trilogy Collection:
+    template:
+      name: Movies
+      collection: 1478044
 Charlie Chan (Warner Oland) Collection
-  Charlie Chan (Warner Oland) Collection:     template:       name: Movies       collection: 38451 
+  Charlie Chan (Warner Oland) Collection:
+    template:
+      name: Movies
+      collection: 38451
 Che Collection
-  Che Collection:     template:       name: Movies       collection: 86774 
+  Che Collection:
+    template:
+      name: Movies
+      collection: 86774
 Cheaper by the Dozen (2003) Collection
-  Cheaper by the Dozen (2003) Collection:     template:       name: Movies       collection: 114783 
+  Cheaper by the Dozen (2003) Collection:
+    template:
+      name: Movies
+      collection: 114783
 Chickenhare Collection
-  Chickenhare Collection:     template:       name: Movies       collection: 1473079 
+  Chickenhare Collection:
+    template:
+      name: Movies
+      collection: 1473079
 Children of the Corn Collection
-  Children of the Corn Collection:     template:       name: Movies       collection: 115225
+  Children of the Corn Collection:
+    template:
+      name: Movies
+      collection: 115225
 Child's Play Collection
-  Child's Play Collection:     template:       name: Movies       collection: 10455 
+  Child's Play Collection:
+    template:
+      name: Movies
+      collection: 10455
 Chinese Boxer Collection
-  Chinese Boxer Collection:     template:       name: Movies       collection: 201545 
+  Chinese Boxer Collection:
+    template:
+      name: Movies
+      collection: 201545
 Cinderella Story Collection
-  Cinderella Story Collection:     template:       name: Movies       collection: 437451 
+  Cinderella Story Collection:
+    template:
+      name: Movies
+      collection: 437451
 Cisco Kid (Warner Baxter) Collection
-  Cisco Kid (Warner Baxter) Collection:     template:       name: Movies       collection: 1007006 
+  Cisco Kid (Warner Baxter) Collection:
+    template:
+      name: Movies
+      collection: 1007006
 City Slickers Collection
-  City Slickers Collection:     template:       name: Movies       collection: 150156 
+  City Slickers Collection:
+    template:
+      name: Movies
+      collection: 150156
 Clerks Collection
-  Clerks Collection:     template:       name: Movies       collection: 182813 
+  Clerks Collection:
+    template:
+      name: Movies
+      collection: 182813
 Clint Eastwood's Iwo Jima Collection
-  Clint Eastwood's Iwo Jima Collection:     template:       name: Movies       collection: 261382 
+  Clint Eastwood's Iwo Jima Collection:
+    template:
+      name: Movies
+      collection: 261382
 Clowning Around Collection
-  Clowning Around Collection:     template:       name: Movies       collection: 1359198 
+  Clowning Around Collection:
+    template:
+      name: Movies
+      collection: 1359198
 Cocaine Cowboys Collection
-  Cocaine Cowboys Collection:     template:       name: Movies       collection: 376970 
+  Cocaine Cowboys Collection:
+    template:
+      name: Movies
+      collection: 376970
 Coco Collection
-  Coco Collection:     template:       name: Movies       collection: 1451578 
+  Coco Collection:
+    template:
+      name: Movies
+      collection: 1451578
 Code 8 Collection
-  Code 8 Collection:     template:       name: Movies       collection: 1196403 
+  Code 8 Collection:
+    template:
+      name: Movies
+      collection: 1196403
 Coherence Collection
-  Coherence Collection:     template:       name: Movies       collection: 1329887 
+  Coherence Collection:
+    template:
+      name: Movies
+      collection: 1329887
 Combat Wombat Collection
-  Combat Wombat Collection:     template:       name: Movies       collection: 1267085 
+  Combat Wombat Collection:
+    template:
+      name: Movies
+      collection: 1267085
 Commando Collection
-  Commando Collection:     template:       name: Movies       collection: 1149208 
+  Commando Collection:
+    template:
+      name: Movies
+      collection: 1149208
 Concrete Utopia Collection
-  Concrete Utopia Collection:     template:       name: Movies       collection: 1196130 
+  Concrete Utopia Collection:
+    template:
+      name: Movies
+      collection: 1196130
 Contigo - Colección
-  Contigo - Colección:     template:       name: Movies       collection: 1068190 
+  Contigo - Colección:
+    template:
+      name: Movies
+      collection: 1068190
 Conversation Pieces
-  Conversation Pieces:     template:       name: Movies       collection: 1422060 
+  Conversation Pieces:
+    template:
+      name: Movies
+      collection: 1422060
 County Line Collection
-  County Line Collection:     template:       name: Movies       collection: 979517 
+  County Line Collection:
+    template:
+      name: Movies
+      collection: 979517
 Crawl Collection
-  Crawl Collection:     template:       name: Movies       collection: 1327721 
+  Crawl Collection:
+    template:
+      name: Movies
+      collection: 1327721
 Creature from the Black Lagoon Collection
-  Creature from the Black Lagoon Collection:     template:       name: Movies       collection: 221537 
+  Creature from the Black Lagoon Collection:
+    template:
+      name: Movies
+      collection: 221537
 Creep Collection
-  Creep Collection:     template:       name: Movies       collection: 488990 
+  Creep Collection:
+    template:
+      name: Movies
+      collection: 488990
 Crimes of the South
-  Crimes of the South:     template:       name: Movies       collection: 798289 
+  Crimes of the South:
+    template:
+      name: Movies
+      collection: 798289
 Crocodile Dundee Collection
-  Crocodile Dundee Collection:     template:       name: Movies       collection: 9332 
+  Crocodile Dundee Collection:
+    template:
+      name: Movies
+      collection: 9332
 Crouching Tiger, Hidden Dragon Collection
-  Crouching Tiger, Hidden Dragon Collection:     template:       name: Movies       collection: 290973 
+  Crouching Tiger, Hidden Dragon Collection:
+    template:
+      name: Movies
+      collection: 290973
 Cruel Intentions Collection
-  Cruel Intentions Collection:     template:       name: Movies       collection: 52789 
+  Cruel Intentions Collection:
+    template:
+      name: Movies
+      collection: 52789
 Cube Collection
-  Cube Collection:     template:       name: Movies       collection: 432 
+  Cube Collection:
+    template:
+      name: Movies
+      collection: 432
 Cyborg Collection
-  Cyborg Collection:     template:       name: Movies       collection: 98853 
+  Cyborg Collection:
+    template:
+      name: Movies
+      collection: 98853
 Daddy Day Camp Collection
-  Daddy Day Camp Collection:     template:       name: Movies       collection: 228887 
+  Daddy Day Camp Collection:
+    template:
+      name: Movies
+      collection: 228887
 Dakuaan Da Munda Collection
-  Dakuaan Da Munda Collection:     template:       name: Movies       collection: 1481968 
+  Dakuaan Da Munda Collection:
+    template:
+      name: Movies
+      collection: 1481968
 Daria Collection
-  Daria Collection:     template:       name: Movies       collection: 1051260 
+  Daria Collection:
+    template:
+      name: Movies
+      collection: 1051260
 Dark Night of the Scarecrow Collection
-  Dark Night of the Scarecrow Collection:     template:       name: Movies       collection: 977159 
+  Dark Night of the Scarecrow Collection:
+    template:
+      name: Movies
+      collection: 977159
 Darkman Collection
-  Darkman Collection:     template:       name: Movies       collection: 45154 
+  Darkman Collection:
+    template:
+      name: Movies
+      collection: 45154
 Davy Crockett Collection
-  Davy Crockett Collection:     template:       name: Movies       collection: 181496 
+  Davy Crockett Collection:
+    template:
+      name: Movies
+      collection: 181496
 "Dead & Company: The Final Tour 2023"
-  "Dead & Company: The Final Tour 2023":     template:       name: Movies       collection: 1155888 
+  "Dead & Company: The Final Tour 2023":
+    template:
+      name: Movies
+      collection: 1155888
 Dead River Collection
-  Dead River Collection:     template:       name: Movies       collection: 534180 
+  Dead River Collection:
+    template:
+      name: Movies
+      collection: 534180
 Den of Thieves Collection
-  Den of Thieves Collection:     template:       name: Movies       collection: 933989
+  Den of Thieves Collection:
+    template:
+      name: Movies
+      collection: 933989
 Death Race Collection
-  Death Race Collection:     template:       name: Movies       collection: 86116 
+  Death Race Collection:
+    template:
+      name: Movies
+      collection: 86116
 Death to Collection
-  Death to Collection:     template:       name: Movies       collection: 916696 
+  Death to Collection:
+    template:
+      name: Movies
+      collection: 916696
 Death Wish Collection
-  Death Wish Collection:     template:       name: Movies       collection: 14377 
+  Death Wish Collection:
+    template:
+      name: Movies
+      collection: 14377
 Deep Blue Sea Collection
-  Deep Blue Sea Collection:     template:       name: Movies       collection: 518165 
+  Deep Blue Sea Collection:
+    template:
+      name: Movies
+      collection: 518165
 Demolition High / Uni Collection
-  Demolition High / Uni Collection:     template:       name: Movies       collection: 1457328 
+  Demolition High / Uni Collection:
+    template:
+      name: Movies
+      collection: 1457328
 Demons Collection
-  Demons Collection:     template:       name: Movies       collection: 430201 
+  Demons Collection:
+    template:
+      name: Movies
+      collection: 430201
 Department Q Collection
-  Department Q Collection:     template:       name: Movies       collection: 319850 
+  Department Q Collection:
+    template:
+      name: Movies
+      collection: 319850
 Descendants Collection
-  Descendants Collection:     template:       name: Movies       collection: 466463 
+  Descendants Collection:
+    template:
+      name: Movies
+      collection: 466463
 Despicable Me Collection
-  Despicable Me Collection:     template:       name: Movies       collection: 86066 
+  Despicable Me Collection:
+    template:
+      name: Movies
+      collection: 86066
 Detective Dee Collection (Tsui Hark)
-  Detective Dee Collection (Tsui Hark):     template:       name: Movies       collection: 222639 
+  Detective Dee Collection (Tsui Hark):
+    template:
+      name: Movies
+      collection: 222639
 Detective vs. Sleuths Collection
-  Detective vs. Sleuths Collection:     template:       name: Movies       collection: 1257541 
+  Detective vs. Sleuths Collection:
+    template:
+      name: Movies
+      collection: 1257541
 Devara Collection
-  Devara Collection:     template:       name: Movies       collection: 1187990 
+  Devara Collection:
+    template:
+      name: Movies
+      collection: 1187990
 Dhadak Collection
-  Dhadak Collection:     template:       name: Movies       collection: 1359612 
+  Dhadak Collection:
+    template:
+      name: Movies
+      collection: 1359612
 Diary of a Wimpy Kid (Animated) Collection
-  Diary of a Wimpy Kid (Animated) Collection:     template:       name: Movies       collection: 897238 
+  Diary of a Wimpy Kid (Animated) Collection:
+    template:
+      name: Movies
+      collection: 897238
 Digimon Adventure Collection
-  Digimon Adventure Collection:     template:       name: Movies       collection: 39244 
+  Digimon Adventure Collection:
+    template:
+      name: Movies
+      collection: 39244
 Doctor Strange Collection
-  Doctor Strange Collection:     template:       name: Movies       collection: 618529
+  Doctor Strange Collection:
+    template:
+      name: Movies
+      collection: 618529
 Dirty Dancing Collection
-  Dirty Dancing Collection:     template:       name: Movies       collection: 86058 
+  Dirty Dancing Collection:
+    template:
+      name: Movies
+      collection: 86058
 District 13 Collection
-  District 13 Collection:     template:       name: Movies       collection: 85946 
+  District 13 Collection:
+    template:
+      name: Movies
+      collection: 85946
 Doctor Who (Peter Cushing) Collection
-  Doctor Who (Peter Cushing) Collection:     template:       name: Movies       collection: 275873 
+  Doctor Who (Peter Cushing) Collection:
+    template:
+      name: Movies
+      collection: 275873
 Dog Town Collection
-  Dog Town Collection:     template:       name: Movies       collection: 1096396 
+  Dog Town Collection:
+    template:
+      name: Movies
+      collection: 1096396
 Emmanuelle Collection
-  Emmanuelle Collection:     template:       name: Movies       collection: 661152
+  Emmanuelle Collection:
+    template:
+      name: Movies
+      collection: 661152
 Dolphin Tale Collection
-  Dolphin Tale Collection:     template:       name: Movies       collection: 288491 
+  Dolphin Tale Collection:
+    template:
+      name: Movies
+      collection: 288491
 Doom Collection
-  Doom Collection:     template:       name: Movies       collection: 634390 
+  Doom Collection:
+    template:
+      name: Movies
+      collection: 634390
 Down to Earth
-  Down to Earth:     template:       name: Movies       collection: 694330 
+  Down to Earth:
+    template:
+      name: Movies
+      collection: 694330
 Dr. Dolittle Collection
-  Dr. Dolittle Collection:     template:       name: Movies       collection: 3169 
+  Dr. Dolittle Collection:
+    template:
+      name: Movies
+      collection: 3169
 Dracula (Hammer) Collection
-  Dracula (Hammer) Collection:     template:       name: Movies       collection: 123724 
+  Dracula (Hammer) Collection:
+    template:
+      name: Movies
+      collection: 123724
 Dragon Ball Collection
-  Dragon Ball Collection:     template:       name: Movies       collection: 386410 
+  Dragon Ball Collection:
+    template:
+      name: Movies
+      collection: 386410
 Dragon Ball Z Collection
-  Dragon Ball Z Collection:     template:       name: Movies       collection: 425164 
+  Dragon Ball Z Collection:
+    template:
+      name: Movies
+      collection: 425164
 Dragon Inn Collection
-  Dragon Inn Collection:     template:       name: Movies       collection: 1405664 
+  Dragon Inn Collection:
+    template:
+      name: Movies
+      collection: 1405664
 "Dragons: Rescue Riders Collection"
-  "Dragons: Rescue Riders Collection":     template:       name: Movies       collection: 759368 
+  "Dragons: Rescue Riders Collection":
+    template:
+      name: Movies
+      collection: 759368
 Dream a Little Dream Collection
-  Dream a Little Dream Collection:     template:       name: Movies       collection: 351230 
+  Dream a Little Dream Collection:
+    template:
+      name: Movies
+      collection: 351230
 Drishyam Collection
-  Drishyam Collection:     template:       name: Movies       collection: 1029834 
+  Drishyam Collection:
+    template:
+      name: Movies
+      collection: 1029834
 Drunken Master Collection
-  Drunken Master Collection:     template:       name: Movies       collection: 12203 
+  Drunken Master Collection:
+    template:
+      name: Movies
+      collection: 12203
 Dune Collection
-  Dune Collection:     template:       name: Movies       collection: 726871 
+  Dune Collection:
+    template:
+      name: Movies
+      collection: 726871
 Easy Money Collection
-  Easy Money Collection:     template:       name: Movies       collection: 154002 
+  Easy Money Collection:
+    template:
+      name: Movies
+      collection: 154002
 Eddie and the Cruisers Collection
-  Eddie and the Cruisers Collection:     template:       name: Movies       collection: 186102 
+  Eddie and the Cruisers Collection:
+    template:
+      name: Movies
+      collection: 186102
 Election Collection
-  Election Collection:     template:       name: Movies       collection: 159613 
+  Election Collection:
+    template:
+      name: Movies
+      collection: 159613
 Electric Car Collection
-  Electric Car Collection:     template:       name: Movies       collection: 1162371 
+  Electric Car Collection:
+    template:
+      name: Movies
+      collection: 1162371
 Elite Squad Collection
-  Elite Squad Collection:     template:       name: Movies       collection: 119581 
+  Elite Squad Collection:
+    template:
+      name: Movies
+      collection: 119581
 Elling Collection
-  Elling Collection:     template:       name: Movies       collection: 12075 
+  Elling Collection:
+    template:
+      name: Movies
+      collection: 12075
 Elvira Collection
-  Elvira Collection:     template:       name: Movies       collection: 182617 
+  Elvira Collection:
+    template:
+      name: Movies
+      collection: 182617
 Emmanuelle (TV Film) Collection
-  Emmanuelle (TV Film) Collection:     template:       name: Movies       collection: 345202 
+  Emmanuelle (TV Film) Collection:
+    template:
+      name: Movies
+      collection: 345202
 Emmanuelle Through Time Collection
-  Emmanuelle Through Time Collection:     template:       name: Movies       collection: 629837 
+  Emmanuelle Through Time Collection:
+    template:
+      name: Movies
+      collection: 629837
 Enchanted Collection
-  Enchanted Collection:     template:       name: Movies       collection: 531799 
+  Enchanted Collection:
+    template:
+      name: Movies
+      collection: 531799
 Enola Holmes Collection
-  Enola Holmes Collection:     template:       name: Movies       collection: 829314 
+  Enola Holmes Collection:
+    template:
+      name: Movies
+      collection: 829314
 "Eric Schaeffer: Fall Collection"
-  "Eric Schaeffer: Fall Collection":     template:       name: Movies       collection: 1271036 
+  "Eric Schaeffer: Fall Collection":
+    template:
+      name: Movies
+      collection: 1271036
 Ernest Collection
-  Ernest Collection:     template:       name: Movies       collection: 330555 
+  Ernest Collection:
+    template:
+      name: Movies
+      collection: 330555
 Escape From ... Collection
-  Escape From ... Collection:     template:       name: Movies       collection: 115838 
+  Escape From ... Collection:
+    template:
+      name: Movies
+      collection: 115838
 Escape Plan Collection
-  Escape Plan Collection:     template:       name: Movies       collection: 525891 
+  Escape Plan Collection:
+    template:
+      name: Movies
+      collection: 525891
 Fault Collection
-  Fault Collection:     template:       name: Movies       collection: 1156666
+  Fault Collection:
+    template:
+      name: Movies
+      collection: 1156666
 Etta Place Collection
-  Etta Place Collection:     template:       name: Movies       collection: 623977 
+  Etta Place Collection:
+    template:
+      name: Movies
+      collection: 623977
 Even Angels Collection
-  Even Angels Collection:     template:       name: Movies       collection: 296358 
+  Even Angels Collection:
+    template:
+      name: Movies
+      collection: 296358
 Evil Dead Collection
-  Evil Dead Collection:     template:       name: Movies       collection: 1960 
+  Evil Dead Collection:
+    template:
+      name: Movies
+      collection: 1960
 Extraction Collection
-  Extraction Collection:     template:       name: Movies       collection: 735127 
+  Extraction Collection:
+    template:
+      name: Movies
+      collection: 735127
 F*ck De Liefde Collectie
-  F*ck De Liefde Collectie:     template:       name: Movies       collection: 980609 
+  F*ck De Liefde Collectie:
+    template:
+      name: Movies
+      collection: 980609
 Faces of Death Collection
-  Faces of Death Collection:     template:       name: Movies       collection: 97237 
+  Faces of Death Collection:
+    template:
+      name: Movies
+      collection: 97237
 Fall Collection
-  Fall Collection:     template:       name: Movies       collection: 1102372 
+  Fall Collection:
+    template:
+      name: Movies
+      collection: 1102372
 "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
-  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":     template:       name: Movies       collection: 701402 
+  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":
+    template:
+      name: Movies
+      collection: 701402
 Fantasia Collection
-  Fantasia Collection:     template:       name: Movies       collection: 55427 
+  Fantasia Collection:
+    template:
+      name: Movies
+      collection: 55427
 Fantastic Four Collection
-  Fantastic Four Collection:     template:       name: Movies       collection: 9744 
+  Fantastic Four Collection:
+    template:
+      name: Movies
+      collection: 9744
 Faster Collection
-  Faster Collection:     template:       name: Movies       collection: 1077609 
+  Faster Collection:
+    template:
+      name: Movies
+      collection: 1077609
 Fate/Grand Order Collection
-  Fate/Grand Order Collection:     template:       name: Movies       collection: 1159908 
+  Fate/Grand Order Collection:
+    template:
+      name: Movies
+      collection: 1159908
 Father Knows Best Collection
-  Father Knows Best Collection:     template:       name: Movies       collection: 947429 
+  Father Knows Best Collection:
+    template:
+      name: Movies
+      collection: 947429
 Father of the Bride (Steve Martin) Collection
-  Father of the Bride (Steve Martin) Collection:     template:       name: Movies       collection: 96871 
+  Father of the Bride (Steve Martin) Collection:
+    template:
+      name: Movies
+      collection: 96871
 Father There Is Only One Collection
-  Father There Is Only One Collection:     template:       name: Movies       collection: 669836 
+  Father There Is Only One Collection:
+    template:
+      name: Movies
+      collection: 669836
 Fear Street Collection
-  Fear Street Collection:     template:       name: Movies       collection: 790370 
+  Fear Street Collection:
+    template:
+      name: Movies
+      collection: 790370
 Feast Collection
-  Feast Collection:     template:       name: Movies       collection: 98430 
+  Feast Collection:
+    template:
+      name: Movies
+      collection: 98430
 FernGully Collection
-  FernGully Collection:     template:       name: Movies       collection: 19160 
+  FernGully Collection:
+    template:
+      name: Movies
+      collection: 19160
 Fifty Shades Collection
-  Fifty Shades Collection:     template:       name: Movies       collection: 344830 
+  Fifty Shades Collection:
+    template:
+      name: Movies
+      collection: 344830
 Final Fantasy VII Collection
-  Final Fantasy VII Collection:     template:       name: Movies       collection: 140760 
+  Final Fantasy VII Collection:
+    template:
+      name: Movies
+      collection: 140760
 Food, Inc. Collection
-  Food, Inc. Collection:     template:       name: Movies       collection: 1318195
+  Food, Inc. Collection:
+    template:
+      name: Movies
+      collection: 1318195
 Fist of Fury Collection
-  Fist of Fury Collection:     template:       name: Movies       collection: 1068899 
+  Fist of Fury Collection:
+    template:
+      name: Movies
+      collection: 1068899
 Fletch Collection
-  Fletch Collection:     template:       name: Movies       collection: 104833 
+  Fletch Collection:
+    template:
+      name: Movies
+      collection: 104833
 Flowers in the Attic Collection
-  Flowers in the Attic Collection:     template:       name: Movies       collection: 293981 
+  Flowers in the Attic Collection:
+    template:
+      name: Movies
+      collection: 293981
 Fong Sai Yuk Collection
-  Fong Sai Yuk Collection:     template:       name: Movies       collection: 122945 
+  Fong Sai Yuk Collection:
+    template:
+      name: Movies
+      collection: 122945
 Foster's Home for Imaginary Friends Collection
-  Foster's Home for Imaginary Friends Collection:     template:       name: Movies       collection: 780983 
+  Foster's Home for Imaginary Friends Collection:
+    template:
+      name: Movies
+      collection: 780983
 Francis the Talking Mule Collection
-  Francis the Talking Mule Collection:     template:       name: Movies       collection: 693136 
+  Francis the Talking Mule Collection:
+    template:
+      name: Movies
+      collection: 693136
 Frankenstein (Toho) Collection
-  Frankenstein (Toho) Collection:     template:       name: Movies       collection: 491768 
+  Frankenstein (Toho) Collection:
+    template:
+      name: Movies
+      collection: 491768
 Franklin Collection
-  Franklin Collection:     template:       name: Movies       collection: 711149 
+  Franklin Collection:
+    template:
+      name: Movies
+      collection: 711149
 Free to Choose Collection
-  Free to Choose Collection:     template:       name: Movies       collection: 1532473 
+  Free to Choose Collection:
+    template:
+      name: Movies
+      collection: 1532473
 Freeway Collection
-  Freeway Collection:     template:       name: Movies       collection: 355490 
+  Freeway Collection:
+    template:
+      name: Movies
+      collection: 355490
 Friday Collection
-  Friday Collection:     template:       name: Movies       collection: 43563 
+  Friday Collection:
+    template:
+      name: Movies
+      collection: 43563
 Friend Collection
-  Friend Collection:     template:       name: Movies       collection: 281881 
+  Friend Collection:
+    template:
+      name: Movies
+      collection: 281881
 Fright Night Collection
-  Fright Night Collection:     template:       name: Movies       collection: 98168 
+  Fright Night Collection:
+    template:
+      name: Movies
+      collection: 98168
 From Dusk Till Dawn Collection
-  From Dusk Till Dawn Collection:     template:       name: Movies       collection: 10924 
+  From Dusk Till Dawn Collection:
+    template:
+      name: Movies
+      collection: 10924
 Fu Manchu (Christopher Lee) Collection
-  Fu Manchu (Christopher Lee) Collection:     template:       name: Movies       collection: 98462 
+  Fu Manchu (Christopher Lee) Collection:
+    template:
+      name: Movies
+      collection: 98462
 Garfield TV Specials Collection
-  Garfield TV Specials Collection:     template:       name: Movies       collection: 1346407
+  Garfield TV Specials Collection:
+    template:
+      name: Movies
+      collection: 1346407
 Fuga de cerebros - Collection
-  Fuga de cerebros - Collection:     template:       name: Movies       collection: 141448 
+  Fuga de cerebros - Collection:
+    template:
+      name: Movies
+      collection: 141448
 Fullmetal Alchemist (Live-Action) Collection
-  Fullmetal Alchemist (Live-Action) Collection:     template:       name: Movies       collection: 1010712 
+  Fullmetal Alchemist (Live-Action) Collection:
+    template:
+      name: Movies
+      collection: 1010712
 Furioza Collection
-  Furioza Collection:     template:       name: Movies       collection: 1072703 
+  Furioza Collection:
+    template:
+      name: Movies
+      collection: 1072703
 G.I. Joe (Live-Action) Collection
-  G.I. Joe (Live-Action) Collection:     template:       name: Movies       collection: 135468 
+  G.I. Joe (Live-Action) Collection:
+    template:
+      name: Movies
+      collection: 135468
 G.I. Joe Collection
-  G.I. Joe Collection:     template:       name: Movies       collection: 506229 
+  G.I. Joe Collection:
+    template:
+      name: Movies
+      collection: 506229
 Gadar Collection
-  Gadar Collection:     template:       name: Movies       collection: 1158789 
+  Gadar Collection:
+    template:
+      name: Movies
+      collection: 1158789
 Gantz Collection
-  Gantz Collection:     template:       name: Movies       collection: 99321 
+  Gantz Collection:
+    template:
+      name: Movies
+      collection: 99321
 Garfield Live-Action/Animated Feature Film Collection
-  Garfield Live-Action/Animated Feature Film Collection:     template:       name: Movies       collection: 86115 
+  Garfield Live-Action/Animated Feature Film Collection:
+    template:
+      name: Movies
+      collection: 86115
 Gator Collection
-  Gator Collection:     template:       name: Movies       collection: 289531 
+  Gator Collection:
+    template:
+      name: Movies
+      collection: 289531
 Generation Iron Collection
-  Generation Iron Collection:     template:       name: Movies       collection: 522231 
+  Generation Iron Collection:
+    template:
+      name: Movies
+      collection: 522231
 George Briggs, FBI
-  George Briggs, FBI:     template:       name: Movies       collection: 1097972 
+  George Briggs, FBI:
+    template:
+      name: Movies
+      collection: 1097972
 Gett Collection
-  Gett Collection:     template:       name: Movies       collection: 766782 
+  Gett Collection:
+    template:
+      name: Movies
+      collection: 766782
 Ghost in the Shell Collection
-  Ghost in the Shell Collection:     template:       name: Movies       collection: 23026 
+  Ghost in the Shell Collection:
+    template:
+      name: Movies
+      collection: 23026
 "Ghost in the Shell: Stand Alone Complex Collection"
-  "Ghost in the Shell: Stand Alone Complex Collection":     template:       name: Movies       collection: 443996 
+  "Ghost in the Shell: Stand Alone Complex Collection":
+    template:
+      name: Movies
+      collection: 443996
 Ghost Shark Collection
-  Ghost Shark Collection:     template:       name: Movies       collection: 957891 
+  Ghost Shark Collection:
+    template:
+      name: Movies
+      collection: 957891
 Gincho Wataridori
-  Gincho Wataridori:     template:       name: Movies       collection: 472583 
+  Gincho Wataridori:
+    template:
+      name: Movies
+      collection: 472583
 Girls Trip Collection
-  Girls Trip Collection:     template:       name: Movies       collection: 1078477 
+  Girls Trip Collection:
+    template:
+      name: Movies
+      collection: 1078477
 Gnomeo & Juliet Collection
-  Gnomeo & Juliet Collection:     template:       name: Movies       collection: 493668 
+  Gnomeo & Juliet Collection:
+    template:
+      name: Movies
+      collection: 493668
 God's Not Dead Collection
-  God's Not Dead Collection:     template:       name: Movies       collection: 409343
+  God's Not Dead Collection:
+    template:
+      name: Movies
+      collection: 409343
 Goal! Collection
-  Goal! Collection:     template:       name: Movies       collection: 110177 
+  Goal! Collection:
+    template:
+      name: Movies
+      collection: 110177
 Godzilla (Millennium) Collection
-  Godzilla (Millennium) Collection:     template:       name: Movies       collection: 374512 
+  Godzilla (Millennium) Collection:
+    template:
+      name: Movies
+      collection: 374512
 Goes Wrong Collection
-  Goes Wrong Collection:     template:       name: Movies       collection: 1293376
+  Goes Wrong Collection:
+    template:
+      name: Movies
+      collection: 1293376
 Godzilla Collection
-  Godzilla Collection:     template:       name: Movies       collection: 535313 
+  Godzilla Collection:
+    template:
+      name: Movies
+      collection: 535313
 Godzilla X Kong Collection
-  Godzilla X Kong Collection:     template:       name: Movies       collection: 1539140 
+  Godzilla X Kong Collection:
+    template:
+      name: Movies
+      collection: 1539140
 Golden Chicken Collection
-  Golden Chicken Collection:     template:       name: Movies       collection: 336485 
+  Golden Chicken Collection:
+    template:
+      name: Movies
+      collection: 336485
 Gone in 60 Seconds Trilogy
-  Gone in 60 Seconds Trilogy:     template:       name: Movies       collection: 391040 
+  Gone in 60 Seconds Trilogy:
+    template:
+      name: Movies
+      collection: 391040
 Good Burger Collection
-  Good Burger Collection:     template:       name: Movies       collection: 1101949 
+  Good Burger Collection:
+    template:
+      name: Movies
+      collection: 1101949
 Goosebumps Collection
-  Goosebumps Collection:     template:       name: Movies       collection: 508783 
+  Goosebumps Collection:
+    template:
+      name: Movies
+      collection: 508783
 Grease Collection
-  Grease Collection:     template:       name: Movies       collection: 86083 
+  Grease Collection:
+    template:
+      name: Movies
+      collection: 86083
 Green Street Hooligans Collection
-  Green Street Hooligans Collection:     template:       name: Movies       collection: 152544 
+  Green Street Hooligans Collection:
+    template:
+      name: Movies
+      collection: 152544
 Greetings Collection
-  Greetings Collection:     template:       name: Movies       collection: 838244 
+  Greetings Collection:
+    template:
+      name: Movies
+      collection: 838244
 Grown Ups Collection
-  Grown Ups Collection:     template:       name: Movies       collection: 180546 
+  Grown Ups Collection:
+    template:
+      name: Movies
+      collection: 180546
 Guardians of the Galaxy Collection
-  Guardians of the Galaxy Collection:     template:       name: Movies       collection: 284433 
+  Guardians of the Galaxy Collection:
+    template:
+      name: Movies
+      collection: 284433
 Gundala
-  Gundala:     template:       name: Movies       collection: 632905 
+  Gundala:
+    template:
+      name: Movies
+      collection: 632905
 Hababam Sınıfı Collection
-  Hababam Sınıfı Collection:     template:       name: Movies       collection: 473983 
+  Hababam Sınıfı Collection:
+    template:
+      name: Movies
+      collection: 473983
 Half Baked Collection
-  Half Baked Collection:     template:       name: Movies       collection: 1323870 
+  Half Baked Collection:
+    template:
+      name: Movies
+      collection: 1323870
 Halloween (Rob Zombie Series) Collection
-  Halloween (Rob Zombie Series) Collection:     template:       name: Movies       collection: 126209 
+  Halloween (Rob Zombie Series) Collection:
+    template:
+      name: Movies
+      collection: 126209
 Happy Gilmore Collection
-  Happy Gilmore Collection:     template:       name: Movies       collection: 1263259
+  Happy Gilmore Collection:
+    template:
+      name: Movies
+      collection: 1263259
 Halloweentown Collection
-  Halloweentown Collection:     template:       name: Movies       collection: 87252 
+  Halloweentown Collection:
+    template:
+      name: Movies
+      collection: 87252
 Happiness Collection
-  Happiness Collection:     template:       name: Movies       collection: 979642 
+  Happiness Collection:
+    template:
+      name: Movies
+      collection: 979642
 Happy Feet Collection
-  Happy Feet Collection:     template:       name: Movies       collection: 92012 
+  Happy Feet Collection:
+    template:
+      name: Movies
+      collection: 92012
 Harry O Collection
-  Harry O Collection:     template:       name: Movies       collection: 930058 
+  Harry O Collection:
+    template:
+      name: Movies
+      collection: 930058
 Harry Potter Collection
-  Harry Potter Collection:     template:       name: Movies       collection: 1241 
+  Harry Potter Collection:
+    template:
+      name: Movies
+      collection: 1241
 Haunt Collection
-  Haunt Collection:     template:       name: Movies       collection: 1455623 
+  Haunt Collection:
+    template:
+      name: Movies
+      collection: 1455623
 Heard She Got Married Collection
-  Heard She Got Married Collection:     template:       name: Movies       collection: 1158686 
+  Heard She Got Married Collection:
+    template:
+      name: Movies
+      collection: 1158686
 Heavy Metal Collection
-  Heavy Metal Collection:     template:       name: Movies       collection: 141086 
+  Heavy Metal Collection:
+    template:
+      name: Movies
+      collection: 141086
 Hellboy (Animated) Collection
-  Hellboy (Animated) Collection:     template:       name: Movies       collection: 123203 
+  Hellboy (Animated) Collection:
+    template:
+      name: Movies
+      collection: 123203
 Hellraiser Collection
-  Hellraiser Collection:     template:       name: Movies       collection: 8917 
+  Hellraiser Collection:
+    template:
+      name: Movies
+      collection: 8917
 Henry Fool Collection
-  Henry Fool Collection:     template:       name: Movies       collection: 378453 
+  Henry Fool Collection:
+    template:
+      name: Movies
+      collection: 378453
 Herbie Collection
-  Herbie Collection:     template:       name: Movies       collection: 12087 
+  Herbie Collection:
+    template:
+      name: Movies
+      collection: 12087
 Hercule Poirot (Kenneth Branagh) Collection
-  Hercule Poirot (Kenneth Branagh) Collection:     template:       name: Movies       collection: 735384 
+  Hercule Poirot (Kenneth Branagh) Collection:
+    template:
+      name: Movies
+      collection: 735384
 Hercules (Disney) Collection
-  Hercules (Disney) Collection:     template:       name: Movies       collection: 978459 
+  Hercules (Disney) Collection:
+    template:
+      name: Movies
+      collection: 978459
 Hercules Collection
-  Hercules Collection:     template:       name: Movies       collection: 314023 
+  Hercules Collection:
+    template:
+      name: Movies
+      collection: 314023
 Heropanti Collection
-  Heropanti Collection:     template:       name: Movies       collection: 980665 
+  Heropanti Collection:
+    template:
+      name: Movies
+      collection: 980665
 Hidden Colors Collection
-  Hidden Colors Collection:     template:       name: Movies       collection: 380533 
+  Hidden Colors Collection:
+    template:
+      name: Movies
+      collection: 380533
 High Strung Collection
-  High Strung Collection:     template:       name: Movies       collection: 765643 
+  High Strung Collection:
+    template:
+      name: Movies
+      collection: 765643
 HIT Verse
-  HIT Verse:     template:       name: Movies       collection: 918344 
+  HIT Verse:
+    template:
+      name: Movies
+      collection: 918344
 Hocus Pocus Collection
-  Hocus Pocus Collection:     template:       name: Movies       collection: 751156 
+  Hocus Pocus Collection:
+    template:
+      name: Movies
+      collection: 751156
 Home Alone Collection
-  Home Alone Collection:     template:       name: Movies       collection: 9888 
+  Home Alone Collection:
+    template:
+      name: Movies
+      collection: 9888
 Honey Collection
-  Honey Collection:     template:       name: Movies       collection: 144689 
+  Honey Collection:
+    template:
+      name: Movies
+      collection: 144689
 Hoodwinked! Collection
-  Hoodwinked! Collection:     template:       name: Movies       collection: 87255 
+  Hoodwinked! Collection:
+    template:
+      name: Movies
+      collection: 87255
 Horrible Bosses Collection
-  Horrible Bosses Collection:     template:       name: Movies       collection: 280588 
+  Horrible Bosses Collection:
+    template:
+      name: Movies
+      collection: 280588
 Hostel Collection
-  Hostel Collection:     template:       name: Movies       collection: 86578 
+  Hostel Collection:
+    template:
+      name: Movies
+      collection: 86578
 Hot Tub Time Machine Collection
-  Hot Tub Time Machine Collection:     template:       name: Movies       collection: 313576 
+  Hot Tub Time Machine Collection:
+    template:
+      name: Movies
+      collection: 313576
 I Know What You Did Last Summer Collection
-  I Know What You Did Last Summer Collection:     template:       name: Movies       collection: 3601
+  I Know What You Did Last Summer Collection:
+    template:
+      name: Movies
+      collection: 3601
 House of the Dead Collection
-  House of the Dead Collection:     template:       name: Movies       collection: 117927 
+  House of the Dead Collection:
+    template:
+      name: Movies
+      collection: 117927
 House Party Collection
-  House Party Collection:     template:       name: Movies       collection: 159600 
+  House Party Collection:
+    template:
+      name: Movies
+      collection: 159600
 How High Collection
-  How High Collection:     template:       name: Movies       collection: 745296 
+  How High Collection:
+    template:
+      name: Movies
+      collection: 745296
 How to Train Your Dragon Collection
-  How to Train Your Dragon Collection:     template:       name: Movies       collection: 89137 
+  How to Train Your Dragon Collection:
+    template:
+      name: Movies
+      collection: 89137
 Hulk Vs. Collection
-  Hulk Vs. Collection:     template:       name: Movies       collection: 728947 
+  Hulk Vs. Collection:
+    template:
+      name: Movies
+      collection: 728947
 I Am Legend Collection
-  I Am Legend Collection:     template:       name: Movies       collection: 945984 
+  I Am Legend Collection:
+    template:
+      name: Movies
+      collection: 945984
 I Can Only Imagine Collection
-  I Can Only Imagine Collection:     template:       name: Movies       collection: 1474745 
+  I Can Only Imagine Collection:
+    template:
+      name: Movies
+      collection: 1474745
 I Spit on Your Grave (Original) Collection
-  I Spit on Your Grave (Original) Collection:     template:       name: Movies       collection: 296429 
+  I Spit on Your Grave (Original) Collection:
+    template:
+      name: Movies
+      collection: 296429
 Icarus Collection
-  Icarus Collection:     template:       name: Movies       collection: 1036702 
+  Icarus Collection:
+    template:
+      name: Movies
+      collection: 1036702
 Ice Road Collection
-  Ice Road Collection:     template:       name: Movies       collection: 1119879
+  Ice Road Collection:
+    template:
+      name: Movies
+      collection: 1119879
 If These Walls Could Talk Collection
-  If These Walls Could Talk Collection:     template:       name: Movies       collection: 164394 
+  If These Walls Could Talk Collection:
+    template:
+      name: Movies
+      collection: 164394
 In a Violent Nature Collection
-  In a Violent Nature Collection:     template:       name: Movies       collection: 1321891 
+  In a Violent Nature Collection:
+    template:
+      name: Movies
+      collection: 1321891
 In Search of Walt Whitman Collection
-  In Search of Walt Whitman Collection:     template:       name: Movies       collection: 935616 
+  In Search of Walt Whitman Collection:
+    template:
+      name: Movies
+      collection: 935616
 Independence Day Collection
-  Independence Day Collection:     template:       name: Movies       collection: 304378 
+  Independence Day Collection:
+    template:
+      name: Movies
+      collection: 304378
 In the Name of the King Collection
-  In the Name of the King Collection:     template:       name: Movies       collection: 122922
+  In the Name of the King Collection:
+    template:
+      name: Movies
+      collection: 122922
 Inside Man Collection
-  Inside Man Collection:     template:       name: Movies       collection: 631194
+  Inside Man Collection:
+    template:
+      name: Movies
+      collection: 631194
 Influencer Collection
-  Influencer Collection:     template:       name: Movies       collection: 1493634 
+  Influencer Collection:
+    template:
+      name: Movies
+      collection: 1493634
 Insidious Collection
-  Insidious Collection:     template:       name: Movies       collection: 228446 
+  Insidious Collection:
+    template:
+      name: Movies
+      collection: 228446
 James Bond Collection
-  James Bond Collection:     template:       name: Movies       collection: 645
+  James Bond Collection:
+    template:
+      name: Movies
+      collection: 645
 Inspector Gadget Collection
-  Inspector Gadget Collection:     template:       name: Movies       collection: 237445 
+  Inspector Gadget Collection:
+    template:
+      name: Movies
+      collection: 237445
 Inuyasha Collection
-  Inuyasha Collection:     template:       name: Movies       collection: 53154 
+  Inuyasha Collection:
+    template:
+      name: Movies
+      collection: 53154
 Ip Man Collection
-  Ip Man Collection:     template:       name: Movies       collection: 70068 
+  Ip Man Collection:
+    template:
+      name: Movies
+      collection: 70068
 Iron Eagle Collection
-  Iron Eagle Collection:     template:       name: Movies       collection: 123251 
+  Iron Eagle Collection:
+    template:
+      name: Movies
+      collection: 123251
 Iron Monkey Collection
-  Iron Monkey Collection:     template:       name: Movies       collection: 579913 
+  Iron Monkey Collection:
+    template:
+      name: Movies
+      collection: 579913
 Island of Fire Collection
-  Island of Fire Collection:     template:       name: Movies       collection: 1424991 
+  Island of Fire Collection:
+    template:
+      name: Movies
+      collection: 1424991
 It Collection
-  It Collection:     template:       name: Movies       collection: 477962 
+  It Collection:
+    template:
+      name: Movies
+      collection: 477962
 It's Alive Collection
-  It's Alive Collection:     template:       name: Movies       collection: 256297 
+  It's Alive Collection:
+    template:
+      name: Movies
+      collection: 256297
 Jack Frost Collection
-  Jack Frost Collection:     template:       name: Movies       collection: 203178 
+  Jack Frost Collection:
+    template:
+      name: Movies
+      collection: 203178
 Jack Reacher Collection
-  Jack Reacher Collection:     template:       name: Movies       collection: 403374 
+  Jack Reacher Collection:
+    template:
+      name: Movies
+      collection: 403374
 "Jackass Presents: Bad Grandpa Collection"
-  "Jackass Presents: Bad Grandpa Collection":     template:       name: Movies       collection: 989621 
+  "Jackass Presents: Bad Grandpa Collection":
+    template:
+      name: Movies
+      collection: 989621
 James Brothers Collection
-  James Brothers Collection:     template:       name: Movies       collection: 493022 
+  James Brothers Collection:
+    template:
+      name: Movies
+      collection: 493022
 Jaws Collection
-  Jaws Collection:     template:       name: Movies       collection: 2366 
+  Jaws Collection:
+    template:
+      name: Movies
+      collection: 2366
 Jay and Silent Bob Get Old Collection
-  Jay and Silent Bob Get Old Collection:     template:       name: Movies       collection: 1339176 
+  Jay and Silent Bob Get Old Collection:
+    template:
+      name: Movies
+      collection: 1339176
 Jenny von Loeben Filmreihe
-  Jenny von Loeben Filmreihe:     template:       name: Movies       collection: 1223264 
+  Jenny von Loeben Filmreihe:
+    template:
+      name: Movies
+      collection: 1223264
 Jesse Stone Collection
-  Jesse Stone Collection:     template:       name: Movies       collection: 59235 
+  Jesse Stone Collection:
+    template:
+      name: Movies
+      collection: 59235
 Jingle All the Way Collection
-  Jingle All the Way Collection:     template:       name: Movies       collection: 307637 
+  Jingle All the Way Collection:
+    template:
+      name: Movies
+      collection: 307637
 John Alexander Collection
-  John Alexander Collection:     template:       name: Movies       collection: 1351581 
+  John Alexander Collection:
+    template:
+      name: Movies
+      collection: 1351581
 Joker Collection
-  Joker Collection:     template:       name: Movies       collection: 987044 
+  Joker Collection:
+    template:
+      name: Movies
+      collection: 987044
 Johnny English Collection
-  Johnny English Collection:     template:       name: Movies       collection: 86117
+  Johnny English Collection:
+    template:
+      name: Movies
+      collection: 86117
 Journey Collection
-  Journey Collection:     template:       name: Movies       collection: 605516 
+  Journey Collection:
+    template:
+      name: Movies
+      collection: 605516
 Joy Ride Collection
-  Joy Ride Collection:     template:       name: Movies       collection: 166378 
+  Joy Ride Collection:
+    template:
+      name: Movies
+      collection: 166378
 Jumanji Collection
-  Jumanji Collection:     template:       name: Movies       collection: 495527 
+  Jumanji Collection:
+    template:
+      name: Movies
+      collection: 495527
 Ju-on (2009) Collection
-  Ju-on (2009) Collection:     template:       name: Movies       collection: 1246426 
+  Ju-on (2009) Collection:
+    template:
+      name: Movies
+      collection: 1246426
 Jurassic Shark Collection
-  Jurassic Shark Collection:     template:       name: Movies       collection: 957890 
+  Jurassic Shark Collection:
+    template:
+      name: Movies
+      collection: 957890
 LEGO DC Comics Super Heroes Collection
-  LEGO DC Comics Super Heroes Collection:     template:       name: Movies       collection: 386162
+  LEGO DC Comics Super Heroes Collection:
+    template:
+      name: Movies
+      collection: 386162
 Justice League (DC Animated Universe) Collection
-  Justice League (DC Animated Universe) Collection:     template:       name: Movies       collection: 876125 
+  Justice League (DC Animated Universe) Collection:
+    template:
+      name: Movies
+      collection: 876125
 Justice League Dark Collection
-  Justice League Dark Collection:     template:       name: Movies       collection: 702342 
+  Justice League Dark Collection:
+    template:
+      name: Movies
+      collection: 702342
 K.G.F Collection
-  K.G.F Collection:     template:       name: Movies       collection: 657153 
+  K.G.F Collection:
+    template:
+      name: Movies
+      collection: 657153
 Kandasamys Collection
-  Kandasamys Collection:     template:       name: Movies       collection: 834501 
+  Kandasamys Collection:
+    template:
+      name: Movies
+      collection: 834501
 Kantara Collection
-  Kantara Collection:     template:       name: Movies       collection: 1516488 
+  Kantara Collection:
+    template:
+      name: Movies
+      collection: 1516488
 Kenny Rogers Legend Of The Gambler Collection
-  Kenny Rogers Legend Of The Gambler Collection:     template:       name: Movies       collection: 251117 
+  Kenny Rogers Legend Of The Gambler Collection:
+    template:
+      name: Movies
+      collection: 251117
 Ketnet Musical
-  Ketnet Musical:     template:       name: Movies       collection: 921415 
+  Ketnet Musical:
+    template:
+      name: Movies
+      collection: 921415
 Kickboxer Collection
-  Kickboxer Collection:     template:       name: Movies       collection: 105322 
+  Kickboxer Collection:
+    template:
+      name: Movies
+      collection: 105322
 Kill Boksoon Collection
-  Kill Boksoon Collection:     template:       name: Movies       collection: 1546075 
+  Kill Boksoon Collection:
+    template:
+      name: Movies
+      collection: 1546075
 Kill 'em All Collection
-  Kill 'em All Collection:     template:       name: Movies       collection: 1215164 
+  Kill 'em All Collection:
+    template:
+      name: Movies
+      collection: 1215164
 Kindergarten Cop Collection
-  Kindergarten Cop Collection:     template:       name: Movies       collection: 397444 
+  Kindergarten Cop Collection:
+    template:
+      name: Movies
+      collection: 397444
 King Kong (1976) Collection
-  King Kong (1976) Collection:     template:       name: Movies       collection: 135498 
+  King Kong (1976) Collection:
+    template:
+      name: Movies
+      collection: 135498
 King Shakir Collection
-  King Shakir Collection:     template:       name: Movies       collection: 1243514 
+  King Shakir Collection:
+    template:
+      name: Movies
+      collection: 1243514
 Kingsman Collection
-  Kingsman Collection:     template:       name: Movies       collection: 391860 
+  Kingsman Collection:
+    template:
+      name: Movies
+      collection: 391860
 Knights of the Damned Collection
-  Knights of the Damned Collection:     template:       name: Movies       collection: 570079 
+  Knights of the Damned Collection:
+    template:
+      name: Movies
+      collection: 570079
 Knock Down the House Collection
-  Knock Down the House Collection:     template:       name: Movies       collection: 1043060 
+  Knock Down the House Collection:
+    template:
+      name: Movies
+      collection: 1043060
 Koleksi Telefilem Tanah Kubur
-  Koleksi Telefilem Tanah Kubur:     template:       name: Movies       collection: 934681 
+  Koleksi Telefilem Tanah Kubur:
+    template:
+      name: Movies
+      collection: 934681
 Kung Fu Panda Collection
-  Kung Fu Panda Collection:     template:       name: Movies       collection: 77816 
+  Kung Fu Panda Collection:
+    template:
+      name: Movies
+      collection: 77816
 Kurt Josef Wagle Collection
-  Kurt Josef Wagle Collection:     template:       name: Movies       collection: 490673 
+  Kurt Josef Wagle Collection:
+    template:
+      name: Movies
+      collection: 490673
 La Cage aux Folles Collection
-  La Cage aux Folles Collection:     template:       name: Movies       collection: 239968 
+  La Cage aux Folles Collection:
+    template:
+      name: Movies
+      collection: 239968
 Lady and the Tramp Collection
-  Lady and the Tramp Collection:     template:       name: Movies       collection: 97460 
+  Lady and the Tramp Collection:
+    template:
+      name: Movies
+      collection: 97460
 Laissez-faire
-  Laissez-faire:     template:       name: Movies       collection: 886458 
+  Laissez-faire:
+    template:
+      name: Movies
+      collection: 886458
 Lake Placid Collection
-  Lake Placid Collection:     template:       name: Movies       collection: 97768 
+  Lake Placid Collection:
+    template:
+      name: Movies
+      collection: 97768
 Las Leyendas Collection
-  Las Leyendas Collection:     template:       name: Movies       collection: 519564 
+  Las Leyendas Collection:
+    template:
+      name: Movies
+      collection: 519564
 Le Hobbit du Cantal Franchise
-  Le Hobbit du Cantal Franchise:     template:       name: Movies       collection: 1035571 
+  Le Hobbit du Cantal Franchise:
+    template:
+      name: Movies
+      collection: 1035571
 Left Behind Collection
-  Left Behind Collection:     template:       name: Movies       collection: 109082 
+  Left Behind Collection:
+    template:
+      name: Movies
+      collection: 109082
 LEGO DC Super Hero Girls Collection
-  LEGO DC Super Hero Girls Collection:     template:       name: Movies       collection: 557495 
+  LEGO DC Super Hero Girls Collection:
+    template:
+      name: Movies
+      collection: 557495
 LEGO Jurassic World Collection
-  LEGO Jurassic World Collection:     template:       name: Movies       collection: 752941 
+  LEGO Jurassic World Collection:
+    template:
+      name: Movies
+      collection: 752941
 LEGO Scooby-Doo Collection
-  LEGO Scooby-Doo Collection:     template:       name: Movies       collection: 537236
+  LEGO Scooby-Doo Collection:
+    template:
+      name: Movies
+      collection: 537236
 LEGO Star Wars Collection
-  LEGO Star Wars Collection:     template:       name: Movies       collection: 302331 
+  LEGO Star Wars Collection:
+    template:
+      name: Movies
+      collection: 302331
 Leo Collection
-  Leo Collection:     template:       name: Movies       collection: 1235977 
+  Leo Collection:
+    template:
+      name: Movies
+      collection: 1235977
 Life in a Day Collection
-  Life in a Day Collection:     template:       name: Movies       collection: 825437 
+  Life in a Day Collection:
+    template:
+      name: Movies
+      collection: 825437
 Lew Harper Collection
-  Lew Harper Collection:     template:       name: Movies       collection: 434270
+  Lew Harper Collection:
+    template:
+      name: Movies
+      collection: 434270
 Lilies of the Field Collection
-  Lilies of the Field Collection:     template:       name: Movies       collection: 1426458 
+  Lilies of the Field Collection:
+    template:
+      name: Movies
+      collection: 1426458
 Lilo & Stitch (Live-Action) Collection
-  Lilo & Stitch (Live-Action) Collection:     template:       name: Movies       collection: 1504372 
+  Lilo & Stitch (Live-Action) Collection:
+    template:
+      name: Movies
+      collection: 1504372
 Lost Bullet Collection
-  Lost Bullet Collection:     template:       name: Movies       collection: 1002775
+  Lost Bullet Collection:
+    template:
+      name: Movies
+      collection: 1002775
 Living Dead Collection
-  Living Dead Collection:     template:       name: Movies       collection: 261590 
+  Living Dead Collection:
+    template:
+      name: Movies
+      collection: 261590
 LOL. Surprise! Collection
-  LOL. Surprise! Collection:     template:       name: Movies       collection: 1457162 
+  LOL. Surprise! Collection:
+    template:
+      name: Movies
+      collection: 1457162
 Look Who's Talking Collection
-  Look Who's Talking Collection:     template:       name: Movies       collection: 9521 
+  Look Who's Talking Collection:
+    template:
+      name: Movies
+      collection: 9521
 Lost Boys Collection
-  Lost Boys Collection:     template:       name: Movies       collection: 109076 
+  Lost Boys Collection:
+    template:
+      name: Movies
+      collection: 109076
 Love Story Collection
-  Love Story Collection:     template:       name: Movies       collection: 1156569 
+  Love Story Collection:
+    template:
+      name: Movies
+      collection: 1156569
 Lupin the Third Collection
-  Lupin the Third Collection:     template:       name: Movies       collection: 1185967 
+  Lupin the Third Collection:
+    template:
+      name: Movies
+      collection: 1185967
 Ma and Pa Kettle Collection
-  Ma and Pa Kettle Collection:     template:       name: Movies       collection: 46082 
+  Ma and Pa Kettle Collection:
+    template:
+      name: Movies
+      collection: 46082
 Madagascar Collection
-  Madagascar Collection:     template:       name: Movies       collection: 14740
+  Madagascar Collection:
+    template:
+      name: Movies
+      collection: 14740
 Machete Collection
-  Machete Collection:     template:       name: Movies       collection: 210006 
+  Machete Collection:
+    template:
+      name: Movies
+      collection: 210006
 Macross Collection
-  Macross Collection:     template:       name: Movies       collection: 1183083 
+  Macross Collection:
+    template:
+      name: Movies
+      collection: 1183083
 Macross Frontier Collection
-  Macross Frontier Collection:     template:       name: Movies       collection: 97462 
+  Macross Frontier Collection:
+    template:
+      name: Movies
+      collection: 97462
 Mad Max Collection
-  Mad Max Collection:     template:       name: Movies       collection: 8945 
+  Mad Max Collection:
+    template:
+      name: Movies
+      collection: 8945
 Magic Mike Collection
-  Magic Mike Collection:     template:       name: Movies       collection: 328247 
+  Magic Mike Collection:
+    template:
+      name: Movies
+      collection: 328247
 Maleficent Collection
-  Maleficent Collection:     template:       name: Movies       collection: 531331
+  Maleficent Collection:
+    template:
+      name: Movies
+      collection: 531331
 Mahavatar Cinematic Universe
-  Mahavatar Cinematic Universe:     template:       name: Movies       collection: 1529686 
+  Mahavatar Cinematic Universe:
+    template:
+      name: Movies
+      collection: 1529686
 Major League Collection
-  Major League Collection:     template:       name: Movies       collection: 97771 
+  Major League Collection:
+    template:
+      name: Movies
+      collection: 97771
 Malibu Rescue Collection
-  Malibu Rescue Collection:     template:       name: Movies       collection: 730273 
+  Malibu Rescue Collection:
+    template:
+      name: Movies
+      collection: 730273
 Mamma Mia! Collection
-  Mamma Mia! Collection:     template:       name: Movies       collection: 458558 
+  Mamma Mia! Collection:
+    template:
+      name: Movies
+      collection: 458558
 Mandala - Collection
-  Mandala - Collection:     template:       name: Movies       collection: 1105308 
+  Mandala - Collection:
+    template:
+      name: Movies
+      collection: 1105308
 Maneater Collection
-  Maneater Collection:     template:       name: Movies       collection: 1021155 
+  Maneater Collection:
+    template:
+      name: Movies
+      collection: 1021155
 Mannequin Collection
-  Mannequin Collection:     template:       name: Movies       collection: 124951 
+  Mannequin Collection:
+    template:
+      name: Movies
+      collection: 124951
 Manual of Love Collection
-  Manual of Love Collection:     template:       name: Movies       collection: 259363 
+  Manual of Love Collection:
+    template:
+      name: Movies
+      collection: 259363
 Marco Collection
-  Marco Collection:     template:       name: Movies       collection: 1407785 
+  Marco Collection:
+    template:
+      name: Movies
+      collection: 1407785
 Marrying the Mafia Collection
-  Marrying the Mafia Collection:     template:       name: Movies       collection: 281840 
+  Marrying the Mafia Collection:
+    template:
+      name: Movies
+      collection: 281840
 Mary Poppins Collection
-  Mary Poppins Collection:     template:       name: Movies       collection: 527439 
+  Mary Poppins Collection:
+    template:
+      name: Movies
+      collection: 527439
 Masutatsu Oyama Trilogy
-  Masutatsu Oyama Trilogy:     template:       name: Movies       collection: 334514 
+  Masutatsu Oyama Trilogy:
+    template:
+      name: Movies
+      collection: 334514
 Matt Helm Collection
-  Matt Helm Collection:     template:       name: Movies       collection: 157890 
+  Matt Helm Collection:
+    template:
+      name: Movies
+      collection: 157890
 May the Devil Take You
-  May the Devil Take You:     template:       name: Movies       collection: 632909 
+  May the Devil Take You:
+    template:
+      name: Movies
+      collection: 632909
 McHale's Navy Collection
-  McHale's Navy Collection:     template:       name: Movies       collection: 393564 
+  McHale's Navy Collection:
+    template:
+      name: Movies
+      collection: 393564
 Mean Girls Collection
-  Mean Girls Collection:     template:       name: Movies       collection: 99606 
+  Mean Girls Collection:
+    template:
+      name: Movies
+      collection: 99606
 Mechanic Collection
-  Mechanic Collection:     template:       name: Movies       collection: 280504 
+  Mechanic Collection:
+    template:
+      name: Movies
+      collection: 280504
 Meet Me in... Collection
-  Meet Me in... Collection:     template:       name: Movies       collection: 1238175 
+  Meet Me in... Collection:
+    template:
+      name: Movies
+      collection: 1238175
 Meet the Parents Collection
-  Meet the Parents Collection:     template:       name: Movies       collection: 51509 
+  Meet the Parents Collection:
+    template:
+      name: Movies
+      collection: 51509
 Megalodon Collection
-  Megalodon Collection:     template:       name: Movies       collection: 870234 
+  Megalodon Collection:
+    template:
+      name: Movies
+      collection: 870234
 Menjelang Magrib Collection
-  Menjelang Magrib Collection:     template:       name: Movies       collection: 1429249 
+  Menjelang Magrib Collection:
+    template:
+      name: Movies
+      collection: 1429249
 MGM's Lassie Collection
-  MGM's Lassie Collection:     template:       name: Movies       collection: 943645
+  MGM's Lassie Collection:
+    template:
+      name: Movies
+      collection: 943645
 Metro Anthology Collection
-  Metro Anthology Collection:     template:       name: Movies       collection: 1374119 
+  Metro Anthology Collection:
+    template:
+      name: Movies
+      collection: 1374119
 Midnight Run Collection
-  Midnight Run Collection:     template:       name: Movies       collection: 633215 
+  Midnight Run Collection:
+    template:
+      name: Movies
+      collection: 633215
 Minions Collection
-  Minions Collection:     template:       name: Movies       collection: 544669 
+  Minions Collection:
+    template:
+      name: Movies
+      collection: 544669
 Miraculous World
-  Miraculous World:     template:       name: Movies       collection: 822306 
+  Miraculous World:
+    template:
+      name: Movies
+      collection: 822306
 Miss Congeniality Collection
-  Miss Congeniality Collection:     template:       name: Movies       collection: 93220 
+  Miss Congeniality Collection:
+    template:
+      name: Movies
+      collection: 93220
 Miss Switch Collection
-  Miss Switch Collection:     template:       name: Movies       collection: 930063 
+  Miss Switch Collection:
+    template:
+      name: Movies
+      collection: 930063
 "Mission: Impossible Collection"
-  "Mission: Impossible Collection":     template:       name: Movies       collection: 87359 
+  "Mission: Impossible Collection":
+    template:
+      name: Movies
+      collection: 87359
 Moana Collection
-  Moana Collection:     template:       name: Movies       collection: 1241984 
+  Moana Collection:
+    template:
+      name: Movies
+      collection: 1241984
 Mom's Friend Series
-  Mom's Friend Series:     template:       name: Movies       collection: 700168 
+  Mom's Friend Series:
+    template:
+      name: Movies
+      collection: 700168
 Monk Collection
-  Monk Collection:     template:       name: Movies       collection: 1045033 
+  Monk Collection:
+    template:
+      name: Movies
+      collection: 1045033
 Monster Family Collection
-  Monster Family Collection:     template:       name: Movies       collection: 878240 
+  Monster Family Collection:
+    template:
+      name: Movies
+      collection: 878240
 Monsters, Inc. Collection
-  Monsters, Inc. Collection:     template:       name: Movies       collection: 137696 
+  Monsters, Inc. Collection:
+    template:
+      name: Movies
+      collection: 137696
 Moontrap Collection
-  Moontrap Collection:     template:       name: Movies       collection: 562535 
+  Moontrap Collection:
+    template:
+      name: Movies
+      collection: 562535
 Mortal Kombat Collection
-  Mortal Kombat Collection:     template:       name: Movies       collection: 9818 
+  Mortal Kombat Collection:
+    template:
+      name: Movies
+      collection: 9818
 Mr. Bean Collection
-  Mr. Bean Collection:     template:       name: Movies       collection: 103372 
+  Mr. Bean Collection:
+    template:
+      name: Movies
+      collection: 103372
 Mr. Bones Collection
-  Mr. Bones Collection:     template:       name: Movies       collection: 104202 
+  Mr. Bones Collection:
+    template:
+      name: Movies
+      collection: 104202
 Mrs. Miracle Collection
-  Mrs. Miracle Collection:     template:       name: Movies       collection: 374663 
+  Mrs. Miracle Collection:
+    template:
+      name: Movies
+      collection: 374663
 Multi-Headed Shark Attack Collection
-  Multi-Headed Shark Attack Collection:     template:       name: Movies       collection: 494838 
+  Multi-Headed Shark Attack Collection:
+    template:
+      name: Movies
+      collection: 494838
 My Big Fat Greek Wedding Collection
-  My Big Fat Greek Wedding Collection:     template:       name: Movies       collection: 389767 
+  My Big Fat Greek Wedding Collection:
+    template:
+      name: Movies
+      collection: 389767
 My Friends Collection
-  My Friends Collection:     template:       name: Movies       collection: 150954 
+  My Friends Collection:
+    template:
+      name: Movies
+      collection: 150954
 My Hero Academia Collection
-  My Hero Academia Collection:     template:       name: Movies       collection: 1189668 
+  My Hero Academia Collection:
+    template:
+      name: Movies
+      collection: 1189668
 My Mom is a Character Collection
-  My Mom is a Character Collection:     template:       name: Movies       collection: 455278 
+  My Mom is a Character Collection:
+    template:
+      name: Movies
+      collection: 455278
 My Spy Collection
-  My Spy Collection:     template:       name: Movies       collection: 1090373 
+  My Spy Collection:
+    template:
+      name: Movies
+      collection: 1090373
 Naked Collection
-  Naked Collection:     template:       name: Movies       collection: 309259 
+  Naked Collection:
+    template:
+      name: Movies
+      collection: 309259
 Nancy Drew Collection
-  Nancy Drew Collection:     template:       name: Movies       collection: 354066 
+  Nancy Drew Collection:
+    template:
+      name: Movies
+      collection: 354066
 Naruto OVA Collection
-  Naruto OVA Collection:     template:       name: Movies       collection: 1443836 
+  Naruto OVA Collection:
+    template:
+      name: Movies
+      collection: 1443836
 National Lampoon's Van Wilder Collection
-  National Lampoon's Van Wilder Collection:     template:       name: Movies       collection: 43220 
+  National Lampoon's Van Wilder Collection:
+    template:
+      name: Movies
+      collection: 43220
 Navarone Collection
-  Navarone Collection:     template:       name: Movies       collection: 366826 
+  Navarone Collection:
+    template:
+      name: Movies
+      collection: 366826
 Nefarious Collection
-  Nefarious Collection:     template:       name: Movies       collection: 1238517 
+  Nefarious Collection:
+    template:
+      name: Movies
+      collection: 1238517
 "Neon Genesis Evangelion: Collection"
-  "Neon Genesis Evangelion: Collection":     template:       name: Movies       collection: 96850 
+  "Neon Genesis Evangelion: Collection":
+    template:
+      name: Movies
+      collection: 96850
 Never Back Down Collection
-  Never Back Down Collection:     template:       name: Movies       collection: 96676 
+  Never Back Down Collection:
+    template:
+      name: Movies
+      collection: 96676
 New China Trilogy
-  New China Trilogy:     template:       name: Movies       collection: 1163280 
+  New China Trilogy:
+    template:
+      name: Movies
+      collection: 1163280
 New Golden Lotus Collection
-  New Golden Lotus Collection:     template:       name: Movies       collection: 492110 
+  New Golden Lotus Collection:
+    template:
+      name: Movies
+      collection: 492110
 Nice Sister-In-Law Series
-  Nice Sister-In-Law Series:     template:       name: Movies       collection: 736466 
+  Nice Sister-In-Law Series:
+    template:
+      name: Movies
+      collection: 736466
 Night at the Creation Museum Collection
-  Night at the Creation Museum Collection:     template:       name: Movies       collection: 1369645 
+  Night at the Creation Museum Collection:
+    template:
+      name: Movies
+      collection: 1369645
 Night of the Demons Collection
-  Night of the Demons Collection:     template:       name: Movies       collection: 136218 
+  Night of the Demons Collection:
+    template:
+      name: Movies
+      collection: 136218
 Nightmare Radio Collection
-  Nightmare Radio Collection:     template:       name: Movies       collection: 1104173 
+  Nightmare Radio Collection:
+    template:
+      name: Movies
+      collection: 1104173
 Ninja Collection
-  Ninja Collection:     template:       name: Movies       collection: 244242 
+  Ninja Collection:
+    template:
+      name: Movies
+      collection: 244242
 No Retreat, No Surrender Collection
-  No Retreat, No Surrender Collection:     template:       name: Movies       collection: 384920 
+  No Retreat, No Surrender Collection:
+    template:
+      name: Movies
+      collection: 384920
 Philo Vance Collection
-  Philo Vance Collection:     template:       name: Movies       collection: 281097
+  Philo Vance Collection:
+    template:
+      name: Movies
+      collection: 281097
 Not Quite Human Collection
-  Not Quite Human Collection:     template:       name: Movies       collection: 297252 
+  Not Quite Human Collection:
+    template:
+      name: Movies
+      collection: 297252
 Nymphomaniac Collection
-  Nymphomaniac Collection:     template:       name: Movies       collection: 258664 
+  Nymphomaniac Collection:
+    template:
+      name: Movies
+      collection: 258664
 Occupation Collection
-  Occupation Collection:     template:       name: Movies       collection: 788750 
+  Occupation Collection:
+    template:
+      name: Movies
+      collection: 788750
 Off Track Collection
-  Off Track Collection:     template:       name: Movies       collection: 1310087 
+  Off Track Collection:
+    template:
+      name: Movies
+      collection: 1310087
 Old Way Collection
-  Old Way Collection:     template:       name: Movies       collection: 452146 
+  Old Way Collection:
+    template:
+      name: Movies
+      collection: 452146
 On Any Sunday Collection
-  On Any Sunday Collection:     template:       name: Movies       collection: 391047 
+  On Any Sunday Collection:
+    template:
+      name: Movies
+      collection: 391047
 On the Trail of Bigfoot Collection
-  On the Trail of Bigfoot Collection:     template:       name: Movies       collection: 1197514 
+  On the Trail of Bigfoot Collection:
+    template:
+      name: Movies
+      collection: 1197514
 Once I Was ... Collection
-  Once I Was ... Collection:     template:       name: Movies       collection: 948531 
+  Once I Was ... Collection:
+    template:
+      name: Movies
+      collection: 948531
 Once Upon a Time... in Hollywood Collection
-  Once Upon a Time... in Hollywood Collection:     template:       name: Movies       collection: 1458846 
+  Once Upon a Time... in Hollywood Collection:
+    template:
+      name: Movies
+      collection: 1458846
 One Cut of the Dead Collection
-  One Cut of the Dead Collection:     template:       name: Movies       collection: 668003 
+  One Cut of the Dead Collection:
+    template:
+      name: Movies
+      collection: 668003
 One of Them Days Collection
-  One of Them Days Collection:     template:       name: Movies       collection: 1492780 
+  One of Them Days Collection:
+    template:
+      name: Movies
+      collection: 1492780
 One Shot Collection
-  One Shot Collection:     template:       name: Movies       collection: 1214316 
+  One Shot Collection:
+    template:
+      name: Movies
+      collection: 1214316
 OnlyFans Roasts Collection
-  OnlyFans Roasts Collection:     template:       name: Movies       collection: 1127195 
+  OnlyFans Roasts Collection:
+    template:
+      name: Movies
+      collection: 1127195
 Open Season Collection
-  Open Season Collection:     template:       name: Movies       collection: 66761 
+  Open Season Collection:
+    template:
+      name: Movies
+      collection: 66761
 Operation Chromite Collection
-  Operation Chromite Collection:     template:       name: Movies       collection: 1111318 
+  Operation Chromite Collection:
+    template:
+      name: Movies
+      collection: 1111318
 Oruthee Collection
-  Oruthee Collection:     template:       name: Movies       collection: 954138 
+  Oruthee Collection:
+    template:
+      name: Movies
+      collection: 954138
 Our Dancing Daughters Collection
-  Our Dancing Daughters Collection:     template:       name: Movies       collection: 981517 
+  Our Dancing Daughters Collection:
+    template:
+      name: Movies
+      collection: 981517
 Outrage Collection
-  Outrage Collection:     template:       name: Movies       collection: 385528 
+  Outrage Collection:
+    template:
+      name: Movies
+      collection: 385528
 Overlord Collection
-  Overlord Collection:     template:       name: Movies       collection: 499270 
+  Overlord Collection:
+    template:
+      name: Movies
+      collection: 499270
 Paddington Collection
-  Paddington Collection:     template:       name: Movies       collection: 488924 
+  Paddington Collection:
+    template:
+      name: Movies
+      collection: 488924
 Panda! Go Panda! Collection
-  Panda! Go Panda! Collection:     template:       name: Movies       collection: 1205715 
+  Panda! Go Panda! Collection:
+    template:
+      name: Movies
+      collection: 1205715
 Paranormal Activity Collection
-  Paranormal Activity Collection:     template:       name: Movies       collection: 41437 
+  Paranormal Activity Collection:
+    template:
+      name: Movies
+      collection: 41437
 Patton Collection
-  Patton Collection:     template:       name: Movies       collection: 609766 
+  Patton Collection:
+    template:
+      name: Movies
+      collection: 609766
 Pee-wee's Collection
-  Pee-wee's Collection:     template:       name: Movies       collection: 179244 
+  Pee-wee's Collection:
+    template:
+      name: Movies
+      collection: 179244
 Percy Jackson Collection
-  Percy Jackson Collection:     template:       name: Movies       collection: 179919 
+  Percy Jackson Collection:
+    template:
+      name: Movies
+      collection: 179919
 Pet Sematary Collection
-  Pet Sematary Collection:     template:       name: Movies       collection: 10789 
+  Pet Sematary Collection:
+    template:
+      name: Movies
+      collection: 10789
 Peter Pan's Neverland Nightmare Collection
-  Peter Pan's Neverland Nightmare Collection:     template:       name: Movies       collection: 1540343 
+  Peter Pan's Neverland Nightmare Collection:
+    template:
+      name: Movies
+      collection: 1540343
 Peyton Place Collection
-  Peyton Place Collection:     template:       name: Movies       collection: 744162 
+  Peyton Place Collection:
+    template:
+      name: Movies
+      collection: 744162
 Philip Marlowe (Robert Mitchum) Collection
-  Philip Marlowe (Robert Mitchum) Collection:     template:       name: Movies       collection: 515268 
+  Philip Marlowe (Robert Mitchum) Collection:
+    template:
+      name: Movies
+      collection: 515268
 Picha Filmreihe
-  Picha Filmreihe:     template:       name: Movies       collection: 1498288 
+  Picha Filmreihe:
+    template:
+      name: Movies
+      collection: 1498288
 Pirates of the Caribbean Collection
-  Pirates of the Caribbean Collection:     template:       name: Movies       collection: 295
+  Pirates of the Caribbean Collection:
+    template:
+      name: Movies
+      collection: 295
 Pikachu's Winter Vacation Collection
-  Pikachu's Winter Vacation Collection:     template:       name: Movies       collection: 1190394 
+  Pikachu's Winter Vacation Collection:
+    template:
+      name: Movies
+      collection: 1190394
 Piranha Collection
-  Piranha Collection:     template:       name: Movies       collection: 212279 
+  Piranha Collection:
+    template:
+      name: Movies
+      collection: 212279
 Pitch Perfect Collection
-  Pitch Perfect Collection:     template:       name: Movies       collection: 306031 
+  Pitch Perfect Collection:
+    template:
+      name: Movies
+      collection: 306031
 Planes Collection
-  Planes Collection:     template:       name: Movies       collection: 270252 
+  Planes Collection:
+    template:
+      name: Movies
+      collection: 270252
 Planet of the Apes (Reboot) Collection
-  Planet of the Apes (Reboot) Collection:     template:       name: Movies       collection: 173710 
+  Planet of the Apes (Reboot) Collection:
+    template:
+      name: Movies
+      collection: 173710
 Pocahontas Collection
-  Pocahontas Collection:     template:       name: Movies       collection: 136214 
+  Pocahontas Collection:
+    template:
+      name: Movies
+      collection: 136214
 Pokémon (Alternate Continuity) Collection
-  Pokémon (Alternate Continuity) Collection:     template:       name: Movies       collection: 661031 
+  Pokémon (Alternate Continuity) Collection:
+    template:
+      name: Movies
+      collection: 661031
 Pokémon Detective Pikachu Collection
-  Pokémon Detective Pikachu Collection:     template:       name: Movies       collection: 1371907 
+  Pokémon Detective Pikachu Collection:
+    template:
+      name: Movies
+      collection: 1371907
 "Pokémon: Best Wishes! Collection"
-  "Pokémon: Best Wishes! Collection":     template:       name: Movies       collection: 661028 
+  "Pokémon: Best Wishes! Collection":
+    template:
+      name: Movies
+      collection: 661028
 "Pokémon: XY Collection"
-  "Pokémon: XY Collection":     template:       name: Movies       collection: 661029 
+  "Pokémon: XY Collection":
+    template:
+      name: Movies
+      collection: 661029
 Police Story Collection
-  Police Story Collection:     template:       name: Movies       collection: 269098 
+  Police Story Collection:
+    template:
+      name: Movies
+      collection: 269098
 Pom Pom Collection
-  Pom Pom Collection:     template:       name: Movies       collection: 385387 
+  Pom Pom Collection:
+    template:
+      name: Movies
+      collection: 385387
 Porky's Collection
-  Porky's Collection:     template:       name: Movies       collection: 109592 
+  Porky's Collection:
+    template:
+      name: Movies
+      collection: 109592
 Power Rangers Collection
-  Power Rangers Collection:     template:       name: Movies       collection: 708816 
+  Power Rangers Collection:
+    template:
+      name: Movies
+      collection: 708816
 Prancer Collection
-  Prancer Collection:     template:       name: Movies       collection: 534531 
+  Prancer Collection:
+    template:
+      name: Movies
+      collection: 534531
 Pumpkinhead Collection
-  Pumpkinhead Collection:     template:       name: Movies       collection: 123256
+  Pumpkinhead Collection:
+    template:
+      name: Movies
+      collection: 123256
 Princess Cursed in Time
-  Princess Cursed in Time:     template:       name: Movies       collection: 1110114 
+  Princess Cursed in Time:
+    template:
+      name: Movies
+      collection: 1110114
 Priscilla, Queen of the Desert Collection
-  Priscilla, Queen of the Desert Collection:     template:       name: Movies       collection: 1313200 
+  Priscilla, Queen of the Desert Collection:
+    template:
+      name: Movies
+      collection: 1313200
 Problem Child Collection
-  Problem Child Collection:     template:       name: Movies       collection: 180854 
+  Problem Child Collection:
+    template:
+      name: Movies
+      collection: 180854
 Prom Night Collection
-  Prom Night Collection:     template:       name: Movies       collection: 123255 
+  Prom Night Collection:
+    template:
+      name: Movies
+      collection: 123255
 "Proportion Productions: The Darker Shades Collection"
-  "Proportion Productions: The Darker Shades Collection":     template:       name: Movies       collection: 1226952 
+  "Proportion Productions: The Darker Shades Collection":
+    template:
+      name: Movies
+      collection: 1226952
 Psycho Collection
-  Psycho Collection:     template:       name: Movies       collection: 119674 
+  Psycho Collection:
+    template:
+      name: Movies
+      collection: 119674
 Pumping Iron Collection
-  Pumping Iron Collection:     template:       name: Movies       collection: 245129 
+  Pumping Iron Collection:
+    template:
+      name: Movies
+      collection: 245129
 Pushpa Collection
-  Pushpa Collection:     template:       name: Movies       collection: 921781 
+  Pushpa Collection:
+    template:
+      name: Movies
+      collection: 921781
 Q Collection
-  Q Collection:     template:       name: Movies       collection: 966841 
+  Q Collection:
+    template:
+      name: Movies
+      collection: 966841
 Quarantine Collection
-  Quarantine Collection:     template:       name: Movies       collection: 123932 
+  Quarantine Collection:
+    template:
+      name: Movies
+      collection: 123932
 Quatermass (Hammer series)
-  Quatermass (Hammer series):     template:       name: Movies       collection: 123726 
+  Quatermass (Hammer series):
+    template:
+      name: Movies
+      collection: 123726
 R.I.P.D. Collection
-  R.I.P.D. Collection:     template:       name: Movies       collection: 1041695 
+  R.I.P.D. Collection:
+    template:
+      name: Movies
+      collection: 1041695
 Race Collection
-  Race Collection:     template:       name: Movies       collection: 259256 
+  Race Collection:
+    template:
+      name: Movies
+      collection: 259256
 Rampage Collection
-  Rampage Collection:     template:       name: Movies       collection: 283417 
+  Rampage Collection:
+    template:
+      name: Movies
+      collection: 283417
 Rocky Collection
-  Rocky Collection:     template:       name: Movies       collection: 1575
+  Rocky Collection:
+    template:
+      name: Movies
+      collection: 1575
 Ready or Not Collection
-  Ready or Not Collection:     template:       name: Movies       collection: 1267164 
+  Ready or Not Collection:
+    template:
+      name: Movies
+      collection: 1267164
 Re-Animator Collection
-  Re-Animator Collection:     template:       name: Movies       collection: 98036 
+  Re-Animator Collection:
+    template:
+      name: Movies
+      collection: 98036
 Rebel Moon Collection
-  Rebel Moon Collection:     template:       name: Movies       collection: 934765 
+  Rebel Moon Collection:
+    template:
+      name: Movies
+      collection: 934765
 Rebuild of Evangelion Collection
-  Rebuild of Evangelion Collection:     template:       name: Movies       collection: 210303 
+  Rebuild of Evangelion Collection:
+    template:
+      name: Movies
+      collection: 210303
 RED Collection
-  RED Collection:     template:       name: Movies       collection: 163902 
+  RED Collection:
+    template:
+      name: Movies
+      collection: 163902
 Reel Rock
-  Reel Rock:     template:       name: Movies       collection: 1509904 
+  Reel Rock:
+    template:
+      name: Movies
+      collection: 1509904
 Repatriation Collection
-  Repatriation Collection:     template:       name: Movies       collection: 1212419 
+  Repatriation Collection:
+    template:
+      name: Movies
+      collection: 1212419
 Resident Evil Collection
-  Resident Evil Collection:     template:       name: Movies       collection: 17255 
+  Resident Evil Collection:
+    template:
+      name: Movies
+      collection: 17255
 Revenge of the Nerds Collection
-  Revenge of the Nerds Collection:     template:       name: Movies       collection: 48190 
+  Revenge of the Nerds Collection:
+    template:
+      name: Movies
+      collection: 48190
 Richie Rich Collection
-  Richie Rich Collection:     template:       name: Movies       collection: 167985 
+  Richie Rich Collection:
+    template:
+      name: Movies
+      collection: 167985
 Ring Collection
-  Ring Collection:     template:       name: Movies       collection: 93369 
+  Ring Collection:
+    template:
+      name: Movies
+      collection: 93369
 Ripper (2022) Collection
-  Ripper (2022) Collection:     template:       name: Movies       collection: 1108593 
+  Ripper (2022) Collection:
+    template:
+      name: Movies
+      collection: 1108593
 Road House (Remake) Collection
-  Road House (Remake) Collection:     template:       name: Movies       collection: 1290597 
+  Road House (Remake) Collection:
+    template:
+      name: Movies
+      collection: 1290597
 Road Trip Collection
-  Road Trip Collection:     template:       name: Movies       collection: 96679 
+  Road Trip Collection:
+    template:
+      name: Movies
+      collection: 96679
 Robbie the Reindeer Collection
-  Robbie the Reindeer Collection:     template:       name: Movies       collection: 595611 
+  Robbie the Reindeer Collection:
+    template:
+      name: Movies
+      collection: 595611
 RoboCop Collection
-  RoboCop Collection:     template:       name: Movies       collection: 5547 
+  RoboCop Collection:
+    template:
+      name: Movies
+      collection: 5547
 "Robot Chicken: DC Comics Collection"
-  "Robot Chicken: DC Comics Collection":     template:       name: Movies       collection: 305576 
+  "Robot Chicken: DC Comics Collection":
+    template:
+      name: Movies
+      collection: 305576
 Rock Dog Collection
-  Rock Dog Collection:     template:       name: Movies       collection: 837216 
+  Rock Dog Collection:
+    template:
+      name: Movies
+      collection: 837216
 Roger Rabbit Collection
-  Roger Rabbit Collection:     template:       name: Movies       collection: 1041406 
+  Roger Rabbit Collection:
+    template:
+      name: Movies
+      collection: 1041406
 Romancing the Stone Collection
-  Romancing the Stone Collection:     template:       name: Movies       collection: 89264 
+  Romancing the Stone Collection:
+    template:
+      name: Movies
+      collection: 89264
 Rosemary's Baby Collection
-  Rosemary's Baby Collection:     template:       name: Movies       collection: 264338 
+  Rosemary's Baby Collection:
+    template:
+      name: Movies
+      collection: 264338
 Rurouni Kenshin Collection
-  Rurouni Kenshin Collection:     template:       name: Movies       collection: 247028 
+  Rurouni Kenshin Collection:
+    template:
+      name: Movies
+      collection: 247028
 S.W.A.T. Collection
-  S.W.A.T. Collection:     template:       name: Movies       collection: 221111 
+  S.W.A.T. Collection:
+    template:
+      name: Movies
+      collection: 221111
 Salaar Collection
-  Salaar Collection:     template:       name: Movies       collection: 1213248 
+  Salaar Collection:
+    template:
+      name: Movies
+      collection: 1213248
 Sammy's Adventure Collection
-  Sammy's Adventure Collection:     template:       name: Movies       collection: 166844 
+  Sammy's Adventure Collection:
+    template:
+      name: Movies
+      collection: 166844
 Samurai Trilogy (Yoji Yamada) Collection
-  Samurai Trilogy (Yoji Yamada) Collection:     template:       name: Movies       collection: 377545 
+  Samurai Trilogy (Yoji Yamada) Collection:
+    template:
+      name: Movies
+      collection: 377545
 Sanjuro Collection
-  Sanjuro Collection:     template:       name: Movies       collection: 627389 
+  Sanjuro Collection:
+    template:
+      name: Movies
+      collection: 627389
 Satan’s Sword Trilogy
-  Satan’s Sword Trilogy:     template:       name: Movies       collection: 715941 
+  Satan’s Sword Trilogy:
+    template:
+      name: Movies
+      collection: 715941
 Savage X Fenty Collection
-  Savage X Fenty Collection:     template:       name: Movies       collection: 1059888 
+  Savage X Fenty Collection:
+    template:
+      name: Movies
+      collection: 1059888
 Saviour of the Soul Collection
-  Saviour of the Soul Collection:     template:       name: Movies       collection: 395581 
+  Saviour of the Soul Collection:
+    template:
+      name: Movies
+      collection: 395581
 Scary Movies Collection
-  Scary Movies Collection:     template:       name: Movies       collection: 4246
+  Scary Movies Collection:
+    template:
+      name: Movies
+      collection: 4246
 Scared Straight Collection
-  Scared Straight Collection:     template:       name: Movies       collection: 982173 
+  Scared Straight Collection:
+    template:
+      name: Movies
+      collection: 982173
 Scary Stories to Tell in the Dark Collection
-  Scary Stories to Tell in the Dark Collection:     template:       name: Movies       collection: 1434798 
+  Scary Stories to Tell in the Dark Collection:
+    template:
+      name: Movies
+      collection: 1434798
 Scooby-Doo! The Mystery Begins Collection
-  Scooby-Doo! The Mystery Begins Collection:     template:       name: Movies       collection: 633815 
+  Scooby-Doo! The Mystery Begins Collection:
+    template:
+      name: Movies
+      collection: 633815
 Scream Collection
-  Scream Collection:     template:       name: Movies       collection: 2602
+  Scream Collection:
+    template:
+      name: Movies
+      collection: 2602
 Scorned Collection
-  Scorned Collection:     template:       name: Movies       collection: 1013413 
+  Scorned Collection:
+    template:
+      name: Movies
+      collection: 1013413
 Searching Collection
-  Searching Collection:     template:       name: Movies       collection: 1145924 
+  Searching Collection:
+    template:
+      name: Movies
+      collection: 1145924
 Sex and the City Collection
-  Sex and the City Collection:     template:       name: Movies       collection: 50457 
+  Sex and the City Collection:
+    template:
+      name: Movies
+      collection: 50457
 Shadow Hunters Collection
-  Shadow Hunters Collection:     template:       name: Movies       collection: 491249 
+  Shadow Hunters Collection:
+    template:
+      name: Movies
+      collection: 491249
 Shaft Collection
-  Shaft Collection:     template:       name: Movies       collection: 495 
+  Shaft Collection:
+    template:
+      name: Movies
+      collection: 495
 Shaolin Temple Collection
-  Shaolin Temple Collection:     template:       name: Movies       collection: 184977 
+  Shaolin Temple Collection:
+    template:
+      name: Movies
+      collection: 184977
 Shark Exorcist Collection
-  Shark Exorcist Collection:     template:       name: Movies       collection: 1283238 
+  Shark Exorcist Collection:
+    template:
+      name: Movies
+      collection: 1283238
 Sharktopus Collection
-  Sharktopus Collection:     template:       name: Movies       collection: 370374 
+  Sharktopus Collection:
+    template:
+      name: Movies
+      collection: 370374
 Shazam Collection
-  Shazam Collection:     template:       name: Movies       collection: 724848
+  Shazam Collection:
+    template:
+      name: Movies
+      collection: 724848
 Shaun the Sheep Collection
-  Shaun the Sheep Collection:     template:       name: Movies       collection: 899158 
+  Shaun the Sheep Collection:
+    template:
+      name: Movies
+      collection: 899158
 "Sherlock Holmes: The Golden Years Collection"
-  "Sherlock Holmes: The Golden Years Collection":     template:       name: Movies       collection: 459434 
+  "Sherlock Holmes: The Golden Years Collection":
+    template:
+      name: Movies
+      collection: 459434
 Shooting Stars Collection
-  Shooting Stars Collection:     template:       name: Movies       collection: 1355302 
+  Shooting Stars Collection:
+    template:
+      name: Movies
+      collection: 1355302
 Short Circuit Collection
-  Short Circuit Collection:     template:       name: Movies       collection: 86347 
+  Short Circuit Collection:
+    template:
+      name: Movies
+      collection: 86347
 Shrek Collection
-  Shrek Collection:     template:       name: Movies       collection: 2150 
+  Shrek Collection:
+    template:
+      name: Movies
+      collection: 2150
 Si Saben Como Me Pongo Collection
-  Si Saben Como Me Pongo Collection:     template:       name: Movies       collection: 1002630 
+  Si Saben Como Me Pongo Collection:
+    template:
+      name: Movies
+      collection: 1002630
 "Sidelined: The QB and Me Collection"
-  "Sidelined: The QB and Me Collection":     template:       name: Movies       collection: 1434906 
+  "Sidelined: The QB and Me Collection":
+    template:
+      name: Movies
+      collection: 1434906
 Silent Night, Deadly Night Collection
-  Silent Night, Deadly Night Collection:     template:       name: Movies       collection: 256296 
+  Silent Night, Deadly Night Collection:
+    template:
+      name: Movies
+      collection: 256296
 Sinbad Collection
-  Sinbad Collection:     template:       name: Movies       collection: 321063 
+  Sinbad Collection:
+    template:
+      name: Movies
+      collection: 321063
 Single White Female Collection
-  Single White Female Collection:     template:       name: Movies       collection: 338282 
+  Single White Female Collection:
+    template:
+      name: Movies
+      collection: 338282
 Sinners Collection
-  Sinners Collection:     template:       name: Movies       collection: 1489663 
+  Sinners Collection:
+    template:
+      name: Movies
+      collection: 1489663
 Sister Act Collection
-  Sister Act Collection:     template:       name: Movies       collection: 103573 
+  Sister Act Collection:
+    template:
+      name: Movies
+      collection: 103573
 Sisu Collection
-  Sisu Collection:     template:       name: Movies       collection: 1262937 
+  Sisu Collection:
+    template:
+      name: Movies
+      collection: 1262937
 Skyline Collection
-  Skyline Collection:     template:       name: Movies       collection: 484312 
+  Skyline Collection:
+    template:
+      name: Movies
+      collection: 484312
 SLC Punk Collection
-  SLC Punk Collection:     template:       name: Movies       collection: 592064 
+  SLC Punk Collection:
+    template:
+      name: Movies
+      collection: 592064
 Sniper Collection
-  Sniper Collection:     template:       name: Movies       collection: 14246
+  Sniper Collection:
+    template:
+      name: Movies
+      collection: 14246
 Small Town Monsters Collection
-  Small Town Monsters Collection:     template:       name: Movies       collection: 1146644 
+  Small Town Monsters Collection:
+    template:
+      name: Movies
+      collection: 1146644
 Smokey and the Bandit Collection
-  Smokey and the Bandit Collection:     template:       name: Movies       collection: 87220 
+  Smokey and the Bandit Collection:
+    template:
+      name: Movies
+      collection: 87220
 Snowflake/Tornado
-  Snowflake/Tornado:     template:       name: Movies       collection: 1023655 
+  Snowflake/Tornado:
+    template:
+      name: Movies
+      collection: 1023655
 Solidarity Trilogy
-  Solidarity Trilogy:     template:       name: Movies       collection: 457305 
+  Solidarity Trilogy:
+    template:
+      name: Movies
+      collection: 457305
 Somm Collection
-  Somm Collection:     template:       name: Movies       collection: 550492 
+  Somm Collection:
+    template:
+      name: Movies
+      collection: 550492
 Son of Sardaar Collection
-  Son of Sardaar Collection:     template:       name: Movies       collection: 1511682 
+  Son of Sardaar Collection:
+    template:
+      name: Movies
+      collection: 1511682
 Star Wars Collection
-  Star Wars Collection:     template:       name: Movies       collection: 10
+  Star Wars Collection:
+    template:
+      name: Movies
+      collection: 10
 Sounder Collection
-  Sounder Collection:     template:       name: Movies       collection: 1433344 
+  Sounder Collection:
+    template:
+      name: Movies
+      collection: 1433344
 South Park the Streaming Wars Collection
-  South Park the Streaming Wars Collection:     template:       name: Movies       collection: 993732 
+  South Park the Streaming Wars Collection:
+    template:
+      name: Movies
+      collection: 993732
 Space Battleship Yamato 2199 Collection
-  Space Battleship Yamato 2199 Collection:     template:       name: Movies       collection: 460845 
+  Space Battleship Yamato 2199 Collection:
+    template:
+      name: Movies
+      collection: 460845
 Space Chimps Collection
-  Space Chimps Collection:     template:       name: Movies       collection: 118828 
+  Space Chimps Collection:
+    template:
+      name: Movies
+      collection: 118828
 Space Pirate Captain Harlock Collection
-  Space Pirate Captain Harlock Collection:     template:       name: Movies       collection: 454520 
+  Space Pirate Captain Harlock Collection:
+    template:
+      name: Movies
+      collection: 454520
 Spanish Affair Collection
-  Spanish Affair Collection:     template:       name: Movies       collection: 388180 
+  Spanish Affair Collection:
+    template:
+      name: Movies
+      collection: 388180
 Species Collection
-  Species Collection:     template:       name: Movies       collection: 9887 
+  Species Collection:
+    template:
+      name: Movies
+      collection: 9887
 Speed Collection
-  Speed Collection:     template:       name: Movies       collection: 43064 
+  Speed Collection:
+    template:
+      name: Movies
+      collection: 43064
 Spider-Man (MCU) Collection
-  Spider-Man (MCU) Collection:     template:       name: Movies       collection: 531241 
+  Spider-Man (MCU) Collection:
+    template:
+      name: Movies
+      collection: 531241
 Spider-Man Collection
-  Spider-Man Collection:     template:       name: Movies       collection: 556 
+  Spider-Man Collection:
+    template:
+      name: Movies
+      collection: 556
 Spirit Collection
-  Spirit Collection:     template:       name: Movies       collection: 806483 
+  Spirit Collection:
+    template:
+      name: Movies
+      collection: 806483
 Splash Collection
-  Splash Collection:     template:       name: Movies       collection: 248126 
+  Splash Collection:
+    template:
+      name: Movies
+      collection: 248126
 Spy Kids Collection
-  Spy Kids Collection:     template:       name: Movies       collection: 86486 
+  Spy Kids Collection:
+    template:
+      name: Movies
+      collection: 86486
 Stake Land Collection
-  Stake Land Collection:     template:       name: Movies       collection: 473843 
+  Stake Land Collection:
+    template:
+      name: Movies
+      collection: 473843
 Star Crash Collection
-  Star Crash Collection:     template:       name: Movies       collection: 325798 
+  Star Crash Collection:
+    template:
+      name: Movies
+      collection: 325798
 "Star Trek: The Next Generation Collection"
-  "Star Trek: The Next Generation Collection":     template:       name: Movies       collection: 115570 
+  "Star Trek: The Next Generation Collection":
+    template:
+      name: Movies
+      collection: 115570
 "Star Wars: The Ewok Adventures Collection"
-  "Star Wars: The Ewok Adventures Collection":     template:       name: Movies       collection: 133830 
+  "Star Wars: The Ewok Adventures Collection":
+    template:
+      name: Movies
+      collection: 133830
 Stargirl Collection
-  Stargirl Collection:     template:       name: Movies       collection: 970645 
+  Stargirl Collection:
+    template:
+      name: Movies
+      collection: 970645
 Starship Troopers Collection
-  Starship Troopers Collection:     template:       name: Movies       collection: 10522 
+  Starship Troopers Collection:
+    template:
+      name: Movies
+      collection: 10522
 Step Up Collection
-  Step Up Collection:     template:       name: Movies       collection: 86092 
+  Step Up Collection:
+    template:
+      name: Movies
+      collection: 86092
 Stepmother Collection
-  Stepmother Collection:     template:       name: Movies       collection: 1096007 
+  Stepmother Collection:
+    template:
+      name: Movies
+      collection: 1096007
 Stomp the Yard Collection
-  Stomp the Yard Collection:     template:       name: Movies       collection: 160727 
+  Stomp the Yard Collection:
+    template:
+      name: Movies
+      collection: 160727
 Stream Collection
-  Stream Collection:     template:       name: Movies       collection: 1498241 
+  Stream Collection:
+    template:
+      name: Movies
+      collection: 1498241
 Superman Collection
-  Superman Collection:     template:       name: Movies       collection: 8537
+  Superman Collection:
+    template:
+      name: Movies
+      collection: 8537
 Streetwise Collection
-  Streetwise Collection:     template:       name: Movies       collection: 1093903 
+  Streetwise Collection:
+    template:
+      name: Movies
+      collection: 1093903
 Student of the Year Collection
-  Student of the Year Collection:     template:       name: Movies       collection: 1165242 
+  Student of the Year Collection:
+    template:
+      name: Movies
+      collection: 1165242
 Subspecies Collection
-  Subspecies Collection:     template:       name: Movies       collection: 103291 
+  Subspecies Collection:
+    template:
+      name: Movies
+      collection: 103291
 Summer of '42 Collection
-  Summer of '42 Collection:     template:       name: Movies       collection: 1286059 
+  Summer of '42 Collection:
+    template:
+      name: Movies
+      collection: 1286059
 Super Monsters Collection
-  Super Monsters Collection:     template:       name: Movies       collection: 1095650 
+  Super Monsters Collection:
+    template:
+      name: Movies
+      collection: 1095650
 Super Troopers Collection
-  Super Troopers Collection:     template:       name: Movies       collection: 449462 
+  Super Troopers Collection:
+    template:
+      name: Movies
+      collection: 449462
 Superman (DCU) Collection
-  Superman (DCU) Collection:     template:       name: Movies       collection: 1540907 
+  Superman (DCU) Collection:
+    template:
+      name: Movies
+      collection: 1540907
 Support Your Local Series
-  Support Your Local Series:     template:       name: Movies       collection: 1546467 
+  Support Your Local Series:
+    template:
+      name: Movies
+      collection: 1546467
 Surge of Power Collection
-  Surge of Power Collection:     template:       name: Movies       collection: 799950 
+  Surge of Power Collection:
+    template:
+      name: Movies
+      collection: 799950
 Survival of the Dead Collection
-  Survival of the Dead Collection:     template:       name: Movies       collection: 944437 
+  Survival of the Dead Collection:
+    template:
+      name: Movies
+      collection: 944437
 Sweet Disaster
-  Sweet Disaster:     template:       name: Movies       collection: 988064 
+  Sweet Disaster:
+    template:
+      name: Movies
+      collection: 988064
 Taare Zameen Par Collection
-  Taare Zameen Par Collection:     template:       name: Movies       collection: 1500956 
+  Taare Zameen Par Collection:
+    template:
+      name: Movies
+      collection: 1500956
 Tales from the Crypt Collection
-  Tales from the Crypt Collection:     template:       name: Movies       collection: 115142 
+  Tales from the Crypt Collection:
+    template:
+      name: Movies
+      collection: 115142
 Tangled Collection
-  Tangled Collection:     template:       name: Movies       collection: 1268789
+  Tangled Collection:
+    template:
+      name: Movies
+      collection: 1268789
 Talk to Me Collection
-  Talk to Me Collection:     template:       name: Movies       collection: 1162328 
+  Talk to Me Collection:
+    template:
+      name: Movies
+      collection: 1162328
 Tammy Collection
-  Tammy Collection:     template:       name: Movies       collection: 664273 
+  Tammy Collection:
+    template:
+      name: Movies
+      collection: 664273
 Tarzan (Gordon Scott) Collection
-  Tarzan (Gordon Scott) Collection:     template:       name: Movies       collection: 360344
+  Tarzan (Gordon Scott) Collection:
+    template:
+      name: Movies
+      collection: 360344
 Tarzan (Elmo Lincoln) Collection
-  Tarzan (Elmo Lincoln) Collection:     template:       name: Movies       collection: 1342012 
+  Tarzan (Elmo Lincoln) Collection:
+    template:
+      name: Movies
+      collection: 1342012
 Tarzan (Mike Henry) Collection
-  Tarzan (Mike Henry) Collection:     template:       name: Movies       collection: 360346
+  Tarzan (Mike Henry) Collection:
+    template:
+      name: Movies
+      collection: 360346
 Tarzan (Lex Barker) Collection
-  Tarzan (Lex Barker) Collection:     template:       name: Movies       collection: 360342 
+  Tarzan (Lex Barker) Collection:
+    template:
+      name: Movies
+      collection: 360342
 Taste Collection
-  Taste Collection:     template:       name: Movies       collection: 760507 
+  Taste Collection:
+    template:
+      name: Movies
+      collection: 760507
 Team Thor Collection
-  Team Thor Collection:     template:       name: Movies       collection: 729425
+  Team Thor Collection:
+    template:
+      name: Movies
+      collection: 729425
 Teen Beach Collection
-  Teen Beach Collection:     template:       name: Movies       collection: 408196 
+  Teen Beach Collection:
+    template:
+      name: Movies
+      collection: 408196
 Teen Titans Go! Collection
-  Teen Titans Go! Collection:     template:       name: Movies       collection: 689974 
+  Teen Titans Go! Collection:
+    template:
+      name: Movies
+      collection: 689974
 Teenage Mutant Ninja Turtles (Animated) Collection
-  Teenage Mutant Ninja Turtles (Animated) Collection:     template:       name: Movies       collection: 1156855 
+  Teenage Mutant Ninja Turtles (Animated) Collection:
+    template:
+      name: Movies
+      collection: 1156855
 Teenage Mutant Ninja Turtles Collection
-  Teenage Mutant Ninja Turtles Collection:     template:       name: Movies       collection: 1582 
+  Teenage Mutant Ninja Turtles Collection:
+    template:
+      name: Movies
+      collection: 1582
 Terms of Endearment Collection
-  Terms of Endearment Collection:     template:       name: Movies       collection: 507956 
+  Terms of Endearment Collection:
+    template:
+      name: Movies
+      collection: 507956
 Terrifier Collection
-  Terrifier Collection:     template:       name: Movies       collection: 727761 
+  Terrifier Collection:
+    template:
+      name: Movies
+      collection: 727761
 Texas Chainsaw Massacre Collection
-  Texas Chainsaw Massacre Collection:     template:       name: Movies       collection: 111751 
+  Texas Chainsaw Massacre Collection:
+    template:
+      name: Movies
+      collection: 111751
 "That Time I Got Reincarnated as a Slime: Collection"
-  "That Time I Got Reincarnated as a Slime: Collection":     template:       name: Movies       collection: 1513903 
+  "That Time I Got Reincarnated as a Slime: Collection":
+    template:
+      name: Movies
+      collection: 1513903
 "The \"Abstract\" Trilogy"
-  "The \"Abstract\" Trilogy":     template:       name: Movies       collection: 1372287 
+  "The \"Abstract\" Trilogy":
+    template:
+      name: Movies
+      collection: 1372287
 The 100-Year Old Man Collection
-  The 100-Year Old Man Collection:     template:       name: Movies       collection: 501772 
+  The 100-Year Old Man Collection:
+    template:
+      name: Movies
+      collection: 501772
 The ABCs of Death Collection
-  The ABCs of Death Collection:     template:       name: Movies       collection: 207632 
+  The ABCs of Death Collection:
+    template:
+      name: Movies
+      collection: 207632
 The Addams Family (Animated) Collection
-  The Addams Family (Animated) Collection:     template:       name: Movies       collection: 750822 
+  The Addams Family (Animated) Collection:
+    template:
+      name: Movies
+      collection: 750822
 The Adventures of Pinocchio Collection
-  The Adventures of Pinocchio Collection:     template:       name: Movies       collection: 1076000 
+  The Adventures of Pinocchio Collection:
+    template:
+      name: Movies
+      collection: 1076000
 The Aggressives Collection
-  The Aggressives Collection:     template:       name: Movies       collection: 1206842 
+  The Aggressives Collection:
+    template:
+      name: Movies
+      collection: 1206842
 The Amityville Collection
-  The Amityville Collection:     template:       name: Movies       collection: 397842 
+  The Amityville Collection:
+    template:
+      name: Movies
+      collection: 397842
 The Animal Collection
-  The Animal Collection:     template:       name: Movies       collection: 1214005 
+  The Animal Collection:
+    template:
+      name: Movies
+      collection: 1214005
 The Apple Dumpling Gang Collection
-  The Apple Dumpling Gang Collection:     template:       name: Movies       collection: 87232 
+  The Apple Dumpling Gang Collection:
+    template:
+      name: Movies
+      collection: 87232
 The Arrival Collection
-  The Arrival Collection:     template:       name: Movies       collection: 116661 
+  The Arrival Collection:
+    template:
+      name: Movies
+      collection: 116661
 The Assistant Collection
-  The Assistant Collection:     template:       name: Movies       collection: 1354476 
+  The Assistant Collection:
+    template:
+      name: Movies
+      collection: 1354476
 The Avengers Collection
-  The Avengers Collection:     template:       name: Movies       collection: 86311 
+  The Avengers Collection:
+    template:
+      name: Movies
+      collection: 86311
 The Bad News Bears Collection
-  The Bad News Bears Collection:     template:       name: Movies       collection: 215326 
+  The Bad News Bears Collection:
+    template:
+      name: Movies
+      collection: 215326
 The Benchwarmers Collection
-  The Benchwarmers Collection:     template:       name: Movies       collection: 632730
+  The Benchwarmers Collection:
+    template:
+      name: Movies
+      collection: 632730
 The Barrytown Trilogy
-  The Barrytown Trilogy:     template:       name: Movies       collection: 866637 
+  The Barrytown Trilogy:
+    template:
+      name: Movies
+      collection: 866637
 The Battle at Lake Changjin Collection
-  The Battle at Lake Changjin Collection:     template:       name: Movies       collection: 930409 
+  The Battle at Lake Changjin Collection:
+    template:
+      name: Movies
+      collection: 930409
 The Beatles Collection
-  The Beatles Collection:     template:       name: Movies       collection: 1247612 
+  The Beatles Collection:
+    template:
+      name: Movies
+      collection: 1247612
 The Begotten Cycle
-  The Begotten Cycle:     template:       name: Movies       collection: 476066 
+  The Begotten Cycle:
+    template:
+      name: Movies
+      collection: 476066
 The Conjuring Collection
-  The Conjuring Collection:     template:       name: Movies       collection: 313086
+  The Conjuring Collection:
+    template:
+      name: Movies
+      collection: 313086
 The Big Trip Collection
-  The Big Trip Collection:     template:       name: Movies       collection: 762946 
+  The Big Trip Collection:
+    template:
+      name: Movies
+      collection: 762946
 The Bionic Reunion Collection
-  The Bionic Reunion Collection:     template:       name: Movies       collection: 283728 
+  The Bionic Reunion Collection:
+    template:
+      name: Movies
+      collection: 283728
 The Black Demon Collection
-  The Black Demon Collection:     template:       name: Movies       collection: 1459230 
+  The Black Demon Collection:
+    template:
+      name: Movies
+      collection: 1459230
 The Black Mask Collection
-  The Black Mask Collection:     template:       name: Movies       collection: 205860 
+  The Black Mask Collection:
+    template:
+      name: Movies
+      collection: 205860
 The Black Stallion Collection
-  The Black Stallion Collection:     template:       name: Movies       collection: 405393 
+  The Black Stallion Collection:
+    template:
+      name: Movies
+      collection: 405393
 The Blackwell Ghost Collection
-  The Blackwell Ghost Collection:     template:       name: Movies       collection: 921710 
+  The Blackwell Ghost Collection:
+    template:
+      name: Movies
+      collection: 921710
 The Blue Lagoon Collection
-  The Blue Lagoon Collection:     template:       name: Movies       collection: 59586 
+  The Blue Lagoon Collection:
+    template:
+      name: Movies
+      collection: 59586
 The Blues Brothers Collection
-  The Blues Brothers Collection:     template:       name: Movies       collection: 112636 
+  The Blues Brothers Collection:
+    template:
+      name: Movies
+      collection: 112636
 The Boss Baby Collection
-  The Boss Baby Collection:     template:       name: Movies       collection: 519457 
+  The Boss Baby Collection:
+    template:
+      name: Movies
+      collection: 519457
 The Boy Collection
-  The Boy Collection:     template:       name: Movies       collection: 666337 
+  The Boy Collection:
+    template:
+      name: Movies
+      collection: 666337
 The Brady Bunch TV Movie Collection
-  The Brady Bunch TV Movie Collection:     template:       name: Movies       collection: 661699 
+  The Brady Bunch TV Movie Collection:
+    template:
+      name: Movies
+      collection: 661699
 The Bride with White Hair Collection
-  The Bride with White Hair Collection:     template:       name: Movies       collection: 192167 
+  The Bride with White Hair Collection:
+    template:
+      name: Movies
+      collection: 192167
 The Butterfly Effect Collection
-  The Butterfly Effect Collection:     template:       name: Movies       collection: 52749 
+  The Butterfly Effect Collection:
+    template:
+      name: Movies
+      collection: 52749
 The Cell Collection
-  The Cell Collection:     template:       name: Movies       collection: 223564 
+  The Cell Collection:
+    template:
+      name: Movies
+      collection: 223564
 The Christmas Chronicles Collection
-  The Christmas Chronicles Collection:     template:       name: Movies       collection: 743824 
+  The Christmas Chronicles Collection:
+    template:
+      name: Movies
+      collection: 743824
 The Chronicles of Narnia Collection
-  The Chronicles of Narnia Collection:     template:       name: Movies       collection: 420 
+  The Chronicles of Narnia Collection:
+    template:
+      name: Movies
+      collection: 420
 The ChubbChubbs Collection
-  The ChubbChubbs Collection:     template:       name: Movies       collection: 169851 
+  The ChubbChubbs Collection:
+    template:
+      name: Movies
+      collection: 169851
 The Collector Collection
-  The Collector Collection:     template:       name: Movies       collection: 165369 
+  The Collector Collection:
+    template:
+      name: Movies
+      collection: 165369
 The Corman/Poe Cycle
-  The Corman/Poe Cycle:     template:       name: Movies       collection: 1546317 
+  The Corman/Poe Cycle:
+    template:
+      name: Movies
+      collection: 1546317
 The Covid Killer Collection
-  The Covid Killer Collection:     template:       name: Movies       collection: 1546130 
+  The Covid Killer Collection:
+    template:
+      name: Movies
+      collection: 1546130
 The Croods Collection
-  The Croods Collection:     template:       name: Movies       collection: 464577 
+  The Croods Collection:
+    template:
+      name: Movies
+      collection: 464577
 The Curious Caterer Collection
-  The Curious Caterer Collection:     template:       name: Movies       collection: 1083910 
+  The Curious Caterer Collection:
+    template:
+      name: Movies
+      collection: 1083910
 The Damned Collection
-  The Damned Collection:     template:       name: Movies       collection: 746434 
+  The Damned Collection:
+    template:
+      name: Movies
+      collection: 746434
 The Death of Superman Collection
-  The Death of Superman Collection:     template:       name: Movies       collection: 593251 
+  The Death of Superman Collection:
+    template:
+      name: Movies
+      collection: 593251
 The FP Collection
-  The FP Collection:     template:       name: Movies       collection: 858112
+  The FP Collection:
+    template:
+      name: Movies
+      collection: 858112
 The Decalogue
-  The Decalogue:     template:       name: Movies       collection: 37452 
+  The Decalogue:
+    template:
+      name: Movies
+      collection: 37452
 The Decline of Western Civilization Collection
-  The Decline of Western Civilization Collection:     template:       name: Movies       collection: 157671 
+  The Decline of Western Civilization Collection:
+    template:
+      name: Movies
+      collection: 157671
 The Descent Collection
-  The Descent Collection:     template:       name: Movies       collection: 87258 
+  The Descent Collection:
+    template:
+      name: Movies
+      collection: 87258
 The Dirty Dozen Collection
-  The Dirty Dozen Collection:     template:       name: Movies       collection: 124492 
+  The Dirty Dozen Collection:
+    template:
+      name: Movies
+      collection: 124492
 The Drishyam Collection
-  The Drishyam Collection:     template:       name: Movies       collection: 787649 
+  The Drishyam Collection:
+    template:
+      name: Movies
+      collection: 787649
 The Dukes of Hazzard (Reboot) Collection
-  The Dukes of Hazzard (Reboot) Collection:     template:       name: Movies       collection: 332357 
+  The Dukes of Hazzard (Reboot) Collection:
+    template:
+      name: Movies
+      collection: 332357
 The Elf on the Shelf Collection
-  The Elf on the Shelf Collection:     template:       name: Movies       collection: 642638 
+  The Elf on the Shelf Collection:
+    template:
+      name: Movies
+      collection: 642638
 The Emperor's New Groove Collection
-  The Emperor's New Groove Collection:     template:       name: Movies       collection: 178117 
+  The Emperor's New Groove Collection:
+    template:
+      name: Movies
+      collection: 178117
 The Executioner Collection
-  The Executioner Collection:     template:       name: Movies       collection: 463813 
+  The Executioner Collection:
+    template:
+      name: Movies
+      collection: 463813
 The Expendables Collection
-  The Expendables Collection:     template:       name: Movies       collection: 126125 
+  The Expendables Collection:
+    template:
+      name: Movies
+      collection: 126125
 The Eye Collection
-  The Eye Collection:     template:       name: Movies       collection: 264335 
+  The Eye Collection:
+    template:
+      name: Movies
+      collection: 264335
 The Fast and the Fierce Collection
-  The Fast and the Fierce Collection:     template:       name: Movies       collection: 781201 
+  The Fast and the Fierce Collection:
+    template:
+      name: Movies
+      collection: 781201
 The First Wave Collection
-  The First Wave Collection:     template:       name: Movies       collection: 785960 
+  The First Wave Collection:
+    template:
+      name: Movies
+      collection: 785960
 The Flintstones Collection
-  The Flintstones Collection:     template:       name: Movies       collection: 351684 
+  The Flintstones Collection:
+    template:
+      name: Movies
+      collection: 351684
 The Fly Collection
-  The Fly Collection:     template:       name: Movies       collection: 123213 
+  The Fly Collection:
+    template:
+      name: Movies
+      collection: 123213
 The Foreigner Collection
-  The Foreigner Collection:     template:       name: Movies       collection: 308645 
+  The Foreigner Collection:
+    template:
+      name: Movies
+      collection: 308645
 The Garfield Movie Collection
-  The Garfield Movie Collection:     template:       name: Movies       collection: 1510620 
+  The Garfield Movie Collection:
+    template:
+      name: Movies
+      collection: 1510620
 The Girl From Carolina Collection
-  The Girl From Carolina Collection:     template:       name: Movies       collection: 1124921 
+  The Girl From Carolina Collection:
+    template:
+      name: Movies
+      collection: 1124921
 The Gods Must Be Crazy Collection
-  The Gods Must Be Crazy Collection:     template:       name: Movies       collection: 87805 
+  The Gods Must Be Crazy Collection:
+    template:
+      name: Movies
+      collection: 87805
 The Hangover Collection
-  The Hangover Collection:     template:       name: Movies       collection: 86119
+  The Hangover Collection:
+    template:
+      name: Movies
+      collection: 86119
 The Goodbar Collection
-  The Goodbar Collection:     template:       name: Movies       collection: 930413 
+  The Goodbar Collection:
+    template:
+      name: Movies
+      collection: 930413
 The Gremlins Collection
-  The Gremlins Collection:     template:       name: Movies       collection: 89151 
+  The Gremlins Collection:
+    template:
+      name: Movies
+      collection: 89151
 The Gruffalo Collection
-  The Gruffalo Collection:     template:       name: Movies       collection: 129748 
+  The Gruffalo Collection:
+    template:
+      name: Movies
+      collection: 129748
 The Hannibal Lecter Collection
-  The Hannibal Lecter Collection:     template:       name: Movies       collection: 9743 
+  The Hannibal Lecter Collection:
+    template:
+      name: Movies
+      collection: 9743
 The Haunted Collection
-  The Haunted Collection:     template:       name: Movies       collection: 982913 
+  The Haunted Collection:
+    template:
+      name: Movies
+      collection: 982913
 The Highlands Trilogy
-  The Highlands Trilogy:     template:       name: Movies       collection: 509292 
+  The Highlands Trilogy:
+    template:
+      name: Movies
+      collection: 509292
 The Hills Have Eyes (Reboot) Collection
-  The Hills Have Eyes (Reboot) Collection:     template:       name: Movies       collection: 8918 
+  The Hills Have Eyes (Reboot) Collection:
+    template:
+      name: Movies
+      collection: 8918
 The History of White People in America Collection
-  The History of White People in America Collection:     template:       name: Movies       collection: 1137702 
+  The History of White People in America Collection:
+    template:
+      name: Movies
+      collection: 1137702
 The Hitman's Bodyguard Collection
-  The Hitman's Bodyguard Collection:     template:       name: Movies       collection: 608101 
+  The Hitman's Bodyguard Collection:
+    template:
+      name: Movies
+      collection: 608101
 The Hunger Games Collection
-  The Hunger Games Collection:     template:       name: Movies       collection: 131635
+  The Hunger Games Collection:
+    template:
+      name: Movies
+      collection: 131635
 The House in Between Collection
-  The House in Between Collection:     template:       name: Movies       collection: 1014599 
+  The House in Between Collection:
+    template:
+      name: Movies
+      collection: 1014599
 The Howling Collection
-  The Howling Collection:     template:       name: Movies       collection: 174218 
+  The Howling Collection:
+    template:
+      name: Movies
+      collection: 174218
 The Hunchback of Notre Dame Collection
-  The Hunchback of Notre Dame Collection:     template:       name: Movies       collection: 97456 
+  The Hunchback of Notre Dame Collection:
+    template:
+      name: Movies
+      collection: 97456
 The Hustler Collection
-  The Hustler Collection:     template:       name: Movies       collection: 387219 
+  The Hustler Collection:
+    template:
+      name: Movies
+      collection: 387219
 The Inbetweeners Collection
-  The Inbetweeners Collection:     template:       name: Movies       collection: 279959 
+  The Inbetweeners Collection:
+    template:
+      name: Movies
+      collection: 279959
 The Land Before Time Collection
-  The Land Before Time Collection:     template:       name: Movies       collection: 19163
+  The Land Before Time Collection:
+    template:
+      name: Movies
+      collection: 19163
 The Invisible Man Collection
-  The Invisible Man Collection:     template:       name: Movies       collection: 259401 
+  The Invisible Man Collection:
+    template:
+      name: Movies
+      collection: 259401
 The Jake Gittes Collection
-  The Jake Gittes Collection:     template:       name: Movies       collection: 359005 
+  The Jake Gittes Collection:
+    template:
+      name: Movies
+      collection: 359005
 The Jerk Collection
-  The Jerk Collection:     template:       name: Movies       collection: 983340 
+  The Jerk Collection:
+    template:
+      name: Movies
+      collection: 983340
 The Jungle Book Collection
-  The Jungle Book Collection:     template:       name: Movies       collection: 97459 
+  The Jungle Book Collection:
+    template:
+      name: Movies
+      collection: 97459
 The Kissing Booth Collection
-  The Kissing Booth Collection:     template:       name: Movies       collection: 726619 
+  The Kissing Booth Collection:
+    template:
+      name: Movies
+      collection: 726619
 The Last Kiss Collection
-  The Last Kiss Collection:     template:       name: Movies       collection: 775219 
+  The Last Kiss Collection:
+    template:
+      name: Movies
+      collection: 775219
 The Last Witch Hunter Collection
-  The Last Witch Hunter Collection:     template:       name: Movies       collection: 1543569 
+  The Last Witch Hunter Collection:
+    template:
+      name: Movies
+      collection: 1543569
 The Legend of Hei Collection
-  The Legend of Hei Collection:     template:       name: Movies       collection: 1444577 
+  The Legend of Hei Collection:
+    template:
+      name: Movies
+      collection: 1444577
 The Librarian Collection
-  The Librarian Collection:     template:       name: Movies       collection: 85890 
+  The Librarian Collection:
+    template:
+      name: Movies
+      collection: 85890
 The Lion King Collection
-  The Lion King Collection:     template:       name: Movies       collection: 94032 
+  The Lion King Collection:
+    template:
+      name: Movies
+      collection: 94032
 The Lord of the Rings Collection
-  The Lord of the Rings Collection:     template:       name: Movies       collection: 119
+  The Lord of the Rings Collection:
+    template:
+      name: Movies
+      collection: 119
 The Little Mermaid Collection
-  The Little Mermaid Collection:     template:       name: Movies       collection: 33085 
+  The Little Mermaid Collection:
+    template:
+      name: Movies
+      collection: 33085
 The Loud House (Live-Action) Collection
-  The Loud House (Live-Action) Collection:     template:       name: Movies       collection: 1298826 
+  The Loud House (Live-Action) Collection:
+    template:
+      name: Movies
+      collection: 1298826
 The Lumberjack Collection
-  The Lumberjack Collection:     template:       name: Movies       collection: 1415718 
+  The Lumberjack Collection:
+    template:
+      name: Movies
+      collection: 1415718
 The Male Gaze Collection
-  The Male Gaze Collection:     template:       name: Movies       collection: 1068160 
+  The Male Gaze Collection:
+    template:
+      name: Movies
+      collection: 1068160
 The Man From Snowy River Collection
-  The Man From Snowy River Collection:     template:       name: Movies       collection: 89272 
+  The Man From Snowy River Collection:
+    template:
+      name: Movies
+      collection: 89272
 The Man Who Saved the World Collection
-  The Man Who Saved the World Collection:     template:       name: Movies       collection: 423877 
+  The Man Who Saved the World Collection:
+    template:
+      name: Movies
+      collection: 423877
 The Marine Collection
-  The Marine Collection:     template:       name: Movies       collection: 166373 
+  The Marine Collection:
+    template:
+      name: Movies
+      collection: 166373
 The Matrix Collection
-  The Matrix Collection:     template:       name: Movies       collection: 2344 
+  The Matrix Collection:
+    template:
+      name: Movies
+      collection: 2344
 The Meg Collection
-  The Meg Collection:     template:       name: Movies       collection: 742536 
+  The Meg Collection:
+    template:
+      name: Movies
+      collection: 742536
 The Mighty Ducks Collection
-  The Mighty Ducks Collection:     template:       name: Movies       collection: 10709 
+  The Mighty Ducks Collection:
+    template:
+      name: Movies
+      collection: 10709
 The Minecraft Movie Collection
-  The Minecraft Movie Collection:     template:       name: Movies       collection: 1461530 
+  The Minecraft Movie Collection:
+    template:
+      name: Movies
+      collection: 1461530
 The Mountain Collection
-  The Mountain Collection:     template:       name: Movies       collection: 474026 
+  The Mountain Collection:
+    template:
+      name: Movies
+      collection: 474026
 The Mummy (Hammer) Collection
-  The Mummy (Hammer) Collection:     template:       name: Movies       collection: 138965 
+  The Mummy (Hammer) Collection:
+    template:
+      name: Movies
+      collection: 138965
 The Mummy Collection
-  The Mummy Collection:     template:       name: Movies       collection: 1733 
+  The Mummy Collection:
+    template:
+      name: Movies
+      collection: 1733
 The Musketeers Collection
-  The Musketeers Collection:     template:       name: Movies       collection: 87631 
+  The Musketeers Collection:
+    template:
+      name: Movies
+      collection: 87631
 The Net Collection
-  The Net Collection:     template:       name: Movies       collection: 328073 
+  The Net Collection:
+    template:
+      name: Movies
+      collection: 328073
 The Ninja Trilogy
-  The Ninja Trilogy:     template:       name: Movies       collection: 373538 
+  The Ninja Trilogy:
+    template:
+      name: Movies
+      collection: 373538
 The Old Guard Collection
-  The Old Guard Collection:     template:       name: Movies       collection: 847029
+  The Old Guard Collection:
+    template:
+      name: Movies
+      collection: 847029
 The Nutty Professor Collection
-  The Nutty Professor Collection:     template:       name: Movies       collection: 86028 
+  The Nutty Professor Collection:
+    template:
+      name: Movies
+      collection: 86028
 The Old Yeller Collection
-  The Old Yeller Collection:     template:       name: Movies       collection: 985434 
+  The Old Yeller Collection:
+    template:
+      name: Movies
+      collection: 985434
 The Olsen Gang Collection
-  The Olsen Gang Collection:     template:       name: Movies       collection: 11118 
+  The Olsen Gang Collection:
+    template:
+      name: Movies
+      collection: 11118
 The One-Armed Boxer Collection
-  The One-Armed Boxer Collection:     template:       name: Movies       collection: 625609 
+  The One-Armed Boxer Collection:
+    template:
+      name: Movies
+      collection: 625609
 The Orphans' Home Cycle
-  The Orphans' Home Cycle:     template:       name: Movies       collection: 1262712 
+  The Orphans' Home Cycle:
+    template:
+      name: Movies
+      collection: 1262712
 The Other Side of the Mountain
-  The Other Side of the Mountain:     template:       name: Movies       collection: 738519 
+  The Other Side of the Mountain:
+    template:
+      name: Movies
+      collection: 738519
 The Pact Collection
-  The Pact Collection:     template:       name: Movies       collection: 292068 
+  The Pact Collection:
+    template:
+      name: Movies
+      collection: 292068
 The Parent Trap Collection
-  The Parent Trap Collection:     template:       name: Movies       collection: 216395 
+  The Parent Trap Collection:
+    template:
+      name: Movies
+      collection: 216395
 The Philadelphia Experiment Collection
-  The Philadelphia Experiment Collection:     template:       name: Movies       collection: 145784 
+  The Philadelphia Experiment Collection:
+    template:
+      name: Movies
+      collection: 145784
 The Pink Panther (Original) Collection
-  The Pink Panther (Original) Collection:     template:       name: Movies       collection: 937 
+  The Pink Panther (Original) Collection:
+    template:
+      name: Movies
+      collection: 937
 The Platform Collection
-  The Platform Collection:     template:       name: Movies       collection: 1126392 
+  The Platform Collection:
+    template:
+      name: Movies
+      collection: 1126392
 The Pope's Exorcist Collection
-  The Pope's Exorcist Collection:     template:       name: Movies       collection: 1390700 
+  The Pope's Exorcist Collection:
+    template:
+      name: Movies
+      collection: 1390700
 The Postcard Killings Collection
-  The Postcard Killings Collection:     template:       name: Movies       collection: 1299186 
+  The Postcard Killings Collection:
+    template:
+      name: Movies
+      collection: 1299186
 The Pretender
-  The Pretender:     template:       name: Movies       collection: 774678 
+  The Pretender:
+    template:
+      name: Movies
+      collection: 774678
 The Princess Diaries Collection
-  The Princess Diaries Collection:     template:       name: Movies       collection: 107674 
+  The Princess Diaries Collection:
+    template:
+      name: Movies
+      collection: 107674
 The Protector Collection
-  The Protector Collection:     template:       name: Movies       collection: 251970 
+  The Protector Collection:
+    template:
+      name: Movies
+      collection: 251970
 The Purge Collection
-  The Purge Collection:     template:       name: Movies       collection: 256322 
+  The Purge Collection:
+    template:
+      name: Movies
+      collection: 256322
 The Quintessential Quintuplets Collection
-  The Quintessential Quintuplets Collection:     template:       name: Movies       collection: 1287339 
+  The Quintessential Quintuplets Collection:
+    template:
+      name: Movies
+      collection: 1287339
 The Railway Children Collection
-  The Railway Children Collection:     template:       name: Movies       collection: 987163 
+  The Railway Children Collection:
+    template:
+      name: Movies
+      collection: 987163
 The Reef Collection
-  The Reef Collection:     template:       name: Movies       collection: 797576 
+  The Reef Collection:
+    template:
+      name: Movies
+      collection: 797576
 The Roundup Collection
-  The Roundup Collection:     template:       name: Movies       collection: 619802
+  The Roundup Collection:
+    template:
+      name: Movies
+      collection: 619802
 The Rescuers Collection
-  The Rescuers Collection:     template:       name: Movies       collection: 57971 
+  The Rescuers Collection:
+    template:
+      name: Movies
+      collection: 57971
 The Ring Collection
-  The Ring Collection:     template:       name: Movies       collection: 14563 
+  The Ring Collection:
+    template:
+      name: Movies
+      collection: 14563
 The Rocketeer Collection
-  The Rocketeer Collection:     template:       name: Movies       collection: 869156 
+  The Rocketeer Collection:
+    template:
+      name: Movies
+      collection: 869156
 The Rocky Horror Picture Show Collection
-  The Rocky Horror Picture Show Collection:     template:       name: Movies       collection: 694606 
+  The Rocky Horror Picture Show Collection:
+    template:
+      name: Movies
+      collection: 694606
 The Sandlot Collection
-  The Sandlot Collection:     template:       name: Movies       collection: 87214 
+  The Sandlot Collection:
+    template:
+      name: Movies
+      collection: 87214
 The Scorpion King Collection
-  The Scorpion King Collection:     template:       name: Movies       collection: 116669 
+  The Scorpion King Collection:
+    template:
+      name: Movies
+      collection: 116669
 The Secret Garden Collection
-  The Secret Garden Collection:     template:       name: Movies       collection: 462565 
+  The Secret Garden Collection:
+    template:
+      name: Movies
+      collection: 462565
 The Secret of NIMH Collection
-  The Secret of NIMH Collection:     template:       name: Movies       collection: 141292 
+  The Secret of NIMH Collection:
+    template:
+      name: Movies
+      collection: 141292
 The Seven Deadly Sins Collection
-  The Seven Deadly Sins Collection:     template:       name: Movies       collection: 703485 
+  The Seven Deadly Sins Collection:
+    template:
+      name: Movies
+      collection: 703485
 The Shaggy Dog Collection
-  The Shaggy Dog Collection:     template:       name: Movies       collection: 294519 
+  The Shaggy Dog Collection:
+    template:
+      name: Movies
+      collection: 294519
 The Sharks Collection
-  The Sharks Collection:     template:       name: Movies       collection: 632619 
+  The Sharks Collection:
+    template:
+      name: Movies
+      collection: 632619
 The Sisterhood of the Traveling Pants Collection
-  The Sisterhood of the Traveling Pants Collection:     template:       name: Movies       collection: 17368 
+  The Sisterhood of the Traveling Pants Collection:
+    template:
+      name: Movies
+      collection: 17368
 The Skulls Collection
-  The Skulls Collection:     template:       name: Movies       collection: 8647 
+  The Skulls Collection:
+    template:
+      name: Movies
+      collection: 8647
 The Smurfs (Theatrical) Collection
-  The Smurfs (Theatrical) Collection:     template:       name: Movies       collection: 134897 
+  The Smurfs (Theatrical) Collection:
+    template:
+      name: Movies
+      collection: 134897
 The Social Network Collection
-  The Social Network Collection:     template:       name: Movies       collection: 1504252 
+  The Social Network Collection:
+    template:
+      name: Movies
+      collection: 1504252
 The Souvenir Collection
-  The Souvenir Collection:     template:       name: Movies       collection: 583369 
+  The Souvenir Collection:
+    template:
+      name: Movies
+      collection: 583369
 The Stepfather Collection
-  The Stepfather Collection:     template:       name: Movies       collection: 138706 
+  The Stepfather Collection:
+    template:
+      name: Movies
+      collection: 138706
 The Storm Riders Collection
-  The Storm Riders Collection:     template:       name: Movies       collection: 146532 
+  The Storm Riders Collection:
+    template:
+      name: Movies
+      collection: 146532
 The Strangers (Remake) Collection
-  The Strangers (Remake) Collection:     template:       name: Movies       collection: 1172926 
+  The Strangers (Remake) Collection:
+    template:
+      name: Movies
+      collection: 1172926
 The Street Fighter Collection
-  The Street Fighter Collection:     template:       name: Movies       collection: 48829 
+  The Street Fighter Collection:
+    template:
+      name: Movies
+      collection: 48829
 The Super Mario Bros. Collection
-  The Super Mario Bros. Collection:     template:       name: Movies       collection: 1434561 
+  The Super Mario Bros. Collection:
+    template:
+      name: Movies
+      collection: 1434561
 The Sword and the Sorcerer Collection
-  The Sword and the Sorcerer Collection:     template:       name: Movies       collection: 964225 
+  The Sword and the Sorcerer Collection:
+    template:
+      name: Movies
+      collection: 964225
 The Thin Man Collection
-  The Thin Man Collection:     template:       name: Movies       collection: 47814 
+  The Thin Man Collection:
+    template:
+      name: Movies
+      collection: 47814
 The Thinning Collection
-  The Thinning Collection:     template:       name: Movies       collection: 554930 
+  The Thinning Collection:
+    template:
+      name: Movies
+      collection: 554930
 The Tomorrow War Collection
-  The Tomorrow War Collection:     template:       name: Movies       collection: 848922 
+  The Tomorrow War Collection:
+    template:
+      name: Movies
+      collection: 848922
 The Trilogy of Death - Nacho Cerda
-  The Trilogy of Death - Nacho Cerda:     template:       name: Movies       collection: 84785 
+  The Trilogy of Death - Nacho Cerda:
+    template:
+      name: Movies
+      collection: 84785
 Thief Collection
-  Thief Collection:     template:       name: Movies       collection: 308644
+  Thief Collection:
+    template:
+      name: Movies
+      collection: 308644
 The Trip Collection
-  The Trip Collection:     template:       name: Movies       collection: 309300 
+  The Trip Collection:
+    template:
+      name: Movies
+      collection: 309300
 The Twilight Collection
-  The Twilight Collection:     template:       name: Movies       collection: 33514 
+  The Twilight Collection:
+    template:
+      name: Movies
+      collection: 33514
 The Unborn Collection
-  The Unborn Collection:     template:       name: Movies       collection: 1352527 
+  The Unborn Collection:
+    template:
+      name: Movies
+      collection: 1352527
 The Unknown Country Collection
-  The Unknown Country Collection:     template:       name: Movies       collection: 1380015 
+  The Unknown Country Collection:
+    template:
+      name: Movies
+      collection: 1380015
 The Usual Suspects Collection
-  The Usual Suspects Collection:     template:       name: Movies       collection: 656828 
+  The Usual Suspects Collection:
+    template:
+      name: Movies
+      collection: 656828
 The Volunteers Collection
-  The Volunteers Collection:     template:       name: Movies       collection: 1366692 
+  The Volunteers Collection:
+    template:
+      name: Movies
+      collection: 1366692
 The Water Margin Collection
-  The Water Margin Collection:     template:       name: Movies       collection: 201835 
+  The Water Margin Collection:
+    template:
+      name: Movies
+      collection: 201835
 The White Storm Collection
-  The White Storm Collection:     template:       name: Movies       collection: 644309 
+  The White Storm Collection:
+    template:
+      name: Movies
+      collection: 644309
 The Wild Geese Collection
-  The Wild Geese Collection:     template:       name: Movies       collection: 321061 
+  The Wild Geese Collection:
+    template:
+      name: Movies
+      collection: 321061
 The Witch Collection
-  The Witch Collection:     template:       name: Movies       collection: 619533 
+  The Witch Collection:
+    template:
+      name: Movies
+      collection: 619533
 The Wolf Man Collection
-  The Wolf Man Collection:     template:       name: Movies       collection: 259027 
+  The Wolf Man Collection:
+    template:
+      name: Movies
+      collection: 259027
 The Woman in Black Collection
-  The Woman in Black Collection:     template:       name: Movies       collection: 315560 
+  The Woman in Black Collection:
+    template:
+      name: Movies
+      collection: 315560
 The Worricker Collection
-  The Worricker Collection:     template:       name: Movies       collection: 260601 
+  The Worricker Collection:
+    template:
+      name: Movies
+      collection: 260601
 The Youngest Sister-in-law Collection
-  The Youngest Sister-in-law Collection:     template:       name: Movies       collection: 1018433 
+  The Youngest Sister-in-law Collection:
+    template:
+      name: Movies
+      collection: 1018433
 Thief Collection
-  Thief Collection:     template:       name: Movies       collection: 1381160 
+  Thief Collection:
+    template:
+      name: Movies
+      collection: 1381160
 This is America Collection
-  This is America Collection:     template:       name: Movies       collection: 227541 
+  This is America Collection:
+    template:
+      name: Movies
+      collection: 227541
 Through My Window Collection
-  Through My Window Collection:     template:       name: Movies       collection: 1130226
+  Through My Window Collection:
+    template:
+      name: Movies
+      collection: 1130226
 Those Magnificent Men in Their...Collection
-  Those Magnificent Men in Their...Collection:     template:       name: Movies       collection: 752614 
+  Those Magnificent Men in Their...Collection:
+    template:
+      name: Movies
+      collection: 752614
 Three Smart Girls Trilogy
-  Three Smart Girls Trilogy:     template:       name: Movies       collection: 1361831 
+  Three Smart Girls Trilogy:
+    template:
+      name: Movies
+      collection: 1361831
 Three Wise Men Collection
-  Three Wise Men Collection:     template:       name: Movies       collection: 1293280 
+  Three Wise Men Collection:
+    template:
+      name: Movies
+      collection: 1293280
 Tiger Cage Collection
-  Tiger Cage Collection:     template:       name: Movies       collection: 204930 
+  Tiger Cage Collection:
+    template:
+      name: Movies
+      collection: 204930
 Timecop Collection
-  Timecop Collection:     template:       name: Movies       collection: 170452 
+  Timecop Collection:
+    template:
+      name: Movies
+      collection: 170452
 Titanic Collection (Animated Movies)
-  Titanic Collection (Animated Movies):     template:       name: Movies       collection: 1295721 
+  Titanic Collection (Animated Movies):
+    template:
+      name: Movies
+      collection: 1295721
 Transformers Collection
-  Transformers Collection:     template:       name: Movies       collection: 8650
+  Transformers Collection:
+    template:
+      name: Movies
+      collection: 8650
 To Sir, with Love Collection
-  To Sir, with Love Collection:     template:       name: Movies       collection: 327598 
+  To Sir, with Love Collection:
+    template:
+      name: Movies
+      collection: 327598
 Tom Cody Collection
-  Tom Cody Collection:     template:       name: Movies       collection: 1105385 
+  Tom Cody Collection:
+    template:
+      name: Movies
+      collection: 1105385
 Tomb Raider Collection
-  Tomb Raider Collection:     template:       name: Movies       collection: 2467 
+  Tomb Raider Collection:
+    template:
+      name: Movies
+      collection: 2467
 Tooth Fairy (Horror) Collection
-  Tooth Fairy (Horror) Collection:     template:       name: Movies       collection: 811796 
+  Tooth Fairy (Horror) Collection:
+    template:
+      name: Movies
+      collection: 811796
 Top Gun Collection
-  Top Gun Collection:     template:       name: Movies       collection: 531330 
+  Top Gun Collection:
+    template:
+      name: Movies
+      collection: 531330
 Topper Collection
-  Topper Collection:     template:       name: Movies       collection: 438087 
+  Topper Collection:
+    template:
+      name: Movies
+      collection: 438087
 Trailer Park Boys Collection
-  Trailer Park Boys Collection:     template:       name: Movies       collection: 101385 
+  Trailer Park Boys Collection:
+    template:
+      name: Movies
+      collection: 101385
 Training Day Collection
-  Training Day Collection:     template:       name: Movies       collection: 945477 
+  Training Day Collection:
+    template:
+      name: Movies
+      collection: 945477
 Trancers Collection
-  Trancers Collection:     template:       name: Movies       collection: 47627 
+  Trancers Collection:
+    template:
+      name: Movies
+      collection: 47627
 Trauma Therapy Collection
-  Trauma Therapy Collection:     template:       name: Movies       collection: 1162141 
+  Trauma Therapy Collection:
+    template:
+      name: Movies
+      collection: 1162141
 Trick 'r Treat Collection
-  Trick 'r Treat Collection:     template:       name: Movies       collection: 1226742 
+  Trick 'r Treat Collection:
+    template:
+      name: Movies
+      collection: 1226742
 Trolls Collection
-  Trolls Collection:     template:       name: Movies       collection: 489724
+  Trolls Collection:
+    template:
+      name: Movies
+      collection: 489724
 Trilogy of Terror Collection
-  Trilogy of Terror Collection:     template:       name: Movies       collection: 188458 
+  Trilogy of Terror Collection:
+    template:
+      name: Movies
+      collection: 188458
 Troll Collection
-  Troll Collection:     template:       name: Movies       collection: 1180834 
+  Troll Collection:
+    template:
+      name: Movies
+      collection: 1180834
 TRON Collection
-  TRON Collection:     template:       name: Movies       collection: 63043 
+  TRON Collection:
+    template:
+      name: Movies
+      collection: 63043
 True to the Game Collection
-  True to the Game Collection:     template:       name: Movies       collection: 780033 
+  True to the Game Collection:
+    template:
+      name: Movies
+      collection: 780033
 Undercover Brother Collection
-  Undercover Brother Collection:     template:       name: Movies       collection: 645393
+  Undercover Brother Collection:
+    template:
+      name: Movies
+      collection: 645393
 Truth In 24 Collection
-  Truth In 24 Collection:     template:       name: Movies       collection: 1504177 
+  Truth In 24 Collection:
+    template:
+      name: Movies
+      collection: 1504177
 Twilight of the Warriors Collection
-  Twilight of the Warriors Collection:     template:       name: Movies       collection: 1394075 
+  Twilight of the Warriors Collection:
+    template:
+      name: Movies
+      collection: 1394075
 Twitches Collection
-  Twitches Collection:     template:       name: Movies       collection: 263106 
+  Twitches Collection:
+    template:
+      name: Movies
+      collection: 263106
 Ultimate Avengers Collection
-  Ultimate Avengers Collection:     template:       name: Movies       collection: 286904 
+  Ultimate Avengers Collection:
+    template:
+      name: Movies
+      collection: 286904
 Unbroken Collection
-  Unbroken Collection:     template:       name: Movies       collection: 725873 
+  Unbroken Collection:
+    template:
+      name: Movies
+      collection: 725873
 Uncle Tom Collection
-  Uncle Tom Collection:     template:       name: Movies       collection: 1036633 
+  Uncle Tom Collection:
+    template:
+      name: Movies
+      collection: 1036633
 Under Wraps Collection
-  Under Wraps Collection:     template:       name: Movies       collection: 1015410 
+  Under Wraps Collection:
+    template:
+      name: Movies
+      collection: 1015410
 Undisputed Collection
-  Undisputed Collection:     template:       name: Movies       collection: 117777 
+  Undisputed Collection:
+    template:
+      name: Movies
+      collection: 117777
 Untold Stories of Independent India Collection
-  Untold Stories of Independent India Collection:     template:       name: Movies       collection: 900844 
+  Untold Stories of Independent India Collection:
+    template:
+      name: Movies
+      collection: 900844
 Ursus Collection
-  Ursus Collection:     template:       name: Movies       collection: 432254 
+  Ursus Collection:
+    template:
+      name: Movies
+      collection: 432254
 V/H/S Collection
-  V/H/S Collection:     template:       name: Movies       collection: 207621 
+  V/H/S Collection:
+    template:
+      name: Movies
+      collection: 207621
 Vampires Collection
-  Vampires Collection:     template:       name: Movies       collection: 348843 
+  Vampires Collection:
+    template:
+      name: Movies
+      collection: 348843
 Veronica Collection
-  Veronica Collection:     template:       name: Movies       collection: 1235789 
+  Veronica Collection:
+    template:
+      name: Movies
+      collection: 1235789
 Wonder Woman Collection
-  Wonder Woman Collection:     template:       name: Movies       collection: 468552
+  Wonder Woman Collection:
+    template:
+      name: Movies
+      collection: 468552
 VHS Massacre Collection
-  VHS Massacre Collection:     template:       name: Movies       collection: 1155635 
+  VHS Massacre Collection:
+    template:
+      name: Movies
+      collection: 1155635
 Violent Night Collection
-  Violent Night Collection:     template:       name: Movies       collection: 1078456 
+  Violent Night Collection:
+    template:
+      name: Movies
+      collection: 1078456
 Virgil Tibbs Trilogy
-  Virgil Tibbs Trilogy:     template:       name: Movies       collection: 492896 
+  Virgil Tibbs Trilogy:
+    template:
+      name: Movies
+      collection: 492896
 Voicemails From Strangers Collection
-  Voicemails From Strangers Collection:     template:       name: Movies       collection: 790457 
+  Voicemails From Strangers Collection:
+    template:
+      name: Movies
+      collection: 790457
 Walking Tall (Reboot) Collection
-  Walking Tall (Reboot) Collection:     template:       name: Movies       collection: 299748 
+  Walking Tall (Reboot) Collection:
+    template:
+      name: Movies
+      collection: 299748
 Wall Street Collection
-  Wall Street Collection:     template:       name: Movies       collection: 52783 
+  Wall Street Collection:
+    template:
+      name: Movies
+      collection: 52783
 Wandering Earth Collection
-  Wandering Earth Collection:     template:       name: Movies       collection: 1073029 
+  Wandering Earth Collection:
+    template:
+      name: Movies
+      collection: 1073029
 War of the Worlds Collection
-  War of the Worlds Collection:     template:       name: Movies       collection: 201061 
+  War of the Worlds Collection:
+    template:
+      name: Movies
+      collection: 201061
 Warlock Collection
-  Warlock Collection:     template:       name: Movies       collection: 87536 
+  Warlock Collection:
+    template:
+      name: Movies
+      collection: 87536
 Waxwork Collection
-  Waxwork Collection:     template:       name: Movies       collection: 126220 
+  Waxwork Collection:
+    template:
+      name: Movies
+      collection: 126220
 Weapons Collection
-  Weapons Collection:     template:       name: Movies       collection: 1531466 
+  Weapons Collection:
+    template:
+      name: Movies
+      collection: 1531466
 What the Waters Left Behind Collection
-  What the Waters Left Behind Collection:     template:       name: Movies       collection: 1045373 
+  What the Waters Left Behind Collection:
+    template:
+      name: Movies
+      collection: 1045373
 When Evil Lurks Collection
-  When Evil Lurks Collection:     template:       name: Movies       collection: 1503061 
+  When Evil Lurks Collection:
+    template:
+      name: Movies
+      collection: 1503061
 Where We Belong Collection
-  Where We Belong Collection:     template:       name: Movies       collection: 1024378 
+  Where We Belong Collection:
+    template:
+      name: Movies
+      collection: 1024378
 White Fang Collection
-  White Fang Collection:     template:       name: Movies       collection: 178654 
+  White Fang Collection:
+    template:
+      name: Movies
+      collection: 178654
 White Snake Collection
-  White Snake Collection:     template:       name: Movies       collection: 836546 
+  White Snake Collection:
+    template:
+      name: Movies
+      collection: 836546
 Why We Fight
-  Why We Fight:     template:       name: Movies       collection: 158365 
+  Why We Fight:
+    template:
+      name: Movies
+      collection: 158365
 Wicked Collection
-  Wicked Collection:     template:       name: Movies       collection: 968080 
+  Wicked Collection:
+    template:
+      name: Movies
+      collection: 968080
 Willard Collection
-  Willard Collection:     template:       name: Movies       collection: 375886 
+  Willard Collection:
+    template:
+      name: Movies
+      collection: 375886
 Winnie-the-Pooh (Horror) Collection
-  Winnie-the-Pooh (Horror) Collection:     template:       name: Movies       collection: 1079486 
+  Winnie-the-Pooh (Horror) Collection:
+    template:
+      name: Movies
+      collection: 1079486
 Wishmaster Collection
-  Wishmaster Collection:     template:       name: Movies       collection: 135489 
+  Wishmaster Collection:
+    template:
+      name: Movies
+      collection: 135489
 Witchboard Collection
-  Witchboard Collection:     template:       name: Movies       collection: 168186 
+  Witchboard Collection:
+    template:
+      name: Movies
+      collection: 168186
 Wizards of the Lost Kingdom Collection
-  Wizards of the Lost Kingdom Collection:     template:       name: Movies       collection: 544508 
+  Wizards of the Lost Kingdom Collection:
+    template:
+      name: Movies
+      collection: 544508
 WolfCop Collection
-  WolfCop Collection:     template:       name: Movies       collection: 533711 
+  WolfCop Collection:
+    template:
+      name: Movies
+      collection: 533711
 Wonka Collection
-  Wonka Collection:     template:       name: Movies       collection: 1393821 
+  Wonka Collection:
+    template:
+      name: Movies
+      collection: 1393821
 World of Tomorrow Collection
-  World of Tomorrow Collection:     template:       name: Movies       collection: 506918 
+  World of Tomorrow Collection:
+    template:
+      name: Movies
+      collection: 506918
 Wrong Turn Collection
-  Wrong Turn Collection:     template:       name: Movies       collection: 52985
+  Wrong Turn Collection:
+    template:
+      name: Movies
+      collection: 52985
 X Collection
-  X Collection:     template:       name: Movies       collection: 950289 
+  X Collection:
+    template:
+      name: Movies
+      collection: 950289
 X-Rated Collection
-  X-Rated Collection:     template:       name: Movies       collection: 777106 
+  X-Rated Collection:
+    template:
+      name: Movies
+      collection: 777106
 xXx Collection
-  xXx Collection:     template:       name: Movies       collection: 52785 
+  xXx Collection:
+    template:
+      name: Movies
+      collection: 52785
 Yes or No
-  Yes or No:     template:       name: Movies       collection: 690680 
+  Yes or No:
+    template:
+      name: Movies
+      collection: 690680
 Young and Dangerous Collection
-  Young and Dangerous Collection:     template:       name: Movies       collection: 1180127 
+  Young and Dangerous Collection:
+    template:
+      name: Movies
+      collection: 1180127
 ... Cameras Collection
-  ... Cameras Collection:     template:       name: Movies       collection: 877586 
+  ... Cameras Collection:
+    template:
+      name: Movies
+      collection: 877586
 Your Christmas or Mine Collection
-  Your Christmas or Mine Collection:     template:       name: Movies       collection: 1186471 
+  Your Christmas or Mine Collection:
+    template:
+      name: Movies
+      collection: 1186471
 Yu-Gi-Oh! Collection
-  Yu-Gi-Oh! Collection:     template:       name: Movies       collection: 600207 
+  Yu-Gi-Oh! Collection:
+    template:
+      name: Movies
+      collection: 600207
 Zenon Collection
-  Zenon Collection:     template:       name: Movies       collection: 321148 
+  Zenon Collection:
+    template:
+      name: Movies
+      collection: 321148
 Z-O-M-B-I-E-S Collection
-  Z-O-M-B-I-E-S Collection:     template:       name: Movies       collection: 683698 
+  Z-O-M-B-I-E-S Collection:
+    template:
+      name: Movies
+      collection: 683698
 Zootopia Collection
-  Zootopia Collection:     template:       name: Movies       collection: 1084247 
+  Zootopia Collection:
+    template:
+      name: Movies
+      collection: 1084247
 Zu Warriors Collection
-  Zu Warriors Collection:     template:       name: Movies       collection: 385721 
+  Zu Warriors Collection:
+    template:
+      name: Movies
+      collection: 385721
 
