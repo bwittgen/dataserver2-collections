@@ -115,142 +115,187 @@ collections:
       name: Writer
       writer: 348
   # Actors
-  Tyler Perry (Actor):
-    template:
-      name: Actor
-      tmdb: 80602
-  Arnold Schwarzenegger (Actor):
-    template:
-      name: Actor
-      tmdb: 1100
-  Dwayne Johnson (Actor):
-    template:
-      name: Actor
-      tmdb: 18918
-  Tom Cruise (Actor):
-    template:
-      name: Actor
-      tmdb: 500
-  George Clooney (Actor):
-    template:
-      name: Actor
-      tmdb: 1461
-  Robert De Niro (Actor):
-    template:
-      name: Actor
-      tmdb: 380
-  Brad Pitt (Actor):
-    template:
-      name: Actor
-      tmdb: 287
-  Jack Nicholson (Actor):
-    template:
-      name: Actor
-      tmdb: 514
-  Tom Hanks (Actor):
-    template:
-      name: Actor
-      tmdb: 31
-  Jackie Chan (Actor):
-    template:
-      name: Actor
-      tmdb: 18897
-  Jerry Seinfeld (Actor):
-    template:
-      name: Actor
-      tmdb: 16377
-  Mel Gibson (Actor):
-    template:
-      name: Actor
-      tmdb: 2461
+  # Actors
   Adam Sandler (Actor):
     template:
       name: Actor
       tmdb: 19292
-  Kevin Hart (Actor):
-    template:
-      name: Actor
-      tmdb: 55638
-  Keanu Reeves (Actor):
-    template:
-      name: Actor
-      tmdb: 6384
-  Clint Eastwood (Actor):
-    template:
-      name: Actor
-      tmdb: 190
-  Michael Douglas (Actor):
-    template:
-      name: Actor
-      tmdb: 3392
-  Ryan Reynolds (Actor):
-    template:
-      name: Actor
-      tmdb: 10859
-  Will Smith (Actor):
-    template:
-      name: Actor
-      tmdb: 2888
-  Reese Witherspoon (Actor):
-    template:
-      name: Actor
-      tmdb: 368
-  Leonardo DiCaprio (Actor):
-    template:
-      name: Actor
-      tmdb: 6193
-  Denzel Washington (Actor):
-    template:
-      name: Actor
-      tmdb: 5292
-  Samuel L. Jackson (Actor):
-    template:
-      name: Actor
-      tmdb: 2231
-  TimothÃ©e Chalamet (Actor):
-    template:
-      name: Actor
-      tmdb: 1190668
-  Chris Hemsworth (Actor):
-    template:
-      name: Actor
-      tmdb: 74568
-  Robert Downey Jr. (Actor):
-    template:
-      name: Actor
-      tmdb: 3223
-  Scarlett Johansson (Actor):
-    template:
-      name: Actor
-      tmdb: 1245
-  Jennifer Lawrence (Actor):
-    template:
-      name: Actor
-      tmdb: 72129
-  Margot Robbie (Actor):
-    template:
-      name: Actor
-      tmdb: 234352
-  Zendaya (Actor):
-    template:
-      name: Actor
-      tmdb: 505710
-  Viola Davis (Actor):
-    template:
-      name: Actor
-      tmdb: 19492
-  Joaquin Phoenix (Actor):
-    template:
-      name: Actor
-      tmdb: 73421
   Amy Adams (Actor):
     template:
       name: Actor
       tmdb: 9273
+  Arnold Schwarzenegger (Actor):
+    template:
+      name: Actor
+      tmdb: 1100
+  Aubrey Plaza (Actor):
+    template:
+      name: Actor
+      tmdb: 119592
+  Brad Pitt (Actor):
+    template:
+      name: Actor
+      tmdb: 287
+  Charlie Sheen (Actor):
+    template:
+      name: Actor
+      tmdb: 6952
+  Chris Hemsworth (Actor):
+    template:
+      name: Actor
+      tmdb: 74568
   Chris Pratt (Actor):
     template:
       name: Actor
       tmdb: 73457
+  Clint Eastwood (Actor):
+    template:
+      name: Actor
+      tmdb: 190
+  Denzel Washington (Actor):
+    template:
+      name: Actor
+      tmdb: 5292
+  Dwayne Johnson (Actor):
+    template:
+      name: Actor
+      tmdb: 18918
+  George Clooney (Actor):
+    template:
+      name: Actor
+      tmdb: 1461
+  Jack Nicholson (Actor):
+    template:
+      name: Actor
+      tmdb: 514
+  Jackie Chan (Actor):
+    template:
+      name: Actor
+      tmdb: 18897
+  Jason Bateman (Actor):
+    template:
+      name: Actor
+      tmdb: 23532
+  Jennifer Aniston (Actor):
+    template:
+      name: Actor
+      tmdb: 4491
+  Jennifer Lawrence (Actor):
+    template:
+      name: Actor
+      tmdb: 72129
+  Jerry Seinfeld (Actor):
+    template:
+      name: Actor
+      tmdb: 16377
+  Joaquin Phoenix (Actor):
+    template:
+      name: Actor
+      tmdb: 73421
+  Johnny Depp (Actor):
+    template:
+      name: Actor
+      tmdb: 85
+  Keanu Reeves (Actor):
+    template:
+      name: Actor
+      tmdb: 6384
+  Kevin Hart (Actor):
+    template:
+      name: Actor
+      tmdb: 55638
+  Leonardo DiCaprio (Actor):
+    template:
+      name: Actor
+      tmdb: 6193
+  Margot Robbie (Actor):
+    template:
+      name: Actor
+      tmdb: 234352
+  Mel Gibson (Actor):
+    template:
+      name: Actor
+      tmdb: 2461
+  Michael Douglas (Actor):
+    template:
+      name: Actor
+      tmdb: 3392
+  Owen Wilson (Actor):
+    template:
+      name: Actor
+      tmdb: 887
+  Reese Witherspoon (Actor):
+    template:
+      name: Actor
+      tmdb: 368
+  Robert De Niro (Actor):
+    template:
+      name: Actor
+      tmdb: 380
+  Robert Downey Jr. (Actor):
+    template:
+      name: Actor
+      tmdb: 3223
+  Robin Williams (Actor):
+    template:
+      name: Actor
+      tmdb: 2157
+  Ryan Reynolds (Actor):
+    template:
+      name: Actor
+      tmdb: 10859
+  Samuel L. Jackson (Actor):
+    template:
+      name: Actor
+      tmdb: 2231
+  Scarlett Johansson (Actor):
+    template:
+      name: Actor
+      tmdb: 1245
+  Steve Carell (Actor):
+    template:
+      name: Actor
+      tmdb: 4495
+  Sydney Sweeney (Actor):
+    template:
+      name: Actor
+      tmdb: 115440
+  Timothée Chalamet (Actor):
+    template:
+      name: Actor
+      tmdb: 1190668
+  Tom Cruise (Actor):
+    template:
+      name: Actor
+      tmdb: 500
+  Tom Hanks (Actor):
+    template:
+      name: Actor
+      tmdb: 31
+  Tyler Perry (Actor):
+    template:
+      name: Actor
+      tmdb: 80602
+  Vince Vaughn (Actor):
+    template:
+      name: Actor
+      tmdb: 4937
+  Viola Davis (Actor):
+    template:
+      name: Actor
+      tmdb: 19492
+  Will Smith (Actor):
+    template:
+      name: Actor
+      tmdb: 2888
+  Winona Ryder (Actor):
+    template:
+      name: Actor
+      tmdb: 1920
+  Zendaya (Actor):
+    template:
+      name: Actor
+      tmdb: 505710
   # Studios
   DC Extended Universe:
     template:
