@@ -51,9 +51,33 @@ $items = if ($resp.PSObject.Properties.Name -contains 'records') { $resp.records
 
 $items | ForEach-Object {
   $title = $_.title
-  $qname = $_.quality.quality.name
-  $res   = $_.quality.quality.resolution
+  if (-not $title) { $title = $_.movie?.title }
   if (-not $title) { $title = $_.series?.title }
-  '{0} — {1} — {2}p' -f ($title ?? 'unknown'), ($qname ?? 'unknown'), ($res ?? 'unknown')
-}
+  $qname = $_.quality.quality.name
+  $qres  = $_.quality.quality.resolution
 
+  # Look up existing on-disk movie file (if any)
+  $existingQ = ''
+  $existingR = ''
+  $existingP = ''
+  $mid = $_.movieId
+  if ($mid) {
+    try {
+      $mfiles = Invoke-RestMethod -UseBasicParsing -Headers $headers -Uri ("{0}/api/v3/moviefile?movieId={1}" -f $Url.TrimEnd('/'), $mid) -TimeoutSec 30
+      if ($mfiles) {
+        $mf = $mfiles | Sort-Object size -Descending | Select-Object -First 1
+        if ($mf) {
+          $existingQ = $mf.quality.quality.name
+          $existingR = $mf.quality.quality.resolution
+          $existingP = if ($mf.path) { $mf.path } else { $mf.relativePath }
+        }
+      }
+    } catch {
+      # ignore
+    }
+  }
+
+  '{0} — {1} — {2}p — {3} — {4}p — {5}' -f \
+    ($title ?? 'unknown'), ($qname ?? 'unknown'), ($qres ?? 'unknown'), \
+    ($existingQ ?? ''),     ($existingR ?? ''),     ($existingP ?? '')
+}

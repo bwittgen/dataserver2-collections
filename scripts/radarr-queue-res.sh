@@ -49,13 +49,37 @@ if ! command -v jq >/dev/null 2>&1; then
   exit 1
 fi
 
-curl -sS -H "X-Api-Key: ${radarr_key}" \
-  "${radarr_url%/}/api/v3/queue?page=1&pageSize=1000" \
-| jq -r '
-  ( .records // . )
-  | map({ title: (.title // .series?.title // "unknown"),
-          qname: (.quality.quality.name // "unknown"),
-          res:   (.quality.quality.resolution // null) })
-  | .[]
-  | "\(.title) — \(.qname) — \((.res//"unknown")|tostring)p"'
+# Fetch queue
+queue_json=$(curl -sS -H "X-Api-Key: ${radarr_key}" \
+  "${radarr_url%/}/api/v3/queue?page=1&pageSize=1000")
 
+# Iterate queue and optionally show existing on-disk file resolution
+echo "Title — QueueQuality — QueueRes — ExistingQuality — ExistingRes — ExistingPath"
+
+printf "%s" "$queue_json" | jq -r '
+  ( .records // . )
+  | map({ id: (.movieId // .id // .movie?.id),
+          title: (.title // .movie?.title // .series?.title // "unknown"),
+          qname: (.quality.quality.name // "unknown"),
+          qres:   (.quality.quality.resolution // null) })
+  | .[]
+  | [(.id|tostring), .title, .qname, ((.qres//"unknown")|tostring)] | @tsv' |
+while IFS=$'\t' read -r mid title qname qres; do
+  existing_q=""; existing_r=""; existing_p=""
+  if [[ "$mid" != "" && "$mid" != "null" ]]; then
+    mf_json=$(curl -sS -H "X-Api-Key: ${radarr_key}" \
+      "${radarr_url%/}/api/v3/moviefile?movieId=${mid}")
+    # Pick the largest file (if multiple)
+    read -r existing_q existing_r existing_p < <(printf "%s" "$mf_json" | jq -r '
+      ( . // [] )
+      | (sort_by(.size) | reverse | .[0])
+      | if . == null then
+          ["", "", ""] | @tsv
+        else
+          [(.quality.quality.name // "unknown"),
+           ((.quality.quality.resolution // "unknown")|tostring),
+           (.path // .relativePath // "")] | @tsv
+        end')
+  fi
+  echo "${title} — ${qname} — ${qres}p — ${existing_q} — ${existing_r}${existing_r:+p} — ${existing_p}"
+done
