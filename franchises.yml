@@ -1,4 +1,4 @@
-﻿# Auto-generated from Radarr collections (count > 1)
+﻿# Auto-generated from Radarr collections (>=1 movie in Radarr)
 collections:
   # Franchise Collections (Radarr-derived)
   ... Cameras Collection:
@@ -2061,6 +2061,10 @@ collections:
     template:
       name: Movies
       collection: 1125292
+  Free Guy Collection:
+    template:
+      name: Movies
+      collection: 861415
   Free to Choose Collection:
     template:
       name: Movies
@@ -5549,6 +5553,10 @@ collections:
     template:
       name: Movies
       collection: 1037405
+  The Bullet Train Collection:
+    template:
+      name: Movies
+      collection: 1514860
   The Butterfly Effect Collection:
     template:
       name: Movies
@@ -6836,7 +6844,7 @@ collections:
   Troll Collection:
     template:
       name: Movies
-      collection: 123218
+      collection: 1180834
   Trolls Holiday Collection:
     template:
       name: Movies
@@ -7249,6 +7257,10 @@ collections:
     template:
       name: Movies
       collection: 321148
+  Zog Collection:
+    template:
+      name: Movies
+      collection: 917277
   Zombieland Collection:
     template:
       name: Movies
