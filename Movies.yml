@@ -566,20 +566,15 @@ collections:
     template:
       name: Chart
       num: 6
-    imdb_search:
-      type: movie
-      groups: oscar_nominee
-      sort_by: year.desc
-      limit: 100
+    trakt_list: https://trakt.tv/users/hdlists/lists/oscars-nominees
+    sync_mode: sync
     summary: Oscar Nominated Films
   Oscars:
     template:
       name: Chart
       num: 5
-    imdb_search:
-      type: movie
-      groups: oscar_winner
-      limit: 100
+    trakt_list: https://trakt.tv/users/hdlists/lists/oscars-winners
+    sync_mode: sync
     summary: Oscar Winning Movies
   Popular:
     template:
