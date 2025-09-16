@@ -136,6 +136,10 @@ collections:
     template:
       name: Actor
       tmdb: 287
+  Bruce Willis (Actor):
+    template:
+      name: Actor
+      tmdb: 62
   Charlie Sheen (Actor):
     template:
       name: Actor
@@ -160,6 +164,14 @@ collections:
     template:
       name: Actor
       tmdb: 18918
+  Ed Helms (Actor):
+    template:
+      name: Actor
+      tmdb: 27105
+  Gary Oldman (Actor):
+    template:
+      name: Actor
+      tmdb: 64
   George Clooney (Actor):
     template:
       name: Actor
@@ -252,6 +264,10 @@ collections:
     template:
       name: Actor
       tmdb: 1245
+  Stephen Siegel (Actor):
+    template:
+      name: Actor
+      tmdb: 1817552
   Steve Carell (Actor):
     template:
       name: Actor
