@@ -53,38 +53,42 @@ templates:
     summary: Films starring <<collection_name>>
 collections:
   # Directors
-  Christopher Nolan:
-    template:
+  Christopher Nolan (Director):
+    template (Director):
       name: Director
       tmdb: 525
-  Edgar Wright:
-    template:
+  Edgar Wright (Director):
+    template (Director):
       name: Director
       tmdb: 11090
-  James Cameron:
-    template:
+  James Cameron (Director):
+    template (Director):
       name: Director
       tmdb: 2710
-  M. Night Shyamalan:
-    template:
+  M. Night Shyamalan (Director):
+    template (Director):
       name: Director
       tmdb: 11614
-  Martin Scorsese:
-    template:
+  Martin Scorsese (Director):
+    template (Director):
       name: Director
       tmdb: 1032
-  Quentin Tarantino:
-    template:
+  Quentin Tarantino (Director):
+    template (Director):
       name: Director
       tmdb: 138
-  Steven Spielberg:
-    template:
+  Steven Spielberg (Director):
+    template (Director):
       name: Director
       tmdb: 488
-  Wes Anderson:
-    template:
+  Wes Anderson (Director):
+    template (Director):
       name: Director
       tmdb: 5655
+  Robert Redford (Director):
+    template:
+      name: Director
+      tmdb: 4135
   # Writers
   Aaron Sorkin (Writer):
     template:
@@ -375,6 +379,10 @@ collections:
     template:
       name: Actor
       tmdb: 3223
+  Robert Redford (Actor):
+    template:
+      name: Actor
+      tmdb: 4135
   Robin Williams (Actor):
     template:
       name: Actor
@@ -462,6 +470,7 @@ collections:
   Zendaya (Actor):
     template:
       name: Actor
+      tmdb: 505710
       tmdb: 505710
   # Studios
   A24:
