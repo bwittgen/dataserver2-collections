@@ -119,6 +119,7 @@ collections:
       name: Writer
       writer: 348
   # Actors
+  # Actors
   Adam Sandler (Actor):
     template:
       name: Actor
@@ -403,6 +404,10 @@ collections:
     template:
       name: Actor
       tmdb: 738
+  Seth Rogen (Actor):
+    template:
+      name: Actor
+      tmdb: 19274
   Shia LaBeouf (Actor):
     template:
       name: Actor
