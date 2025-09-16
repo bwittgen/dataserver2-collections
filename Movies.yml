@@ -1311,6 +1311,16 @@ collections:
       name: Best of
       year: 2025
   # Other Collections
+  In Memoriam: Robert Redford:
+    visible_home: true
+    visible_library: true
+    sort_title: ++++++++++++++++++_In Memoriam Robert Redford
+    schedule: range(2025-09-16, 2025-09-23)
+    sync_mode: sync
+    collection_order: release
+    tmdb_actor_details: 4135
+    tmdb_director_details: 4135
+    summary: A week-long tribute featuring films starring and directed by Robert Redford.
   80s Movies:
     trakt_list:
     - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
