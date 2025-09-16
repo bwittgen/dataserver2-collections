@@ -115,7 +115,6 @@ collections:
       name: Writer
       writer: 348
   # Actors
-  # Actors
   Adam Sandler (Actor):
     template:
       name: Actor
@@ -124,6 +123,14 @@ collections:
     template:
       name: Actor
       tmdb: 9273
+  Angelina Jolie (Actor):
+    template:
+      name: Actor
+      tmdb: 11701
+  Anne Hathaway (Actor):
+    template:
+      name: Actor
+      tmdb: 1813
   Arnold Schwarzenegger (Actor):
     template:
       name: Actor
@@ -132,14 +139,38 @@ collections:
     template:
       name: Actor
       tmdb: 119592
+  Ben Affleck (Actor):
+    template:
+      name: Actor
+      tmdb: 880
+  Ben Stiller (Actor):
+    template:
+      name: Actor
+      tmdb: 7399
+  Bill Murray (Actor):
+    template:
+      name: Actor
+      tmdb: 1532
   Brad Pitt (Actor):
     template:
       name: Actor
       tmdb: 287
+  Bradley Cooper (Actor):
+    template:
+      name: Actor
+      tmdb: 51329
+  Brendan Fraser (Actor):
+    template:
+      name: Actor
+      tmdb: 18269
   Bruce Willis (Actor):
     template:
       name: Actor
       tmdb: 62
+  Cameron Diaz (Actor):
+    template:
+      name: Actor
+      tmdb: 6941
   Charlie Sheen (Actor):
     template:
       name: Actor
@@ -156,6 +187,18 @@ collections:
     template:
       name: Actor
       tmdb: 190
+  Daniel Craig (Actor):
+    template:
+      name: Actor
+      tmdb: 8784
+  Dave Franco (Actor):
+    template:
+      name: Actor
+      tmdb: 54697
+  Dennis Quaid (Actor):
+    template:
+      name: Actor
+      tmdb: 6065
   Denzel Washington (Actor):
     template:
       name: Actor
@@ -168,6 +211,10 @@ collections:
     template:
       name: Actor
       tmdb: 27105
+  Edward Norton (Actor):
+    template:
+      name: Actor
+      tmdb: 819
   Gary Oldman (Actor):
     template:
       name: Actor
@@ -176,6 +223,26 @@ collections:
     template:
       name: Actor
       tmdb: 1461
+  Halle Berry (Actor):
+    template:
+      name: Actor
+      tmdb: 4587
+  Harrison Ford (Actor):
+    template:
+      name: Actor
+      tmdb: 3
+  Heath Ledger (Actor):
+    template:
+      name: Actor
+      tmdb: 1810
+  Hugh Jackman (Actor):
+    template:
+      name: Actor
+      tmdb: 6968
+  Jack Black (Actor):
+    template:
+      name: Actor
+      tmdb: 70851
   Jack Nicholson (Actor):
     template:
       name: Actor
@@ -184,6 +251,14 @@ collections:
     template:
       name: Actor
       tmdb: 18897
+  James Franco (Actor):
+    template:
+      name: Actor
+      tmdb: 17051
+  James McAvoy (Actor):
+    template:
+      name: Actor
+      tmdb: 5530
   Jamie Lee Curtis (Actor):
     template:
       name: Actor
@@ -208,6 +283,10 @@ collections:
     template:
       name: Actor
       tmdb: 16377
+  Jessica Alba (Actor):
+    template:
+      name: Actor
+      tmdb: 56731
   Joaquin Phoenix (Actor):
     template:
       name: Actor
@@ -216,10 +295,22 @@ collections:
     template:
       name: Actor
       tmdb: 85
+  Julia Roberts (Actor):
+    template:
+      name: Actor
+      tmdb: 1204
+  Kate Winslet (Actor):
+    template:
+      name: Actor
+      tmdb: 204
   Keanu Reeves (Actor):
     template:
       name: Actor
       tmdb: 6384
+  Keira Knightley (Actor):
+    template:
+      name: Actor
+      tmdb: 116
   Kevin Costner (Actor):
     template:
       name: Actor
@@ -236,6 +327,18 @@ collections:
     template:
       name: Actor
       tmdb: 234352
+  Mark Wahlberg (Actor):
+    template:
+      name: Actor
+      tmdb: 13240
+  Matt Damon (Actor):
+    template:
+      name: Actor
+      tmdb: 1892
+  Megan Fox (Actor):
+    template:
+      name: Actor
+      tmdb: 19537
   Mel Gibson (Actor):
     template:
       name: Actor
@@ -244,6 +347,14 @@ collections:
     template:
       name: Actor
       tmdb: 3392
+  Morgan Freeman (Actor):
+    template:
+      name: Actor
+      tmdb: 192
+  Natalie Portman (Actor):
+    template:
+      name: Actor
+      tmdb: 524
   Nicolas Cage (Actor):
     template:
       name: Actor
@@ -280,6 +391,14 @@ collections:
     template:
       name: Actor
       tmdb: 1245
+  Sean Connery (Actor):
+    template:
+      name: Actor
+      tmdb: 738
+  Shia LaBeouf (Actor):
+    template:
+      name: Actor
+      tmdb: 10959
   Steve Carell (Actor):
     template:
       name: Actor
@@ -292,6 +411,10 @@ collections:
     template:
       name: Actor
       tmdb: 115440
+  Sylvester Stallone (Actor):
+    template:
+      name: Actor
+      tmdb: 16483
   Timothée Chalamet (Actor):
     template:
       name: Actor
@@ -304,10 +427,18 @@ collections:
     template:
       name: Actor
       tmdb: 31
+  Tommy Lee Jones (Actor):
+    template:
+      name: Actor
+      tmdb: 2176
   Tyler Perry (Actor):
     template:
       name: Actor
       tmdb: 80602
+  Vin Diesel (Actor):
+    template:
+      name: Actor
+      tmdb: 12835
   Vince Vaughn (Actor):
     template:
       name: Actor
@@ -316,6 +447,10 @@ collections:
     template:
       name: Actor
       tmdb: 19492
+  Will Ferrell (Actor):
+    template:
+      name: Actor
+      tmdb: 23659
   Will Smith (Actor):
     template:
       name: Actor
