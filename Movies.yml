@@ -675,7 +675,7 @@ collections:
     visible_home: true
     visible_library: true
     sort_title: ++++++++++++++++++_In Memoriam Robert Redford
-    schedule: range(09-16-09-23)
+    schedule: range(09/16-09/23)
     sync_mode: sync
     collection_order: release
     tmdb_actor_details: 4135
