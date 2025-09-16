@@ -490,7 +490,6 @@ collections:
     template:
       name: Actor
       tmdb: 505710
-      tmdb: 505710
   # Studios
   A24:
     template:
