@@ -53,11 +53,6 @@ templates:
     summary: Films starring <<collection_name>>
 collections:
   # Directors
-  # Directors
-    template (Director):
-    template:
-      name: Director
-      tmdb: 5655
   Christopher Nolan (Director):
     template:
       name: Director
@@ -102,7 +97,6 @@ collections:
     template:
       name: Director
       tmdb: 5655
-      tmdb: 4135
   # Writers
   Aaron Sorkin (Writer):
     template:
