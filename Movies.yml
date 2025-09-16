@@ -1,4 +1,4 @@
-﻿templates:
+templates:
   Director:
     sort_title: '!A <<collection_name>>'
     tmdb_director_details: <<tmdb>>
@@ -428,7 +428,7 @@ collections:
     template:
       name: Actor
       tmdb: 16483
-  TimothÃ©e Chalamet (Actor):
+  Timothée Chalamet (Actor):
     template:
       name: Actor
       tmdb: 1190668
@@ -664,7 +664,7 @@ collections:
       name: Best of
       year: 2025
   # Other Collections
-  In Memoriam: Robert Redford:
+  "In Memoriam: Robert Redford":
     visible_home: true
     visible_library: true
     sort_title: ++++++++++++++++++_In Memoriam Robert Redford
@@ -759,4 +759,5 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
+
 
