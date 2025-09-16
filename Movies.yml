@@ -329,6 +329,14 @@ collections:
       name: Actor
       tmdb: 505710
   # Studios
+  A24:
+    template:
+      name: Studio
+    imdb_search:
+      limit: 250
+      company: co0507842
+    summary: Films produced or distributed by A24.
+    collection_order: release
   DC Extended Universe:
     template:
       name: Studio
