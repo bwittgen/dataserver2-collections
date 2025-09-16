@@ -1,38 +1,10 @@
-﻿# Auto-generated from Radarr collections (>=1 movie in Radarr)
+﻿# Auto-generated from Radarr collections (>=1 in Radarr; human-readable titles only)
 collections:
   # Franchise Collections (Radarr-derived)
   ... Cameras Collection:
     template:
       name: Movies
       collection: 877586
-  ?????:
-    template:
-      name: Movies
-      collection: 1416430
-  ????????:
-    template:
-      name: Movies
-      collection: 1062382
-  ?????????:
-    template:
-      name: Movies
-      collection: 1107048
-  ????????? ???? ????:
-    template:
-      name: Movies
-      collection: 1537878
-  ???????????:
-    template:
-      name: Movies
-      collection: 1546100
-  ???????-???????:
-    template:
-      name: Movies
-      collection: 1450376
-  ????????????????:
-    template:
-      name: Movies
-      collection: 1377979
   [REC] Collection:
     template:
       name: Movies
@@ -6844,7 +6816,7 @@ collections:
   Troll Collection:
     template:
       name: Movies
-      collection: 1180834
+      collection: 123218
   Trolls Holiday Collection:
     template:
       name: Movies
