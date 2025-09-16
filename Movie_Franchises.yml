@@ -546,3 +546,652 @@ collections:
     template:
       name: Movies
       collection: 881669
+
+  28 Days/Weeks/Years Later Collection:
+    template:
+      name: Movies
+      collection: 1565
+  A National Park Romance Collection:
+    template:
+      name: Movies
+      collection: 1154507
+  A Nightmare on Elm Street Collection:
+    template:
+      name: Movies
+      collection: 8581
+  A Simple Favor Collection:
+    template:
+      name: Movies
+      collection: 975201
+  Alien Collection:
+    template:
+      name: Movies
+      collection: 1271564
+  Alvin and the Chipmunks Collection:
+    template:
+      name: Movies
+      collection: 167613
+  American Pie Collection:
+    template:
+      name: Movies
+      collection: 2806
+  American Pie Spin-Off Collection:
+    template:
+      name: Movies
+      collection: 298820
+  American Pie Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 2806
+      - 298820
+    file_poster: /config/assets/american_pie_universe/poster.png
+  Ant-Man Collection:
+    template:
+      name: Movies
+      collection: 422834
+  Aquaman Collection:
+    template:
+      name: Movies
+      collection: 573693
+  Attack on Titan Collection:
+    template:
+      name: Movies
+      collection: 370411
+  Avatar Collection:
+    template:
+      name: Movies
+      collection: 87096
+  Avengers Collection:
+    template:
+      name: Movies
+      collection: 522577
+  AVP Collection:
+    template:
+      name: Movies
+      collection: 115762
+  Back to the Future Collection:
+    template:
+      name: Movies
+      collection: 264
+  Bad Boys Collection:
+    template:
+      name: Movies
+      collection: 14890
+  Bank of Dave Collection:
+    template:
+      name: Movies
+      collection: 1250633
+  Batman (Adam West) Animation Collection:
+    template:
+      name: Movies
+      collection: 626517
+  Batman Unlimited Collection:
+    template:
+      name: Movies
+      collection: 356688
+  Beverly Hills Cop Collection:
+    template:
+      name: Movies
+      collection: 85861
+  Braveheart Collection:
+    template:
+      name: Movies
+      collection: 1432360
+  Bridget Jones Collection:
+    template:
+      name: Movies
+      collection: 8936
+  Buddies Collection:
+    template:
+      name: Movies
+      collection: 91657
+  Bullets, Bombs, and Babes Collection:
+    template:
+      name: Movies
+      collection: 736172
+  Captain America Collection:
+    template:
+      name: Movies
+      collection: 131295
+  Chicken Run Collection:
+    template:
+      name: Movies
+      collection: 718551
+  Children of the Corn Collection:
+    template:
+      name: Movies
+      collection: 115225
+  Deadpool Collection:
+    template:
+      name: Movies
+      collection: 448150
+  Den of Thieves Collection:
+    template:
+      name: Movies
+      collection: 933989
+  Die Hard Collection:
+    template:
+      name: Movies
+      collection: 1570
+  Doctor Strange Collection:
+    template:
+      name: Movies
+      collection: 618529
+  Dolemite Collection:
+    template:
+      name: Movies
+      collection: 405256
+  Emmanuelle Collection:
+    template:
+      name: Movies
+      collection: 661152
+  Escape Room Collection:
+    template:
+      name: Movies
+      collection: 769423
+  Fault Collection:
+    template:
+      name: Movies
+      collection: 1156666
+  Finding Nemo Collection:
+    template:
+      name: Movies
+      collection: 137697
+  Food, Inc. Collection:
+    template:
+      name: Movies
+      collection: 1318195
+  Frozen Collection:
+    template:
+      name: Movies
+      collection: 386382
+  Garfield TV Specials Collection:
+    template:
+      name: Movies
+      collection: 1346407
+  Gladiator Collection:
+    template:
+      name: Movies
+      collection: 1069584
+  God's Not Dead Collection:
+    template:
+      name: Movies
+      collection: 409343
+  Godzilla (Heisei) Collection:
+    template:
+      name: Movies
+      collection: 374511
+  Goes Wrong Collection:
+    template:
+      name: Movies
+      collection: 1293376
+  Halloween Collection:
+    template:
+      name: Movies
+      collection: 91361
+  The Hangover Collection:
+    template:
+      name: Movies
+      collection: 86119
+  Happy Gilmore Collection:
+    template:
+      name: Movies
+      collection: 1263259
+  Hotel Transylvania Collection:
+    template:
+      name: Movies
+      collection: 185103
+  I Know What You Did Last Summer Collection:
+    template:
+      name: Movies
+      collection: 3601
+  Ice Age Collection:
+    template:
+      name: Movies
+      collection: 8354
+  Ice Road Collection:
+    template:
+      name: Movies
+      collection: 1119879
+  In the Mood for Love Collection:
+    template:
+      name: Movies
+      collection: 1454788
+  In the Name of the King Collection:
+    template:
+      name: Movies
+      collection: 122922
+  Indiana Jones Collection:
+    template:
+      name: Movies
+      collection: 84
+  Inside Man Collection:
+    template:
+      name: Movies
+      collection: 631194
+  Inside Out Collection:
+    template:
+      name: Movies
+      collection: 1022790
+  James Bond Collection:
+    template:
+      name: Movies
+      collection: 645
+  John Wick Collection:
+    template:
+      name: Movies
+      collection: 404609
+  John Wick Universe Collection:
+    template:
+      name: Movies
+      collection: 404609
+    tmdb_movie: 455476
+    file_poster: /config/assets/john_wick_universe/poster.png
+  Johnny English Collection:
+    template:
+      name: Movies
+      collection: 86117
+  Jurassic Park Collection:
+    template:
+      name: Movies
+      collection: 328
+  LEGO DC Comics Super Heroes Collection:
+    template:
+      name: Movies
+      collection: 386162
+  LEGO Marvel Super Heroes Collection:
+    template:
+      name: Movies
+      collection: 752937
+  LEGO Scooby-Doo Collection:
+    template:
+      name: Movies
+      collection: 537236
+  Lethal Weapon Collection:
+    template:
+      name: Movies
+      collection: 945
+  Lew Harper Collection:
+    template:
+      name: Movies
+      collection: 434270
+  Lilo & Stitch Collection:
+    template:
+      name: Movies
+      collection: 97461
+  Lost Bullet Collection:
+    template:
+      name: Movies
+      collection: 1002775
+  M3GAN Collection:
+    template:
+      name: Movies
+      collection: 1071588
+  Madagascar Collection:
+    template:
+      name: Movies
+      collection: 14740
+  Madea Collection:
+    template:
+      name: Movies
+      collection: 534673
+  Maleficent Collection:
+    template:
+      name: Movies
+      collection: 531331
+  Men in Black Collection:
+    template:
+      name: Movies
+      collection: 86055
+  MGM's Lassie Collection:
+    template:
+      name: Movies
+      collection: 943645
+  Nobody Collection:
+    template:
+      name: Movies
+      collection: 1129084
+  Philo Vance Collection:
+    template:
+      name: Movies
+      collection: 281097
+  Phineas and Ferb Collection:
+    template:
+      name: Movies
+      collection: 715146
+  Pirates of the Caribbean Collection:
+    template:
+      name: Movies
+      collection: 295
+  Predator Collection:
+    template:
+      name: Movies
+      collection: 399
+  Pumpkinhead Collection:
+    template:
+      name: Movies
+      collection: 123256
+  Rambo Collection:
+    template:
+      name: Movies
+      collection: 5039
+  Rocky Collection:
+    template:
+      name: Movies
+      collection: 1575
+  Saw Collection:
+    template:
+      name: Movies
+      collection: 656
+  Scary Movies Collection:
+    template:
+      name: Movies
+      collection: 4246
+  Scooby-Doo Collection:
+    template:
+      name: Movies
+      collection: 86860
+  Scream Collection:
+    template:
+      name: Movies
+      collection: 2602
+  Sharknado Collection:
+    template:
+      name: Movies
+      collection: 286023
+  Shazam Collection:
+    template:
+      name: Movies
+      collection: 724848
+  Slap Shot Collection:
+    template:
+      name: Movies
+      collection: 261526
+  Sniper Collection:
+    template:
+      name: Movies
+      collection: 14246
+  Sonic the Hedgehog Collection:
+    template:
+      name: Movies
+      collection: 720879
+  Star Wars Collection:
+    template:
+      name: Movies
+      collection: 10
+  '''Strawberry Shortcake: Berry in the Big City Collection''':
+    template:
+      name: Movies
+      collection: 1281901
+  Superman Collection:
+    template:
+      name: Movies
+      collection: 8537
+  Taken Collection:
+    template:
+      name: Movies
+      collection: 135483
+  Tangled Collection:
+    template:
+      name: Movies
+      collection: 1268789
+  Tarzan (Gordon Scott) Collection:
+    template:
+      name: Movies
+      collection: 360344
+  Tarzan (Jack Mahoney) Collection:
+    template:
+      name: Movies
+      collection: 108660
+  Tarzan (Mike Henry) Collection:
+    template:
+      name: Movies
+      collection: 360346
+  Tarzan (Animation) Collection:
+    template:
+      name: Movies
+      collection: 106768
+  Taxi Collection:
+    template:
+      name: Movies
+      collection: 211721
+  Team Thor Collection:
+    template:
+      name: Movies
+      collection: 729425
+  The Bad Guys Collection:
+    template:
+      name: Movies
+      collection: 1231053
+  The Benchwarmers Collection:
+    template:
+      name: Movies
+      collection: 632730
+  The Benji Collection:
+    template:
+      name: Movies
+      collection: 424830
+  The Dark Knight Collection:
+    template:
+      name: Movies
+      collection: 263
+  The FP Collection:
+    template:
+      name: Movies
+      collection: 858112
+  The Godfather Collection:
+    template:
+      name: Movies
+      collection: 230
+  The Hobbit Collection:
+    template:
+      name: Movies
+      collection: 121938
+  The Hunger Games Collection:
+    template:
+      name: Movies
+      collection: 131635
+  The Incredible Hulk Collection:
+    template:
+      name: Movies
+      collection: 114431
+  The Land Before Time Collection:
+    template:
+      name: Movies
+      collection: 19163
+  The Conjuring Collection:
+    template:
+      name: Movies
+      collection: 313086
+  Annabelle Collection:
+    template:
+      name: Movies
+      collection: 402074
+  The Nun Collection:
+    template:
+      name: Movies
+      collection: 968052
+  The Conjuring Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 313086
+      - 402074
+      - 968052
+  Extended Conjuring Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 313086
+      - 402074
+      - 968052
+      tmdb_movie:
+      - 363111
+      - 480414
+  The Lion King (Reboot) Collection:
+    template:
+      name: Movies
+      collection: 762512
+  The Lord of the Rings Collection:
+    template:
+      name: Movies
+      collection: 119
+  The Old Guard Collection:
+    template:
+      name: Movies
+      collection: 847029
+  The Reef Collection:
+    template:
+      name: Movies
+      collection: 205029
+  The Roundup Collection:
+    template:
+      name: Movies
+      collection: 619802
+  The Transporter Collection:
+    template:
+      name: Movies
+      collection: 9518
+  Thief Collection:
+    template:
+      name: Movies
+      collection: 308644
+  This Is Spinal Tap Collection:
+    template:
+      name: Movies
+      collection: 975227
+  Through My Window Collection:
+    template:
+      name: Movies
+      collection: 1130226
+  'TMZ Presents: The Downfall of Diddy Collection':
+    template:
+      name: Movies
+      collection: 1368978
+  Transformers Collection:
+    template:
+      name: Movies
+      collection: 8650
+  Tremors Collection:
+    template:
+      name: Movies
+      collection: 91799
+  Trolls Collection:
+    template:
+      name: Movies
+      collection: 489724
+  True-Life Adventures Collection:
+    template:
+      name: Movies
+      collection: 505998
+  Undercover Brother Collection:
+    template:
+      name: Movies
+      collection: 645393
+  Venom Collection:
+    template:
+      name: Movies
+      collection: 558216
+  Wonder Woman Collection:
+    template:
+      name: Movies
+      collection: 468552
+  Wreck-It Ralph Collection:
+    template:
+      name: Movies
+      collection: 404825
+  Wrong Turn Collection:
+    template:
+      name: Movies
+      collection: 52985
+  You vs. Wild (Collection):
+    template:
+      name: Movies
+      collection: 881669
+  Amazon Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0319272
+      country.any: US
+    summary: All Amazon Originals From 2021-2025
+    url_poster: https://i.imgur.com/nU3gqqB.png
+    url_background: https://i.imgur.com/2jfs7oS.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Apple Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0546168
+      country.any: US
+    summary: All Apple TV Originals From 2021-2025
+    url_poster: https://i.imgur.com/O9iWork.png
+    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  Netflix Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0144901
+      country.any: US
+    summary: All Netflix Originals From 2021-2025
+    url_poster: https://i.imgur.com/7kiE1MU.png
+    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HBO Max Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0754095
+      country.any: US
+    summary: All HBO Max Originals From 2021-2025
+    url_poster: https://i.redd.it/zxdvw3tk3f151.jpg
+    url_background: https://wallpapercave.com/wp/wp6402755.png
+    radarr_add: true
+    radarr_search: true
+    radarr_monitor: true
+  HULU Originals 2021-2025:
+    smart_label: originally_available.desc
+    sync_mode: sync
+    sort_title: +++++++++++++++++++++_1HULU
+    imdb_search:
+      type: movie,tv_movie,tv_series,tv_special,tv_mini_series,video,tv_short
+      sort_by: release.desc
+      limit: 250
+      release.after: '2021-01-01'
+      release.before: '2025-12-31'
+      genre.not: animation
+      company: co0218858
+      country.any: US
+    summary: All HULU Originals From 2021-2025
