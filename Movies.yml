@@ -184,10 +184,18 @@ collections:
     template:
       name: Actor
       tmdb: 18897
+  Jamie Lee Curtis (Actor):
+    template:
+      name: Actor
+      tmdb: 8944
   Jason Bateman (Actor):
     template:
       name: Actor
       tmdb: 23532
+  Jason Statham (Actor):
+    template:
+      name: Actor
+      tmdb: 976
   Jennifer Aniston (Actor):
     template:
       name: Actor
@@ -212,6 +220,10 @@ collections:
     template:
       name: Actor
       tmdb: 6384
+  Kevin Costner (Actor):
+    template:
+      name: Actor
+      tmdb: 1269
   Kevin Hart (Actor):
     template:
       name: Actor
@@ -232,6 +244,10 @@ collections:
     template:
       name: Actor
       tmdb: 3392
+  Nicolas Cage (Actor):
+    template:
+      name: Actor
+      tmdb: 2963
   Owen Wilson (Actor):
     template:
       name: Actor
@@ -264,14 +280,14 @@ collections:
     template:
       name: Actor
       tmdb: 1245
-  Stephen Siegel (Actor):
-    template:
-      name: Actor
-      tmdb: 1817552
   Steve Carell (Actor):
     template:
       name: Actor
       tmdb: 4495
+  Steven Seagal (Actor):
+    template:
+      name: Actor
+      tmdb: 23880
   Sydney Sweeney (Actor):
     template:
       name: Actor
