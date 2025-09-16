@@ -854,6 +854,35 @@ collections:
     template:
       name: Movies
       collection: 19163
+  The Conjuring Collection:
+    template:
+      name: Movies
+      collection: 313086
+  Annabelle Collection:
+    template:
+      name: Movies
+      collection: 402074
+  The Nun Collection:
+    template:
+      name: Movies
+      collection: 968052
+  The Conjuring Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 313086
+      - 402074
+      - 968052
+  Extended Conjuring Universe Collection:
+    template:
+      name: Movies
+      collection:
+      - 313086
+      - 402074
+      - 968052
+      tmdb_movie:
+      - 363111
+      - 480414
   The Lion King (Reboot) Collection:
     template:
       name: Movies
