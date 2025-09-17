@@ -2590,10 +2590,6 @@ collections:
     template:
       name: Movies
       collection: 1540907
-  Support Your Local Series:
-    template:
-      name: Movies
-      collection: 1546467
   Surge of Power Collection:
     template:
       name: Movies
