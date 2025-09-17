@@ -1034,10 +1034,6 @@ collections:
     template:
       name: Movies
       collection: 711149
-  Free to Choose Collection:
-    template:
-      name: Movies
-      collection: 1532473
   Freeway Collection:
     template:
       name: Movies
