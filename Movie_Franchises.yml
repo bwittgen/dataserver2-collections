@@ -1,4 +1,4 @@
-﻿# Auto-generated: Movie Franchises with embedded Movies template
+# Auto-generated: Movie Franchises with embedded Movies template
 templates:
   Movies:
     optional:
@@ -3370,7 +3370,7 @@ collections:
     template:
       name: Movies
       collection: 1018433
-  Thief Collection:
+  Thief Collection (TMDB 1381160):
     template:
       name: Movies
       collection: 1381160
@@ -3690,4 +3690,3 @@ collections:
     template:
       name: Movies
       collection: 385721
-
