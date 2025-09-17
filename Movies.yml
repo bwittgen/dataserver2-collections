@@ -710,6 +710,25 @@ collections:
       Born in Santa Monica, California, Redford was also a dedicated family man and lifelong environmental advocate. He
       married historian Lola Van Wagenen (1958�1985) and later artist Sibylle Szaggars (m. 2009). He is survived by his
       family and a creative legacy that continues to inspire filmmakers and audiences around the world.
+  American Pie Universe Collection:
+    template:
+      name: Movies
+    collection:
+    - 2806       # American Pie Collection
+    - 298820     # American Pie Spin-Off Collection
+    file_poster: /config/assets/american_pie_universe/poster.png
+    sort_title: ++++++++++++++++++++++++_American Pie Universe
+    sync_mode: sync
+    collection_order: release
+  John Wick Universe Collection:
+    template:
+      name: Movies
+    collection:
+    - 404609     # John Wick Collection
+    file_poster: /config/assets/john_wick_universe/poster.png
+    sort_title: ++++++++++++++++++++++++_John Wick Universe
+    sync_mode: sync
+    collection_order: release
   80s Movies:
     trakt_list:
     - https://trakt.tv/users/hdlists/lists/rottentomatoes-com-s-best-of-the-80s
