@@ -628,46 +628,57 @@ collections:
     template:
       name: Best of
       year: 2014
+      schedule: weekly(monday)
   Best of 2015:
     template:
       name: Best of
       year: 2015
+      schedule: weekly(monday)
   Best of 2016:
     template:
       name: Best of
       year: 2016
+      schedule: weekly(monday)
   Best of 2017:
     template:
       name: Best of
       year: 2017
+      schedule: weekly(monday)
   Best of 2018:
     template:
       name: Best of
       year: 2018
+      schedule: weekly(monday)
   Best of 2019:
     template:
       name: Best of
       year: 2019
+      schedule: weekly(monday)
   Best of 2020:
     template:
       name: Best of
       year: 2020
+      schedule: weekly(monday)
   Best of 2021:
     template:
       name: Best of
       year: 2021
+      schedule: weekly(monday)
   Best of 2022:
     template:
       name: Best of
       year: 2022
+      schedule: weekly(monday)
   Best of 2023:
     template:
       name: Best of
       year: 2023
+      schedule: weekly(monday)
   Best of 2024:
     template:
       name: Best of
       year: 2024
+      schedule: weekly(monday)
   Best of 2025:
     template:
       name: Best of
