@@ -778,6 +778,9 @@ collections:
     sync_mode: sync
     collection_order: release
     sort_title: ++++++++++++++++++++++++_Sundance (All Films)
+    radarr_add_missing: true
+    radarr_search: true
+    radarr_monitor: true
   Sundance Winners (All Years):
     imdb_search:
       event.winning: sundance
@@ -786,6 +789,9 @@ collections:
     sync_mode: sync
     collection_order: release
     sort_title: ++++++++++++++++++++++++_Sundance Winners (All Years)
+    radarr_add_missing: true
+    radarr_search: true
+    radarr_monitor: true
   True Crime Documentaries:
     trakt_list: https://trakt.tv/users/hdlists/lists/true-crime-documentaries
     sync_mode: sync

@@ -13,6 +13,10 @@ templates:
     sort_title: <<collection_name>>
     collection_order: release
     collection_mode: hide
+    sync_mode: sync
+    radarr_add_missing: true
+    radarr_search: true
+    radarr_monitor: true
 collections:
 Your Christmas or Mine Collection
   Your Christmas or Mine Collection:     template:       name: Movies       collection: 1186471
