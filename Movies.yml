@@ -725,6 +725,8 @@ collections:
       name: Movies
     tmdb_collection_details:
     - 404609     # John Wick Collection
+    tmdb_movie:
+    - 541671     # Ballerina (2025)
     file_poster: /config/assets/john_wick_universe/poster.png
     sort_title: ++++++++++++++++++++++++_John Wick Universe
     sync_mode: sync
