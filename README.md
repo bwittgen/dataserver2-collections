@@ -41,3 +41,21 @@ If using GHCR and you see a permission error, authenticate once:
 export CR_PAT=YOUR_GITHUB_TOKEN   # scope: read:packages
 echo $CR_PAT | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin
 ```
+
+## Cleanup Legacy Franchise Collections
+
+If you've removed the manual `Movie_Franchises.yml` in favor of Kometa's built-in franchise defaults, add a cleanup operation to your Movies library so the legacy collections disappear on the next run:
+
+```yaml
+libraries:
+  Movies:
+    delete_not_scheduled: true
+    delete_unmanaged: true
+    operations:
+      delete_collections:
+        configured: false
+        managed: true
+        less: 99999
+```
+
+`configured: false` ensures only collections not defined in the current run are considered, while `managed: true` lets Kometa remove the previously labeled franchise collections.
