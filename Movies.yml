@@ -713,7 +713,7 @@ collections:
   American Pie Universe Collection:
     template:
       name: Movies
-    collection:
+    tmdb_collection_details:
     - 2806       # American Pie Collection
     - 298820     # American Pie Spin-Off Collection
     file_poster: /config/assets/american_pie_universe/poster.png
@@ -723,7 +723,7 @@ collections:
   John Wick Universe Collection:
     template:
       name: Movies
-    collection:
+    tmdb_collection_details:
     - 404609     # John Wick Collection
     file_poster: /config/assets/john_wick_universe/poster.png
     sort_title: ++++++++++++++++++++++++_John Wick Universe
