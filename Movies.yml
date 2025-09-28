@@ -684,7 +684,27 @@ collections:
       name: Best of
       year: 2025
   # Other Collections
+  Top 100 Murder Doc Films:
+    sort_title: ++++++++++++++++++_Murder Docs
+    summary: Top 50 highest-rated and 50 most-watched murder and true-crime documentaries.
+    sync_mode: sync
+    tmdb_discover:
+      - type: movie
+        sort_by: vote_average.desc
+        with_keywords: 33722|9826
+        with_genres: 80,99
+        language: en-US
+        vote_count.gte: 50
+        limit: 50
+      - type: movie
+        sort_by: popularity.desc
+        with_keywords: 33722|9826
+        with_genres: 80,99
+        language: en-US
+        vote_count.gte: 50
+        limit: 50
   "In Memoriam: Robert Redford":
+    delete_not_scheduled: true
     visible_home: true
     visible_library: true
     visible_shared: true
@@ -815,4 +835,6 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
+
+
 

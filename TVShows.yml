@@ -30,6 +30,42 @@ collections:
         - "The One with the Rumor"
         - "The One with Rachel's Other Sister"
         - "The One with the Late Thanksgiving"
+  Game Shows:
+    sort_title: ++++++++++++++++++_Game Shows
+    summary: Competition and quiz shows across decades.
+    plex_search:
+      all:
+        genre: Game Show
+    sync_mode: sync
+
+  Food Shows:
+    sort_title: ++++++++++++++++++_Food Shows
+    summary: Culinary competitions and food adventures from around the globe.
+    plex_search:
+      all:
+        genre: Food
+    sync_mode: sync
+
+  Top 100 Murder Docs:
+    sort_title: ++++++++++++++++++_Murder Docs
+    summary: Top 50 highest-rated and 50 most-watched murder and true-crime docu-series.
+    sync_mode: sync
+    tmdb_discover:
+      - type: tv
+        sort_by: vote_average.desc
+        with_keywords: 33722|9826
+        with_genres: 80,99
+        language: en-US
+        vote_count.gte: 5
+        limit: 50
+      - type: tv
+        sort_by: popularity.desc
+        with_keywords: 33722|9826
+        with_genres: 80,99
+        language: en-US
+        vote_count.gte: 5
+        limit: 50
+
   # Networks
   A&E:
     template:
@@ -223,3 +259,9 @@ collections:
     sonarr_search: false
     summary: Shows Trending across the internet
     sort_title: +++++_
+
+
+
+
+
+
