@@ -692,13 +692,11 @@ collections:
       - sort_by: vote_average.desc
         with_keywords: 33722|9826
         with_genres: 80,99
-        language: en-US
         vote_count.gte: 50
         limit: 50
       - sort_by: popularity.desc
         with_keywords: 33722|9826
         with_genres: 80,99
-        language: en-US
         vote_count.gte: 50
         limit: 50
 
