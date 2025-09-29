@@ -17,8 +17,6 @@ collections:
     collection_order: release
     plex_search:
       all:
-        show: "Friends"
-      any:
         episode_title:
         - "The One Where Underdog Gets Away"
         - "The One with the List"
@@ -30,6 +28,8 @@ collections:
         - "The One with the Rumor"
         - "The One with Rachel's Other Sister"
         - "The One with the Late Thanksgiving"
+      filters:
+        show: Friends
   Game Shows:
     sort_title: ++++++++++++++++++_Game Shows
     summary: Competition and quiz shows across decades.
@@ -51,15 +51,13 @@ collections:
     summary: Top 50 highest-rated and 50 most-watched murder and true-crime docu-series.
     sync_mode: sync
     tmdb_discover:
-      - type: tv
-        sort_by: vote_average.desc
+      - sort_by: vote_average.desc
         with_keywords: 33722|9826
         with_genres: 80,99
         language: en-US
         vote_count.gte: 5
         limit: 50
-      - type: tv
-        sort_by: popularity.desc
+      - sort_by: popularity.desc
         with_keywords: 33722|9826
         with_genres: 80,99
         language: en-US
@@ -259,9 +257,4 @@ collections:
     sonarr_search: false
     summary: Shows Trending across the internet
     sort_title: +++++_
-
-
-
-
-
 
