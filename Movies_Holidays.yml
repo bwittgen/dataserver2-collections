@@ -29,7 +29,7 @@ collections:
   Halloween Favorites:
     sort_title: ++++++++++++++++++_Halloween Movies
     summary: Spooky season staples from slashers to family-friendly frights.
-    schedule: range(09/15-10/31)
+    schedule: range(10/01-10/31)
     sync_mode: sync
     collection_mode: show_items
     visible_home: true
@@ -42,7 +42,7 @@ collections:
   Thanksgiving Movies:
     sort_title: ++++++++++++++++++_Thanksgiving Movies
     summary: Gather-around stories about gratitude, family, and feasts.
-    schedule: range(10/15-11/30)
+    schedule: range(11/01-11/30)
     sync_mode: sync
     collection_mode: show_items
     visible_home: true
@@ -55,7 +55,7 @@ collections:
   Hanukkah Lights:
     sort_title: ++++++++++++++++++_Hanukkah Movies
     summary: Stories of family, faith, and eight nights of celebration.
-    schedule: range(11/20-12/31)
+    schedule: range(12/01-12/31)
     sync_mode: sync
     collection_mode: show_items
     visible_home: true
@@ -68,7 +68,7 @@ collections:
   Christmas Classics:
     sort_title: ++++++++++++++++++_Christmas Classics
     summary: Evergreen favorites packed with cheer, from family traditions to snowy adventures.
-    schedule: range(11/01-12/31)
+    schedule: range(12/01-12/31)
     sync_mode: sync
     collection_mode: show_items
     visible_home: true
