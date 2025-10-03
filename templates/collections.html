@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Collections - Dataserver2 Collections{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Local Collection Files</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        Collection files in the application directory.
+    </p>
+    
+    {% if collections %}
+    <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="border-bottom: 2px solid #3a3a3a;">
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Name</th>
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Filename</th>
+                    <th style="padding: 0.75rem; text-align: right; color: #4a9eff;">Size</th>
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Last Modified</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for collection in collections %}
+                <tr style="border-bottom: 1px solid #2a2a2a;">
+                    <td style="padding: 0.75rem; color: #e0e0e0;">{{ collection.name }}</td>
+                    <td style="padding: 0.75rem; color: #b0b0b0;">{{ collection.filename }}</td>
+                    <td style="padding: 0.75rem; text-align: right; color: #b0b0b0;">{{ (collection.size / 1024) | round(1) }} KB</td>
+                    <td style="padding: 0.75rem; color: #b0b0b0;">{{ collection.modified }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p style="color: #888;">No collection files found in the application directory.</p>
+    {% endif %}
+</div>
+
+{% if kometa_path %}
+<div class="card">
+    <h2>Kometa Collection Files</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        Collection files from Kometa configuration directory: <code style="color: #4a9eff;">{{ kometa_path }}</code>
+    </p>
+    
+    {% if kometa_collections %}
+    <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="border-bottom: 2px solid #3a3a3a;">
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Name</th>
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Filename</th>
+                    <th style="padding: 0.75rem; text-align: right; color: #4a9eff;">Size</th>
+                    <th style="padding: 0.75rem; text-align: left; color: #4a9eff;">Last Modified</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for collection in kometa_collections %}
+                <tr style="border-bottom: 1px solid #2a2a2a;">
+                    <td style="padding: 0.75rem; color: #e0e0e0;">{{ collection.name }}</td>
+                    <td style="padding: 0.75rem; color: #b0b0b0;">{{ collection.filename }}</td>
+                    <td style="padding: 0.75rem; text-align: right; color: #b0b0b0;">{{ (collection.size / 1024) | round(1) }} KB</td>
+                    <td style="padding: 0.75rem; color: #b0b0b0;">{{ collection.modified }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p style="color: #888;">No collection files found in Kometa directory.</p>
+    {% endif %}
+</div>
+{% else %}
+<div class="card">
+    <h2>Kometa Configuration</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        Kometa configuration directory is not set. Configure it in <a href="{{ url_for('settings') }}" style="color: #4a9eff;">Settings</a> to view collection files from your Kometa installation.
+    </p>
+</div>
+{% endif %}
+{% endblock %}

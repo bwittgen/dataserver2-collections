@@ -76,6 +76,96 @@
 </div>
 
 <div class="card">
+    <h2>Kometa Configuration</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        Configure the path to your Kometa configuration directory to view and manage collection files.
+    </p>
+    <form method="POST">
+        <input type="hidden" name="action" value="update_kometa">
+        
+        <div class="form-group">
+            <label for="kometa_config_path">Kometa Config Directory Path</label>
+            <input type="text" id="kometa_config_path" name="kometa_config_path" 
+                   value="{{ config.kometa_config_path or '' }}" 
+                   placeholder="/path/to/kometa/config">
+            <p style="color: #888; font-size: 0.9rem; margin-top: 0.5rem;">
+                Path to the Kometa configuration directory containing your collection YML files.
+            </p>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Save Kometa Configuration</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>Media Services</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        Configure URLs and API keys for your media management services. These will appear in the sidebar navigation.
+    </p>
+    <form method="POST">
+        <input type="hidden" name="action" value="update_services">
+        
+        <h3 style="color: #4a9eff; font-size: 1.2rem; margin-bottom: 1rem;">Sonarr</h3>
+        <div class="form-group">
+            <label for="sonarr_url">URL</label>
+            <input type="text" id="sonarr_url" name="sonarr_url" 
+                   value="{{ config.services.sonarr.url if config.services and config.services.sonarr else 'http://dataserver2:8989' }}" 
+                   placeholder="http://dataserver2:8989">
+        </div>
+        <div class="form-group">
+            <label for="sonarr_api_key">API Key</label>
+            <input type="text" id="sonarr_api_key" name="sonarr_api_key" 
+                   value="{{ config.services.sonarr.api_key if config.services and config.services.sonarr else '' }}" 
+                   placeholder="Enter Sonarr API Key">
+        </div>
+        
+        <h3 style="color: #4a9eff; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">Radarr</h3>
+        <div class="form-group">
+            <label for="radarr_url">URL</label>
+            <input type="text" id="radarr_url" name="radarr_url" 
+                   value="{{ config.services.radarr.url if config.services and config.services.radarr else 'http://dataserver2:7878' }}" 
+                   placeholder="http://dataserver2:7878">
+        </div>
+        <div class="form-group">
+            <label for="radarr_api_key">API Key</label>
+            <input type="text" id="radarr_api_key" name="radarr_api_key" 
+                   value="{{ config.services.radarr.api_key if config.services and config.services.radarr else '' }}" 
+                   placeholder="Enter Radarr API Key">
+        </div>
+        
+        <h3 style="color: #4a9eff; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">Bazarr</h3>
+        <div class="form-group">
+            <label for="bazarr_url">URL</label>
+            <input type="text" id="bazarr_url" name="bazarr_url" 
+                   value="{{ config.services.bazarr.url if config.services and config.services.bazarr else 'http://dataserver2:6767' }}" 
+                   placeholder="http://dataserver2:6767">
+        </div>
+        <div class="form-group">
+            <label for="bazarr_api_key">API Key</label>
+            <input type="text" id="bazarr_api_key" name="bazarr_api_key" 
+                   value="{{ config.services.bazarr.api_key if config.services and config.services.bazarr else '' }}" 
+                   placeholder="Enter Bazarr API Key">
+        </div>
+        
+        <h3 style="color: #4a9eff; font-size: 1.2rem; margin-bottom: 1rem; margin-top: 2rem;">Whisparr</h3>
+        <div class="form-group">
+            <label for="whisparr_url">URL</label>
+            <input type="text" id="whisparr_url" name="whisparr_url" 
+                   value="{{ config.services.whisparr.url if config.services and config.services.whisparr else 'http://dataserver2:6969' }}" 
+                   placeholder="http://dataserver2:6969">
+        </div>
+        <div class="form-group">
+            <label for="whisparr_api_key">API Key</label>
+            <input type="text" id="whisparr_api_key" name="whisparr_api_key" 
+                   value="{{ config.services.whisparr.api_key if config.services and config.services.whisparr else '' }}" 
+                   placeholder="Enter Whisparr API Key">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Save Service Configurations</button>
+    </form>
+</div>
+
+<div class="card">
     <h2>About</h2>
     <p style="color: #b0b0b0;">
         This web application provides authentication and management features for Dataserver2 Collections.
@@ -85,6 +175,7 @@
         <li>API key support for programmatic access</li>
         <li>Live log viewing</li>
         <li>Collection management</li>
+        <li>Media service quick links</li>
     </ul>
 </div>
 {% endblock %}

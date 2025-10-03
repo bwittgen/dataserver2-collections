@@ -16,6 +16,11 @@ from werkzeug.security import generate_password_hash, check_password_hash
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', secrets.token_hex(32))
 
+# Make load_config available to all templates
+@app.context_processor
+def inject_config():
+    return {'load_config': load_config}
+
 # Configuration
 BASE_DIR = Path(__file__).parent
 CONFIG_FILE = BASE_DIR / 'web_config.yml'
@@ -41,13 +46,31 @@ def load_config():
             'authentication_enabled': False,
             'username': None,
             'password_hash': None,
-            'api_key': None
+            'api_key': None,
+            'kometa_config_path': None,
+            'services': {
+                'sonarr': {'url': 'http://dataserver2:8989', 'api_key': ''},
+                'radarr': {'url': 'http://dataserver2:7878', 'api_key': ''},
+                'bazarr': {'url': 'http://dataserver2:6767', 'api_key': ''},
+                'whisparr': {'url': 'http://dataserver2:6969', 'api_key': ''}
+            }
         }
         save_config(default_config)
         return default_config
     
     with open(CONFIG_FILE, 'r') as f:
-        return yaml.safe_load(f) or {}
+        config = yaml.safe_load(f) or {}
+        # Ensure services key exists
+        if 'services' not in config:
+            config['services'] = {
+                'sonarr': {'url': 'http://dataserver2:8989', 'api_key': ''},
+                'radarr': {'url': 'http://dataserver2:7878', 'api_key': ''},
+                'bazarr': {'url': 'http://dataserver2:6767', 'api_key': ''},
+                'whisparr': {'url': 'http://dataserver2:6969', 'api_key': ''}
+            }
+        if 'kometa_config_path' not in config:
+            config['kometa_config_path'] = None
+        return config
 
 
 def save_config(config):
@@ -174,6 +197,27 @@ def settings():
             message = 'API key deleted'
             logger.info("API key deleted")
         
+        elif action == 'update_services':
+            # Update service configurations
+            services = config.get('services', {})
+            for service in ['sonarr', 'radarr', 'bazarr', 'whisparr']:
+                services[service] = {
+                    'url': request.form.get(f'{service}_url', '').strip(),
+                    'api_key': request.form.get(f'{service}_api_key', '').strip()
+                }
+            config['services'] = services
+            save_config(config)
+            message = 'Service configurations updated successfully'
+            logger.info("Service configurations updated")
+        
+        elif action == 'update_kometa':
+            # Update Kometa config path
+            kometa_path = request.form.get('kometa_config_path', '').strip()
+            config['kometa_config_path'] = kometa_path if kometa_path else None
+            save_config(config)
+            message = 'Kometa configuration path updated successfully'
+            logger.info(f"Kometa config path updated to: {kometa_path}")
+        
         # Reload config to show updated values
         config = load_config()
     
@@ -257,6 +301,43 @@ def api_collections():
                 'modified': datetime.fromtimestamp(yml_file.stat().st_mtime).isoformat()
             })
     return jsonify({'collections': collections})
+
+
+@app.route('/collections')
+@require_auth
+def collections():
+    """Collections management page"""
+    config = load_config()
+    collections_list = []
+    
+    # Get collections from current directory
+    for yml_file in BASE_DIR.glob('*.yml'):
+        if yml_file.stem not in ['web_config']:
+            collections_list.append({
+                'name': yml_file.stem,
+                'filename': yml_file.name,
+                'size': yml_file.stat().st_size,
+                'modified': datetime.fromtimestamp(yml_file.stat().st_mtime).isoformat()
+            })
+    
+    # Get collections from Kometa config path if configured
+    kometa_collections = []
+    kometa_path = config.get('kometa_config_path')
+    if kometa_path and Path(kometa_path).exists():
+        kometa_dir = Path(kometa_path)
+        for yml_file in kometa_dir.glob('*.yml'):
+            if yml_file.stem not in ['web_config', 'config']:
+                kometa_collections.append({
+                    'name': yml_file.stem,
+                    'filename': yml_file.name,
+                    'size': yml_file.stat().st_size,
+                    'modified': datetime.fromtimestamp(yml_file.stat().st_mtime).isoformat()
+                })
+    
+    return render_template('collections.html', 
+                         collections=collections_list,
+                         kometa_collections=kometa_collections,
+                         kometa_path=kometa_path)
 
 
 if __name__ == '__main__':
