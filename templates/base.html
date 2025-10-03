@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dataserver2 Collections{% endblock %}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .navbar {
+            background-color: #2a2a2a;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3a3a3a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar h1 {
+            color: #4a9eff;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .navbar nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .navbar a {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .navbar a:hover {
+            background-color: #3a3a3a;
+        }
+        
+        .navbar a.active {
+            background-color: #4a9eff;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .card {
+            background-color: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .card h2 {
+            color: #4a9eff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #b0b0b0;
+            font-weight: 500;
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #3a3a3a;
+            border-radius: 4px;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            font-size: 1rem;
+        }
+        
+        .form-group input[type="text"]:focus,
+        .form-group input[type="password"]:focus {
+            outline: none;
+            border-color: #4a9eff;
+        }
+        
+        .form-group input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+        }
+        
+        .btn-primary {
+            background-color: #4a9eff;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #3a8eef;
+        }
+        
+        .btn-danger {
+            background-color: #ff4a4a;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background-color: #ef3a3a;
+        }
+        
+        .btn-secondary {
+            background-color: #5a5a5a;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #4a4a4a;
+        }
+        
+        .alert {
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        
+        .alert-success {
+            background-color: #2a4a2a;
+            border: 1px solid #3a6a3a;
+            color: #8aea8a;
+        }
+        
+        .alert-error {
+            background-color: #4a2a2a;
+            border: 1px solid #6a3a3a;
+            color: #ea8a8a;
+        }
+        
+        .logs-container {
+            background-color: #1a1a1a;
+            border: 1px solid #3a3a3a;
+            border-radius: 4px;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .log-line {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        .api-key-display {
+            background-color: #1a1a1a;
+            padding: 1rem;
+            border-radius: 4px;
+            border: 1px solid #3a3a3a;
+            font-family: 'Courier New', monospace;
+            word-break: break-all;
+            margin: 1rem 0;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dataserver2 Collections</h1>
+        <nav>
+            {% if not auth_enabled or session.logged_in %}
+            <a href="{{ url_for('index') }}" {% if request.endpoint == 'index' %}class="active"{% endif %}>Home</a>
+            <a href="{{ url_for('logs') }}" {% if request.endpoint == 'logs' %}class="active"{% endif %}>Logs</a>
+            <a href="{{ url_for('settings') }}" {% if request.endpoint == 'settings' %}class="active"{% endif %}>Settings</a>
+            {% if auth_enabled and session.logged_in %}
+            <a href="{{ url_for('logout') }}">Logout</a>
+            {% endif %}
+            {% endif %}
+        </nav>
+    </div>
+    
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
