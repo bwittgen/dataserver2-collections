@@ -31,12 +31,6 @@ templates:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     smart_label: random
-  Best of:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-    sort_title: +1_Best of <<year>>
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of <<year>>
-    smart_label: audience_rating.desc
   Writer:
     sort_title: '!A <<collection_name>>'
     sync_mode: sync
@@ -623,66 +617,6 @@ collections:
     trakt_chart:
       chart: trending
       limit: 10
-  # Best Of
-  Best of 2014:
-    template:
-      name: Best of
-      year: 2014
-      schedule: weekly(monday)
-  Best of 2015:
-    template:
-      name: Best of
-      year: 2015
-      schedule: weekly(monday)
-  Best of 2016:
-    template:
-      name: Best of
-      year: 2016
-      schedule: weekly(monday)
-  Best of 2017:
-    template:
-      name: Best of
-      year: 2017
-      schedule: weekly(monday)
-  Best of 2018:
-    template:
-      name: Best of
-      year: 2018
-      schedule: weekly(monday)
-  Best of 2019:
-    template:
-      name: Best of
-      year: 2019
-      schedule: weekly(monday)
-  Best of 2020:
-    template:
-      name: Best of
-      year: 2020
-      schedule: weekly(monday)
-  Best of 2021:
-    template:
-      name: Best of
-      year: 2021
-      schedule: weekly(monday)
-  Best of 2022:
-    template:
-      name: Best of
-      year: 2022
-      schedule: weekly(monday)
-  Best of 2023:
-    template:
-      name: Best of
-      year: 2023
-      schedule: weekly(monday)
-  Best of 2024:
-    template:
-      name: Best of
-      year: 2024
-      schedule: weekly(monday)
-  Best of 2025:
-    template:
-      name: Best of
-      year: 2025
   # Other Collections
   Top 100 Murder Doc Films:
     sort_title: ++++++++++++++++++_Murder Docs
@@ -700,24 +634,6 @@ collections:
         vote_count.gte: 50
         limit: 50
 
-  "In Memoriam: Robert Redford":
-    delete_not_scheduled: true
-    visible_home: true
-    visible_library: true
-    visible_shared: true
-    sort_title: +++++++++++++++++++++++++++_In Memoriam Robert Redford
-    schedule: range(09/16-09/23)
-    sync_mode: sync
-    collection_order: release
-    tmdb_actor_details: 4135
-    tmdb_director_details: 4135
-    file_poster: /config/assets/in_memoriam_robert_redford/poster.png
-    summary: |
-      Robert Redford (1936-2025) was a towering figure in American cinema, an Academy Award-winning director, beloved actor, and tireless champion of independent film. After early success on stage and television, he became an international star with landmark films like Butch Cassidy and the Sundance Kid, The Sting, All the President's Men, and The Natural. As a director, he earned the Oscar for Ordinary People and continued to make thoughtful, humanist films across decades.
-      
-      Beyond his own filmography, Redford reshaped Hollywood's ecosystem by founding the Sundance Institute (1981), nurturing generations of independent storytellers and elevating the Sundance Film Festival into the world's premier showcase for indie cinema. His advocacy for artists and the environment helped broaden the industry's horizons and create lasting opportunities for new voices.
-      
-      Born in Santa Monica, California, Redford was also a dedicated family man and lifelong environmental advocate. He married historian Lola Van Wagenen (1958-1985) and later artist Sibylle Szaggars (m. 2009). He is survived by his family and a creative legacy that continues to inspire filmmakers and audiences around the world.
   American Pie Universe Collection:
     template:
       name: Movies
@@ -831,4 +747,5 @@ collections:
     url_background: https://i.imgur.com/SOVfrIq.png
     radarr_add: true
     radarr_search: true
-    radarr_monitor: true
+    radarr_monitor: true
+
