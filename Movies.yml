@@ -832,3 +832,67 @@ collections:
     radarr_add: true
     radarr_search: true
     radarr_monitor: true
+
+  # Holiday Collections
+  Valentine's Day Romance:
+    sort_title: ++++++++++++++++++_Valentines Movies
+    summary: Date-night picks and swoony rom-coms that celebrate love in February.
+    schedule: range(02/01-02/28)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/valentines-day-movies
+
+  Fourth of July Fireworks:
+    sort_title: ++++++++++++++++++_Fourth of July Movies
+    summary: Patriotic thrills, summer blockbusters, and backyard cookout staples.
+    schedule: range(06/15-07/15)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/4th-of-july-movies
+
+  Halloween Favorites:
+    sort_title: ++++++++++++++++++_Halloween Movies
+    summary: Spooky season staples from slashers to family-friendly frights.
+    schedule: range(09/15-10/31)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/halloween-movies
+
+  Thanksgiving Movies:
+    sort_title: ++++++++++++++++++_Thanksgiving Movies
+    summary: Gather-around stories about gratitude, family, and feasts.
+    schedule: range(10/15-11/30)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/thanksgiving-movies
+
+  Hanukkah Lights:
+    sort_title: ++++++++++++++++++_Hanukkah Movies
+    summary: Stories of family, faith, and eight nights of celebration.
+    schedule: range(11/20-12/31)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/hanukkah-movies
+
+  Christmas Classics:
+    sort_title: ++++++++++++++++++_Christmas Classics
+    summary: Evergreen favorites packed with cheer, from family traditions to snowy adventures.
+    schedule: range(11/01-12/31)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/christmas-movies
+
+  New Year's Eve Countdown:
+    sort_title: ++++++++++++++++++_New Years Movies
+    summary: Ring in the new year with parties, resolutions, and midnight moments.
+    schedule: range(12/26-01/05)
+    sync_mode: sync
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/new-years-eve

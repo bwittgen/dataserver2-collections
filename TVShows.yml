@@ -17,19 +17,19 @@ collections:
     collection_order: release
     plex_search:
       all:
-        episode_title:
-        - "The One Where Underdog Gets Away"
-        - "The One with the List"
-        - "The One with the Football"
-        - "The One with Chandler in a Box"
-        - "The One with All the Thanksgivings"
-        - "The One Where Ross Got High"
-        - "The One Where Chandler Doesn't Like Dogs"
-        - "The One with the Rumor"
-        - "The One with Rachel's Other Sister"
-        - "The One with the Late Thanksgiving"
-      filters:
         show: Friends
+      any:
+        episode_title:
+          - "The One Where Underdog Gets Away"
+          - "The One with the List"
+          - "The One with the Football"
+          - "The One with Chandler in a Box"
+          - "The One with All the Thanksgivings"
+          - "The One Where Ross Got High"
+          - "The One Where Chandler Doesn't Like Dogs"
+          - "The One with the Rumor"
+          - "The One with Rachel's Other Sister"
+          - "The One with the Late Thanksgiving"
   Game Shows:
     sort_title: ++++++++++++++++++_Game Shows
     summary: Competition and quiz shows across decades.
