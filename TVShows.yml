@@ -15,6 +15,10 @@ collections:
   Thanksgiving Episodes:
     builder_level: episode
     collection_order: release
+    collection_mode: show_items
+    visible_home: true
+    visible_shared: true
+    visible_library: true
     plex_search:
       all:
         show: Friends
