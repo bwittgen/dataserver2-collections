@@ -10,6 +10,21 @@ https://kometa.wiki/en/latest/
 
 chat.openai.com is great for iterating on this and generating lists
 
+## Homepage Dashboard Configuration
+
+The `homepage-config` directory contains configuration files for [Homepage](https://gethomepage.dev/) dashboard, including navigation items for media management services.
+
+### Services Included
+
+Each service includes Queue and Logs sub-menu items:
+
+- **Sonarr** - TV Show Management
+- **Radarr** - Movie Management  
+- **Bazarr** - Subtitle Management
+- **Whisparr** - Adult Content Management
+
+See [homepage-config/README.md](homepage-config/README.md) for detailed setup instructions.
+
 ## Run on Unraid
 
 - Script: `./run-kometa.sh` runs Kometa one time on demand.
