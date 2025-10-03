@@ -10,14 +10,14 @@
         widget:
           type: sonarr
           url: http://dataserver2:8989
-          key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
+          key: "{{HOMEPAGE_VAR_SONARR_API_KEY}}"
         submenu:
-          - Queue:
-              icon: mdi-playlist-play
-              href: http://dataserver2:8989/queue
-          - Logs:
-              icon: mdi-text-box-outline
-              href: http://dataserver2:8989/system/logs/files
+          - name: Queue
+            icon: mdi-playlist-play
+            href: http://dataserver2:8989/queue
+          - name: Logs
+            icon: mdi-text-box-outline
+            href: http://dataserver2:8989/system/logs/files
 
     - Radarr:
         icon: radarr.png
@@ -26,14 +26,14 @@
         widget:
           type: radarr
           url: http://dataserver2:7878
-          key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
+          key: "{{HOMEPAGE_VAR_RADARR_API_KEY}}"
         submenu:
-          - Queue:
-              icon: mdi-playlist-play
-              href: http://dataserver2:7878/queue
-          - Logs:
-              icon: mdi-text-box-outline
-              href: http://dataserver2:7878/system/logs/files
+          - name: Queue
+            icon: mdi-playlist-play
+            href: http://dataserver2:7878/queue
+          - name: Logs
+            icon: mdi-text-box-outline
+            href: http://dataserver2:7878/system/logs/files
 
     - Bazarr:
         icon: bazarr.png
@@ -42,14 +42,14 @@
         widget:
           type: bazarr
           url: http://dataserver2:6767
-          key: {{HOMEPAGE_VAR_BAZARR_API_KEY}}
+          key: "{{HOMEPAGE_VAR_BAZARR_API_KEY}}"
         submenu:
-          - Queue:
-              icon: mdi-playlist-play
-              href: http://dataserver2:6767/history
-          - Logs:
-              icon: mdi-text-box-outline
-              href: http://dataserver2:6767/system/logs
+          - name: Queue
+            icon: mdi-playlist-play
+            href: http://dataserver2:6767/history
+          - name: Logs
+            icon: mdi-text-box-outline
+            href: http://dataserver2:6767/system/logs
 
     - Whisparr:
         icon: whisparr.png
@@ -58,11 +58,11 @@
         widget:
           type: whisparr
           url: http://dataserver2:6969
-          key: {{HOMEPAGE_VAR_WHISPARR_API_KEY}}
+          key: "{{HOMEPAGE_VAR_WHISPARR_API_KEY}}"
         submenu:
-          - Queue:
-              icon: mdi-playlist-play
-              href: http://dataserver2:6969/queue
-          - Logs:
-              icon: mdi-text-box-outline
-              href: http://dataserver2:6969/system/logs/files
+          - name: Queue
+            icon: mdi-playlist-play
+            href: http://dataserver2:6969/queue
+          - name: Logs
+            icon: mdi-text-box-outline
+            href: http://dataserver2:6969/system/logs/files
