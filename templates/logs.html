@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}Logs - Dataserver2 Collections{% endblock %}
+
+{% block extra_css %}
+<style>
+    .logs-controls {
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .status-indicator {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+    }
+    
+    .status-indicator.connected {
+        background-color: #4aea4a;
+    }
+    
+    .status-indicator.disconnected {
+        background-color: #ea4a4a;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Live Application Logs</h2>
+    
+    <div class="logs-controls">
+        <span id="connection-status">
+            <span class="status-indicator disconnected" id="status-dot"></span>
+            <span id="status-text">Connecting...</span>
+        </span>
+        <button class="btn btn-secondary" onclick="clearLogs()">Clear Display</button>
+        <button class="btn btn-secondary" onclick="toggleAutoScroll()">
+            <span id="autoscroll-text">Disable Auto-scroll</span>
+        </button>
+    </div>
+    
+    <div class="logs-container" id="logs-container">
+        <div class="log-line" style="color: #888;">Connecting to log stream...</div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    let autoScroll = true;
+    let eventSource = null;
+    
+    function connectToLogs() {
+        const logsContainer = document.getElementById('logs-container');
+        const statusDot = document.getElementById('status-dot');
+        const statusText = document.getElementById('status-text');
+        
+        // Clear initial message
+        logsContainer.innerHTML = '';
+        
+        // Connect to Server-Sent Events endpoint
+        eventSource = new EventSource('{{ url_for("logs_stream") }}');
+        
+        eventSource.onopen = function() {
+            statusDot.className = 'status-indicator connected';
+            statusText.textContent = 'Connected';
+            console.log('Connected to log stream');
+        };
+        
+        eventSource.onmessage = function(event) {
+            const logLine = document.createElement('div');
+            logLine.className = 'log-line';
+            logLine.textContent = event.data;
+            logsContainer.appendChild(logLine);
+            
+            // Auto-scroll to bottom if enabled
+            if (autoScroll) {
+                logsContainer.scrollTop = logsContainer.scrollHeight;
+            }
+            
+            // Keep only last 500 lines to prevent memory issues
+            const lines = logsContainer.getElementsByClassName('log-line');
+            if (lines.length > 500) {
+                logsContainer.removeChild(lines[0]);
+            }
+        };
+        
+        eventSource.onerror = function(error) {
+            statusDot.className = 'status-indicator disconnected';
+            statusText.textContent = 'Disconnected - Reconnecting...';
+            console.error('Log stream error:', error);
+            
+            // Try to reconnect after 5 seconds
+            eventSource.close();
+            setTimeout(connectToLogs, 5000);
+        };
+    }
+    
+    function clearLogs() {
+        document.getElementById('logs-container').innerHTML = '';
+    }
+    
+    function toggleAutoScroll() {
+        autoScroll = !autoScroll;
+        document.getElementById('autoscroll-text').textContent = 
+            autoScroll ? 'Disable Auto-scroll' : 'Enable Auto-scroll';
+    }
+    
+    // Connect when page loads
+    window.addEventListener('load', connectToLogs);
+    
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', function() {
+        if (eventSource) {
+            eventSource.close();
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Dataserver2 Collections{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Welcome to Dataserver2 Collections Manager</h2>
+    <p>This application helps you manage your Kometa (formerly PMM) collections for Plex.</p>
+    
+    <h3 style="margin-top: 2rem; color: #b0b0b0;">Features</h3>
+    <ul style="margin-left: 2rem; margin-top: 1rem; color: #b0b0b0;">
+        <li>Live log viewing</li>
+        <li>Forms-based authentication</li>
+        <li>API key support for programmatic access</li>
+        <li>Settings management</li>
+    </ul>
+    
+    <h3 style="margin-top: 2rem; color: #b0b0b0;">Quick Links</h3>
+    <div style="margin-top: 1rem; display: flex; gap: 1rem;">
+        <a href="{{ url_for('logs') }}" class="btn btn-primary">View Logs</a>
+        <a href="{{ url_for('settings') }}" class="btn btn-secondary">Settings</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2>API Endpoints</h2>
+    <p style="color: #b0b0b0;">Available API endpoints (requires API key in X-Api-Key header):</p>
+    <ul style="margin-left: 2rem; margin-top: 1rem; color: #b0b0b0;">
+        <li><code style="color: #4a9eff;">/api/status</code> - Get application status</li>
+        <li><code style="color: #4a9eff;">/api/collections</code> - List all collection files</li>
+    </ul>
+    
+    <h3 style="margin-top: 2rem; color: #b0b0b0;">Example Usage</h3>
+    <pre style="background-color: #1a1a1a; padding: 1rem; border-radius: 4px; overflow-x: auto; color: #b0b0b0;">
+curl -H "X-Api-Key: YOUR_API_KEY" http://localhost:5000/api/status
+curl -H "X-Api-Key: YOUR_API_KEY" http://localhost:5000/api/collections
+    </pre>
+</div>
+{% endblock %}

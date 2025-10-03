@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Settings - Dataserver2 Collections{% endblock %}
+
+{% block content %}
+{% if message %}
+<div class="alert alert-success">{{ message }}</div>
+{% endif %}
+
+{% if error %}
+<div class="alert alert-error">{{ error }}</div>
+{% endif %}
+
+<div class="card">
+    <h2>Authentication Settings</h2>
+    <form method="POST">
+        <input type="hidden" name="action" value="update_auth">
+        
+        <div class="form-group">
+            <label>
+                <input type="checkbox" name="enable_auth" {% if config.authentication_enabled %}checked{% endif %}>
+                Enable Forms Authentication
+            </label>
+            <p style="color: #888; font-size: 0.9rem; margin-top: 0.5rem;">
+                When enabled, users must log in with username and password to access the application.
+            </p>
+        </div>
+        
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" value="{{ config.username or '' }}" placeholder="Enter username">
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter new password (leave empty to keep current)">
+            <p style="color: #888; font-size: 0.9rem; margin-top: 0.5rem;">
+                Leave empty to keep the current password unchanged.
+            </p>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Save Authentication Settings</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>API Key</h2>
+    <p style="color: #b0b0b0; margin-bottom: 1rem;">
+        API keys allow programmatic access to the application. Include the API key in the <code>X-Api-Key</code> header.
+    </p>
+    
+    {% if config.api_key %}
+    <div class="api-key-display">
+        <strong>Current API Key:</strong><br>
+        {{ config.api_key }}
+    </div>
+    
+    <div style="display: flex; gap: 1rem;">
+        <form method="POST" style="display: inline;">
+            <input type="hidden" name="action" value="generate_api_key">
+            <button type="submit" class="btn btn-secondary">Regenerate API Key</button>
+        </form>
+        
+        <form method="POST" style="display: inline;">
+            <input type="hidden" name="action" value="delete_api_key">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete the API key?')">Delete API Key</button>
+        </form>
+    </div>
+    {% else %}
+    <p style="color: #888; margin-bottom: 1rem;">No API key configured.</p>
+    <form method="POST">
+        <input type="hidden" name="action" value="generate_api_key">
+        <button type="submit" class="btn btn-primary">Generate API Key</button>
+    </form>
+    {% endif %}
+</div>
+
+<div class="card">
+    <h2>About</h2>
+    <p style="color: #b0b0b0;">
+        This web application provides authentication and management features for Dataserver2 Collections.
+    </p>
+    <ul style="margin-left: 2rem; margin-top: 1rem; color: #b0b0b0;">
+        <li>Forms-based authentication similar to Sonarr/Radarr</li>
+        <li>API key support for programmatic access</li>
+        <li>Live log viewing</li>
+        <li>Collection management</li>
+    </ul>
+</div>
+{% endblock %}

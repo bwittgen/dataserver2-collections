@@ -10,6 +10,71 @@ https://kometa.wiki/en/latest/
 
 chat.openai.com is great for iterating on this and generating lists
 
+## Web Application
+
+This repository now includes a web application for managing collections with authentication and live log viewing.
+
+### Features
+
+- **Forms-based Authentication**: Username and password login similar to Sonarr/Radarr
+- **API Key Support**: Generate API keys for programmatic access
+- **Live Logs**: Real-time log viewing with auto-scroll
+- **Settings Management**: Configure authentication and API keys through the web UI
+
+### Quick Start
+
+1. Install dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+2. Start the web application:
+   ```bash
+   ./start-webapp.sh
+   ```
+
+3. Open your browser to `http://localhost:5000`
+
+### Configuration
+
+The web application can be configured using environment variables:
+
+- `HOST`: Listen address (default: 0.0.0.0)
+- `PORT`: Listen port (default: 5000)
+- `SECRET_KEY`: Secret key for session management (auto-generated if not set)
+
+Example:
+```bash
+HOST=127.0.0.1 PORT=8080 ./start-webapp.sh
+```
+
+### Authentication Setup
+
+By default, authentication is disabled. To enable it:
+
+1. Navigate to the Settings page
+2. Check "Enable Forms Authentication"
+3. Set a username and password
+4. Click "Save Authentication Settings"
+
+Once enabled, all access to the application will require login.
+
+### API Access
+
+Generate an API key from the Settings page to access the API programmatically:
+
+```bash
+# Check status
+curl -H "X-Api-Key: YOUR_API_KEY" http://localhost:5000/api/status
+
+# List collections
+curl -H "X-Api-Key: YOUR_API_KEY" http://localhost:5000/api/collections
+```
+
+### Available API Endpoints
+
+- `GET /api/status` - Get application status
+- `GET /api/collections` - List all collection files
 ## Homepage Dashboard Configuration
 
 The `homepage-config` directory contains configuration files for [Homepage](https://gethomepage.dev/) dashboard, including navigation items for media management services.
