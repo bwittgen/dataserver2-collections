@@ -4,7 +4,6 @@ templates:
     tmdb_director_details: <<tmdb>>
     collection_order: release
     collection_mode: hide
-    schedule: weekly(sunday)
 
   Writer:
     sort_title: '!A <<collection_name>>'
@@ -12,7 +11,6 @@ templates:
     tmdb_writer_details: <<writer>>
     collection_order: release
     collection_mode: hide
-    schedule: weekly(sunday)
     summary: Films written by <<collection_name>>
 
   Actor:
@@ -21,7 +19,6 @@ templates:
     tmdb_actor_details: <<tmdb>>
     collection_order: release
     collection_mode: hide
-    schedule: weekly(sunday)
     summary: Films starring <<collection_name>>
 
 collections:
