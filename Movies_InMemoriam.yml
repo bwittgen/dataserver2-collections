@@ -1,4 +1,22 @@
 collections:
+  "In Memoriam: Diane Keaton":
+    delete_not_scheduled: true
+    visible_home: true
+    visible_library: true
+    visible_shared: true
+    sort_title: +++++++++++++++++++++++++++_In Memoriam Diane Keaton
+    schedule: range(10/12-10/19)
+    sync_mode: sync
+    collection_order: release
+    tmdb_actor_details: 3092
+    tmdb_director_details: 3092
+    file_poster: /config/assets/in_memoriam_diane_keaton/poster.png
+    summary: |
+      Diane Keaton (1946-2025) captivated audiences for over five decades with her singular blend of wit, vulnerability, and fearless style. Born Diane Hall in Los Angeles, she trained at the Neighborhood Playhouse, broke through on Broadway in Hair, and became a cinematic force when Annie Hall earned her the Academy Award for Best Actress. Her range shone in collaborations with Francis Ford Coppola, Woody Allen, and Nancy Meyers, charting a career that moved gracefully between drama, comedy, and romance.
+      
+      Keaton championed complex, fully realized women on screen, leaving indelible marks in films like The Godfather trilogy, Reds, Baby Boom, and Something's Gotta Give. She also stepped behind the camera, directing the documentary Heaven and the feature Unstrung Heroes, while producing and mentoring new voices who valued authenticity and emotional intelligence. Her distinctive presence extended beyond film into best-selling memoirs and photographic essays that celebrated creativity at every stage of life.
+      
+      Away from the spotlight, Keaton was a devoted mother to her adopted children Dexter and Duke, a passionate advocate for historic preservation, and a generous supporter of women's healthcare initiatives. She leaves behind a legacy of bold artistic choices, gentle humor, and a reminder that reinvention can be a lifelong pursuit. Her spirit endures in the stories she told, the homes she saved, and the generations of artists she inspired.
   "In Memoriam: Robert Redford":
     delete_not_scheduled: true
     visible_home: true
