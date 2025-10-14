@@ -37,7 +37,20 @@ collections:
     visible_library: true
     collection_order: release
     trakt_list:
-      - https://trakt.tv/users/hdlists/lists/halloween-movies
+      - https://trakt.tv/users/hdlists/lists/halloween-movies-the-best-of-all-time
+
+  Halloween for Kids:
+    sort_title: ++++++++++++++++++_Halloween for Kids
+    summary: Spooky season staples from slashers to family-friendly frights.
+    schedule: range(10/01-10/31)
+    sync_mode: sync
+    collection_mode: show_items
+    visible_home: true
+    visible_shared: true
+    visible_library: true
+    collection_order: release
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids
 
   Thanksgiving Movies:
     sort_title: ++++++++++++++++++_Thanksgiving Movies
